@@ -955,6 +955,18 @@ inputCodigo.addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
     e.preventDefault();
     form.requestSubmit();
+    
+    // Desplazamiento automático al área de resultados después de presionar Enter
+    setTimeout(() => {
+      const resultadoElement = document.getElementById('resultado');
+      if (resultadoElement) {
+        resultadoElement.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'start',
+          inline: 'nearest'
+        });
+      }
+    }, 300); // Timeout más corto para Enter ya que es más rápido
   }
 });
 
@@ -966,6 +978,18 @@ form.addEventListener("submit", async (e) => {
   let codigo = inputCodigo.value.trim().replace(/\s+$/, "");
   inputCodigo.value = codigo;
   resultadoDiv.innerHTML = "";
+  
+  // Desplazamiento automático al área de resultados al enviar formulario
+  setTimeout(() => {
+    const resultadoElement = document.getElementById('resultado');
+    if (resultadoElement) {
+      resultadoElement.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start',
+        inline: 'nearest'
+      });
+    }
+  }, 100); // Timeout muy corto para que se vea inmediato
   
   // Limpiar sugerencias al consultar
   sugerenciasDiv.innerHTML = '';
@@ -1578,6 +1602,18 @@ function iniciarScanner() {
               scannerActivo = false;
               html5QrCode.clear();
               form.requestSubmit();
+              
+              // Desplazamiento automático al área de resultados después de detectar código
+              setTimeout(() => {
+                const resultadoElement = document.getElementById('resultado');
+                if (resultadoElement) {
+                  resultadoElement.scrollIntoView({ 
+                    behavior: 'smooth', 
+                    block: 'start',
+                    inline: 'nearest'
+                  });
+                }
+              }, 500); // Esperar un poco para que se procese la búsqueda
             });
           },
           (errorMessage) => {}
