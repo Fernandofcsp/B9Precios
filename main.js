@@ -621,6 +621,9 @@ async function mostrarProductosConPromociones() {
         <h4 class="text-warning">🏷️ Productos con Promociones</h4>
         <span class="badge bg-warning text-dark">${productosConPromociones.length} encontrados</span>
       </div>
+      <div class="alert alert-warning text-center mb-3">
+        <small><strong>⚠️ Las promociones solo aplican pagando de contado</strong></small>
+      </div>
       <div class="row">
         ${promocionesHTML.join('')}
       </div>
@@ -1314,14 +1317,22 @@ function renderProductoConPromociones(producto, urlImg, precioConIVA, precioMSI,
       ${urlImg ? `
       <div class="col-12 col-lg-4 d-flex justify-content-center mb-3 mb-lg-0">
         <div style="background:#fff; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.15); padding:16px; display:flex; justify-content:center; align-items:center; width:240px; height:140px;">
-          <img src="${urlImg}" alt="${producto.pr_name}" style="width:218px; height:124px; object-fit:contain; background:#fff; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.10);">
+          <img src="${urlImg}" alt="${producto.pr_name}" style="width:218px; height:124px; object-fit:contain; background:#fff; border-radius:12px;">
         </div>
       </div>
       ` : ""}
       <div class="col-12 col-lg-8 text-center">
         <div class="fw-bold" style="font-size:2rem; color:#616161;">${producto.pr_name}</div>
-        <div class="fw-bold text-danger" style="font-size:4rem;">$ ${precioConIVA.toFixed(2)} <span style='font-size:1.2rem;'>(IVA INCLUIDO)</span></div>
-        <div class="fw-bold text-primary" style="font-size:2.2rem; margin-top:10px;">$ ${precioMSI.toFixed(2)} <span style='font-size:1.1rem;'>(MSI)</span></div>
+        <div class="d-flex justify-content-center align-items-start gap-4 flex-wrap">
+          <div class="text-center">
+            <div class="fw-bold text-danger" style="font-size:3.5rem;">$ ${precioConIVA.toFixed(2)} MXN.</div>
+            <div class="text-muted" style="font-size:1rem; margin-top:-5px;">CONTADO</div>
+          </div>
+          <div class="text-center">
+            <div class="fw-bold text-primary" style="font-size:3.5rem;">$ ${precioMSI.toFixed(2)} MXN.</div>
+            <div class="text-muted" style="font-size:1rem; margin-top:-5px;">MSI</div>
+          </div>
+        </div>
         <div class="text-secondary" style="font-size:1rem;">SKU: <b>${producto.pr_sku}</b></div>
         ${infoCodigosHTML}
         <div id="promociones-container" class="mt-3">
@@ -1368,6 +1379,9 @@ function actualizarPromocionesEnVista(producto, urlImg, precioConIVA, precioMSI,
           </div>
           <div class="text-center">
             ${promocionesHTML}
+          </div>
+          <div class="text-center mt-2">
+            <small class="text-warning" style="font-weight:500;">⚠️ Las promociones solo aplican pagando de contado</small>
           </div>
         </div>
       `;
@@ -2466,6 +2480,9 @@ async function verPromociones() {
           <h6>ℹ️ Sin promociones</h6>
           <p>No hay promociones activas en este momento.</p>
         </div>
+        <div class="alert alert-warning text-center">
+          <strong>⚠️ Las promociones solo aplican pagando de contado</strong>
+        </div>
       `;
       return;
     }
@@ -2557,9 +2574,17 @@ async function verPromociones() {
                     <small class="text-muted d-block text-truncate" style="font-size: 0.7rem;">
                       ${producto.pr_name}
                     </small>
-                    <small class="text-primary" style="font-size: 0.65rem;">
-                      SKU: ${producto.pr_sku}
-                    </small>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-primary" style="font-size: 0.65rem;">
+                        SKU: ${producto.pr_sku}
+                      </small>
+                      <button class="btn btn-outline-primary btn-sm copiar-sku-btn" 
+                              data-sku="${producto.pr_sku}" 
+                              style="font-size: 0.6rem; padding: 1px 4px; border-radius: 3px;"
+                              title="Copiar SKU">
+                        📋
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -2575,9 +2600,17 @@ async function verPromociones() {
                     <small class="text-muted d-block text-truncate" style="font-size: 0.7rem;">
                       ${producto.pr_name}
                     </small>
-                    <small class="text-primary" style="font-size: 0.65rem;">
-                      SKU: ${producto.pr_sku}
-                    </small>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-primary" style="font-size: 0.65rem;">
+                        SKU: ${producto.pr_sku}
+                      </small>
+                      <button class="btn btn-outline-primary btn-sm copiar-sku-btn" 
+                              data-sku="${producto.pr_sku}" 
+                              style="font-size: 0.6rem; padding: 1px 4px; border-radius: 3px;"
+                              title="Copiar SKU">
+                        📋
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -2664,6 +2697,35 @@ async function verPromociones() {
               
               ${galeriaImagenes}
               
+              ${productosEnPromo.length > 0 ? `
+                <div class="mt-3">
+                  <h6 class="text-muted mb-2">📋 Descripción completa de productos:</h6>
+                  <div class="border rounded p-3 bg-light">
+                    ${productosEnPromo.map((producto, index) => `
+                      <div class="mb-3 ${index < productosEnPromo.length - 1 ? 'border-bottom pb-3' : ''}">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                          <strong class="text-dark" style="font-size: 1rem;">${producto.pr_name}</strong>
+                          <span class="badge bg-primary ms-2">1 unidad</span>
+                        </div>
+                        <div class="row">
+                          <div class="col-6">
+                            <small class="text-muted d-block"><strong>SKU:</strong> ${producto.pr_sku}</small>
+                            ${producto.pr_gtin ? `<small class="text-muted d-block"><strong>Código:</strong> ${producto.pr_gtin}</small>` : ''}
+                          </div>
+                          <div class="col-6">
+                            ${(() => {
+                              let precioBase = Number(producto.pr_precio) || Number(producto.L1) || 0;
+                              let precioConIVA = Math.round(precioBase * 1.16 * 100) / 100;
+                              return precioConIVA > 0 ? `<small class="text-success"><strong>Precio unitario:</strong> $${precioConIVA.toFixed(2)}</small>` : '';
+                            })()}
+                          </div>
+                        </div>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              ` : ''}
+              
               ${skus.length > productosEnPromo.length ? `
                 <div class="mt-3">
                   <small class="text-muted">
@@ -2695,7 +2757,43 @@ async function verPromociones() {
     
     html += '</div>';
     
+    // Agregar advertencia sobre promociones
+    html += `
+      <div class="alert alert-warning text-center mt-4">
+        <strong>⚠️ Las promociones solo aplican pagando de contado</strong>
+      </div>
+    `;
+    
     document.getElementById('resultado').innerHTML = html;
+    
+    // Agregar event listeners para los botones de copiar SKU en promociones
+    const copiarSkuBtns = document.querySelectorAll('.copiar-sku-btn');
+    copiarSkuBtns.forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const sku = btn.getAttribute('data-sku');
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(sku).then(() => {
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '✅';
+            btn.classList.remove('btn-outline-primary');
+            btn.classList.add('btn-success');
+            setTimeout(() => {
+              btn.innerHTML = originalText;
+              btn.classList.remove('btn-success');
+              btn.classList.add('btn-outline-primary');
+            }, 1200);
+          }).catch(err => {
+            console.error('Error al copiar:', err);
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '❌';
+            setTimeout(() => {
+              btn.innerHTML = originalText;
+            }, 1200);
+          });
+        }
+      });
+    });
     
   } catch (error) {
     console.error('❌ Error cargando promociones:', error);
