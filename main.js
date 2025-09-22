@@ -16,6 +16,7 @@ let scannerActivo = false;
 let deferredPrompt;
 let puedeEscanear = true;
 let ultimoCodigoEscaneado = "";
+let datosYaCargados = false; // Control para evitar consultas automáticas repetidas
 
 // Configuración de Google Vision API
 const GOOGLE_VISION_CONFIG = {
@@ -443,15 +444,23 @@ const resultadoDiv = document.getElementById("resultado");
 // --- IndexedDB helpers ---
 const DB_NAME = 'verificadorB9DB';
 const DB_STORE = 'productos';
+const DB_STORE_PROMOCIONES = 'promociones';
 let db;
 
 function openDB() {
   return new Promise((resolve, reject) => {
-    const request = indexedDB.open(DB_NAME, 1);
+    const request = indexedDB.open(DB_NAME, 2); // Incrementamos versión para el upgrade
     request.onupgradeneeded = function(e) {
       db = e.target.result;
+      
+      // Store de productos
       if (!db.objectStoreNames.contains(DB_STORE)) {
         db.createObjectStore(DB_STORE, { keyPath: 'id', autoIncrement: true });
+      }
+      
+      // Store de promociones (nuevo)
+      if (!db.objectStoreNames.contains(DB_STORE_PROMOCIONES)) {
+        db.createObjectStore(DB_STORE_PROMOCIONES, { keyPath: 'id', autoIncrement: true });
       }
     };
     request.onsuccess = function(e) {
@@ -492,6 +501,42 @@ function getAllProductos() {
     return new Promise((resolve, reject) => {
       const tx = db.transaction(DB_STORE, 'readonly');
       const store = tx.objectStore(DB_STORE);
+      const req = store.getAll();
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = reject;
+    });
+  });
+}
+
+// --- Funciones IndexedDB para promociones ---
+function clearPromociones() {
+  return openDB().then(db => {
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(DB_STORE_PROMOCIONES, 'readwrite');
+      tx.objectStore(DB_STORE_PROMOCIONES).clear();
+      tx.oncomplete = resolve;
+      tx.onerror = reject;
+    });
+  });
+}
+
+function savePromociones(promociones) {
+  return openDB().then(db => {
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(DB_STORE_PROMOCIONES, 'readwrite');
+      const store = tx.objectStore(DB_STORE_PROMOCIONES);
+      promociones.forEach(p => store.add(p));
+      tx.oncomplete = resolve;
+      tx.onerror = reject;
+    });
+  });
+}
+
+function getAllPromociones() {
+  return openDB().then(db => {
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(DB_STORE_PROMOCIONES, 'readonly');
+      const store = tx.objectStore(DB_STORE_PROMOCIONES);
       const req = store.getAll();
       req.onsuccess = () => resolve(req.result);
       req.onerror = reject;
@@ -663,7 +708,7 @@ const CONFIG_ENDPOINTS = {
   productosConCodigos: urlBaseConCodigos,
   promociones: urlPromociones,
   usarCodigosBarras: true, // Habilitar/deshabilitar integración de códigos
-  fallbackTiempo: 10000 // 10 segundos timeout para fallback
+  fallbackTiempo: 5000 // 5 segundos timeout para fallback (reducido para mayor velocidad)
 };
 
 function tiempoRelativo(fecha) {
@@ -677,111 +722,323 @@ function tiempoRelativo(fecha) {
 }
 
 function renderUltimaActualizacion() {
-  const ts = localStorage.getItem("productos_ts");
-  ultimaActualizacionSpan.textContent = ts ? `Última actualización: ${tiempoRelativo(Number(ts))}` : "Nunca actualizado";
-}
-
-
-async function cargarProductos() {
-  const timestamp = Date.now();
+  const productosTs = localStorage.getItem("productos_ts");
+  const promocionesTs = localStorage.getItem("promociones_ts");
   
-  // Verificar si hay conexión
-  if (!navigator.onLine) {
-    mensajeActualizacion.textContent = "❌ Sin conexión a internet, los precios serán acordes a tu última actualización de productos";
-    setTimeout(() => mensajeActualizacion.textContent = "", 3000);
-    return;
+  let mensaje = "Nunca actualizado";
+  
+  if (productosTs && promocionesTs) {
+    const tiempoProductos = tiempoRelativo(Number(productosTs));
+    const tiempoPromociones = tiempoRelativo(Number(promocionesTs));
+    
+    // Si ambos timestamps son similares (menos de 1 minuto de diferencia), mostrar uno solo
+    const diff = Math.abs(Number(productosTs) - Number(promocionesTs));
+    if (diff < 60000) { // menos de 1 minuto
+      mensaje = `Última actualización: ${tiempoProductos}`;
+    } else {
+      mensaje = `Productos: ${tiempoProductos} | Promociones: ${tiempoPromociones}`;
+    }
+  } else if (productosTs) {
+    mensaje = `Productos: ${tiempoRelativo(Number(productosTs))} | Promociones: nunca`;
+  } else if (promocionesTs) {
+    mensaje = `Productos: nunca | Promociones: ${tiempoRelativo(Number(promocionesTs))}`;
   }
   
-  // Mostrar spinner y deshabilitar botón
+  ultimaActualizacionSpan.textContent = mensaje;
+}
+
+// Función para actualizar progreso con porcentajes
+function actualizarProgreso(porcentaje, mensaje, detalle = '') {
+  const width = Math.min(100, Math.max(0, porcentaje));
+  const color = porcentaje >= 100 ? 'success' : porcentaje >= 50 ? 'warning' : 'primary';
+  
+  mensajeActualizacion.innerHTML = `
+    <div class="mb-2">
+      <div class="d-flex justify-content-between align-items-center mb-1">
+        <small class="fw-medium">${mensaje}</small>
+        <small class="text-muted">${porcentaje}%</small>
+      </div>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-${color}" role="progressbar" style="width: ${width}%; transition: width 0.3s ease;" aria-valuenow="${porcentaje}" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      ${detalle ? `<small class="text-muted mt-1 d-block">${detalle}</small>` : ''}
+    </div>
+  `;
+}
+
+// Función para actualizar tanto productos como promociones
+async function actualizarTodosLosDatos() {
+  console.log('🚀 Iniciando actualización con progreso...');
+  
+  // Mostrar estado inicial
   btnActualizar.disabled = true;
   btnTexto.textContent = "Actualizando...";
   btnSpinner.classList.remove("d-none");
   
+  const startTime = Date.now();
+  let productosCompletado = false;
+  let promocionesCompletado = false;
+  
+  // Función para actualizar progreso general
+  const actualizarProgresoGeneral = () => {
+    let progreso = 0;
+    let mensaje = 'Iniciando...';
+    let detalle = '';
+    
+    if (!productosCompletado && !promocionesCompletado) {
+      progreso = 10;
+      mensaje = 'Consultando 3 endpoints...';
+      detalle = 'Productos básicos, códigos de barras y promociones';
+    } else if (productosCompletado && !promocionesCompletado) {
+      progreso = 70;
+      mensaje = '2 endpoints completados, finalizando...';
+      detalle = 'Cargando promociones';
+    } else if (!productosCompletado && promocionesCompletado) {
+      progreso = 70;
+      mensaje = '1 endpoint completado, finalizando...';
+      detalle = 'Procesando productos';
+    } else {
+      progreso = 100;
+      const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+      mensaje = '✅ Los 3 endpoints consultados';
+      detalle = `Finalizada en ${duration} segundos`;
+    }
+    
+    actualizarProgreso(progreso, mensaje, detalle);
+  };
+  
+  // Progreso inicial
+  actualizarProgresoGeneral();
+  
   try {
-    let productos = [];
-    let usedEndpoint = "básico";
+    // Simular progreso inicial
+    await new Promise(resolve => setTimeout(resolve, 200));
+    actualizarProgreso(25, 'Consultando los 3 endpoints...', 'Conectando con todos los servidores');
     
-    // Intentar primero con el endpoint que incluye códigos de barras
-    if (CONFIG_ENDPOINTS.usarCodigosBarras) {
-      try {
-        console.log('🔄 Intentando cargar productos con códigos de barras...');
-        const urlConCodigos = `${CONFIG_ENDPOINTS.productosConCodigos}?t=${timestamp}`;
-        
-        const responseConCodigos = await Promise.race([
-          fetch(urlConCodigos, { cache: "no-store" }),
-          new Promise((_, reject) => 
-            setTimeout(() => reject(new Error('Timeout')), CONFIG_ENDPOINTS.fallbackTiempo)
-          )
-        ]);
-        
-        if (responseConCodigos.ok) {
-          const dataConCodigos = await responseConCodigos.json();
-          if (dataConCodigos.success && dataConCodigos.productos) {
-            productos = dataConCodigos.productos;
-            usedEndpoint = "con códigos de barras";
-            console.log('✅ Productos cargados con códigos de barras:', dataConCodigos.estadisticas);
-            
-            // Mostrar estadísticas si están disponibles
-            if (dataConCodigos.estadisticas) {
-              const stats = dataConCodigos.estadisticas;
-              console.log(`📊 Total productos: ${stats.totalProductos}`);
-              console.log(`🏷️ Total códigos: ${stats.totalCodigos}`);
-              console.log(`🔄 Productos con códigos adicionales: ${stats.productosConCodigosAdicionales}`);
-            }
-          }
-        }
-      } catch (error) {
-        console.warn('⚠️ Error con endpoint de códigos de barras:', error.message);
-        console.log('🔄 Fallback a endpoint básico...');
+    // Ejecutar ambas cargas en paralelo
+    const promiseProductos = cargarProductosRapido().then(result => {
+      productosCompletado = true;
+      actualizarProgresoGeneral();
+      return result;
+    });
+    
+    const promisePromociones = cargarPromocionesRapido().then(result => {
+      promocionesCompletado = true;
+      actualizarProgresoGeneral();
+      return result;
+    });
+    
+    // Simular progreso intermedio
+    setTimeout(() => {
+      if (!productosCompletado || !promocionesCompletado) {
+        actualizarProgreso(50, 'Descargando desde múltiples endpoints...', 'Básicos, códigos de barras y promociones');
       }
-    }
+    }, 1000);
     
-    // Fallback al endpoint básico si no se pudieron cargar con códigos
-    if (productos.length === 0) {
-      console.log('📦 Cargando productos desde endpoint básico...');
-      const urlBasico = `${CONFIG_ENDPOINTS.productosBasicos}?t=${timestamp}`;
-      const responseBasico = await fetch(urlBasico, { cache: "no-store" });
+    const [resultadoProductos, resultadoPromociones] = await Promise.allSettled([
+      promiseProductos,
+      promisePromociones
+    ]);
+
+    const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+    console.log(`⚡ Actualización completada en ${duration}s`);
+
+    // Verificar resultados y mostrar estado final
+    const productosOk = resultadoProductos.status === 'fulfilled';
+    const promocionesOk = resultadoPromociones.status === 'fulfilled';
+
+    if (productosOk && promocionesOk) {
+      const totalProductos = resultadoProductos.value?.productos || 0;
+      const totalPromociones = resultadoPromociones.value?.promociones || 0;
+      const endpointsProductos = resultadoProductos.value?.detalles || '';
+      const endpointsPromociones = resultadoPromociones.value?.detalles || '';
       
-      if (!responseBasico.ok) {
-        throw new Error(`Error HTTP: ${responseBasico.status}`);
-      }
-      
-      const dataBasico = await responseBasico.json();
-      productos = Array.isArray(dataBasico) ? dataBasico : [];
-      usedEndpoint = "básico";
-      console.log('✅ Productos cargados desde endpoint básico');
+      actualizarProgreso(100, '✅ Todos los endpoints consultados', 
+        `${totalProductos} productos (${endpointsProductos}), ${totalPromociones} promociones (${endpointsPromociones}) - ${duration}s`);
+    } else if (productosOk || promocionesOk) {
+      actualizarProgreso(75, '⚠️ Consulta parcial de endpoints', 
+        `Algunos endpoints fallaron (${duration}s)`);
+    } else {
+      actualizarProgreso(25, '❌ Error consultando endpoints', 
+        `Todos los endpoints fallaron (${duration}s)`);
     }
-    
-    // Guardar productos en IndexedDB
-    await clearProductos();
-    await saveProductos(productos);
-    
-    // Actualizar timestamp y mostrar mensaje de éxito
-    localStorage.setItem("productos_ts", String(timestamp));
-    renderUltimaActualizacion();
-    
-    mensajeActualizacion.innerHTML = `
-      ✅ Productos actualizados 
-      <small class="text-muted">(${usedEndpoint})</small>
-    `;
-    
-    setTimeout(() => { 
-      mensajeActualizacion.textContent = ""; 
-      renderUltimaActualizacion();
-    }, 3000);
-    
+
+    // Reportar errores específicos
+    if (resultadoProductos.status === 'rejected') {
+      console.error('Error al cargar productos:', resultadoProductos.reason);
+    }
+    if (resultadoPromociones.status === 'rejected') {
+      console.error('Error al cargar promociones:', resultadoPromociones.reason);
+    }
+
   } catch (error) {
-    console.error('❌ Error cargando productos:', error);
-    mensajeActualizacion.textContent = "❌ " + error.message;
+    console.error('Error en actualización:', error);
+    actualizarProgreso(0, '❌ Error de conexión', 'Verifique su conexión a internet');
   } finally {
     // Restaurar botón
     btnActualizar.disabled = false;
     btnTexto.textContent = "Actualizar";
     btnSpinner.classList.add("d-none");
+    
+    // Limpiar mensaje después de 4 segundos
+    setTimeout(() => { 
+      mensajeActualizacion.textContent = ""; 
+      renderUltimaActualizacion();
+    }, 4000);
   }
 }
 
-btnActualizar.addEventListener("click", cargarProductos);
+// Versión optimizada que consulta TODOS los endpoints
+async function cargarProductosRapido() {
+  const timestamp = Date.now();
+  
+  if (!navigator.onLine) {
+    throw new Error('Sin conexión a internet');
+  }
+
+  let productos = [];
+  let endpointsConsultados = [];
+  
+  console.log('📡 Consultando TODOS los endpoints de productos...');
+  
+  // 1. Intentar endpoint con códigos de barras
+  if (CONFIG_ENDPOINTS.usarCodigosBarras) {
+    try {
+      const urlConCodigos = `${CONFIG_ENDPOINTS.productosConCodigos}?t=${timestamp}`;
+      console.log('🔄 Consultando endpoint con códigos de barras...');
+      
+      const responseConCodigos = await Promise.race([
+        fetch(urlConCodigos, { 
+          cache: "no-store",
+          mode: 'cors', // Especificar modo CORS explícitamente
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          }
+        }),
+        new Promise((_, reject) => 
+          setTimeout(() => reject(new Error('Timeout')), CONFIG_ENDPOINTS.fallbackTiempo)
+        )
+      ]);
+      
+      if (responseConCodigos.ok) {
+        const dataConCodigos = await responseConCodigos.json();
+        if (dataConCodigos.success && dataConCodigos.productos) {
+          productos = dataConCodigos.productos;
+          endpointsConsultados.push('códigos de barras ✅');
+          console.log('✅ Productos cargados con códigos de barras:', dataConCodigos.productos.length);
+        } else {
+          endpointsConsultados.push('códigos de barras ⚠️ (sin datos)');
+        }
+      } else {
+        endpointsConsultados.push(`códigos de barras ❌ (HTTP ${responseConCodigos.status})`);
+      }
+    } catch (error) {
+      console.warn('⚠️ Error con endpoint de códigos de barras:', error.message);
+      
+      // Identificar tipo de error específico
+      if (error.message.includes('CORS') || error.message.includes('Failed to fetch')) {
+        endpointsConsultados.push('códigos de barras ❌ (CORS/Red)');
+        console.log('🔧 Sugerencia: Verificar configuración CORS en el backend para /api/productos-con-codigos');
+      } else {
+        endpointsConsultados.push('códigos de barras ❌ (timeout/error)');
+      }
+    }
+  }
+  
+  // 2. Consultar endpoint básico SIEMPRE (no solo como fallback)
+  try {
+    const urlBasico = `${CONFIG_ENDPOINTS.productosBasicos}?t=${timestamp}`;
+    console.log('🔄 Consultando endpoint básico...');
+    
+    const responseBasico = await fetch(urlBasico, { cache: "no-store" });
+    
+    if (responseBasico.ok) {
+      const dataBasico = await responseBasico.json();
+      const productosBasicos = Array.isArray(dataBasico) ? dataBasico : [];
+      
+      // Si no tenemos productos del primer endpoint, usar estos
+      if (productos.length === 0 && productosBasicos.length > 0) {
+        productos = productosBasicos;
+      }
+      
+      endpointsConsultados.push('básico ✅');
+      console.log('✅ Endpoint básico consultado:', productosBasicos.length, 'productos');
+    } else {
+      endpointsConsultados.push('básico ❌ (error HTTP)');
+    }
+  } catch (error) {
+    console.warn('⚠️ Error con endpoint básico:', error.message);
+    endpointsConsultados.push('básico ❌ (error)');
+  }
+  
+  // Verificar que tenemos productos
+  if (productos.length === 0) {
+    throw new Error('No se pudieron cargar productos de ningún endpoint');
+  }
+  
+  // Guardar productos en IndexedDB
+  await clearProductos();
+  await saveProductos(productos);
+  
+  // Actualizar timestamp
+  localStorage.setItem("productos_ts", String(timestamp));
+  
+  console.log('📊 Resumen endpoints productos:', endpointsConsultados.join(', '));
+  
+  return { 
+    productos: productos.length, 
+    endpoints: endpointsConsultados,
+    detalles: `${endpointsConsultados.length} endpoints consultados`
+  };
+}
+
+// Versión optimizada de cargarPromociones con mejor reporte
+async function cargarPromocionesRapido() {
+  console.log('🔄 Consultando endpoint de promociones...');
+  
+  const response = await fetch(CONFIG_ENDPOINTS.promociones, { 
+    cache: "no-store",
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    }
+  });
+  
+  if (!response.ok) {
+    throw new Error(`Error HTTP: ${response.status}`);
+  }
+  
+  const data = await response.json();
+  
+  if (data.success && data.data && data.data.promociones) {
+    const promociones = data.data.promociones;
+    console.log(`✅ Endpoint promociones consultado: ${promociones.length} promociones`);
+    
+    // Guardar promociones en IndexedDB
+    try {
+      await clearPromociones();
+      await savePromociones(promociones);
+      
+      // Actualizar timestamp de promociones
+      const timestamp = Date.now();
+      localStorage.setItem("promociones_ts", String(timestamp));
+      
+      console.log('💾 Promociones guardadas en IndexedDB');
+    } catch (error) {
+      console.error('❌ Error guardando promociones en IndexedDB:', error);
+    }
+    
+    return { 
+      promociones: promociones.length,
+      detalles: 'promociones ✅'
+    };
+  } else {
+    throw new Error('Formato de promociones inválido');
+  }
+}
+
+btnActualizar.addEventListener("click", actualizarTodosLosDatos);
 btnPromociones.addEventListener("click", verPromociones);
 renderUltimaActualizacion();
 
@@ -789,17 +1046,43 @@ renderUltimaActualizacion();
 setInterval(renderUltimaActualizacion, 60000);
 
 // Descargar productos la primera vez si no existen en IndexedDB
-openDB().then(db => {
-  const tx = db.transaction(DB_STORE, 'readonly');
-  const store = tx.objectStore(DB_STORE);
-  const req = store.count();
-  req.onsuccess = function() {
-    if (req.result === 0) cargarProductos();
-  };
+openDB().then(async db => {
+  const txProductos = db.transaction(DB_STORE, 'readonly');
+  const storeProductos = txProductos.objectStore(DB_STORE);
+  const reqProductos = storeProductos.count();
+  
+  const txPromociones = db.transaction(DB_STORE_PROMOCIONES, 'readonly');
+  const storePromociones = txPromociones.objectStore(DB_STORE_PROMOCIONES);
+  const reqPromociones = storePromociones.count();
+  
+  Promise.all([
+    new Promise(resolve => { reqProductos.onsuccess = () => resolve(reqProductos.result); }),
+    new Promise(resolve => { reqPromociones.onsuccess = () => resolve(reqPromociones.result); })
+  ]).then(([countProductos, countPromociones]) => {
+    const hayProductos = countProductos > 0;
+    const hayPromociones = countPromociones > 0;
+    
+    if (!hayProductos && !hayPromociones) {
+      console.log('🔄 Primera carga: cargando productos y promociones...');
+      actualizarTodosLosDatos();
+    } else if (!hayProductos) {
+      console.log('🔄 Sin productos: cargando productos y promociones...');
+      actualizarTodosLosDatos();
+    } else if (!hayPromociones && !datosYaCargados) {
+      console.log('🔄 Productos existentes: cargando solo promociones...');
+      cargarPromocionesRapido();
+    } else {
+      console.log('✅ Datos locales encontrados: productos:', countProductos, 'promociones:', countPromociones);
+    }
+    
+    datosYaCargados = true;
+  }).catch(error => {
+    console.error('Error verificando datos locales:', error);
+    // En caso de error, cargar todo
+    actualizarTodosLosDatos();
+    datosYaCargados = true;
+  });
 });
-
-// Cargar promociones al inicio
-cargarPromociones();
 
 // Cargar historial desde cookie si existe
 let historial = [];
@@ -810,60 +1093,6 @@ if (historialCookie) {
   } catch (e) {
     historial = [];
   }
-}
-
-// Cache de promociones
-let promocionesActivas = [];
-let promocionesTimestamp = 0;
-
-// Función para cargar promociones activas
-async function cargarPromociones() {
-  try {
-    console.log('🎯 Cargando promociones activas...');
-    const response = await fetch(CONFIG_ENDPOINTS.promociones, { 
-      cache: "no-store",
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      }
-    });
-    
-    if (!response.ok) {
-      throw new Error(`Error HTTP: ${response.status}`);
-    }
-    
-    const data = await response.json();
-    
-    if (data.success && data.data && data.data.promociones) {
-      promocionesActivas = data.data.promociones;
-      promocionesTimestamp = Date.now();
-      
-      console.log(`✅ ${promocionesActivas.length} promociones activas cargadas:`);
-      promocionesActivas.forEach(promo => {
-        const skus = promo.pro_grupoProductos_primaria?.pr_sku || [];
-        console.log(`  • ${promo.pro_mensaje} (SKUs: ${skus.join(', ')})`);
-      });
-      
-      return true;
-    } else {
-      throw new Error('Formato de respuesta inválido');
-    }
-  } catch (error) {
-    console.error('❌ Error cargando promociones:', error);
-    console.log('ℹ️ Continuando sin promociones del sistema. Se usará detección local si es necesario.');
-    
-    // Inicializar con array vacío para evitar errores
-    promocionesActivas = [];
-    promocionesTimestamp = Date.now();
-    
-    return false;
-  }
-}
-
-// Función para verificar si las promociones necesitan actualizarse (cada 5 minutos)
-function necesitaActualizarPromociones() {
-  const tiempoExpiracion = 5 * 60 * 1000; // 5 minutos
-  return Date.now() - promocionesTimestamp > tiempoExpiracion;
 }
 
 // Botón para limpiar historial centrado verticalmente
@@ -1058,109 +1287,50 @@ form.addEventListener("submit", async (e) => {
   renderHistorial();
 });
 
-// Función para detectar promociones en productos
-function detectarPromocion(producto) {
-  const nombre = (producto.pr_name || '').toLowerCase();
-  const sku = (producto.pr_sku || '').toString();
-  
-  const promociones = [];
-  
-  // ANÁLISIS COMPLETO: Mostrar TODOS los campos y valores del producto para identificar el patrón
-  console.log(`\n🔍 ANÁLISIS COMPLETO DEL PRODUCTO SKU: ${sku}`);
-  console.log(`📋 Nombre: ${producto.pr_name || 'N/A'}`);
-  console.log(`💰 Precio: ${producto.pr_precio || 'N/A'}`);
-  
-  // Mostrar TODOS los campos y sus valores para identificar dónde está la promoción
-  const todasLasClaves = Object.keys(producto);
-  console.log(`\n� TODOS LOS CAMPOS DEL PRODUCTO (${todasLasClaves.length} campos):`);
-  
-  todasLasClaves.forEach(clave => {
-    const valor = producto[clave];
-    const tipoValor = typeof valor;
-    const valorMostrar = valor === null ? 'null' : 
-                       valor === undefined ? 'undefined' : 
-                       valor === '' ? '(cadena vacía)' : 
-                       tipoValor === 'string' ? `"${valor}"` : valor;
-    
-    console.log(`  ${clave}: ${valorMostrar} (${tipoValor})`);
-  });
-  
-  // Buscar patrones específicos que indiquen promoción
-  const patronesPromocion = [
-    /\d+x\d+/i,           // Ej: "3x1500"
-    /\d+\s*x\s*\d+/i,     // Ej: "3 x 1500"
-    /distance/i,          // Palabra "DISTANCE"
-    /promo/i,             // Palabra "promo"
-    /oferta/i,            // Palabra "oferta"
-    /descuento/i          // Palabra "descuento"
-  ];
-  
-  console.log(`\n🎯 BUSCANDO PATRONES DE PROMOCIÓN:`);
-  
-  // Analizar cada campo buscando patrones de promoción
-  todasLasClaves.forEach(clave => {
-    const valor = producto[clave];
-    
-    if (valor !== null && valor !== undefined && valor !== '') {
-      const valorString = valor.toString();
-      
-      // Verificar si el valor coincide con algún patrón de promoción
-      patronesPromocion.forEach((patron, index) => {
-        if (patron.test(valorString)) {
-          console.log(`  🏷️ PATRÓN ENCONTRADO en campo "${clave}": "${valorString}" (patrón ${index + 1})`);
-          
-          promociones.push({
-            tipo: 'promoción detectada por patrón',
-            detalle: valorString,
-            campo_origen: clave,
-            patron_usado: patron.toString(),
-            es_detectada: true
-          });
-        }
-      });
-    }
-  });
-  
-  // Resumen final
-  if (promociones.length > 0) {
-    console.log(`\n✅ PROMOCIONES ENCONTRADAS PARA ${sku}:`);
-    promociones.forEach((promo, index) => {
-      console.log(`  ${index + 1}. Campo: "${promo.campo_origen}" - Valor: "${promo.detalle}"`);
-    });
-  } else {
-    console.log(`\n❌ NO SE ENCONTRARON PROMOCIONES PARA ${sku}`);
-  }
-  
-  console.log(`\n${'='.repeat(80)}\n`);
-  
-  return promociones;
-}
-
 // Función NUEVA para detectar promociones usando datos reales del sistema
 async function detectarPromocionReal(producto) {
   const sku = (producto.pr_sku || '').toString();
   
   try {
-    // Usar el nuevo endpoint mejorado que mapea con el catálogo
-    const response = await fetch('https://verificadorb9-backend.vercel.app/api/promociones-mejoradas');
-    if (!response.ok) {
-      console.log('Error al obtener promociones mejoradas:', response.status);
-      return [];
-    }
+    // Intentar cargar promociones desde IndexedDB primero
+    let promociones = await getAllPromociones();
     
-    const data = await response.json();
-    console.log('🔍 Buscando promociones mejoradas para SKU:', sku);
-    
-    // Verificar el formato de respuesta
-    let promociones = [];
-    if (data.status === 'SUCCESS' && data.promoResult) {
-      promociones = data.promoResult;
-    } else if (Array.isArray(data)) {
-      promociones = data;
+    // Si no hay promociones locales, cargar desde el servidor
+    if (promociones.length === 0) {
+      console.log('🔄 No hay promociones locales, consultando servidor...');
+      
+      const response = await fetch('https://verificadorb9-backend.vercel.app/api/promociones-mejoradas');
+      if (!response.ok) {
+        console.log('Error al obtener promociones mejoradas:', response.status);
+        return [];
+      }
+      
+      const data = await response.json();
+      
+      // Verificar el formato de respuesta y extraer promociones
+      if (data.status === 'SUCCESS' && data.promoResult) {
+        promociones = data.promoResult;
+      } else if (Array.isArray(data)) {
+        promociones = data;
+      } else {
+        console.log('❌ Formato de promociones inválido');
+        return [];
+      }
+      
+      // Guardar en IndexedDB para futuras consultas
+      try {
+        await clearPromociones();
+        await savePromociones(promociones);
+        localStorage.setItem("promociones_ts", String(Date.now()));
+        console.log('💾 Promociones guardadas en IndexedDB desde servidor');
+      } catch (error) {
+        console.warn('⚠️ Error guardando promociones:', error);
+      }
     } else {
-      console.log('❌ Formato de promociones inválido');
-      return [];
+      console.log('✅ Usando promociones desde IndexedDB:', promociones.length);
     }
+    
+    console.log('🔍 Buscando promociones para SKU:', sku);
     
     const promocionesEncontradas = [];
     
@@ -1180,24 +1350,67 @@ async function detectarPromocionReal(producto) {
       }
       
       if (skusPromocion.includes(sku)) {
-        const nombre = promo.pro_nombrePromo || promo.descripcion || 'Promoción especial';
-        const cantidad = promo.pro_cantidad_base || '';
-        const precio = promo.pro_precioPromo || '';
+        const nombre = promo.pro_nombrePromo || promo.descripcion || promo.nombre || 'Promoción especial';
+        const cantidad = promo.pro_cantidad_base || promo.cantidad || promo.qty || '';
         
-        console.log(`🎯 PROMOCIÓN ENCONTRADA para SKU ${sku}:`, nombre);
+        // Buscar precio total en múltiples campos posibles
+        const precio = promo.pro_precioPromo || 
+                      promo.precio || 
+                      promo.price || 
+                      promo.precioTotal || 
+                      promo.precio_total ||
+                      promo.pro_precio_total ||
+                      promo.total_price ||
+                      promo.valor_total ||
+                      '';
+        
+        // Log detallado para debugging con todos los campos de precio disponibles
+        console.log(`🎯 PROMOCIÓN ENCONTRADA para SKU ${sku}:`, {
+          nombre: nombre,
+          cantidad: cantidad,
+          precio: precio,
+          campos_precio_disponibles: {
+            pro_precioPromo: promo.pro_precioPromo,
+            precio: promo.precio,
+            price: promo.price,
+            precioTotal: promo.precioTotal,
+            precio_total: promo.precio_total,
+            pro_precio_total: promo.pro_precio_total,
+            total_price: promo.total_price,
+            valor_total: promo.valor_total
+          },
+          campos_disponibles: Object.keys(promo),
+          promo_completa: promo
+        });
         
         promocionesEncontradas.push({
           tipo: 'promoción oficial',
           detalle: `🔥 ${nombre}`,
           nombre_promocion: nombre,
           es_oficial: true,
-          fuente: 'backend_mejorado',
+          fuente: 'indexeddb_local',
           id_promocion: promo.idPromo || promo.id,
           cantidad: cantidad,
           precio: precio,
-          mensaje: promo.pro_mensaje || '',
-          tipo_promo: promo.pro_tipoPromo || '',
-          vigencia: promo.validFrom && promo.validTo ? `${promo.validFrom} al ${promo.validTo}` : ''
+          mensaje: promo.pro_mensaje || promo.mensaje || '',
+          tipo_promo: promo.pro_tipoPromo || promo.tipo || '',
+          vigencia: promo.validFrom && promo.validTo ? `${promo.validFrom} al ${promo.validTo}` : '',
+          // Datos adicionales para debugging
+          raw_data: {
+            pro_cantidad_base: promo.pro_cantidad_base,
+            pro_precioPromo: promo.pro_precioPromo,
+            pro_nombrePromo: promo.pro_nombrePromo,
+            todos_campos_precio: {
+              pro_precioPromo: promo.pro_precioPromo,
+              precio: promo.precio,
+              price: promo.price,
+              precioTotal: promo.precioTotal,
+              precio_total: promo.precio_total,
+              pro_precio_total: promo.pro_precio_total,
+              total_price: promo.total_price,
+              valor_total: promo.valor_total
+            }
+          }
         });
       }
     }
@@ -1211,72 +1424,9 @@ async function detectarPromocionReal(producto) {
     return promocionesEncontradas;
     
   } catch (error) {
-    console.error('Error obteniendo promociones mejoradas:', error);
+    console.error('Error obteniendo promociones:', error);
     return [];
   }
-}
-
-// Función de fallback para el endpoint anterior
-async function detectarPromocionFallback(sku) {
-  try {
-    console.log('🔄 Usando endpoint de promociones anterior como fallback...');
-    const response = await fetch('https://verificadorb9-backend.vercel.app/api/promociones');
-    if (!response.ok) {
-      console.log('Error al obtener promociones fallback:', response.status);
-      return [];
-    }
-    
-    const promociones = await response.json();
-    const promocionesEncontradas = [];
-    
-    for (const promo of promociones) {
-      if (promo.skus && promo.skus.includes(sku)) {
-        console.log(`🎯 PROMOCIÓN FALLBACK ENCONTRADA para SKU ${sku}:`, promo.descripcion);
-        
-        promocionesEncontradas.push({
-          tipo: 'promoción oficial',
-          detalle: promo.descripcion,
-          nombre_promocion: promo.descripcion,
-          es_oficial: true,
-          fuente: 'backend_fallback'
-        });
-      }
-    }
-    
-    return promocionesEncontradas;
-    
-  } catch (error) {
-    console.error('Error en fallback de promociones:', error);
-    return [];
-  }
-}
-
-// Función para buscar productos específicos con términos de promoción
-async function buscarProductosPromocion(termino) {
-  const productos = await getAllProductos();
-  const terminoLower = termino.toLowerCase();
-  
-  return productos.filter(p => {
-    const nombre = (p.pr_name || '').toLowerCase();
-    const sku = (p.pr_sku || '').toString().toLowerCase();
-    
-    // Buscar el término en nombre o SKU
-    const coincideTexto = nombre.includes(terminoLower) || sku.includes(terminoLower);
-    
-    // Buscar promociones
-    const promociones = detectarPromocion(p);
-    const tienePromocion = promociones.length > 0;
-    
-    // Si busca términos específicos de promoción, priorizar productos con promociones
-    const terminosPromocion = ['2x', '3x', 'promo', 'oferta', 'especial', 'pack', 'combo'];
-    const esBusquedaPromocion = terminosPromocion.some(t => terminoLower.includes(t));
-    
-    if (esBusquedaPromocion) {
-      return tienePromocion && coincideTexto;
-    }
-    
-    return coincideTexto;
-  });
 }
 
 function mostrarDetalleProducto(producto) {
@@ -1318,19 +1468,12 @@ function mostrarDetalleProducto(producto) {
   
   // Cargar promociones de forma asíncrona
   detectarPromocionReal(producto).then(promocionesReales => {
-    // También detectar promociones tradicionales como fallback
-    const promocionesTradicionales = detectarPromocion(producto);
-    
-    // Combinar ambas fuentes de promociones
-    const todasLasPromociones = [...promocionesReales, ...promocionesTradicionales];
-    
     // Actualizar la vista con las promociones
-    actualizarPromocionesEnVista(producto, urlImg, precioConIVA, precioMSI, infoCodigosHTML, todasLasPromociones);
+    actualizarPromocionesEnVista(producto, urlImg, precioConIVA, precioMSI, infoCodigosHTML, promocionesReales);
   }).catch(error => {
     console.error('Error cargando promociones:', error);
-    // Usar solo promociones tradicionales en caso de error
-    const promocionesTradicionales = detectarPromocion(producto);
-    actualizarPromocionesEnVista(producto, urlImg, precioConIVA, precioMSI, infoCodigosHTML, promocionesTradicionales);
+    // En caso de error, mostrar sin promociones
+    actualizarPromocionesEnVista(producto, urlImg, precioConIVA, precioMSI, infoCodigosHTML, []);
   });
 }
 
@@ -1371,29 +1514,78 @@ function renderProductoConPromociones(producto, urlImg, precioConIVA, precioMSI,
 
 // Función para actualizar las promociones una vez cargadas
 function actualizarPromocionesEnVista(producto, urlImg, precioConIVA, precioMSI, infoCodigosHTML, promociones) {
+  console.log('🔍 Actualizando promociones en vista:', promociones);
+  
   let infoPromocionesHTML = '';
   
   if (promociones.length > 0) {
-    // Filtrar solo promociones oficiales del backend (amarillas)
+    // Filtrar promociones oficiales (del backend o IndexedDB)
     const promocionesOficiales = promociones.filter(promo => 
-      promo.es_oficial && promo.fuente === 'backend_mejorado'
+      promo.es_oficial && (promo.fuente === 'backend_mejorado' || promo.fuente === 'indexeddb_local')
     );
+    
+    console.log('🏷️ Promociones oficiales filtradas:', promocionesOficiales);
     
     if (promocionesOficiales.length > 0) {
       const promocionesHTML = promocionesOficiales.map(promo => {
-        // Usar datos directos del endpoint
-        const cantidad = promo.pro_cantidad_base || promo.cantidad || '';
-        const nombrePromo = promo.pro_nombrePromo || promo.nombre_promocion || '';
+        console.log('🔍 Datos de promoción recibidos:', promo);
         
-        // Extraer precio del nombre (solo como fallback)
-        const matchPrecio = nombrePromo.match(/(\d+)\s*x\s*(\d+)/i);
-        const precio = matchPrecio ? matchPrecio[2] : '';
+        // Usar datos directos del endpoint con mejores fallbacks
+        const cantidad = promo.cantidad || promo.pro_cantidad_base || '';
+        let precio = promo.precio || promo.pro_precioPromo || '';
+        const nombrePromo = promo.nombre_promocion || promo.pro_nombrePromo || '';
         
-        // Usar datos estructurados del endpoint
-        const textoSimple = cantidad && precio ? `${cantidad}x${precio}` : 
-                           cantidad ? `${cantidad}x` : nombrePromo;
+        console.log('📊 Datos extraídos antes de procesamiento:', { cantidad, precio, nombrePromo });
         
-        return `<span class="badge bg-warning text-dark me-2 mb-1" style="font-size:0.85rem;">🔥 ${textoSimple}</span>`;
+        // Si tenemos cantidad y precio, calcular el precio total (cantidad x precio unitario)
+        if (cantidad && precio) {
+          const cantidadNum = parseInt(cantidad);
+          const precioNum = parseFloat(precio);
+          
+          if (!isNaN(cantidadNum) && !isNaN(precioNum)) {
+            // Calcular precio total si parece que es precio unitario
+            const precioTotal = cantidadNum * precioNum;
+            const precioRedondeado = Math.round(precioTotal);
+            console.log(`🧮 Calculando precio total: ${cantidadNum} x ${precioNum} = ${precioTotal} → ${precioRedondeado} (redondeado)`);
+            precio = precioRedondeado.toString();
+          }
+        }
+        
+        console.log('📊 Datos finales para construcción:', { cantidad, precio, nombrePromo });
+        
+        // Construir texto de promoción
+        let textoPromo = '';
+        
+        if (cantidad && precio) {
+          // Caso ideal: tenemos cantidad y precio (ej: "3x1500")
+          textoPromo = `${cantidad}x${precio}`;
+          console.log('✅ Usando cantidad y precio calculado:', textoPromo);
+        } else if (nombrePromo) {
+          // Intentar extraer formato "cantidad x precio" del nombre con regex más robusta
+          const matchCompleto = nombrePromo.match(/(\d+)\s*[xX×]\s*(\d+)/i);
+          const matchConPeso = nombrePromo.match(/(\d+)\s*[xX×]\s*\$?\s*(\d+)/i);
+          const matchSoloCantidad = nombrePromo.match(/(\d+)\s*[xX×]/i);
+          
+          if (matchCompleto) {
+            textoPromo = `${matchCompleto[1]}x${matchCompleto[2]}`;
+            console.log('✅ Extraído formato completo del nombre:', textoPromo);
+          } else if (matchConPeso) {
+            textoPromo = `${matchConPeso[1]}x${matchConPeso[2]}`;
+            console.log('✅ Extraído formato con peso del nombre:', textoPromo);
+          } else if (matchSoloCantidad) {
+            textoPromo = `${matchSoloCantidad[1]}x`;
+            console.log('⚠️ Solo cantidad extraída:', textoPromo);
+          } else {
+            // Si no se puede extraer formato, usar el nombre completo
+            textoPromo = nombrePromo;
+            console.log('⚠️ Usando nombre completo:', textoPromo);
+          }
+        } else {
+          textoPromo = 'PROMO';
+          console.log('❌ Sin datos, usando genérico');
+        }
+        
+        return `<span class="badge bg-warning text-dark me-2 mb-1" style="font-size:0.85rem;">🔥 ${textoPromo}</span>`;
       }).join('');
       
       infoPromocionesHTML = `
@@ -1428,6 +1620,43 @@ function actualizarPromocionesEnVista(producto, urlImg, precioConIVA, precioMSI,
   const promocionesContainer = document.getElementById('promociones-container');
   if (promocionesContainer) {
     promocionesContainer.innerHTML = infoPromocionesHTML;
+  }
+}
+
+// Función rápida para verificar si un producto tiene promociones (usando datos locales)
+async function tienePromociones(producto) {
+  try {
+    const sku = (producto.pr_sku || '').toString();
+    if (!sku) return false;
+    
+    // Cargar promociones desde IndexedDB (muy rápido)
+    const promociones = await getAllPromociones();
+    if (promociones.length === 0) return false;
+    
+    // Buscar el SKU en las promociones
+    for (const promo of promociones) {
+      let skusPromocion = [];
+      
+      // Extraer SKUs de diferentes formatos
+      if (promo.skus && Array.isArray(promo.skus)) {
+        skusPromocion = promo.skus;
+      } else if (promo.pro_grupoProductos_primaria && promo.pro_grupoProductos_primaria.pr_sku) {
+        if (Array.isArray(promo.pro_grupoProductos_primaria.pr_sku)) {
+          skusPromocion = promo.pro_grupoProductos_primaria.pr_sku;
+        } else {
+          skusPromocion = promo.pro_grupoProductos_primaria.pr_sku.split(' ').filter(s => s.trim());
+        }
+      }
+      
+      if (skusPromocion.includes(sku)) {
+        return true; // Tiene al menos una promoción
+      }
+    }
+    
+    return false;
+  } catch (error) {
+    console.warn('Error verificando promociones:', error);
+    return false;
   }
 }
 
@@ -1488,7 +1717,13 @@ inputCodigo.addEventListener('input', async function(e) {
     return textoA.length - textoB.length;
   });
 
-  sugerencias.forEach(p => {
+  // Verificar promociones para todas las sugerencias en paralelo (muy rápido con datos locales)
+  const promocionesPromises = sugerencias.map(p => tienePromociones(p));
+  const promocionesResults = await Promise.all(promocionesPromises);
+
+  sugerencias.forEach((p, index) => {
+    const tienePromo = promocionesResults[index];
+    
     const item = document.createElement('button');
     item.type = 'button';
     item.className = 'list-group-item list-group-item-action d-flex align-items-center';
@@ -1506,11 +1741,16 @@ inputCodigo.addEventListener('input', async function(e) {
       imgHtml = `<img src="${urlImg}" alt="${p.pr_name}" style="width:40px; height:40px; object-fit:cover; border-radius:4px; margin-right:12px; background:#f8f9fa;">`;
     }
     
+    // Agregar indicador de promoción si aplica
+    const promoIndicator = tienePromo ? 
+      `<span class="badge bg-success text-white ms-2" style="font-size:0.7rem;">🏷️ PROMO</span>` : '';
+    
     item.innerHTML = `
       ${imgHtml}
       <div class="flex-grow-1">
         <div class="d-flex align-items-center">
           <strong>${p.pr_name}</strong>
+          ${promoIndicator}
         </div>
         <small class="text-muted">SKU: ${p.pr_sku || p.pr_gtin || ''}</small>
       </div>
