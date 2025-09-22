@@ -28,6 +28,35 @@
     <link rel="icon" href="./images/bastonico.png" type="image/png" />
 
     <style>
+      /* Prevenir scroll horizontal no deseado */
+      html, body {
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+      }
+
+      /* Asegurar que los contenedores no se salgan del viewport */
+      .container {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      /* Mejorar el scroll en móviles */
+      * {
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* Prevenir que las tarjetas de promociones causen scroll horizontal */
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .col-md-6 {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
       #reader {
         width: 100%;
         max-width: 400px;
@@ -48,6 +77,34 @@
         bottom: 80px; /* Siempre arriba del botón de configurar */
         right: 20px;
         z-index: 999;
+      }
+
+      /* Media query específico para móviles */
+      @media (max-width: 768px) {
+        body {
+          overflow-x: hidden !important;
+        }
+        
+        .container {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+        
+        .row {
+          margin-left: -8px !important;
+          margin-right: -8px !important;
+        }
+        
+        [class*="col-"] {
+          padding-left: 8px !important;
+          padding-right: 8px !important;
+        }
+        
+        /* Asegurar que las tarjetas no se salgan */
+        .card {
+          max-width: 100%;
+          overflow: hidden;
+        }
       }
     </style>
   </head>
