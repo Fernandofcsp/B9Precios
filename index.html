@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Consulta de Precios</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
     <!-- PWA -->
     <link rel="manifest" href="manifest.json" />
@@ -44,6 +44,11 @@
       /* Mejorar el scroll en móviles */
       * {
         -webkit-overflow-scrolling: touch;
+      }
+
+      /* Evitar doble-tap zoom en elementos interactivos */
+      a, button, input[type="button"], input[type="submit"], label {
+        touch-action: manipulation;
       }
 
       /* Prevenir que las tarjetas de promociones causen scroll horizontal */
@@ -177,7 +182,31 @@
     <!-- QuaggaJS  -->
     <script src="https://unpkg.com/@ericblade/quagga2@1.2.6/dist/quagga.min.js"></script>
 
-    <script src="main.js?v=11"></script>
+    <script src="main.js?v=12"></script>
+      <script>
+        // Prevenir doble-tap zoom en móviles sin afectar scroll
+        (function(){
+          let lastTouchEnd = 0;
+          document.addEventListener('touchend', function (event) {
+            const now = Date.now();
+            if (now - lastTouchEnd <= 300) {
+              event.preventDefault();
+            }
+            lastTouchEnd = now;
+          }, { passive: false });
+
+          // Evitar zoom con doble tap en clicks rápidos
+          let lastClick = 0;
+          document.addEventListener('click', function (event) {
+            const now = Date.now();
+            if (now - lastClick < 300) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            lastClick = now;
+          }, true);
+        })();
+      </script>
   </body>
 </html>
 </content>
