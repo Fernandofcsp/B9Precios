@@ -1941,44 +1941,52 @@ async function mostrarModalPromocionesGenerales() {
       // Para dispositivos móviles: configuración especial
       console.log('📱 Abriendo modal en dispositivo móvil...');
       
-      // Asegurar que el modal tenga configuración móvil
+      // Configurar modal para móvil sin backdrop problemático
       modalElement.style.position = 'fixed';
       modalElement.style.top = '0';
       modalElement.style.left = '0';
       modalElement.style.width = '100%';
       modalElement.style.height = '100%';
       modalElement.style.zIndex = '9999';
+      modalElement.style.backgroundColor = 'rgba(0,0,0,0.8)'; // Fondo semitransparente directo
       
-      // Crear backdrop manual para móviles
-      let backdrop = document.querySelector('.modal-backdrop-mobile');
-      if (!backdrop) {
-        backdrop = document.createElement('div');
-        backdrop.className = 'modal-backdrop-mobile fade';
-        backdrop.style.position = 'fixed';
-        backdrop.style.top = '0';
-        backdrop.style.left = '0';
-        backdrop.style.width = '100%';
-        backdrop.style.height = '100%';
-        backdrop.style.backgroundColor = 'rgba(0,0,0,0.5)';
-        backdrop.style.zIndex = '9998';
-        document.body.appendChild(backdrop);
-        
-        // Cerrar modal al tocar backdrop
-        backdrop.addEventListener('click', (e) => {
-          if (e.target === backdrop) {
-            cerrarModalMobile();
-          }
-        });
+      // Configurar el diálogo del modal
+      const modalDialog = modalElement.querySelector('.modal-dialog');
+      if (modalDialog) {
+        modalDialog.style.width = '100%';
+        modalDialog.style.maxWidth = '100%';
+        modalDialog.style.height = '100%';
+        modalDialog.style.margin = '0';
+        modalDialog.style.display = 'flex';
+        modalDialog.style.flexDirection = 'column';
       }
       
-      // Mostrar modal
-      setTimeout(() => {
-        backdrop.classList.add('show');
-        modalElement.style.display = 'block';
-        modalElement.classList.add('show');
-        document.body.classList.add('modal-open');
-        document.body.style.overflow = 'hidden';
-      }, 100);
+      // Configurar el contenido del modal
+      const modalContent = modalElement.querySelector('.modal-content');
+      if (modalContent) {
+        modalContent.style.width = '100%';
+        modalContent.style.height = '100%';
+        modalContent.style.border = 'none';
+        modalContent.style.borderRadius = '0';
+        modalContent.style.display = 'flex';
+        modalContent.style.flexDirection = 'column';
+      }
+      
+      // Configurar el cuerpo del modal para scroll
+      const modalBodyElement = modalElement.querySelector('.modal-body');
+      if (modalBodyElement) {
+        modalBodyElement.style.flex = '1';
+        modalBodyElement.style.overflowY = 'auto';
+        modalBodyElement.style.webkitOverflowScrolling = 'touch';
+        modalBodyElement.style.maxHeight = 'none';
+      }
+      
+      // Mostrar modal sin backdrop separado
+      modalElement.style.display = 'block';
+      modalElement.classList.add('show');
+      
+      // NO bloquear el scroll del body, permitir scroll interno
+      document.body.classList.add('modal-open');
       
     } else {
       // Para desktop: usar Bootstrap normal
@@ -2012,18 +2020,48 @@ function cerrarModalMobile() {
   console.log('📱 Cerrando modal móvil...');
   
   const modalElement = document.getElementById('promocionesGeneralesModal');
-  const backdrop = document.querySelector('.modal-backdrop-mobile');
   
   if (modalElement) {
     modalElement.classList.remove('show');
     modalElement.style.display = 'none';
-  }
-  
-  if (backdrop) {
-    backdrop.classList.remove('show');
-    setTimeout(() => {
-      backdrop.remove();
-    }, 300);
+    
+    // Limpiar estilos específicos de móvil
+    modalElement.style.position = '';
+    modalElement.style.top = '';
+    modalElement.style.left = '';
+    modalElement.style.width = '';
+    modalElement.style.height = '';
+    modalElement.style.zIndex = '';
+    modalElement.style.backgroundColor = '';
+    
+    // Limpiar estilos de elementos internos
+    const modalDialog = modalElement.querySelector('.modal-dialog');
+    if (modalDialog) {
+      modalDialog.style.width = '';
+      modalDialog.style.maxWidth = '';
+      modalDialog.style.height = '';
+      modalDialog.style.margin = '';
+      modalDialog.style.display = '';
+      modalDialog.style.flexDirection = '';
+    }
+    
+    const modalContent = modalElement.querySelector('.modal-content');
+    if (modalContent) {
+      modalContent.style.width = '';
+      modalContent.style.height = '';
+      modalContent.style.border = '';
+      modalContent.style.borderRadius = '';
+      modalContent.style.display = '';
+      modalContent.style.flexDirection = '';
+    }
+    
+    const modalBodyElement = modalElement.querySelector('.modal-body');
+    if (modalBodyElement) {
+      modalBodyElement.style.flex = '';
+      modalBodyElement.style.overflowY = '';
+      modalBodyElement.style.webkitOverflowScrolling = '';
+      modalBodyElement.style.maxHeight = '';
+    }
   }
   
   document.body.classList.remove('modal-open');
@@ -3749,48 +3787,61 @@ mobileModalStyles.textContent = `
   /* Estilos específicos para modal en móviles */
   @media (max-width: 768px) {
     #promocionesGeneralesModal.show {
-      display: block !important;
-      position: fixed !important;
-      top: 0 !important;
-      left: 0 !important;
-      width: 100% !important;
-      height: 100% !important;
-      z-index: 9999 !important;
+      display: flex !important;
+      align-items: stretch !important;
     }
     
-    #promocionesGeneralesModal .modal-dialog {
+    #promocionesGeneralesModal.show .modal-dialog {
       width: 100% !important;
       max-width: 100% !important;
       height: 100% !important;
       margin: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
     }
     
-    #promocionesGeneralesModal .modal-content {
+    #promocionesGeneralesModal.show .modal-content {
       width: 100% !important;
       height: 100% !important;
       border: none !important;
       border-radius: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
     }
     
-    #promocionesGeneralesModal .modal-body {
-      max-height: calc(100vh - 120px) !important;
+    #promocionesGeneralesModal.show .modal-body {
+      flex: 1 !important;
       overflow-y: auto !important;
       -webkit-overflow-scrolling: touch !important;
+      max-height: none !important;
+      padding: 1rem !important;
     }
     
-    .modal-backdrop-mobile {
-      transition: opacity 0.3s ease;
+    #promocionesGeneralesModal.show .modal-header {
+      flex-shrink: 0 !important;
     }
     
-    .modal-backdrop-mobile.show {
-      opacity: 1;
+    #promocionesGeneralesModal.show .modal-footer {
+      flex-shrink: 0 !important;
+    }
+    
+    /* Asegurar que las tarjetas no causen overflow horizontal */
+    #promocionesGeneralesModal .row {
+      margin-left: -8px !important;
+      margin-right: -8px !important;
+    }
+    
+    #promocionesGeneralesModal [class*="col-"] {
+      padding-left: 8px !important;
+      padding-right: 8px !important;
     }
   }
   
-  /* Mejorar scroll en iOS */
-  @supports (-webkit-overflow-scrolling: touch) {
+  /* Mejorar scroll en todos los dispositivos móviles */
+  @media (max-width: 768px) {
     #promocionesGeneralesModal .modal-body {
-      -webkit-overflow-scrolling: touch;
+      -webkit-overflow-scrolling: touch !important;
+      transform: translate3d(0, 0, 0) !important; /* Forzar aceleración por hardware */
     }
   }
 `;
