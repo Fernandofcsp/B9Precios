@@ -589,12 +589,12 @@ actualizarDiv.innerHTML = `
   <div id="mensajeActualizacion" class="text-center" style="min-height: 1.5rem;"></div>
 
   <!-- Modal para promociones generales -->
-  <div class="modal fade" id="promocionesGeneralesModal" tabindex="-1" aria-labelledby="promocionesGeneralesModalLabel" aria-hidden="true">
+  <div class="modal" id="promocionesGeneralesModal" tabindex="-1" aria-labelledby="promocionesGeneralesModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <div class="modal-header bg-success text-white">
           <h5 class="modal-title" id="promocionesGeneralesModalLabel">🏷️ Todas las Promociones Disponibles</h5>
-          <button type="button" class="btn-close" onclick="cerrarModalMobile()" aria-label="Close"></button>
+          <button type="button" class="btn-close" onclick="(function(){ try{ cerrarModalMobile(); }catch(e){} try{ const m=bootstrap.Modal.getInstance(document.getElementById('promocionesGeneralesModal')); if(m) m.hide(); }catch(e){} })()" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="promociones-generales-modal-body" style="max-height: 70vh; overflow-y: auto;">
           <div class="text-center p-4">
@@ -606,7 +606,7 @@ actualizarDiv.innerHTML = `
         </div>
         <div class="modal-footer">
           <small class="text-muted me-auto">⚠️ Las promociones solo aplican pagando de contado</small>
-          <button type="button" class="btn btn-secondary" onclick="cerrarModalMobile()">Cerrar</button>
+          <button type="button" class="btn btn-secondary" onclick="(function(){ try{ cerrarModalMobile(); }catch(e){} try{ const m=bootstrap.Modal.getInstance(document.getElementById('promocionesGeneralesModal')); if(m) m.hide(); }catch(e){} })()">Cerrar</button>
         </div>
       </div>
     </div>
@@ -1940,6 +1940,9 @@ async function mostrarModalPromocionesGenerales() {
     if (isMobile || isIOS) {
       // Para dispositivos móviles: configuración especial
       console.log('📱 Abriendo modal en dispositivo móvil...');
+
+      // Remover cualquier backdrop de Bootstrap residual
+      document.querySelectorAll('.modal-backdrop').forEach(el => el.remove());
       
       // Configurar modal para móvil sin backdrop problemático
       modalElement.style.position = 'fixed';
@@ -1947,8 +1950,9 @@ async function mostrarModalPromocionesGenerales() {
       modalElement.style.left = '0';
       modalElement.style.width = '100%';
       modalElement.style.height = '100%';
-      modalElement.style.zIndex = '9999';
-      modalElement.style.backgroundColor = 'rgba(0,0,0,0.8)'; // Fondo semitransparente directo
+  modalElement.style.zIndex = '1055';
+  // No usar fondo semitransparente en el modal, dejamos el contenido visible
+  modalElement.style.backgroundColor = 'transparent';
       
       // Configurar el diálogo del modal
       const modalDialog = modalElement.querySelector('.modal-dialog');
@@ -1985,8 +1989,9 @@ async function mostrarModalPromocionesGenerales() {
       modalElement.style.display = 'block';
       modalElement.classList.add('show');
       
-      // NO bloquear el scroll del body, permitir scroll interno
-      document.body.classList.add('modal-open');
+  // Asegurar que el body no quede bloqueado por Bootstrap
+  document.body.classList.remove('modal-open');
+  document.body.style.overflow = '';
       
     } else {
       // Para desktop: usar Bootstrap normal
@@ -3786,6 +3791,14 @@ const mobileModalStyles = document.createElement('style');
 mobileModalStyles.textContent = `
   /* Estilos específicos para modal en móviles */
   @media (max-width: 768px) {
+    /* Evitar oscurecimiento de fondo en móviles */
+    .modal-backdrop,
+    .modal-backdrop.show,
+    .modal-backdrop.fade {
+      display: none !important;
+      opacity: 0 !important;
+    }
+
     #promocionesGeneralesModal.show {
       display: flex !important;
       align-items: stretch !important;
