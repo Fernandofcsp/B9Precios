@@ -1,778 +1,49 @@
-const _0x765170 = _0x3929;
-(function (_0x3612f9, _0x36bad1) {
-  const _0x4bc83d = _0x3929,
-    _0x383143 = _0x3612f9();
+const _0x1b5bb5 = _0x1f33;
+(function (_0x2d5c35, _0x2b5bcc) {
+  const _0x1b5ab2 = _0x1f33,
+    _0x4ab7a3 = _0x2d5c35();
   while (!![]) {
     try {
-      const _0x11936e =
-        (parseInt(_0x4bc83d(0x3fc)) / 0x1) *
-          (parseInt(_0x4bc83d(0x29f)) / 0x2) +
-        -parseInt(_0x4bc83d(0x2d6)) / 0x3 +
-        parseInt(_0x4bc83d(0x3d3)) / 0x4 +
-        (-parseInt(_0x4bc83d(0x39a)) / 0x5) *
-          (-parseInt(_0x4bc83d(0x37e)) / 0x6) +
-        parseInt(_0x4bc83d(0x3d4)) / 0x7 +
-        (-parseInt(_0x4bc83d(0x3e6)) / 0x8) *
-          (parseInt(_0x4bc83d(0x36c)) / 0x9) +
-        (parseInt(_0x4bc83d(0x221)) / 0xa) *
-          (-parseInt(_0x4bc83d(0x4a9)) / 0xb);
-      if (_0x11936e === _0x36bad1) break;
-      else _0x383143["push"](_0x383143["shift"]());
-    } catch (_0x289c86) {
-      _0x383143["push"](_0x383143["shift"]());
+      const _0x43acee =
+        (parseInt(_0x1b5ab2(0x177)) / 0x1) *
+          (parseInt(_0x1b5ab2(0x2d1)) / 0x2) +
+        parseInt(_0x1b5ab2(0x1e0)) / 0x3 +
+        (-parseInt(_0x1b5ab2(0x253)) / 0x4) *
+          (-parseInt(_0x1b5ab2(0x36d)) / 0x5) +
+        parseInt(_0x1b5ab2(0x1ac)) / 0x6 +
+        (-parseInt(_0x1b5ab2(0x199)) / 0x7) *
+          (parseInt(_0x1b5ab2(0x198)) / 0x8) +
+        (parseInt(_0x1b5ab2(0x151)) / 0x9) *
+          (-parseInt(_0x1b5ab2(0x1d4)) / 0xa) +
+        parseInt(_0x1b5ab2(0x125)) / 0xb;
+      if (_0x43acee === _0x2b5bcc) break;
+      else _0x4ab7a3["push"](_0x4ab7a3["shift"]());
+    } catch (_0x2901ab) {
+      _0x4ab7a3["push"](_0x4ab7a3["shift"]());
     }
   }
-})(_0x121e, 0xf24b7);
-function _0x121e() {
-  const _0x2a53f6 = [
-    "CANTIDAD_X_PRECIO_FIJO",
-    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-success\x22>Total\x20con\x20Promo</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "🌐\x20<strong>Backend:</strong>\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20p-2\x20text-center\x22\x20style=\x22background-color:#f8f9fa;\x20border-radius:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>ℹ️\x20Sin\x20promociones\x20activas</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>❌\x20Producto\x20no\x20encontrado</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20se\x20pudo\x20encontrar\x20el\x20producto\x20con\x20SKU:\x20",
-    "code_32_reader",
-    "https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js",
-    "promociones-generales-modal-body",
-    "\x20comprando\x20",
-    "precio_total",
-    "toUTCString",
-    "parentNode",
-    "fire",
-    "monthlyLimit",
-    "innerHTML",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-outline-primary\x20btn-sm\x20copiar-sku-btn\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20data-sku=\x22",
-    "<div\x20class=\x22alert\x20alert-success\x22>✅\x20Endpoint\x20/api/stats\x20funciona\x20correctamente</div>",
-    "📊\x20Datos\x20finales\x20para\x20construcción:",
-    "promocionesGeneralesModal",
-    "Error\x20en\x20actualización:",
-    "classList",
-    "revokeObjectURL",
-    "async",
-    "\x20más</span>",
-    "\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20text-truncate\x22\x20title=\x22",
-    "<div\x20class=\x22alert\x20alert-danger\x22>🔧\x20Problema\x20de\x20CORS\x20-\x20verifica\x20configuración\x20de\x20headers</div>",
-    "🔧\x20Sugerencia:\x20Verificar\x20configuración\x20CORS\x20en\x20el\x20backend\x20para\x20/api/productos-con-codigos",
-    "1000",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "fuente",
-    "✅\x20Usando\x20cantidad\x20y\x20precio\x20calculado:",
-    "canUseAPI",
-    "⚠️\x20API\x20nativa\x20no\x20detectó\x20códigos\x20válidos",
-    "historial",
-    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-link\x20btn-sm\x20ms-2\x20p-0\x20copiar-btn\x22\x20title=\x22Copiar\x20descripción\x22\x20data-copiar=\x22",
-    "formulario",
-    "register",
-    "principal",
-    "precioTotal",
-    "%;\x20transition:\x20width\x200.3s\x20ease;\x22\x20aria-valuenow=\x22",
-    "<small\x20class=\x22text-success\x22><strong>Precio\x20unitario:</strong>\x20$",
-    "textAlign",
-    "💡\x20Verifica\x20que\x20el\x20proyecto\x20#1070150612422\x20tenga\x20facturación\x20activa",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>SKU:\x20",
-    "CORS_ERROR:\x20Backend\x20no\x20accesible\x20desde\x20este\x20dominio",
-    "\x20diario<br>🌐\x20<strong>Backend:</strong>\x20Verificando...",
-    "✅\x20Código\x20detectado\x20(configuración\x20principal):",
-    "dailyCount",
-    "beforeinstallprompt",
-    "Iniciando...",
-    "🔄\x20Probando\x20con\x20imagen\x20original...",
-    "#ultimaActualizacion",
-    "detalles",
-    "promociones_ts",
-    "has",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>SKU:\x20",
-    "location",
-    "precio",
-    "❌\x20Error\x20en\x20diagnóstico:",
-    "userAgent",
-    "Formato\x20de\x20respuesta\x20no\x20reconocido",
-    "\x20=\x20",
-    "querySelectorAll",
-    "🔄\x20Consultando\x20endpoint\x20básico...",
-    "SKU\x20desconocido",
-    "#btnActualizar",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "✅\x20Productos\x20cargados\x20con\x20códigos\x20de\x20barras:",
-    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-search\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</li>",
-    "📊\x20Status\x20HTTP:",
-    "nombre_promocion",
-    "PERMISSION_DENIED",
-    "\x0a<button\x20type=\x22button\x22\x20id=\x22btnPromociones\x22\x20class=\x22ant-btn\x20css-1r8qqf1\x20ant-btn-default\x20ant-btn-color-default\x20ant-btn-variant-outlined\x20ant-btn-sm\x20mb-4\x22\x20style=\x22border-radius:6px;\x20border:1px\x20solid\x20#ffc107;\x20background:#fff8dc;\x20color:#856404;\x20font-size:0.9rem;\x20padding:2px\x2012px;\x20margin-left:20px;\x22\x20data-bs-toggle=\x22modal\x22\x20data-bs-target=\x22#promocionesGeneralesModal\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🏷️\x20Ver\x20Promociones\x0a\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x20w-100\x20mb-2\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22d-flex\x20flex-column\x20flex-md-row\x20align-items-md-end\x20gap-2\x22>\x0a\x20\x20\x20\x20\x20\x20<h5\x20class=\x22ant-typography\x20css-1r8qqf1\x20mb-0\x22>Productos</h5>\x0a\x20\x20\x20\x20\x20\x20<span\x20id=\x22ultimaActualizacion\x22\x20class=\x22ant-typography\x20css-1r8qqf1\x20ms-md-4\x22\x20style=\x22font-size:1rem;\x22>Última\x20actualización:\x20nunca\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20class=\x22d-flex\x20gap-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22btnActualizar\x22\x20class=\x22ant-btn\x20css-1r8qqf1\x20ant-btn-default\x20ant-btn-color-default\x20ant-btn-variant-outlined\x20ant-btn-sm\x22\x20style=\x22border-radius:6px;\x20border:1px\x20solid\x20#d9d9d9;\x20background:#fff;\x20color:#222;\x20font-size:1rem;\x20padding:2px\x2016px;\x20margin-left:15px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22btnTexto\x22>Actualizar</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22btnSpinner\x22\x20class=\x22d-none\x20spinner-border\x20spinner-border-sm\x20ms-2\x22\x20role=\x22status\x22></span>\x0a\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a\x20\x20<div\x20id=\x22mensajeActualizacion\x22\x20class=\x22text-center\x22\x20style=\x22min-height:\x201.5rem;\x22></div>\x0a\x0a\x20\x20<!--\x20Modal\x20para\x20promociones\x20generales\x20-->\x0a\x20\x20<div\x20class=\x22modal\x20fade\x22\x20id=\x22promocionesGeneralesModal\x22\x20tabindex=\x22-1\x22\x20aria-labelledby=\x22promocionesGeneralesModalLabel\x22\x20aria-hidden=\x22true\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22modal-dialog\x20modal-xl\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22modal-header\x20bg-warning\x20text-dark\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5\x20class=\x22modal-title\x22\x20id=\x22promocionesGeneralesModalLabel\x22>🏷️\x20Todas\x20las\x20Promociones\x20Disponibles</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22btn-close\x22\x20data-bs-dismiss=\x22modal\x22\x20aria-label=\x22Close\x22></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22modal-body\x22\x20id=\x22promociones-generales-modal-body\x22\x20style=\x22max-height:\x2070vh;\x20overflow-y:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20p-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22spinner-border\x20text-warning\x22\x20role=\x22status\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22visually-hidden\x22>Cargando\x20promociones...</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mt-2\x22>Cargando\x20promociones...</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22modal-footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x20me-auto\x22>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22btn\x20btn-secondary\x22\x20data-bs-dismiss=\x22modal\x22>Cerrar</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a",
-    "dailyUsed",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "<div\x20class=\x22alert\x20alert-danger\x22>❌\x20Error\x20en\x20diagnóstico:\x20",
-    "code_39_vin_reader",
-    "code_39_reader",
-    "\x20|\x20Promociones:\x20",
-    "head",
-    "Google\x20Vision\x20API\x20activa\x20y\x20funcional",
-    "applyConstraints",
-    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ms-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-primary\x20btn-sm\x22\x20onclick=\x22consultarProductoDesdeModal(\x27",
-    "contains",
-    "códigos\x20de\x20barras\x20❌\x20(CORS/Red)",
-    "submit",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-light\x20text-dark\x20me-1\x20mb-1\x22\x20style=\x22font-size:\x200.7rem;\x22>",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-primary\x22\x20style=\x22font-size:\x200.65rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20SKU:\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h6>❌\x20Error</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20al\x20consultar\x20el\x20producto:\x20",
-    "parse",
-    "Actualizando...",
-    "Básicos,\x20códigos\x20de\x20barras\x20y\x20promociones",
-    "<div\x20class=\x22row\x22>",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-muted\x20small\x20ms-md-2\x22>Escaneado:\x20",
-    "keydown",
-    "list-group-item\x20list-group-item-action\x20d-flex\x20align-items-center",
-    "application/json",
-    "resultado",
-    "\x22\x20style=\x22width:218px;\x20height:124px;\x20object-fit:contain;\x20background:#fff;\x20border-radius:12px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "controller",
-    "getItem",
-    "Formato:",
-    "1\x20endpoint\x20completado,\x20finalizando...",
-    "enabled",
-    "src",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "setAttribute",
-    "🔄\x20Sin\x20productos:\x20cargando\x20productos\x20y\x20promociones...",
-    "No\x20se\x20puede\x20generar\x20código\x20de\x20barras:\x20canvas\x20o\x20código\x20faltante",
-    "upc_e",
-    "ean_8",
-    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-muted\x22\x20style=\x22font-size:0.8rem;\x20margin-top:-2px;\x22>CONTADO</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-muted\x20mx-2\x22\x20style=\x22font-size:1.5rem;\x22>|</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22fw-bold\x20text-primary\x20precio-responsive\x22>$\x20",
-    "\x22\x20style=\x22width:40px;\x20height:40px;\x20object-fit:cover;\x20border-radius:4px;\x20margin-right:12px;\x20background:#f8f9fa;\x22>",
-    "\x20(redondeado)",
-    "updatefound",
-    "💾\x20Promociones\x20guardadas\x20en\x20IndexedDB",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-md-6\x20col-lg-4\x20mb-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20h-100\x20border-warning\x20shadow-sm\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-header\x20bg-warning\x20text-dark\x20text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20mb-0\x22>🏷️\x20",
-    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "📊\x20<strong>Uso\x20local\x20de\x20este\x20dispositivo:</strong><br>",
-    "\x20(quedan\x20",
-    "alert-warning",
-    "min",
-    "decodeSingle",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x20col-md-3\x20mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20border-0\x20bg-light\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22",
-    "\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20",
-    "\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22height:\x2080px;\x20object-fit:\x20contain;\x20padding:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x20d-block\x20text-truncate\x22\x20style=\x22font-size:\x200.7rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "✅\x20Endpoint\x20promociones\x20consultado:\x20",
-    "other",
-    "getImageData",
-    "center",
-    "\x20unidades\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "⚠️\x20No\x20se\x20pudieron\x20obtener\x20estadísticas\x20de\x20códigos\x20de\x20barras",
-    "es_oficial",
-    "\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
-    "\x20más</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "indexeddb_local",
-    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Unidades</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-success\x20d-block\x22\x20style=\x22font-size:\x201.3rem;\x22>$",
-    "controllerchange",
-    "pr_gtin",
-    "\x20->\x20",
-    "⚡\x20Actualización\x20completada\x20en\x20",
-    "mostrarModalPromocionesGenerales",
-    "http",
-    "72297TuaqVJ",
-    "oncomplete",
-    "join",
-    "</p>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
-    "⚠️\x20Error\x20guardando\x20promociones:",
-    "warn",
-    "códigos\x20de\x20barras\x20❌\x20(HTTP\x20",
-    "getContext",
-    "div",
-    "</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
-    "</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>",
-    "https://verificadorb9-backend.vercel.app/api/productos",
-    "some",
-    "reduce",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-success\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>🎉\x20¡Google\x20Vision\x20API\x20Activa!</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>✅\x20La\x20detección\x20premium\x20está\x20funcionando\x20correctamente</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Fallback\x20automático:\x20Local\x20→\x20Google\x20Vision</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "includes",
-    "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20<strong>⚠️\x20No\x20se\x20detectó\x20código\x20válido</strong><br>\x0a\x20\x20\x20\x20\x20\x20Para\x20códigos\x20largos\x20como\x20este,\x20intenta:<br>\x0a\x20\x20\x20\x20\x20\x20•\x20📏\x20<strong>Recortar\x20muy\x20cerca\x20del\x20código</strong><br>\x0a\x20\x20\x20\x20\x20\x20•\x20💡\x20<strong>Mejor\x20iluminación\x20uniforme</strong><br>\x0a\x20\x20\x20\x20\x20\x20•\x20📱\x20<strong>Evitar\x20superficies\x20reflectivas</strong><br>\x0a\x20\x20\x20\x20\x20\x20•\x20🔍\x20<strong>Imagen\x20más\x20nítida\x20y\x20estable</strong>",
-    "length",
-    "10388388EjRdyg",
-    "100%",
-    "history",
-    "upc_a",
-    "🧪\x20Respuesta\x20completa\x20vision-detect:",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-start\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-check\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20class=\x22form-check-input\x22\x20type=\x22checkbox\x22\x20id=\x22enabledCheck\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "🏦\x20PROBLEMA:\x20Facturación\x20no\x20habilitada\x20en\x20el\x20proyecto\x20correcto",
-    "pro_cantidad_base",
-    "button",
-    "🔄\x20Nueva\x20versión\x20del\x20Service\x20Worker\x20disponible",
-    "https://contador-apicloudvision.vercel.app/api/vision-detect",
-    "🔥\x20",
-    "\x20más\x20con\x20promociones.</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-12\x20col-lg-4\x20d-flex\x20justify-content-center\x20mb-3\x20mb-lg-0\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:#fff;\x20border-radius:16px;\x20box-shadow:0\x204px\x2024px\x20rgba(0,0,0,0.15);\x20padding:16px;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20width:240px;\x20height:140px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22",
-    "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>Error\x20al\x20procesar\x20la\x20imagen</div>",
-    "./service-worker.js",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-info-circle\x22\x20style=\x22font-size:\x203rem;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22mt-3\x22>ℹ️\x20Sin\x20promociones</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20hay\x20promociones\x20activas\x20en\x20este\x20momento.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "<div\x20class=\x22alert\x20alert-danger\x22>🔑\x20API\x20Key\x20inválida\x20-\x20verifica\x20la\x20configuración\x20en\x20Vercel</div>",
-    "\x20x\x20",
-    "update",
-    "forEach",
-    "<div\x20class=\x22text-center\x20text-muted\x20p-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-box-seam\x22\x20style=\x22font-size:\x202rem;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mt-2\x20mb-0\x22>Productos\x20no\x20disponibles</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>",
-    "🎯\x20Umbral\x20calculado:\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20align-items-center\x20mb-3\x20p-2\x20border\x20rounded\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "pro_mensaje",
-    "❌\x20Sin\x20datos,\x20usando\x20genérico",
-    "srcObject",
-    "⚠️\x20Consulta\x20parcial\x20de\x20endpoints",
-    "5MNRELN",
-    "querySelector",
-    "\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
-    "fulfilled",
-    "diagnostico-resultado",
-    "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "\x20horas",
-    "display",
-    "appendChild",
-    "Verifique\x20su\x20conexión\x20a\x20internet",
-    "split",
-    "⚠️\x20Error\x20con\x20endpoint\x20básico:",
-    "DATA_MATRIX",
-    "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "none",
-    "aztec",
-    "\x0a\x20\x20\x20\x20</div>",
-    "<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20•\x20<strong>Con\x20códigos\x20adicionales:</strong>\x20",
-    "idPromo",
-    "getUsageStatus",
-    "toFixed",
-    "Actualizar",
-    "dailyLimit",
-    "\x20usos\x20hoy",
-    "),\x20",
-    "data",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20pt-2\x20border-top\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>📅\x20Vigencia:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "\x20\x20\x20•\x20API\x20Key\x20inválida\x20o\x20límites\x20excedidos",
-    "📋\x20Datos\x20de\x20promociones:",
-    "❌\x20Error\x20específico\x20del\x20backend:",
-    "⚠️\x20Usando\x20nombre\x20completo:",
-    "Error\x20al\x20cargar\x20promociones:",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22flex-grow-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22fw-bold\x22\x20style=\x22font-size:\x200.9rem;\x20line-height:\x201.2;\x22>",
-    "stop",
-    "barcode-",
-    "📡\x20Consultando\x20TODOS\x20los\x20endpoints\x20de\x20productos...",
-    "<i\x20class=\x22bi\x20bi-clipboard-check\x22></i>",
-    "getRegistrations",
-    ")<br>",
-    "\x22\x20class=\x22card-img-top\x22\x20alt=\x22",
-    "Procesando\x20productos",
-    "outcome",
-    "\x20|\x20Promociones:\x20nunca",
-    "pro_precioPromo",
-    "\x20productos\x20(",
-    "skus",
-    "#000000",
-    "block",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-primary\x22>",
-    "\x20\x20\x20Posibles\x20causas:",
-    "SKIP_WAITING",
-    "pro_nombrePromo",
-    "keys",
-    "limpiarHistorialBtn",
-    "toString",
-    "match",
-    "clear",
-    "5297068lwFLca",
-    "7010353dijrKe",
-    "Productos:\x20nunca\x20|\x20Promociones:\x20",
-    "auto",
-    "consultarProductoDesdeHistorial",
-    "#btnTexto",
-    "pro_precio_total",
-    "getAll",
-    "✅\x20Códigos\x20válidos:\x20",
-    "mediaDevices",
-    "🔍\x20Buscando\x20promociones\x20para\x20SKU:",
-    "nombre",
-    "🔧\x20Problema\x20de\x20CORS\x20detectado\x20-\x20necesita\x20configuración\x20en\x20backend",
-    "❌\x20Error\x20cargando\x20promociones:",
-    "abs",
-    "<br><br>🌐\x20<strong>Backend:</strong>\x20Error\x20verificando\x20estado",
-    "⚠️\x20Límite\x20local\x20alcanzado.\x20Mensual:\x20",
-    "promociones:",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>🏦\x20Problema\x20de\x20Facturación</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>La\x20facturación\x20no\x20está\x20habilitada\x20en\x20el\x20proyecto\x20correcto\x20(#1070150612422)</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small><a\x20href=\x22https://console.cloud.google.com/billing\x22\x20target=\x22_blank\x22>Ve\x20a\x20Google\x20Cloud\x20Billing</a></small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "752fHdJQa",
-    "pr_sku",
-    "createObjectStore",
-    "QR_CODE",
-    "open",
-    "EAN13",
-    "descripcion",
-    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-start\x20mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-dark\x22\x20style=\x22font-size:\x201rem;\x22>",
-    "\x22\x20formato:\x20",
-    "<div\x20class=\x22alert\x20alert-info\x22\x20role=\x22alert\x22>Buscando\x20producto...</div>",
-    "ultimaActualizacion",
-    "CODIGO",
-    "reload",
-    "warningThreshold",
-    "consultarProductoDesdeModal",
-    "🏦\x20Error\x20de\x20facturación:\x20Habilita\x20billing\x20en\x20Google\x20Cloud",
-    "fallbackTiempo",
-    "🔄\x20Consultando\x20endpoint\x20con\x20códigos\x20de\x20barras...",
-    "splice",
-    "Consultando\x203\x20endpoints...",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>",
-    "Error\x20al\x20copiar:",
-    "13sAbKwk",
-    "estadisticas",
-    "resetMonthlyUsage",
-    "•\x20Mensual:\x20",
-    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-muted\x22\x20style=\x22font-size:0.8rem;\x20margin-top:-2px;\x22>MSI</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Código\x20de\x20barras\x20funcional\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<canvas\x20id=\x22barcode-",
-    "allSettled",
-    ">\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22form-check-label\x22\x20for=\x22enabledCheck\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Activar\x20detección\x20avanzada\x20(Backend)</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Usa\x20servidor\x20dedicado\x20para\x20mejor\x20detección\x20de\x20códigos\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20",
-    "toDateString",
-    "<span\x20class=\x22badge\x20bg-warning\x20text-dark\x20me-2\x20mb-1\x22\x20style=\x22font-size:0.85rem;\x22>🔥\x20",
-    "🎯\x20Producto\x20encontrado\x20con\x20códigos\x20múltiples:",
-    "canvas",
-    "<br>",
-    "toLocaleString",
-    "Hace\x20",
-    "pdf417",
-    "key",
-    "width",
-    "lastUsedDate",
-    "<div\x20class=\x22alert\x20alert-info\x20mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>Mostrando\x20los\x20primeros\x2020\x20productos.\x20Hay\x20",
-    "top",
-    "🔄\x20Primera\x20carga:\x20cargando\x20productos\x20y\x20promociones...",
-    "Productos\x20básicos,\x20códigos\x20de\x20barras\x20y\x20promociones",
-    "\x0a\x20\x20#reader\x20{\x0a\x20\x20\x20\x20position:\x20relative;\x0a\x20\x20\x20\x20width:\x20320px;\x0a\x20\x20\x20\x20height:\x20120px;\x0a\x20\x20\x20\x20overflow:\x20hidden;\x0a\x20\x20\x20\x20margin:\x200\x20auto;\x0a\x20\x20\x20\x20background:\x20#000;\x0a\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20box-shadow:\x200\x202px\x208px\x20rgba(0,0,0,0.15);\x0a\x20\x20}\x0a\x20\x20#reader\x20video\x20{\x0a\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20left:\x2050%;\x0a\x20\x20\x20\x20transform:\x20translateX(-50%);\x0a\x20\x20\x20\x20width:\x20320px\x20!important;\x0a\x20\x20\x20\x20height:\x20120px\x20!important;\x0a\x20\x20\x20\x20object-fit:\x20cover;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20/*\x20Estilos\x20responsivos\x20para\x20nombre\x20del\x20producto\x20*/\x0a\x20\x20.nombre-producto-responsive\x20{\x0a\x20\x20\x20\x20font-size:\x201.4rem;\x0a\x20\x20\x20\x20line-height:\x201.3;\x0a\x20\x20\x20\x20margin-bottom:\x200.5rem;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20768px)\x20{\x0a\x20\x20\x20\x20.nombre-producto-responsive\x20{\x0a\x20\x20\x20\x20\x20\x20font-size:\x201.2rem\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20480px)\x20{\x0a\x20\x20\x20\x20.nombre-producto-responsive\x20{\x0a\x20\x20\x20\x20\x20\x20font-size:\x201.1rem\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x0a\x20\x20/*\x20Estilos\x20responsivos\x20para\x20precios\x20*/\x0a\x20\x20.precio-responsive\x20{\x0a\x20\x20\x20\x20font-size:\x203.5rem;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20768px)\x20{\x0a\x20\x20\x20\x20.precio-responsive\x20{\x0a\x20\x20\x20\x20\x20\x20font-size:\x202.2rem\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20480px)\x20{\x0a\x20\x20\x20\x20.precio-responsive\x20{\x0a\x20\x20\x20\x20\x20\x20font-size:\x201.8rem\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20/*\x20Estilos\x20para\x20código\x20de\x20barras\x20funcional\x20*/\x0a\x20\x20.barcode-canvas\x20{\x0a\x20\x20\x20\x20max-width:\x20100%;\x0a\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20border:\x201px\x20solid\x20#ddd;\x0a\x20\x20\x20\x20border-radius:\x204px;\x0a\x20\x20\x20\x20background:\x20#ffffff;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20.codigo-barras-container\x20{\x0a\x20\x20\x20\x20max-width:\x20300px;\x0a\x20\x20\x20\x20margin:\x200\x20auto;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20768px)\x20{\x0a\x20\x20\x20\x20.codigo-barras-container\x20{\x0a\x20\x20\x20\x20\x20\x20padding:\x202rem\x20!important;\x0a\x20\x20\x20\x20\x20\x20max-width:\x20250px;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.barcode-canvas\x20{\x0a\x20\x20\x20\x20\x20\x20max-width:\x20200px;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20480px)\x20{\x0a\x20\x20\x20\x20.codigo-barras-container\x20{\x0a\x20\x20\x20\x20\x20\x20padding:\x201.5rem\x20!important;\x0a\x20\x20\x20\x20\x20\x20max-width:\x20200px;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.barcode-canvas\x20{\x0a\x20\x20\x20\x20\x20\x20max-width:\x20160px;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a",
-    "log",
-    "\x20\x20\x20💡\x20Ejecuta\x20diagnosticarBackend()\x20para\x20más\x20detalles",
-    "month",
-    "startsWith",
-    "SUCCESS",
-    "promociones-container",
-    "✅\x20Endpoint\x20básico\x20consultado:",
-    "change",
-    "🔍\x20Datos\x20de\x20promoción\x20recibidos:",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20p-2\x20text-center\x22\x20style=\x22background-color:#f8f9fa;\x20border-radius:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>ℹ️\x20Sin\x20promociones\x20activas</small>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
-    "https://verificadorb9-backend.vercel.app/api/promociones-mejoradas",
-    "addEventListener",
-    "image/jpeg",
-    "📋\x20Detalles\x20completos:",
-    "❌\x20Error\x20consultando\x20endpoints",
-    "cantidad",
-    "checked",
-    "push",
-    "codigos_barras",
-    "files",
-    "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Total\x20Normal</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "productos",
-    "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "className",
-    "data-sku",
-    "⚠️\x20Error\x20con\x20endpoint\x20de\x20códigos\x20de\x20barras:",
-    "details",
-    "GET",
-    "#mensajeActualizacion",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22productos-lista\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mb-2\x22>",
-    "codabar_reader",
-    "monthlyUsed",
-    "data_matrix",
-    "getInstance",
-    "backend_mejorado",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-secondary\x20mt-2\x22\x20style=\x22font-size:0.9rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Códigos\x20disponibles:</strong>\x20",
-    "scrollIntoView",
-    "Finalizada\x20en\x20",
-    "script",
-    "Error\x20consultando\x20producto\x20desde\x20historial:",
-    "loadUsage",
-    "race",
-    "code_39",
-    "<small\x20class=\x22text-muted\x20mt-1\x20d-block\x22>",
-    "Promoción\x20",
-    "⚠️\x20Error\x20al\x20procesar\x20producto\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-success\x22>$",
-    "✅\x20Usando\x20promociones\x20desde\x20IndexedDB:",
-    "🚀\x20Usando\x20Barcode\x20Detection\x20API\x20nativa",
-    "🔄\x20No\x20hay\x20promociones\x20locales,\x20consultando\x20servidor...",
-    "filter",
-    "format",
-    "💡\x20El\x20contador\x20del\x20backend\x20se\x20actualiza\x20automáticamente\x20en\x20el\x20servidor",
-    "activo",
-    "Error\x20verificando\x20promociones:",
-    "❌\x20Error\x20con\x20API\x20nativa,\x20usando\x20fallback:",
-    "disabled",
-    "❌\x20No\x20se\x20encontraron\x20códigos\x20válidos\x20en\x20el\x20texto",
-    "\x20días",
-    "❌\x20Error\x20guardando\x20promociones\x20en\x20IndexedDB:",
-    "rejected",
-    "promociones",
-    "right",
-    "count",
-    "codeResult",
-    "#6c757d",
-    "price",
-    "code_128_reader",
-    "find",
-    "🔗\x20Ve\x20a:\x20https://console.cloud.google.com/billing",
-    "all",
-    "\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22font-size:\x200.6rem;\x20padding:\x201px\x204px;\x20border-radius:\x203px;\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20title=\x22Copiar\x20SKU\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📋\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "drawImage",
-    "smooth",
-    "UPC",
-    "<p\x20class=\x22text-muted\x20mb-0\x22>No\x20hay\x20productos\x20escaneados.</p>",
-    "then",
-    "\x0a\x20\x20\x20\x20<div\x20class=\x22row\x20align-items-center\x20justify-content-center\x20g-0\x20mb-4\x22\x20style=\x22padding:\x200px\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "pop",
-    "qty",
-    "🔍\x20Validando:\x20\x22",
-    "✅\x20Todos\x20los\x20endpoints\x20consultados",
-    "maxHeight",
-    "<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20•\x20<strong>Códigos\x20totales:</strong>\x20",
-    "🚫\x20PROBLEMA:\x20Permisos\x20denegados\x20-\x20Vision\x20API\x20no\x20habilitada",
-    "code_128",
-    "warning",
-    "<span\x20class=\x22badge\x20bg-success\x20text-white\x20ms-2\x22\x20style=\x22font-size:0.7rem;\x22>🏷️\x20PROMO</span>",
-    "i2of5_reader",
-    "usarCodigosBarras",
-    "sort",
-    "transaction",
-    "onerror",
-    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-primary\x20ms-2\x22>1\x20unidad</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x20d-block\x22><strong>SKU:</strong>\x20",
-    "visionData",
-    "insertBefore",
-    "<br><br>📊\x20<strong>Uso\x20local:</strong>\x20",
-    "Failed\x20to\x20fetch",
-    "📸\x20Usando\x20Quagga\x20como\x20fallback",
-    "códigos\x20de\x20barras\x20❌\x20(timeout/error)",
-    "createElement",
-    "objectStore",
-    "installBtn",
-    "❌\x20Google\x20Vision\x20no\x20detectó\x20texto",
-    "pro_grupoProductos_primaria",
-    "input",
-    "es-CL",
-    "preventDefault",
-    "installing",
-    "✅\x20Datos\x20locales\x20encontrados:\x20productos:",
-    "Timeout",
-    "Error\x20HTTP:\x20",
-    "⚠️\x20Error\x20al\x20detectar\x20promociones\x20para\x20SKU\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-muted\x22>-</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Sin\x20datos</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-12\x20text-center\x20mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>...\x20y\x20",
-    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-link\x20btn-sm\x20ms-2\x20p-0\x20copiar-btn\x22\x20title=\x22Copiar\x20SKU\x22\x20data-copiar=\x22",
-    "2\x20endpoints\x20completados,\x20finalizando...",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20p-2\x22\x20style=\x22background-color:#f8f9fa;\x20border-radius:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20style=\x22color:#495057;\x22>🏷️\x20PROMOCIONES\x20ACTIVAS</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "code_93",
-    "unshift",
-    "🔑\x20PROBLEMA:\x20API\x20Key\x20inválida",
-    "message",
-    "Promoción\x20especial",
-    "#btnPromociones",
-    "\x20promocion(es)\x20encontrada(s)\x20para\x20SKU:\x20",
-    "ean_reader",
-    "onclick",
-    "totalCodigos",
-    "\x20mensual,\x20",
-    "json",
-    "storageKey",
-    "Backend\x20no\x20disponible\x20-\x20usando\x20detección\x20local",
-    "installed",
-    "🎯\x20PROMOCIÓN\x20ENCONTRADA\x20para\x20SKU\x20",
-    "💾\x20Promociones\x20guardadas\x20en\x20IndexedDB\x20desde\x20servidor",
-    "BILLING_DISABLED",
-    "textContent",
-    "d-none",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22text-muted\x20mb-2\x22>📋\x20Descripción\x20completa\x20de\x20productos:</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22border\x20rounded\x20p-3\x20bg-light\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "replace",
-    "✅\x20Extraído\x20formato\x20completo\x20del\x20nombre:",
-    "onsuccess",
-    "⚠️\x20Solo\x20cantidad\x20extraída:",
-    "nearest",
-    "#198754",
-    "\x0a\x20\x20\x20\x20</div>\x0a\x20\x20",
-    "FECHA_ESCANEO",
-    "11DmuKuC",
-    "bg-danger",
-    "writeText",
-    "postMessage",
-    "CODE128",
-    "🎯\x20Consultando\x20promociones\x20generales...",
-    "✅\x20Instalación\x20aceptada",
-    "focus",
-    "\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22width:\x2060px;\x20height:\x2060px;\x20object-fit:\x20contain;\x20border-radius:\x208px;\x20background:\x20#f8f9fa;\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onerror=\x22this.style.display=\x27none\x27\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "Consultando\x20los\x203\x20endpoints...",
-    "Fecha\x20desconocida",
-    "readonly",
-    "\x22\x20alt=\x22",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>ℹ️\x20Sin\x20promociones</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20hay\x20promociones\x20activas\x20en\x20este\x20momento.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x20text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "monthlyCount",
-    "clipboard",
-    "codabar",
-    "toLowerCase",
-    "readwrite",
-    "✅\x20Google\x20Vision\x20API\x20usada\x20exitosamente\x20-\x20contador\x20local\x20actualizado",
-    "✅\x20Detección\x20avanzada\x20activada",
-    "✅\x20Código\x20detectado\x20(configuración\x20agresiva):",
-    "<div\x20class=\x22alert\x20alert-danger\x22>❓\x20Error\x20desconocido\x20en\x20Google\x20Vision\x20API</div>",
-    "substring",
-    "Backend\x20con\x20error:\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20mb-3\x20p-3\x20bg-light\x20rounded\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-primary\x20d-block\x22\x20style=\x22font-size:\x201.1rem;\x22>",
-    "x-large",
-    "height",
-    "list-group\x20position-absolute\x20w-100",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-decoration-line-through\x20text-muted\x20d-block\x22\x20style=\x22font-size:\x201.1rem;\x22>$",
-    "</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "EAN_8",
-    "🔍\x20Iniciando\x20diagnóstico\x20del\x20backend...",
-    "muted",
-    "result",
-    "\x20-\x20",
-    "Última\x20actualización:\x20",
-    "getUserMedia",
-    "%</small>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22progress\x22\x20style=\x22height:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22progress-bar\x20bg-",
-    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==",
-    "state",
-    "PROMO",
-    "\x0a\x20\x20\x20\x20<div\x20class=\x22mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x20mb-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22fw-medium\x22>",
-    "floor",
-    "showUsageWarning",
-    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-center\x20align-items-center\x20gap-3\x20flex-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20align-items-center\x20gap-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22fw-bold\x20text-danger\x20precio-responsive\x22>$\x20",
-    "🏷️\x20Promociones\x20oficiales\x20filtradas:",
-    "CORS",
-    "\x20para:\x20",
-    "💡\x20Ve\x20a:\x20https://console.cloud.google.com/apis/library/vision.googleapis.com",
-    "<br>•\x20🔍\x20<strong>Códigos\x20detectados:</strong>\x20",
-    "valor_total",
-    "📋\x20Probando\x20configuración:\x20",
-    "https://verificadorb9-backend.vercel.app/api/productos-con-codigos",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "ean_8_reader",
-    "description",
-    "toISOString",
-    "500",
-    "\x0a\x20\x20\x20\x20\x20\x20",
-    "Sin\x20conexión\x20a\x20internet",
-    "onload",
-    "validTo",
-    "sugerenciasDiv",
-    "🔍\x20Actualizando\x20promociones\x20en\x20vista:",
-    "#ffffff",
-    "</span>",
-    "catch",
-    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22d-block\x20text-muted\x22>Cantidad</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "usage",
-    "googleVisionConfig",
-    "\x20promociones\x20(",
-    "pr_name",
-    "25479460IeDIHR",
-    ";\x20expires=",
-    "\x0a\x20\x20\x20\x20<div\x20class=\x22mb-4\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h4\x20class=\x22text-warning\x22>🏷️\x20Productos\x20con\x20Promociones</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-warning\x20text-dark\x22>",
-    "agresiva",
-    "total_price",
-    "Error\x20verificando\x20datos\x20locales:",
-    "12px\x20Arial",
-    "click",
-    "image/png",
-    "large",
-    "⚠️\x20Backend\x20responde\x20pero\x20con\x20error:",
-    "font",
-    "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-warning\x22\x20onclick=\x22mostrarModalPromocionesGenerales()\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔄\x20Reintentar\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
-    "\x20\x20\x20•\x20Variable\x20GOOGLE_VISION_API_KEY\x20no\x20configurada\x20en\x20Vercel",
-    "📸\x20Preparando\x20imagen\x20para\x20Google\x20Vision...",
-    "<img\x20src=\x22",
-    "map",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-12\x20col-md-6\x20col-lg-4\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20h-100\x20border-warning\x22\x20style=\x22cursor:pointer;\x22\x20onclick=\x22mostrarProductoPromocion(\x27",
-    "SKU",
-    "left",
-    "add",
-    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-success\x20fw-bold\x20mt-1\x22>$",
-    "https://media.megaservicio.net",
-    "off",
-    "⚙️\x20Configuración\x20de\x20detección\x20avanzada",
-    "<div\x20class=\x22alert\x20alert-info\x22\x20role=\x22alert\x22>Procesando\x20imagen...</div>",
-    "promociones\x20✅",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22me-3\x20d-flex\x20align-items-center\x20justify-content-center\x20bg-light\x20rounded\x22\x20style=\x22min-width:\x2060px;\x20height:\x2060px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-image\x20text-muted\x22\x20style=\x22font-size:\x201.5rem;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>\x20\x20Total\x20SKUs:</strong>\x20",
-    "?stats=true",
-    "CODE_39",
-    "✅\x20Configuración\x20guardada",
-    "status",
-    "<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Backend:\x20https://contador-apicloudvision.vercel.app/</small><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22btn\x20btn-info\x20btn-sm\x22\x20onclick=\x22diagnosticarBackend()\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔍\x20Probar\x20Conexión\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
-    "\x0a\x20\x20\x20\x20<div\x20class=\x22card\x20shadow-sm\x20mb-3\x20w-100\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-header\x20bg-primary\x20text-white\x20d-flex\x20flex-column\x20flex-md-row\x20justify-content-between\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<strong>Historial\x20de\x20productos\x20escaneados:</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
-    "Formato\x20de\x20promociones\x20inválido",
-    "rawValue",
-    "putImageData",
-    "<small\x20class=\x22text-muted\x20d-block\x22><strong>Código:</strong>\x20",
-    "ITF",
-    "Backend\x20error",
-    "<li\x20class=\x22list-group-item\x20d-flex\x20flex-column\x20flex-md-row\x20justify-content-between\x20align-items-md-center\x20gap-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>",
-    "requestSubmit",
-    "📝\x20Texto\x20completo\x20detectado:",
-    "🧪\x20Probando\x20vision-detect\x20con\x20imagen\x20de\x20prueba...",
-    "bg-success",
-    "Producto\x20desconocido",
-    "\x20longitud:\x20",
-    "data-form-type",
-    "\x20usos\x20mensuales",
-    "serviceWorker",
-    "JsBarcode",
-    "trim",
-    "remove",
-    "pro_tipoPromo",
-    "error",
-    "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>Por\x20favor\x20autoriza\x20el\x20acceso\x20a\x20la\x20cámara</div>",
-    "imageSmoothingEnabled",
-    "❌\x20Formato\x20de\x20promociones\x20inválido",
-    "itf",
-    "fill",
-    "UPC_A",
-    "Nunca",
-    "\x20minutos",
-    "\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "mostrarProductoPromocion",
-    "isArray",
-    "Generando\x20código\x20de\x20barras\x20",
-    "style",
-    "setItem",
-    "max",
-    "verificadorB9DB",
-    "❌\x20Instalación\x20rechazada",
-    "objectStoreNames",
-    "false",
-    "Error\x20generando\x20código\x20de\x20barras:",
-    "💾\x20Guardar",
-    "test",
-    "start",
-    "\x0a\x20\x20\x20\x20<div\x20class=\x22d-flex\x20align-items-center\x20justify-content-end\x20h-100\x22>\x0a\x20\x20\x20\x20\x20\x20<button\x20id=\x22limpiarHistorialBtn\x22\x20class=\x22btn\x20btn-danger\x20btn-sm\x22>Limpiar\x20historial</button>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20",
-    "Combo\x20Especial",
-    ".alert-danger",
-    "Código\x20no\x20válido",
-    "\x22\x20style=\x22font-size:1.2rem;\x20color:#616161;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-clipboard\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-success\x20fs-6\x20mb-1\x20mb-md-0\x20ms-md-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Precio:\x20$",
-    "Error\x20cargando\x20promociones:",
-    "playsinline",
-    "toDataURL",
-    "✅\x20Endpoint\x20/api/stats\x20funciona\x20correctamente",
-    "pr_precio",
-    "detect",
-    "\x20al\x20",
-    "reader",
-    "❌\x20Error\x20al\x20registrar\x20SW:",
-    "video",
-    "No\x20se\x20pudieron\x20cargar\x20productos\x20de\x20ningún\x20endpoint",
-    "getAttribute",
-    "#btnSpinner",
-    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>🌐\x20Google\x20Vision\x20API:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "PRECIO",
-    "productos_ts",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "⚠️\x20<strong>Límite\x20diario\x20cerca:</strong>\x20",
-    "🔄\x20Iniciando\x20detección\x20con\x20Quagga...",
-    "CODE_93",
-    "</div>",
-    "tipo",
-    "ean_13",
-    "i2of5",
-    "getMonth",
-    "qr_code",
-    "\x22\x20(",
-    "fillText",
-    "bg-warning\x20text-dark",
-    "success",
-    "textAnnotations",
-    "?t=",
-    "overflowY",
-    "pr_imagen",
-    "Nunca\x20actualizado",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h5>🏷️\x20No\x20se\x20encontraron\x20productos\x20con\x20promociones</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mb-0\x22>Puede\x20ser\x20que\x20no\x20haya\x20promociones\x20activas\x20en\x20este\x20momento\x20o\x20que\x20el\x20servicio\x20no\x20esté\x20disponible.</p>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
-    "upc_e_reader",
-    "📋\x20Configuración\x20final\x20para\x20códigos\x20largos...",
-    "<span\x20class=\x22badge\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20p-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22spinner-border\x20text-warning\x22\x20role=\x22status\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22visually-hidden\x22>Cargando\x20promociones...</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mt-2\x22>Cargando\x20promociones\x20y\x20productos...</p>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
-    "❌\x20Cancelar",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x20text-center\x20mt-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<strong>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</strong>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
-    "153508mBIOwP",
-    "API_KEY_INVALID",
-    "hide",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-warning\x22\x20style=\x22font-weight:500;\x22>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
-    "🔄\x20Tercera\x20tentativa:\x20imagen\x20original\x20sin\x20procesamiento...",
-    "<i\x20class=\x22bi\x20bi-clipboard\x22></i>",
-    "promoResult",
-    "productosConCodigos",
-    "target",
-    "\x20segundos",
-    "code",
-    "https://contador-apicloudvision.vercel.app/api/stats",
-    "responses",
-    "básico\x20❌\x20(error)",
-    "EAN_13",
-    "position",
-    "⚠️\x20Usando\x20solo\x20detección\x20local",
-    "now",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22spinner-border\x20spinner-border-sm\x20me-2\x22\x20role=\x22status\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🔍\x20Diagnosticando\x20backend...\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mb-3\x20",
-    "stringify",
-    "</small>",
-    "validFrom",
-    "upc_reader",
-    "📏\x20Ampliando\x20imagen\x20pequeña:\x20",
-    "type",
-    "boundingBox",
-    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-12\x20col-lg-8\x20text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22fw-bold\x20nombre-producto-responsive\x22\x20style=\x22color:#616161;\x22>",
-    "❌\x20Backend\x20no\x20disponible:",
-    "statusText",
-    "scope",
-    "autocapitalize",
-    "\x20con\x20datos\x20disponibles)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "🌐\x20<strong>Backend:</strong>\x20Verificando...",
-    "🧮\x20Calculando\x20precio\x20total:\x20",
-    "❌\x20Endpoint\x20/api/stats\x20falló:",
-    "🔧\x20Error\x20500:\x20Problema\x20interno\x20del\x20servidor",
-    "slice",
-    "value",
-    "findIndex",
-    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22d-block\x20text-muted\x22>Precio\x20promocional</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
-    "\x20endpoints\x20consultados",
-    "Error\x20",
-    "🔍\x20Código\x20candidato\x20encontrado:\x20",
-    "disconnect",
-    "POST",
-    "Error\x20obteniendo\x20promociones:",
-    "getElementById",
-    "btn-outline-primary",
-    "no-store",
-    "mensaje",
-    "🏷️\x20",
-    "Algunos\x20endpoints\x20fallaron\x20(",
-    "saveUsage",
-    "data-copiar",
-    "2278377sRCMEp",
-    "round",
-    "✅\x20Extraído\x20formato\x20con\x20peso\x20del\x20nombre:",
-    "\x20promociones",
-    "🔄\x20Probando\x20configuración\x20alternativa...",
-  ];
-  _0x121e = function () {
-    return _0x2a53f6;
-  };
-  return _0x121e();
-}
-const form = document["getElementById"](_0x765170(0x2ff)),
-  inputCodigo = document[_0x765170(0x2ce)]("codigo"),
-  readerDiv = document[_0x765170(0x2ce)](_0x765170(0x27c)),
-  ayudaTexto = document[_0x765170(0x2ce)]("ayuda"),
-  installBtn = document[_0x765170(0x2ce)](_0x765170(0x47c));
-inputCodigo[_0x765170(0x347)]("autocomplete", _0x765170(0x238)),
-  inputCodigo["setAttribute"]("spellcheck", _0x765170(0x26b)),
-  inputCodigo[_0x765170(0x347)](_0x765170(0x2be), _0x765170(0x238)),
-  inputCodigo[_0x765170(0x347)]("autocorrect", "off"),
-  inputCodigo[_0x765170(0x347)](_0x765170(0x251), _0x765170(0x35c)),
-  form[_0x765170(0x347)]("autocomplete", "off");
+})(_0x2e04, 0x79b9f);
+const form = document[_0x1b5bb5(0x185)](_0x1b5bb5(0x2db)),
+  inputCodigo = document["getElementById"](_0x1b5bb5(0x1a0)),
+  readerDiv = document[_0x1b5bb5(0x185)](_0x1b5bb5(0x197)),
+  ayudaTexto = document[_0x1b5bb5(0x185)](_0x1b5bb5(0x175)),
+  installBtn = document[_0x1b5bb5(0x185)]("installBtn");
+inputCodigo[_0x1b5bb5(0x2bf)](_0x1b5bb5(0x19a), _0x1b5bb5(0x2ec)),
+  inputCodigo[_0x1b5bb5(0x2bf)]("spellcheck", _0x1b5bb5(0x2d5)),
+  inputCodigo[_0x1b5bb5(0x2bf)](_0x1b5bb5(0xe6), _0x1b5bb5(0x2ec)),
+  inputCodigo[_0x1b5bb5(0x2bf)]("autocorrect", _0x1b5bb5(0x2ec)),
+  inputCodigo["setAttribute"]("data-form-type", "other"),
+  form[_0x1b5bb5(0x2bf)](_0x1b5bb5(0x19a), _0x1b5bb5(0x2ec));
 let scannerActivo = ![],
   deferredPrompt,
   puedeEscanear = !![],
   ultimoCodigoEscaneado = "",
   datosYaCargados = ![];
-if (!window[_0x765170(0x254)]) {
-  const script = document[_0x765170(0x47a)](_0x765170(0x43b));
-  (script[_0x765170(0x345)] = _0x765170(0x2e2)),
-    (script[_0x765170(0x2f2)] = !![]),
-    document["head"]["appendChild"](script);
+if (!window["JsBarcode"]) {
+  const script = document[_0x1b5bb5(0x14e)](_0x1b5bb5(0x2bb));
+  (script[_0x1b5bb5(0x37a)] = _0x1b5bb5(0x23b)),
+    (script["async"] = !![]),
+    document[_0x1b5bb5(0x346)][_0x1b5bb5(0xc1)](script);
 }
 const GOOGLE_VISION_CONFIG = {
   apiKey: "",
@@ -783,644 +54,655 @@ const GOOGLE_VISION_CONFIG = {
 };
 class GoogleVisionUsageTracker {
   constructor() {
-    const _0x596dc7 = _0x765170;
-    (this[_0x596dc7(0x498)] = "googleVisionUsage"), this["loadUsage"]();
+    const _0x5ca93a = _0x1b5bb5;
+    (this[_0x5ca93a(0x1f0)] = "googleVisionUsage"), this[_0x5ca93a(0x164)]();
   }
-  [_0x765170(0x43d)]() {
-    const _0x4d0690 = _0x765170,
-      _0x4ff68f = localStorage[_0x4d0690(0x341)](this["storageKey"]);
-    _0x4ff68f
-      ? (this[_0x4d0690(0x21d)] = JSON[_0x4d0690(0x336)](_0x4ff68f))
-      : this["resetMonthlyUsage"]();
-    const _0x4cec3e = new Date()[_0x4d0690(0x28d)]();
-    this[_0x4d0690(0x21d)][_0x4d0690(0x415)] !== _0x4cec3e &&
-      this[_0x4d0690(0x3fe)]();
+  [_0x1b5bb5(0x164)]() {
+    const _0x21790f = _0x1b5bb5,
+      _0x1638c4 = localStorage[_0x21790f(0x1bc)](this[_0x21790f(0x1f0)]);
+    _0x1638c4
+      ? (this[_0x21790f(0x33b)] = JSON["parse"](_0x1638c4))
+      : this[_0x21790f(0x341)]();
+    const _0x29de4f = new Date()[_0x21790f(0x20a)]();
+    this[_0x21790f(0x33b)][_0x21790f(0xa1)] !== _0x29de4f &&
+      this["resetMonthlyUsage"]();
   }
-  [_0x765170(0x3fe)]() {
-    const _0x4dce90 = _0x765170;
-    (this[_0x4dce90(0x21d)] = {
-      month: new Date()[_0x4dce90(0x28d)](),
-      year: new Date()["getFullYear"](),
+  [_0x1b5bb5(0x341)]() {
+    const _0x5f2b4a = _0x1b5bb5;
+    (this[_0x5f2b4a(0x33b)] = {
+      month: new Date()[_0x5f2b4a(0x20a)](),
+      year: new Date()[_0x5f2b4a(0xcc)](),
       monthlyCount: 0x0,
       dailyCount: 0x0,
-      lastUsedDate: new Date()[_0x4dce90(0x403)](),
+      lastUsedDate: new Date()[_0x5f2b4a(0x351)](),
       history: [],
     }),
-      this[_0x4dce90(0x2d4)]();
+      this[_0x5f2b4a(0x169)]();
   }
-  [_0x765170(0x2d4)]() {
-    const _0x3dc0ff = _0x765170;
-    localStorage[_0x3dc0ff(0x266)](
-      this[_0x3dc0ff(0x498)],
-      JSON[_0x3dc0ff(0x2b3)](this[_0x3dc0ff(0x21d)])
+  [_0x1b5bb5(0x169)]() {
+    const _0x46238e = _0x1b5bb5;
+    localStorage[_0x46238e(0x358)](
+      this["storageKey"],
+      JSON[_0x46238e(0x328)](this["usage"])
     );
   }
-  [_0x765170(0x2fb)]() {
-    const _0x2aae5e = _0x765170,
-      _0x234dea = new Date()[_0x2aae5e(0x403)]();
-    this[_0x2aae5e(0x21d)]["lastUsedDate"] !== _0x234dea &&
-      ((this[_0x2aae5e(0x21d)]["dailyCount"] = 0x0),
-      (this[_0x2aae5e(0x21d)][_0x2aae5e(0x40d)] = _0x234dea),
-      this[_0x2aae5e(0x2d4)]());
-    const _0x3ef89e =
-        this[_0x2aae5e(0x21d)][_0x2aae5e(0x4b7)] <
-        GOOGLE_VISION_CONFIG[_0x2aae5e(0x2e9)],
-      _0x1bde9b =
-        this[_0x2aae5e(0x21d)][_0x2aae5e(0x30c)] <
-        GOOGLE_VISION_CONFIG[_0x2aae5e(0x3b0)];
-    return _0x3ef89e && _0x1bde9b;
+  [_0x1b5bb5(0x2e2)]() {
+    const _0x592c4c = _0x1b5bb5,
+      _0x4fe4ee = new Date()["toDateString"]();
+    this[_0x592c4c(0x33b)][_0x592c4c(0x2f8)] !== _0x4fe4ee &&
+      ((this[_0x592c4c(0x33b)][_0x592c4c(0x1d1)] = 0x0),
+      (this[_0x592c4c(0x33b)][_0x592c4c(0x2f8)] = _0x4fe4ee),
+      this[_0x592c4c(0x169)]());
+    const _0x5ab9ea =
+        this["usage"][_0x592c4c(0x269)] <
+        GOOGLE_VISION_CONFIG[_0x592c4c(0x25d)],
+      _0x12ca62 =
+        this["usage"][_0x592c4c(0x1d1)] < GOOGLE_VISION_CONFIG["dailyLimit"];
+    return _0x5ab9ea && _0x12ca62;
   }
-  ["recordUsage"]() {
-    const _0x2bc520 = _0x765170;
-    this["usage"][_0x2bc520(0x4b7)]++,
-      this[_0x2bc520(0x21d)][_0x2bc520(0x30c)]++,
-      this[_0x2bc520(0x21d)]["history"][_0x2bc520(0x424)]({
-        date: new Date()[_0x2bc520(0x211)](),
-        count: this[_0x2bc520(0x21d)][_0x2bc520(0x4b7)],
+  [_0x1b5bb5(0xcd)]() {
+    const _0x12da39 = _0x1b5bb5;
+    this["usage"]["monthlyCount"]++,
+      this[_0x12da39(0x33b)]["dailyCount"]++,
+      this[_0x12da39(0x33b)][_0x12da39(0x13a)]["push"]({
+        date: new Date()[_0x12da39(0x271)](),
+        count: this["usage"]["monthlyCount"],
       }),
-      this[_0x2bc520(0x21d)]["history"][_0x2bc520(0x37d)] > 0x32 &&
-        (this[_0x2bc520(0x21d)]["history"] =
-          this[_0x2bc520(0x21d)][_0x2bc520(0x380)][_0x2bc520(0x2c4)](-0x32)),
-      this["saveUsage"]();
+      this["usage"]["history"][_0x12da39(0x359)] > 0x32 &&
+        (this[_0x12da39(0x33b)][_0x12da39(0x13a)] =
+          this["usage"][_0x12da39(0x13a)][_0x12da39(0x19f)](-0x32)),
+      this[_0x12da39(0x169)]();
   }
-  [_0x765170(0x3ad)]() {
-    const _0x2cf69d = _0x765170;
+  ["getUsageStatus"]() {
+    const _0x3b6bf4 = _0x1b5bb5;
     return {
-      monthlyUsed: this["usage"][_0x2cf69d(0x4b7)],
-      monthlyLimit: GOOGLE_VISION_CONFIG[_0x2cf69d(0x2e9)],
-      dailyUsed: this[_0x2cf69d(0x21d)][_0x2cf69d(0x30c)],
+      monthlyUsed: this[_0x3b6bf4(0x33b)][_0x3b6bf4(0x269)],
+      monthlyLimit: GOOGLE_VISION_CONFIG[_0x3b6bf4(0x25d)],
+      dailyUsed: this[_0x3b6bf4(0x33b)][_0x3b6bf4(0x1d1)],
       dailyLimit: GOOGLE_VISION_CONFIG["dailyLimit"],
       remainingMonthly:
-        GOOGLE_VISION_CONFIG[_0x2cf69d(0x2e9)] -
-        this[_0x2cf69d(0x21d)]["monthlyCount"],
+        GOOGLE_VISION_CONFIG["monthlyLimit"] - this["usage"][_0x3b6bf4(0x269)],
       remainingDaily:
-        GOOGLE_VISION_CONFIG["dailyLimit"] -
-        this[_0x2cf69d(0x21d)][_0x2cf69d(0x30c)],
+        GOOGLE_VISION_CONFIG[_0x3b6bf4(0x102)] -
+        this[_0x3b6bf4(0x33b)]["dailyCount"],
       canUse: this["canUseAPI"](),
     };
   }
-  [_0x765170(0x204)]() {
-    const _0x50e0c5 = _0x765170,
-      _0x4a2981 = this["getUsageStatus"]();
-    if (_0x4a2981[_0x50e0c5(0x433)] >= GOOGLE_VISION_CONFIG[_0x50e0c5(0x3f3)])
+  [_0x1b5bb5(0x367)]() {
+    const _0x32aa2f = _0x1b5bb5,
+      _0xeafb90 = this[_0x32aa2f(0x287)]();
+    if (_0xeafb90[_0x32aa2f(0xcb)] >= GOOGLE_VISION_CONFIG[_0x32aa2f(0x1ff)])
       return (
         "⚠️\x20<strong>Límite\x20cerca:</strong>\x20" +
-        _0x4a2981["monthlyUsed"] +
+        _0xeafb90[_0x32aa2f(0xcb)] +
         "/" +
-        _0x4a2981[_0x50e0c5(0x2e9)] +
-        _0x50e0c5(0x252)
+        _0xeafb90["monthlyLimit"] +
+        _0x32aa2f(0x16a)
       );
-    if (_0x4a2981["dailyUsed"] >= GOOGLE_VISION_CONFIG[_0x50e0c5(0x3b0)] * 0.8)
+    if (
+      _0xeafb90[_0x32aa2f(0xbf)] >=
+      GOOGLE_VISION_CONFIG[_0x32aa2f(0x102)] * 0.8
+    )
       return (
-        _0x50e0c5(0x286) +
-        _0x4a2981[_0x50e0c5(0x326)] +
+        _0x32aa2f(0x1c2) +
+        _0xeafb90[_0x32aa2f(0xbf)] +
         "/" +
-        _0x4a2981[_0x50e0c5(0x3b0)] +
-        _0x50e0c5(0x3b1)
+        _0xeafb90["dailyLimit"] +
+        _0x32aa2f(0x318)
       );
     return null;
   }
 }
 const visionUsageTracker = new GoogleVisionUsageTracker();
-async function detectarConGoogleVision(_0x36cb75) {
-  const _0x473480 = _0x765170;
-  console[_0x473480(0x413)](_0x473480(0x22f));
-  const _0x8ce8b5 = document["createElement"](_0x473480(0x406)),
-    _0x184e77 = _0x8ce8b5["getContext"]("2d");
-  let { width: _0x32ca81, height: _0x22d0e0 } = _0x36cb75;
-  const _0x6599ff = 0x400;
-  if (_0x32ca81 > _0x6599ff || _0x22d0e0 > _0x6599ff) {
-    const _0x416961 = Math["min"](_0x6599ff / _0x32ca81, _0x6599ff / _0x22d0e0);
-    (_0x32ca81 *= _0x416961), (_0x22d0e0 *= _0x416961);
+async function detectarConGoogleVision(_0x4c49af) {
+  const _0x40e38b = _0x1b5bb5;
+  console[_0x40e38b(0x1f3)](_0x40e38b(0x368));
+  const _0x397c07 = document[_0x40e38b(0x14e)](_0x40e38b(0x29a)),
+    _0x5af4f0 = _0x397c07[_0x40e38b(0x331)]("2d");
+  let { width: _0x268fc9, height: _0x29db0c } = _0x4c49af;
+  const _0x2ed735 = 0x400;
+  if (_0x268fc9 > _0x2ed735 || _0x29db0c > _0x2ed735) {
+    const _0x344a58 = Math["min"](_0x2ed735 / _0x268fc9, _0x2ed735 / _0x29db0c);
+    (_0x268fc9 *= _0x344a58), (_0x29db0c *= _0x344a58);
   }
-  (_0x8ce8b5[_0x473480(0x40c)] = _0x32ca81),
-    (_0x8ce8b5["height"] = _0x22d0e0),
-    _0x184e77["drawImage"](_0x36cb75, 0x0, 0x0, _0x32ca81, _0x22d0e0);
-  const _0x2d5492 = _0x8ce8b5["toDataURL"](_0x473480(0x41f), 0.9);
-  console[_0x473480(0x413)]("📡\x20Enviando\x20a\x20backend\x20proxy...");
+  (_0x397c07[_0x40e38b(0xfc)] = _0x268fc9),
+    (_0x397c07["height"] = _0x29db0c),
+    _0x5af4f0[_0x40e38b(0x347)](_0x4c49af, 0x0, 0x0, _0x268fc9, _0x29db0c);
+  const _0x3754ea = _0x397c07["toDataURL"](_0x40e38b(0x29e), 0.9);
+  console[_0x40e38b(0x1f3)]("📡\x20Enviando\x20a\x20backend\x20proxy...");
   try {
-    const _0x39aaca = await fetch(
-      "https://contador-apicloudvision.vercel.app/api/vision-detect",
-      {
-        method: "POST",
-        headers: { "Content-Type": _0x473480(0x33d) },
-        body: JSON["stringify"]({
-          image: _0x2d5492,
-          userAgent: navigator[_0x473480(0x318)][_0x473480(0x1ef)](0x0, 0x32),
-          timestamp: new Date()[_0x473480(0x211)](),
-        }),
-      }
-    );
-    if (!_0x39aaca["ok"]) {
-      const _0x4ed217 = await _0x39aaca["text"]();
+    const _0x1bd912 = await fetch(_0x40e38b(0x2fd), {
+      method: "POST",
+      headers: { "Content-Type": _0x40e38b(0x108) },
+      body: JSON[_0x40e38b(0x328)]({
+        image: _0x3754ea,
+        userAgent: navigator[_0x40e38b(0xfd)][_0x40e38b(0xb0)](0x0, 0x32),
+        timestamp: new Date()["toISOString"](),
+      }),
+    });
+    if (!_0x1bd912["ok"]) {
+      const _0x2618b5 = await _0x1bd912[_0x40e38b(0x294)]();
       throw new Error(
-        "Backend\x20error:\x20" +
-          _0x39aaca["status"] +
-          _0x473480(0x1fb) +
-          _0x4ed217
+        _0x40e38b(0x244) + _0x1bd912[_0x40e38b(0x1af)] + "\x20-\x20" + _0x2618b5
       );
     }
-    const _0x2eeb00 = await _0x39aaca[_0x473480(0x497)]();
-    console[_0x473480(0x413)]("📊\x20Respuesta\x20del\x20backend:", _0x2eeb00);
-    if (_0x2eeb00[_0x473480(0x292)])
+    const _0x9207e7 = await _0x1bd912["json"]();
+    console[_0x40e38b(0x1f3)](_0x40e38b(0x26d), _0x9207e7);
+    if (_0x9207e7[_0x40e38b(0x206)])
       return (
-        visionUsageTracker["recordUsage"](),
-        console[_0x473480(0x413)](_0x473480(0x1eb)),
-        console[_0x473480(0x413)](_0x473480(0x449)),
-        extraerCodigoDeTexto(_0x2eeb00[_0x473480(0x474)])
+        visionUsageTracker[_0x40e38b(0xcd)](),
+        console[_0x40e38b(0x1f3)](_0x40e38b(0x17c)),
+        console[_0x40e38b(0x1f3)](_0x40e38b(0x306)),
+        extraerCodigoDeTexto(_0x9207e7["visionData"])
       );
-    else
-      throw new Error(
-        _0x2eeb00[_0x473480(0x258)] || "Error\x20en\x20detección"
-      );
-  } catch (_0x131ec9) {
-    console[_0x473480(0x413)](_0x473480(0x3b7), _0x131ec9[_0x473480(0x48f)]);
-    if (_0x131ec9[_0x473480(0x48f)][_0x473480(0x37b)](_0x473480(0x212)))
-      console[_0x473480(0x413)](_0x473480(0x2c3)),
-        console["log"](_0x473480(0x3cb)),
-        console[_0x473480(0x413)](_0x473480(0x22e)),
-        console[_0x473480(0x413)](
-          "\x20\x20\x20•\x20Problema\x20en\x20el\x20código\x20de\x20la\x20función\x20serverless"
+    else throw new Error(_0x9207e7[_0x40e38b(0x12e)] || _0x40e38b(0xbc));
+  } catch (_0x561b9b) {
+    console[_0x40e38b(0x1f3)](_0x40e38b(0x242), _0x561b9b[_0x40e38b(0x254)]);
+    if (_0x561b9b[_0x40e38b(0x254)][_0x40e38b(0x278)]("500"))
+      console[_0x40e38b(0x1f3)](_0x40e38b(0x327)),
+        console[_0x40e38b(0x1f3)](_0x40e38b(0x210)),
+        console[_0x40e38b(0x1f3)](_0x40e38b(0x2a1)),
+        console[_0x40e38b(0x1f3)](_0x40e38b(0x1d2)),
+        console[_0x40e38b(0x1f3)](
+          "\x20\x20\x20•\x20API\x20Key\x20inválida\x20o\x20límites\x20excedidos"
         ),
-        console[_0x473480(0x413)](_0x473480(0x3b5)),
-        console[_0x473480(0x413)](_0x473480(0x414));
+        console["log"](
+          "\x20\x20\x20💡\x20Ejecuta\x20diagnosticarBackend()\x20para\x20más\x20detalles"
+        );
     else {
       if (
-        _0x131ec9[_0x473480(0x48f)][_0x473480(0x37b)](_0x473480(0x207)) ||
-        _0x131ec9[_0x473480(0x48f)][_0x473480(0x37b)](_0x473480(0x477)) ||
-        _0x131ec9[_0x473480(0x48f)][_0x473480(0x37b)]("NetworkError")
+        _0x561b9b[_0x40e38b(0x254)][_0x40e38b(0x278)]("CORS") ||
+        _0x561b9b["message"][_0x40e38b(0x278)](_0x40e38b(0x20b)) ||
+        _0x561b9b[_0x40e38b(0x254)][_0x40e38b(0x278)](_0x40e38b(0x21f))
       )
-        throw new Error(_0x473480(0x309));
+        throw new Error(_0x40e38b(0x262));
     }
-    throw _0x131ec9;
+    throw _0x561b9b;
   }
 }
-function extraerCodigoDeTexto(_0x30f5cc) {
-  const _0x21aea5 = _0x765170,
-    _0x25d1a2 = _0x30f5cc[_0x21aea5(0x2ab)][0x0]?.[_0x21aea5(0x293)] || [];
-  if (_0x25d1a2[_0x21aea5(0x37d)] === 0x0)
-    return console[_0x21aea5(0x413)](_0x21aea5(0x47d)), null;
-  const _0x334139 = _0x25d1a2[0x0]?.[_0x21aea5(0x210)] || "";
-  console[_0x21aea5(0x413)](_0x21aea5(0x24c), _0x334139);
-  const _0x4d834b = [
+function _0x1f33(_0x38db8d, _0x48a747) {
+  const _0x2e04ad = _0x2e04();
+  return (
+    (_0x1f33 = function (_0x1f33bf, _0x311a89) {
+      _0x1f33bf = _0x1f33bf - 0x91;
+      let _0xd202de = _0x2e04ad[_0x1f33bf];
+      return _0xd202de;
+    }),
+    _0x1f33(_0x38db8d, _0x48a747)
+  );
+}
+function extraerCodigoDeTexto(_0x3fb7bd) {
+  const _0x23c358 = _0x1b5bb5,
+    _0x16a489 = _0x3fb7bd["responses"][0x0]?.[_0x23c358(0x2d3)] || [];
+  if (_0x16a489["length"] === 0x0)
+    return console[_0x23c358(0x1f3)](_0x23c358(0x1a3)), null;
+  const _0x12a714 = _0x16a489[0x0]?.[_0x23c358(0x30c)] || "";
+  console[_0x23c358(0x1f3)](_0x23c358(0x28d), _0x12a714);
+  const _0x5f437a = [
     /\b(\d{13})\b/g,
     /\b(\d{12})\b/g,
     /\b(\d{8})\b/g,
     /\b(\d{6,8})\b/g,
     /\b([A-Z0-9\-]{4,20})\b/g,
   ];
-  for (const _0x1ce6b2 of _0x4d834b) {
-    const _0x2a4fec = [..._0x334139["matchAll"](_0x1ce6b2)];
-    for (const _0x427a52 of _0x2a4fec) {
-      const _0x22f027 = _0x427a52[0x1][_0x21aea5(0x255)]();
-      console[_0x21aea5(0x413)](_0x21aea5(0x2ca) + _0x22f027);
-      if (validarCodigoPorLongitud(_0x22f027))
+  for (const _0x5627b1 of _0x5f437a) {
+    const _0x3abbf8 = [..._0x12a714[_0x23c358(0x183)](_0x5627b1)];
+    for (const _0x2de929 of _0x3abbf8) {
+      const _0x34688a = _0x2de929[0x1][_0x23c358(0x219)]();
+      console[_0x23c358(0x1f3)](_0x23c358(0x1d5) + _0x34688a);
+      if (validarCodigoPorLongitud(_0x34688a))
         return (
-          console["log"](
-            "✅\x20Código\x20válido\x20seleccionado:\x20" + _0x22f027
-          ),
-          _0x22f027
+          console[_0x23c358(0x1f3)](_0x23c358(0x2c1) + _0x34688a), _0x34688a
         );
     }
   }
-  return console[_0x21aea5(0x413)](_0x21aea5(0x44e)), null;
+  return (
+    console[_0x23c358(0x1f3)](
+      "❌\x20No\x20se\x20encontraron\x20códigos\x20válidos\x20en\x20el\x20texto"
+    ),
+    null
+  );
 }
-function validarCodigoPorLongitud(_0x4d4637) {
-  const _0x4b1755 = _0x765170;
-  if (/^\d{13}$/[_0x4b1755(0x26e)](_0x4d4637)) return !![];
-  if (/^\d{12}$/[_0x4b1755(0x26e)](_0x4d4637)) return !![];
-  if (/^\d{8}$/[_0x4b1755(0x26e)](_0x4d4637)) return !![];
-  if (/^\d{6,8}$/[_0x4b1755(0x26e)](_0x4d4637)) return !![];
+function validarCodigoPorLongitud(_0x22ae11) {
+  const _0x48972f = _0x1b5bb5;
+  if (/^\d{13}$/[_0x48972f(0xdc)](_0x22ae11)) return !![];
+  if (/^\d{12}$/[_0x48972f(0xdc)](_0x22ae11)) return !![];
+  if (/^\d{8}$/[_0x48972f(0xdc)](_0x22ae11)) return !![];
+  if (/^\d{6,8}$/["test"](_0x22ae11)) return !![];
   if (
-    /^[A-Z0-9\-]{4,20}$/["test"](_0x4d4637) &&
-    _0x4d4637[_0x4b1755(0x37d)] >= 0x4
+    /^[A-Z0-9\-]{4,20}$/[_0x48972f(0xdc)](_0x22ae11) &&
+    _0x22ae11["length"] >= 0x4
   )
     return !![];
   return ![];
 }
 async function diagnosticarBackend() {
-  const _0x44ac29 = _0x765170;
-  console[_0x44ac29(0x413)](_0x44ac29(0x1f8));
-  const _0x159d73 = document[_0x44ac29(0x2ce)](_0x44ac29(0x39e));
-  _0x159d73 && (_0x159d73[_0x44ac29(0x2ea)] = _0x44ac29(0x2b1));
-  let _0x25cb90 = "";
+  const _0x3ce762 = _0x1b5bb5;
+  console[_0x3ce762(0x1f3)](
+    "🔍\x20Iniciando\x20diagnóstico\x20del\x20backend..."
+  );
+  const _0x503a3f = document[_0x3ce762(0x185)]("diagnostico-resultado");
+  _0x503a3f && (_0x503a3f[_0x3ce762(0x12a)] = _0x3ce762(0x1e8));
+  let _0x1aba83 = "";
   try {
-    const _0x1b4ac6 = await fetch(_0x44ac29(0x2aa));
-    if (_0x1b4ac6["ok"]) {
-      console[_0x44ac29(0x413)](_0x44ac29(0x278));
-      const _0x37f88a = await _0x1b4ac6[_0x44ac29(0x497)]();
-      console[_0x44ac29(0x413)]("📊\x20Estadísticas:", _0x37f88a),
-        (_0x25cb90 += _0x44ac29(0x2ec));
+    const _0x566e71 = await fetch(_0x3ce762(0xb8));
+    if (_0x566e71["ok"]) {
+      console[_0x3ce762(0x1f3)](
+        "✅\x20Endpoint\x20/api/stats\x20funciona\x20correctamente"
+      );
+      const _0x5e4c8f = await _0x566e71["json"]();
+      console[_0x3ce762(0x1f3)]("📊\x20Estadísticas:", _0x5e4c8f),
+        (_0x1aba83 += _0x3ce762(0x276));
     } else
-      console[_0x44ac29(0x413)](_0x44ac29(0x2c2), _0x1b4ac6[_0x44ac29(0x241)]),
-        (_0x25cb90 +=
-          "<div\x20class=\x22alert\x20alert-danger\x22>❌\x20Endpoint\x20/api/stats\x20falló:\x20" +
-          _0x1b4ac6[_0x44ac29(0x241)] +
-          "</div>");
-    console[_0x44ac29(0x413)](_0x44ac29(0x24d));
-    const _0x22285d = await fetch(_0x44ac29(0x388), {
-        method: _0x44ac29(0x2cc),
-        headers: { "Content-Type": _0x44ac29(0x33d) },
-        body: JSON[_0x44ac29(0x2b3)]({
-          image: _0x44ac29(0x1ff),
+      console[_0x3ce762(0x1f3)](_0x3ce762(0x1e5), _0x566e71[_0x3ce762(0x1af)]),
+        (_0x1aba83 +=
+          _0x3ce762(0x2da) + _0x566e71[_0x3ce762(0x1af)] + _0x3ce762(0x154));
+    console[_0x3ce762(0x1f3)](_0x3ce762(0x353));
+    const _0x174464 = await fetch(_0x3ce762(0x2fd), {
+        method: "POST",
+        headers: { "Content-Type": _0x3ce762(0x108) },
+        body: JSON["stringify"]({
+          image: _0x3ce762(0x207),
           userId: "diagnostic",
         }),
       }),
-      _0x3ba9d1 = await _0x22285d[_0x44ac29(0x497)]();
-    console[_0x44ac29(0x413)](_0x44ac29(0x382), _0x3ba9d1),
-      console[_0x44ac29(0x413)](_0x44ac29(0x322), _0x22285d[_0x44ac29(0x241)]);
-    if (_0x22285d["status"] === 0x1f4) {
-      console[_0x44ac29(0x413)](
-        "🔧\x20Error\x20500\x20detectado\x20-\x20Analizando\x20causa\x20específica:"
-      );
-      if (_0x3ba9d1[_0x44ac29(0x42d)]) {
-        if (_0x3ba9d1["details"][_0x44ac29(0x37b)]("BILLING_DISABLED"))
-          console[_0x44ac29(0x413)](_0x44ac29(0x384)),
-            console[_0x44ac29(0x413)](_0x44ac29(0x306)),
-            console[_0x44ac29(0x413)](_0x44ac29(0x45a)),
-            (_0x25cb90 += _0x44ac29(0x3e5));
+      _0x17432f = await _0x174464[_0x3ce762(0x193)]();
+    console["log"]("🧪\x20Respuesta\x20completa\x20vision-detect:", _0x17432f),
+      console[_0x3ce762(0x1f3)](_0x3ce762(0x36a), _0x174464[_0x3ce762(0x1af)]);
+    if (_0x174464[_0x3ce762(0x1af)] === 0x1f4) {
+      console[_0x3ce762(0x1f3)](_0x3ce762(0x281));
+      if (_0x17432f[_0x3ce762(0x288)]) {
+        if (_0x17432f["details"]["includes"](_0x3ce762(0x297)))
+          console[_0x3ce762(0x1f3)](_0x3ce762(0x2af)),
+            console[_0x3ce762(0x1f3)](_0x3ce762(0x352)),
+            console[_0x3ce762(0x1f3)](_0x3ce762(0x1fe)),
+            (_0x1aba83 += _0x3ce762(0x149));
         else {
-          if (_0x3ba9d1[_0x44ac29(0x42d)][_0x44ac29(0x37b)](_0x44ac29(0x2a0)))
-            console["log"](_0x44ac29(0x48e)), (_0x25cb90 += _0x44ac29(0x38f));
+          if (_0x17432f[_0x3ce762(0x288)]["includes"](_0x3ce762(0x133)))
+            console[_0x3ce762(0x1f3)](
+              "🔑\x20PROBLEMA:\x20API\x20Key\x20inválida"
+            ),
+              (_0x1aba83 += _0x3ce762(0x148));
           else
-            _0x3ba9d1["details"][_0x44ac29(0x37b)](_0x44ac29(0x324))
-              ? (console[_0x44ac29(0x413)](_0x44ac29(0x46a)),
-                console[_0x44ac29(0x413)](_0x44ac29(0x209)),
-                (_0x25cb90 +=
-                  "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>🚫\x20Vision\x20API\x20No\x20Habilitada</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>La\x20Vision\x20API\x20no\x20está\x20habilitada\x20en\x20tu\x20proyecto</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small><a\x20href=\x22https://console.cloud.google.com/apis/library/vision.googleapis.com\x22\x20target=\x22_blank\x22>Habilitar\x20Vision\x20API</a></small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"))
-              : (console[_0x44ac29(0x413)](
+            _0x17432f[_0x3ce762(0x288)][_0x3ce762(0x278)](_0x3ce762(0xe4))
+              ? (console[_0x3ce762(0x1f3)](_0x3ce762(0x2ba)),
+                console[_0x3ce762(0x1f3)](_0x3ce762(0x321)),
+                (_0x1aba83 += _0x3ce762(0xa3)))
+              : (console[_0x3ce762(0x1f3)](
                   "❓\x20Error\x20desconocido\x20en\x20Google\x20Vision\x20API"
                 ),
-                console[_0x44ac29(0x413)](
-                  _0x44ac29(0x420),
-                  _0x3ba9d1[_0x44ac29(0x42d)]
+                console[_0x3ce762(0x1f3)](
+                  "📋\x20Detalles\x20completos:",
+                  _0x17432f[_0x3ce762(0x288)]
                 ),
-                (_0x25cb90 += _0x44ac29(0x1ee)));
+                (_0x1aba83 += _0x3ce762(0x184)));
         }
       }
     } else
-      _0x22285d[_0x44ac29(0x241)] === 0xc8 &&
-        (console[_0x44ac29(0x413)](
-          "🎉\x20¡Google\x20Vision\x20API\x20funcionando\x20correctamente!"
-        ),
-        (_0x25cb90 += _0x44ac29(0x37a)));
-  } catch (_0x178dda) {
-    console[_0x44ac29(0x413)](_0x44ac29(0x317), _0x178dda[_0x44ac29(0x48f)]),
-      _0x178dda[_0x44ac29(0x48f)][_0x44ac29(0x37b)]("CORS")
-        ? (console[_0x44ac29(0x413)](
+      _0x174464[_0x3ce762(0x1af)] === 0xc8 &&
+        (console["log"](_0x3ce762(0x92)), (_0x1aba83 += _0x3ce762(0x170)));
+  } catch (_0x6e8913) {
+    console["log"](_0x3ce762(0x110), _0x6e8913[_0x3ce762(0x254)]),
+      _0x6e8913[_0x3ce762(0x254)][_0x3ce762(0x278)](_0x3ce762(0x252))
+        ? (console[_0x3ce762(0x1f3)](
             "🔧\x20Problema\x20de\x20CORS\x20-\x20verifica\x20configuración\x20de\x20headers"
           ),
-          (_0x25cb90 += _0x44ac29(0x2f5)))
-        : (_0x25cb90 +=
-            _0x44ac29(0x328) + _0x178dda["message"] + _0x44ac29(0x289));
+          (_0x1aba83 += _0x3ce762(0x2b8)))
+        : (_0x1aba83 +=
+            _0x3ce762(0x20d) + _0x6e8913[_0x3ce762(0x254)] + _0x3ce762(0x154));
   }
-  _0x159d73 && (_0x159d73[_0x44ac29(0x2ea)] = _0x25cb90);
+  _0x503a3f && (_0x503a3f[_0x3ce762(0x12a)] = _0x1aba83);
 }
 async function verificarBackend() {
-  const _0x14ab0c = _0x765170;
+  const _0x141858 = _0x1b5bb5;
   try {
-    const _0x4c3426 = await fetch(_0x14ab0c(0x2aa), {
-      method: _0x14ab0c(0x42e),
-      headers: { "Content-Type": _0x14ab0c(0x33d) },
+    const _0x5d7077 = await fetch(_0x141858(0xb8), {
+      method: _0x141858(0x335),
+      headers: { "Content-Type": _0x141858(0x108) },
     });
-    if (_0x4c3426["ok"]) {
-      const _0x3d3d99 = await _0x4c3426[_0x14ab0c(0x497)]();
+    if (_0x5d7077["ok"]) {
+      const _0x50ebe7 = await _0x5d7077[_0x141858(0x193)]();
       return (
-        console[_0x14ab0c(0x413)](
-          "✅\x20Backend\x20activo.\x20Estadísticas:",
-          _0x3d3d99
-        ),
-        { activo: !![], stats: _0x3d3d99, mensaje: _0x14ab0c(0x32d) }
+        console["log"](_0x141858(0x2de), _0x50ebe7),
+        {
+          activo: !![],
+          stats: _0x50ebe7,
+          mensaje: "Google\x20Vision\x20API\x20activa\x20y\x20funcional",
+        }
       );
     } else
       return (
-        console[_0x14ab0c(0x413)](
-          _0x14ab0c(0x22b),
-          _0x4c3426[_0x14ab0c(0x241)]
-        ),
-        { activo: ![], mensaje: _0x14ab0c(0x1f0) + _0x4c3426["status"] }
+        console[_0x141858(0x1f3)](_0x141858(0xc4), _0x5d7077[_0x141858(0x1af)]),
+        {
+          activo: ![],
+          mensaje: "Backend\x20con\x20error:\x20" + _0x5d7077[_0x141858(0x1af)],
+        }
       );
-  } catch (_0x19bcc7) {
+  } catch (_0x209917) {
     return (
-      console[_0x14ab0c(0x413)](_0x14ab0c(0x2bb), _0x19bcc7["message"]),
-      { activo: ![], mensaje: _0x14ab0c(0x499) }
+      console[_0x141858(0x1f3)](
+        "❌\x20Backend\x20no\x20disponible:",
+        _0x209917[_0x141858(0x254)]
+      ),
+      { activo: ![], mensaje: _0x141858(0x14d) }
     );
   }
 }
 async function mostrarEstadisticasUso() {
-  const _0x236ec3 = _0x765170,
-    _0x17331d = visionUsageTracker[_0x236ec3(0x3ad)](),
-    _0xd064b2 = visionUsageTracker["showUsageWarning"]();
-  let _0x3d7564 = _0x236ec3(0x353);
-  (_0x3d7564 +=
-    _0x236ec3(0x3ff) +
-    _0x17331d[_0x236ec3(0x433)] +
+  const _0x2fa9aa = _0x1b5bb5,
+    _0x1fa21d = visionUsageTracker[_0x2fa9aa(0x287)](),
+    _0x4768a6 = visionUsageTracker[_0x2fa9aa(0x367)]();
+  let _0x1e048f =
+    "📊\x20<strong>Uso\x20local\x20de\x20este\x20dispositivo:</strong><br>";
+  (_0x1e048f +=
+    _0x2fa9aa(0x1ba) +
+    _0x1fa21d["monthlyUsed"] +
     "/" +
-    _0x17331d["monthlyLimit"] +
-    _0x236ec3(0x354) +
-    _0x17331d["remainingMonthly"] +
-    _0x236ec3(0x3c0)),
-    (_0x3d7564 +=
-      "•\x20Diario:\x20" +
-      _0x17331d[_0x236ec3(0x326)] +
+    _0x1fa21d[_0x2fa9aa(0x25d)] +
+    _0x2fa9aa(0xba) +
+    _0x1fa21d["remainingMonthly"] +
+    _0x2fa9aa(0x2b5)),
+    (_0x1e048f +=
+      _0x2fa9aa(0x15b) +
+      _0x1fa21d[_0x2fa9aa(0xbf)] +
       "/" +
-      _0x17331d["dailyLimit"] +
-      _0x236ec3(0x354) +
-      _0x17331d["remainingDaily"] +
+      _0x1fa21d[_0x2fa9aa(0x102)] +
+      _0x2fa9aa(0xba) +
+      _0x1fa21d[_0x2fa9aa(0x138)] +
       ")");
-  _0xd064b2 && (_0x3d7564 += _0x236ec3(0x407) + _0xd064b2);
-  if (GOOGLE_VISION_CONFIG[_0x236ec3(0x344)])
+  _0x4768a6 && (_0x1e048f += _0x2fa9aa(0x1a5) + _0x4768a6);
+  if (GOOGLE_VISION_CONFIG[_0x2fa9aa(0x142)])
     try {
-      const _0x2265d6 = await verificarBackend();
-      _0x3d7564 +=
-        "<br><br>🌐\x20<strong>Backend:</strong>\x20" +
-        _0x2265d6[_0x236ec3(0x2d1)];
-    } catch (_0x2364e9) {
-      _0x3d7564 += _0x236ec3(0x3e2);
+      const _0xa9470 = await verificarBackend();
+      _0x1e048f += _0x2fa9aa(0xb6) + _0xa9470[_0x2fa9aa(0x304)];
+    } catch (_0xa29abc) {
+      _0x1e048f += _0x2fa9aa(0x100);
     }
-  return _0x3d7564;
+  return _0x1e048f;
 }
-function setCookie(_0x2ef8a3, _0x1cdf20, _0x497798) {
-  const _0x5781a6 = _0x765170,
-    _0x4534ad = new Date(
-      Date["now"]() + _0x497798 * 0x18 * 0x3c * 0x3c * 0x3e8
-    )[_0x5781a6(0x2e6)]();
-  document["cookie"] =
-    _0x2ef8a3 +
+function setCookie(_0x8cf8ee, _0x5cc760, _0x3309b9) {
+  const _0x645fa3 = _0x1b5bb5,
+    _0x5be974 = new Date(
+      Date[_0x645fa3(0xdd)]() + _0x3309b9 * 0x18 * 0x3c * 0x3c * 0x3e8
+    )[_0x645fa3(0x135)]();
+  document[_0x645fa3(0xda)] =
+    _0x8cf8ee +
     "=" +
-    encodeURIComponent(_0x1cdf20) +
-    _0x5781a6(0x222) +
-    _0x4534ad +
-    ";\x20path=/";
+    encodeURIComponent(_0x5cc760) +
+    ";\x20expires=" +
+    _0x5be974 +
+    _0x645fa3(0x171);
 }
-function getCookie(_0x2c179f) {
-  const _0x29b862 = _0x765170,
-    _0x37d43b = ";\x20" + document["cookie"],
-    _0x45f59d = _0x37d43b["split"](";\x20" + _0x2c179f + "=");
-  if (_0x45f59d[_0x29b862(0x37d)] === 0x2)
+function getCookie(_0x5cb604) {
+  const _0x5f39ac = _0x1b5bb5,
+    _0x702088 = ";\x20" + document[_0x5f39ac(0xda)],
+    _0x1e250c = _0x702088["split"](";\x20" + _0x5cb604 + "=");
+  if (_0x1e250c[_0x5f39ac(0x359)] === 0x2)
     return decodeURIComponent(
-      _0x45f59d[_0x29b862(0x464)]()["split"](";")["shift"]()
+      _0x1e250c[_0x5f39ac(0x229)]()[_0x5f39ac(0x250)](";")["shift"]()
     );
   return null;
 }
-const historialDiv = document[_0x765170(0x2ce)]("historial"),
-  resultadoDiv = document[_0x765170(0x2ce)](_0x765170(0x33e)),
-  DB_NAME = _0x765170(0x268),
+const historialDiv = document["getElementById"]("historial"),
+  resultadoDiv = document[_0x1b5bb5(0x185)](_0x1b5bb5(0x2c3)),
+  DB_NAME = _0x1b5bb5(0x2f1),
   DB_STORE = "productos",
-  DB_STORE_PROMOCIONES = _0x765170(0x452);
+  DB_STORE_PROMOCIONES = _0x1b5bb5(0x29d);
 let db;
 function openDB() {
-  return new Promise((_0x576d6a, _0xe3c95a) => {
-    const _0x3eb72b = _0x3929,
-      _0x3ad925 = indexedDB[_0x3eb72b(0x3ea)](DB_NAME, 0x2);
-    (_0x3ad925["onupgradeneeded"] = function (_0x535868) {
-      const _0x579e94 = _0x3eb72b;
-      (db = _0x535868["target"][_0x579e94(0x1fa)]),
-        !db["objectStoreNames"][_0x579e94(0x330)](DB_STORE) &&
-          db[_0x579e94(0x3e8)](DB_STORE, {
+  return new Promise((_0x546465, _0x2ad304) => {
+    const _0x5675db = _0x1f33,
+      _0x530a65 = indexedDB["open"](DB_NAME, 0x2);
+    (_0x530a65[_0x5675db(0x2a9)] = function (_0x3e050e) {
+      const _0x3d99cf = _0x5675db;
+      (db = _0x3e050e[_0x3d99cf(0x26e)]["result"]),
+        !db[_0x3d99cf(0x35a)][_0x3d99cf(0x31e)](DB_STORE) &&
+          db[_0x3d99cf(0x338)](DB_STORE, {
             keyPath: "id",
             autoIncrement: !![],
           }),
-        !db[_0x579e94(0x26a)][_0x579e94(0x330)](DB_STORE_PROMOCIONES) &&
-          db[_0x579e94(0x3e8)](DB_STORE_PROMOCIONES, {
+        !db[_0x3d99cf(0x35a)][_0x3d99cf(0x31e)](DB_STORE_PROMOCIONES) &&
+          db["createObjectStore"](DB_STORE_PROMOCIONES, {
             keyPath: "id",
             autoIncrement: !![],
           });
     }),
-      (_0x3ad925[_0x3eb72b(0x4a3)] = function (_0x50caf0) {
-        const _0x3490f5 = _0x3eb72b;
-        (db = _0x50caf0[_0x3490f5(0x2a7)]["result"]), _0x576d6a(db);
+      (_0x530a65[_0x5675db(0x2dc)] = function (_0x1dfa29) {
+        (db = _0x1dfa29["target"]["result"]), _0x546465(db);
       }),
-      (_0x3ad925[_0x3eb72b(0x472)] = function (_0x45781f) {
-        _0xe3c95a(_0x45781f);
+      (_0x530a65[_0x5675db(0x2ea)] = function (_0x5c20d2) {
+        _0x2ad304(_0x5c20d2);
       });
   });
 }
 function clearProductos() {
-  return openDB()["then"]((_0x5e1025) => {
-    return new Promise((_0x463ffa, _0x26306a) => {
-      const _0x54b5a6 = _0x3929,
-        _0x2d6e3f = _0x5e1025[_0x54b5a6(0x471)](DB_STORE, _0x54b5a6(0x1ea));
-      _0x2d6e3f[_0x54b5a6(0x47b)](DB_STORE)[_0x54b5a6(0x3d2)](),
-        (_0x2d6e3f[_0x54b5a6(0x36d)] = _0x463ffa),
-        (_0x2d6e3f[_0x54b5a6(0x472)] = _0x26306a);
+  const _0x4aac4c = _0x1b5bb5;
+  return openDB()[_0x4aac4c(0x153)]((_0x467306) => {
+    return new Promise((_0x53ccea, _0x356f38) => {
+      const _0x2cf044 = _0x1f33,
+        _0x28e8e0 = _0x467306["transaction"](DB_STORE, _0x2cf044(0x14a));
+      _0x28e8e0[_0x2cf044(0x340)](DB_STORE)[_0x2cf044(0x30b)](),
+        (_0x28e8e0["oncomplete"] = _0x53ccea),
+        (_0x28e8e0["onerror"] = _0x356f38);
     });
   });
 }
-function saveProductos(_0x3cd4a6) {
-  const _0x31e31a = _0x765170;
-  return openDB()[_0x31e31a(0x461)]((_0x24a290) => {
-    return new Promise((_0x3ec5b4, _0x6fa4da) => {
-      const _0x24cf1c = _0x3929,
-        _0x21e31a = _0x24a290[_0x24cf1c(0x471)](DB_STORE, _0x24cf1c(0x1ea)),
-        _0x4aa89e = _0x21e31a[_0x24cf1c(0x47b)](DB_STORE);
-      _0x3cd4a6[_0x24cf1c(0x392)]((_0x5f166b) => _0x4aa89e["add"](_0x5f166b)),
-        (_0x21e31a[_0x24cf1c(0x36d)] = _0x3ec5b4),
-        (_0x21e31a[_0x24cf1c(0x472)] = _0x6fa4da);
+function saveProductos(_0x50e3e5) {
+  return openDB()["then"]((_0xaeb3a6) => {
+    return new Promise((_0x3b2f36, _0x25bfc8) => {
+      const _0x366c2a = _0x1f33,
+        _0x26fc05 = _0xaeb3a6[_0x366c2a(0x2e9)](DB_STORE, "readwrite"),
+        _0x2d2468 = _0x26fc05[_0x366c2a(0x340)](DB_STORE);
+      _0x50e3e5[_0x366c2a(0x248)]((_0x332b3c) =>
+        _0x2d2468[_0x366c2a(0xe0)](_0x332b3c)
+      ),
+        (_0x26fc05["oncomplete"] = _0x3b2f36),
+        (_0x26fc05["onerror"] = _0x25bfc8);
     });
   });
 }
 function getAllProductos() {
-  const _0x2f8852 = _0x765170;
-  return openDB()[_0x2f8852(0x461)]((_0x542637) => {
-    return new Promise((_0x1f4d6b, _0x4fd74e) => {
-      const _0x39156b = _0x3929,
-        _0x4b6b3d = _0x542637["transaction"](DB_STORE, "readonly"),
-        _0x3150b7 = _0x4b6b3d[_0x39156b(0x47b)](DB_STORE),
-        _0x3dec00 = _0x3150b7[_0x39156b(0x3da)]();
-      (_0x3dec00[_0x39156b(0x4a3)] = () => _0x1f4d6b(_0x3dec00["result"])),
-        (_0x3dec00["onerror"] = _0x4fd74e);
+  const _0x5e9893 = _0x1b5bb5;
+  return openDB()[_0x5e9893(0x153)]((_0x5cf95e) => {
+    return new Promise((_0x7319a5, _0xbf7d14) => {
+      const _0x2b21fb = _0x1f33,
+        _0x40172c = _0x5cf95e["transaction"](DB_STORE, _0x2b21fb(0x15a)),
+        _0x3a8197 = _0x40172c[_0x2b21fb(0x340)](DB_STORE),
+        _0x38dfb6 = _0x3a8197["getAll"]();
+      (_0x38dfb6[_0x2b21fb(0x2dc)] = () => _0x7319a5(_0x38dfb6["result"])),
+        (_0x38dfb6[_0x2b21fb(0x2ea)] = _0xbf7d14);
     });
   });
 }
 function clearPromociones() {
-  const _0x18038e = _0x765170;
-  return openDB()[_0x18038e(0x461)]((_0x1a971a) => {
-    return new Promise((_0x50f083, _0x419479) => {
-      const _0x4c31cd = _0x3929,
-        _0xd789a2 = _0x1a971a["transaction"](
+  const _0x443674 = _0x1b5bb5;
+  return openDB()[_0x443674(0x153)]((_0xb3aac0) => {
+    return new Promise((_0x80dfab, _0x15fa73) => {
+      const _0x2fd0e7 = _0x1f33,
+        _0x48aafc = _0xb3aac0[_0x2fd0e7(0x2e9)](
           DB_STORE_PROMOCIONES,
-          _0x4c31cd(0x1ea)
+          _0x2fd0e7(0x14a)
         );
-      _0xd789a2[_0x4c31cd(0x47b)](DB_STORE_PROMOCIONES)[_0x4c31cd(0x3d2)](),
-        (_0xd789a2["oncomplete"] = _0x50f083),
-        (_0xd789a2["onerror"] = _0x419479);
+      _0x48aafc[_0x2fd0e7(0x340)](DB_STORE_PROMOCIONES)[_0x2fd0e7(0x30b)](),
+        (_0x48aafc[_0x2fd0e7(0x182)] = _0x80dfab),
+        (_0x48aafc["onerror"] = _0x15fa73);
     });
   });
 }
-function savePromociones(_0x45c822) {
-  const _0x5f3398 = _0x765170;
-  return openDB()[_0x5f3398(0x461)]((_0x46bb04) => {
-    return new Promise((_0x2af7ab, _0x185691) => {
-      const _0x19872c = _0x3929,
-        _0x528cfe = _0x46bb04[_0x19872c(0x471)](
+function savePromociones(_0x1b16a4) {
+  const _0x50c5e1 = _0x1b5bb5;
+  return openDB()[_0x50c5e1(0x153)]((_0x535944) => {
+    return new Promise((_0x909c5, _0x1fa5d5) => {
+      const _0x484d07 = _0x1f33,
+        _0x46a68a = _0x535944[_0x484d07(0x2e9)](
           DB_STORE_PROMOCIONES,
-          _0x19872c(0x1ea)
+          "readwrite"
         ),
-        _0x451762 = _0x528cfe["objectStore"](DB_STORE_PROMOCIONES);
-      _0x45c822[_0x19872c(0x392)]((_0x439eab) =>
-        _0x451762[_0x19872c(0x235)](_0x439eab)
+        _0x1f0a73 = _0x46a68a[_0x484d07(0x340)](DB_STORE_PROMOCIONES);
+      _0x1b16a4["forEach"]((_0x301004) =>
+        _0x1f0a73[_0x484d07(0xe0)](_0x301004)
       ),
-        (_0x528cfe["oncomplete"] = _0x2af7ab),
-        (_0x528cfe["onerror"] = _0x185691);
+        (_0x46a68a[_0x484d07(0x182)] = _0x909c5),
+        (_0x46a68a[_0x484d07(0x2ea)] = _0x1fa5d5);
     });
   });
 }
 function getAllPromociones() {
-  return openDB()["then"]((_0xea46cf) => {
-    return new Promise((_0x2c33dd, _0x3422b5) => {
-      const _0xff148a = _0x3929,
-        _0x5511f1 = _0xea46cf[_0xff148a(0x471)](
+  const _0x1a8f1f = _0x1b5bb5;
+  return openDB()[_0x1a8f1f(0x153)]((_0x327578) => {
+    return new Promise((_0x58c88a, _0x152d20) => {
+      const _0x1c0ade = _0x1f33,
+        _0x512846 = _0x327578[_0x1c0ade(0x2e9)](
           DB_STORE_PROMOCIONES,
-          _0xff148a(0x4b4)
+          _0x1c0ade(0x15a)
         ),
-        _0x37fff8 = _0x5511f1[_0xff148a(0x47b)](DB_STORE_PROMOCIONES),
-        _0x2329d4 = _0x37fff8[_0xff148a(0x3da)]();
-      (_0x2329d4["onsuccess"] = () => _0x2c33dd(_0x2329d4[_0xff148a(0x1fa)])),
-        (_0x2329d4[_0xff148a(0x472)] = _0x3422b5);
+        _0x22191f = _0x512846[_0x1c0ade(0x340)](DB_STORE_PROMOCIONES),
+        _0xca8d14 = _0x22191f["getAll"]();
+      (_0xca8d14[_0x1c0ade(0x2dc)] = () => _0x58c88a(_0xca8d14["result"])),
+        (_0xca8d14[_0x1c0ade(0x2ea)] = _0x152d20);
     });
   });
 }
-const sugerenciasDiv = document[_0x765170(0x47a)](_0x765170(0x374));
-(sugerenciasDiv["id"] = _0x765170(0x217)),
-  (sugerenciasDiv[_0x765170(0x42a)] = _0x765170(0x1f4)),
-  (sugerenciasDiv[_0x765170(0x265)]["zIndex"] = _0x765170(0x2f7)),
-  (sugerenciasDiv[_0x765170(0x265)][_0x765170(0x468)] = "200px"),
-  (sugerenciasDiv[_0x765170(0x265)][_0x765170(0x295)] = _0x765170(0x3d6)),
-  (sugerenciasDiv[_0x765170(0x265)][_0x765170(0x40f)] = _0x765170(0x37f)),
-  (sugerenciasDiv["style"][_0x765170(0x234)] = "0"),
-  (sugerenciasDiv[_0x765170(0x265)][_0x765170(0x453)] = "0"),
-  (inputCodigo[_0x765170(0x2e7)][_0x765170(0x265)][_0x765170(0x2ae)] =
-    "relative"),
-  inputCodigo[_0x765170(0x2e7)][_0x765170(0x3a2)](sugerenciasDiv);
-const actualizarDiv = document[_0x765170(0x47a)](_0x765170(0x374));
-(actualizarDiv[_0x765170(0x42a)] =
-  "d-flex\x20flex-column\x20align-items-center\x20mb-3"),
-  (actualizarDiv[_0x765170(0x2ea)] = _0x765170(0x325)),
-  historialDiv[_0x765170(0x2e7)][_0x765170(0x475)](actualizarDiv, historialDiv);
-function _0x3929(_0xd00171, _0x48888a) {
-  const _0x121ee0 = _0x121e();
-  return (
-    (_0x3929 = function (_0x3929bf, _0x2c908a) {
-      _0x3929bf = _0x3929bf - 0x1e9;
-      let _0xec03bf = _0x121ee0[_0x3929bf];
-      return _0xec03bf;
-    }),
-    _0x3929(_0xd00171, _0x48888a)
-  );
-}
-const btnActualizar = actualizarDiv[_0x765170(0x39b)](_0x765170(0x31e)),
-  btnPromociones = actualizarDiv[_0x765170(0x39b)](_0x765170(0x491)),
-  ultimaActualizacionSpan = actualizarDiv[_0x765170(0x39b)](_0x765170(0x310)),
-  btnTexto = actualizarDiv[_0x765170(0x39b)](_0x765170(0x3d8)),
-  btnSpinner = actualizarDiv[_0x765170(0x39b)](_0x765170(0x281)),
-  mensajeActualizacion = actualizarDiv[_0x765170(0x39b)](_0x765170(0x42f));
+const sugerenciasDiv = document[_0x1b5bb5(0x14e)]("div");
+(sugerenciasDiv["id"] = _0x1b5bb5(0x1e3)),
+  (sugerenciasDiv[_0x1b5bb5(0xeb)] = _0x1b5bb5(0x28e)),
+  (sugerenciasDiv[_0x1b5bb5(0x280)][_0x1b5bb5(0x21d)] = _0x1b5bb5(0x261)),
+  (sugerenciasDiv[_0x1b5bb5(0x280)]["maxHeight"] = _0x1b5bb5(0x225)),
+  (sugerenciasDiv["style"][_0x1b5bb5(0x313)] = _0x1b5bb5(0x1bb)),
+  (sugerenciasDiv[_0x1b5bb5(0x280)]["top"] = "100%"),
+  (sugerenciasDiv[_0x1b5bb5(0x280)][_0x1b5bb5(0x1d9)] = "0"),
+  (sugerenciasDiv[_0x1b5bb5(0x280)]["right"] = "0"),
+  (inputCodigo[_0x1b5bb5(0x282)][_0x1b5bb5(0x280)][_0x1b5bb5(0x1a4)] =
+    _0x1b5bb5(0x1f9)),
+  inputCodigo[_0x1b5bb5(0x282)][_0x1b5bb5(0xc1)](sugerenciasDiv);
+const promocionesDiv = document[_0x1b5bb5(0x14e)](_0x1b5bb5(0x2ae));
+(promocionesDiv[_0x1b5bb5(0xeb)] = _0x1b5bb5(0x11c)),
+  (promocionesDiv[_0x1b5bb5(0x12a)] =
+    "\x0a\x20\x20<button\x20type=\x22button\x22\x20id=\x22btnPromociones\x22\x20class=\x22ant-btn\x20css-1r8qqf1\x20ant-btn-default\x20ant-btn-color-default\x20ant-btn-variant-outlined\x20ant-btn-sm\x22\x20style=\x22border-radius:6px;\x20border:1px\x20solid\x20#ffc107;\x20background:#fff8dc;\x20color:#856404;\x20font-size:0.9rem;\x20padding:6px\x2016px;\x22>\x0a\x20\x20\x20\x20🏷️\x20Ver\x20Promociones\x0a\x20\x20</button>\x0a");
+const actualizarDiv = document[_0x1b5bb5(0x14e)](_0x1b5bb5(0x2ae));
+(actualizarDiv[_0x1b5bb5(0xeb)] = _0x1b5bb5(0x156)),
+  (actualizarDiv[_0x1b5bb5(0x12a)] = _0x1b5bb5(0x319)),
+  historialDiv[_0x1b5bb5(0x282)][_0x1b5bb5(0x260)](
+    promocionesDiv,
+    historialDiv
+  ),
+  historialDiv["parentNode"][_0x1b5bb5(0x260)](actualizarDiv, historialDiv);
+const btnActualizar = actualizarDiv[_0x1b5bb5(0x18c)](_0x1b5bb5(0x2a7)),
+  btnPromociones = promocionesDiv["querySelector"](_0x1b5bb5(0x23e)),
+  ultimaActualizacionSpan = actualizarDiv[_0x1b5bb5(0x18c)](_0x1b5bb5(0x289)),
+  btnTexto = actualizarDiv["querySelector"](_0x1b5bb5(0x17b)),
+  btnSpinner = actualizarDiv["querySelector"](_0x1b5bb5(0x25f)),
+  mensajeActualizacion = actualizarDiv[_0x1b5bb5(0x18c)](_0x1b5bb5(0x259));
 async function mostrarProductosConPromociones() {
-  const _0x42da78 = _0x765170,
-    _0x5d1c7a = await getAllProductos(),
-    _0x94294 = [];
-  for (const _0x902859 of _0x5d1c7a) {
+  const _0x392a35 = _0x1b5bb5,
+    _0x5adb1e = await getAllProductos(),
+    _0x589630 = [];
+  for (const _0x485687 of _0x5adb1e) {
     try {
-      const _0x22bc25 = await detectarPromocionReal(_0x902859);
-      _0x22bc25[_0x42da78(0x37d)] > 0x0 &&
-        _0x94294[_0x42da78(0x424)](_0x902859);
-    } catch (_0x4b5486) {
+      const _0x410db0 = await detectarPromocionReal(_0x485687);
+      _0x410db0[_0x392a35(0x359)] > 0x0 &&
+        _0x589630[_0x392a35(0x311)](_0x485687);
+    } catch (_0x28f875) {
       console["warn"](
-        _0x42da78(0x486) + _0x902859[_0x42da78(0x3e7)] + ":",
-        _0x4b5486
+        _0x392a35(0x317) + _0x485687[_0x392a35(0xe8)] + ":",
+        _0x28f875
       );
     }
   }
-  if (_0x94294[_0x42da78(0x37d)] === 0x0) {
-    (resultadoDiv[_0x42da78(0x2ea)] = _0x42da78(0x298)), renderHistorial();
+  if (_0x589630["length"] === 0x0) {
+    (resultadoDiv[_0x392a35(0x12a)] =
+      "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h5>🏷️\x20No\x20se\x20encontraron\x20productos\x20con\x20promociones</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mb-0\x22>Puede\x20ser\x20que\x20no\x20haya\x20promociones\x20activas\x20en\x20este\x20momento\x20o\x20que\x20el\x20servicio\x20no\x20esté\x20disponible.</p>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20"),
+      renderHistorial();
     return;
   }
-  const _0x3b1535 = [];
-  for (const _0x2bedb7 of _0x94294[_0x42da78(0x2c4)](0x0, 0x14)) {
+  const _0x426e19 = [];
+  for (const _0x5e02f4 of _0x589630["slice"](0x0, 0x14)) {
     try {
-      const _0x593bb7 = await detectarPromocionReal(_0x2bedb7),
-        _0x437372 =
-          Number(_0x2bedb7[_0x42da78(0x279)]) || Number(_0x2bedb7["L1"]) || 0x0,
-        _0x5d145e = Math["round"](_0x437372 * 1.16 * 0x64) / 0x64,
-        _0x11f539 = _0x593bb7[_0x42da78(0x231)]((_0x313024) => {
-          const _0x21d51b = _0x42da78;
-          let _0xb36c97 = _0x21d51b(0x24e),
-            _0x3a7e8a =
-              _0x313024["detalle"] ||
-              _0x313024["nombre_promocion"] ||
-              _0x21d51b(0x201);
-          if (_0x313024[_0x21d51b(0x28a)]["includes"]("precio\x20especial"))
-            (_0xb36c97 = _0x21d51b(0x4aa)),
-              (_0x3a7e8a = _0x21d51b(0x389) + _0x3a7e8a);
+      const _0x7671ef = await detectarPromocionReal(_0x5e02f4),
+        _0x4567fb =
+          Number(_0x5e02f4[_0x392a35(0x1ad)]) || Number(_0x5e02f4["L1"]) || 0x0,
+        _0x4bfe1f = Math[_0x392a35(0x222)](_0x4567fb * 1.16 * 0x64) / 0x64,
+        _0x56852c = _0x7671ef["map"]((_0xc68947) => {
+          const _0x222b40 = _0x392a35;
+          let _0x22943a = "bg-success",
+            _0x1d2ca7 =
+              _0xc68947[_0x222b40(0x303)] ||
+              _0xc68947[_0x222b40(0x205)] ||
+              _0x222b40(0x35c);
+          if (_0xc68947["tipo"][_0x222b40(0x278)]("precio\x20especial"))
+            (_0x22943a = _0x222b40(0x22f)),
+              (_0x1d2ca7 = _0x222b40(0x10c) + _0x1d2ca7);
           else
-            _0x313024[_0x21d51b(0x361)] &&
-              ((_0xb36c97 = _0x21d51b(0x291)),
-              (_0x3a7e8a = _0x21d51b(0x2d2) + _0x3a7e8a));
+            _0xc68947["es_oficial"] &&
+              ((_0x22943a = "bg-warning\x20text-dark"),
+              (_0x1d2ca7 = _0x222b40(0x1c8) + _0x1d2ca7));
           return (
-            _0x21d51b(0x29b) +
-            _0xb36c97 +
-            "\x20me-1\x20mb-1\x22\x20style=\x22font-size:0.75rem;\x22>" +
-            _0x3a7e8a +
-            "</span>"
+            _0x222b40(0x379) +
+            _0x22943a +
+            _0x222b40(0x324) +
+            _0x1d2ca7 +
+            _0x222b40(0x2aa)
           );
-        })[_0x42da78(0x36e)]("");
-      _0x3b1535[_0x42da78(0x424)](
-        _0x42da78(0x232) +
-          _0x2bedb7[_0x42da78(0x3e7)] +
-          _0x42da78(0x2f4) +
-          _0x2bedb7[_0x42da78(0x220)] +
+        })[_0x392a35(0x1b5)]("");
+      _0x426e19[_0x392a35(0x311)](
+        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-12\x20col-md-6\x20col-lg-4\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20h-100\x20border-warning\x22\x20style=\x22cursor:pointer;\x22\x20onclick=\x22mostrarProductoPromocion(\x27" +
+          _0x5e02f4[_0x392a35(0xe8)] +
+          _0x392a35(0x179) +
+          _0x5e02f4[_0x392a35(0xdf)] +
           "\x22>" +
-          _0x2bedb7[_0x42da78(0x220)] +
-          _0x42da78(0x431) +
-          _0x11f539 +
-          "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-success\x20fw-bold\x22>$" +
-          _0x5d145e[_0x42da78(0x3ae)](0x2) +
-          _0x42da78(0x308) +
-          _0x2bedb7[_0x42da78(0x3e7)] +
-          "</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20"
+          _0x5e02f4[_0x392a35(0xdf)] +
+          _0x392a35(0x13b) +
+          _0x56852c +
+          _0x392a35(0x2fe) +
+          _0x4bfe1f[_0x392a35(0x161)](0x2) +
+          _0x392a35(0xa2) +
+          _0x5e02f4[_0x392a35(0xe8)] +
+          _0x392a35(0x33f)
       );
-    } catch (_0x34d938) {
-      console[_0x42da78(0x371)](
-        _0x42da78(0x442) + _0x2bedb7[_0x42da78(0x3e7)] + ":",
-        _0x34d938
+    } catch (_0x36433a) {
+      console[_0x392a35(0x377)](
+        _0x392a35(0x2e1) + _0x5e02f4[_0x392a35(0xe8)] + ":",
+        _0x36433a
       );
     }
   }
-  (resultadoDiv["innerHTML"] =
-    _0x42da78(0x223) +
-    _0x94294["length"] +
-    "\x20encontrados</span>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x20text-center\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small><strong>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</strong></small>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20" +
-    _0x3b1535["join"]("") +
-    _0x42da78(0x261) +
-    (_0x94294[_0x42da78(0x37d)] > 0x14
-      ? _0x42da78(0x40e) +
-        (_0x94294[_0x42da78(0x37d)] - 0x14) +
-        _0x42da78(0x38a)
+  (resultadoDiv[_0x392a35(0x12a)] =
+    _0x392a35(0x1ae) +
+    _0x589630[_0x392a35(0x359)] +
+    _0x392a35(0xfe) +
+    _0x426e19["join"]("") +
+    "\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20" +
+    (_0x589630[_0x392a35(0x359)] > 0x14
+      ? _0x392a35(0xbe) +
+        (_0x589630[_0x392a35(0x359)] - 0x14) +
+        "\x20más\x20con\x20promociones.</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>"
       : "") +
-    _0x42da78(0x4a7)),
+    _0x392a35(0x2e4)),
     renderHistorial();
 }
-window[_0x765170(0x262)] = async function (_0x11088b) {
-  const _0x4ce3a7 = _0x765170,
-    _0x44e53c = await getAllProductos(),
-    _0x425f26 = _0x44e53c[_0x4ce3a7(0x459)](
-      (_0x3ec434) =>
-        _0x3ec434["pr_sku"] === _0x11088b || _0x3ec434["pr_gtin"] === _0x11088b
+window[_0x1b5bb5(0x23d)] = async function (_0x3c9875) {
+  const _0x19334b = _0x1b5bb5,
+    _0x23b8cc = await getAllProductos(),
+    _0x22b2ee = _0x23b8cc["find"](
+      (_0x4fcda5) =>
+        _0x4fcda5["pr_sku"] === _0x3c9875 ||
+        _0x4fcda5[_0x19334b(0x308)] === _0x3c9875
     );
-  if (_0x425f26) {
-    mostrarDetalleProducto(_0x425f26);
-    const _0x2faf3c = {
-      ..._0x425f26,
-      FECHA_ESCANEO: new Date()[_0x4ce3a7(0x211)](),
+  if (_0x22b2ee) {
+    mostrarDetalleProducto(_0x22b2ee);
+    const _0x54dc34 = {
+      ..._0x22b2ee,
+      FECHA_ESCANEO: new Date()[_0x19334b(0x271)](),
     };
-    historial[_0x4ce3a7(0x48d)](_0x2faf3c),
-      setCookie(_0x4ce3a7(0x2fd), JSON[_0x4ce3a7(0x2b3)](historial), 0x1e),
+    historial["unshift"](_0x54dc34),
+      setCookie("historial", JSON[_0x19334b(0x328)](historial), 0x1e),
       renderHistorial();
   }
 };
-const urlBase = _0x765170(0x377),
-  urlBaseConCodigos = _0x765170(0x20d),
-  urlPromociones = "https://verificadorb9-backend.vercel.app/api/promociones",
+const urlBase = "https://verificadorb9-backend.vercel.app/api/productos",
+  urlBaseConCodigos =
+    "https://verificadorb9-backend.vercel.app/api/productos-con-codigos",
+  urlPromociones = _0x1b5bb5(0x37b),
   CONFIG_ENDPOINTS = {
     productosBasicos: urlBase,
     productosConCodigos: urlBaseConCodigos,
@@ -1428,1711 +710,1741 @@ const urlBase = _0x765170(0x377),
     usarCodigosBarras: !![],
     fallbackTiempo: 0x1388,
   };
-function tiempoRelativo(_0x3de206) {
-  const _0x1666a7 = _0x765170;
-  if (!_0x3de206) return _0x1666a7(0x25f);
-  const _0x2139d1 = Date[_0x1666a7(0x2b0)](),
-    _0x8185a3 = Math["floor"]((_0x2139d1 - _0x3de206) / 0x3e8);
-  if (_0x8185a3 < 0x3c) return "Hace\x20" + _0x8185a3 + _0x1666a7(0x2a8);
-  if (_0x8185a3 < 0xe10)
-    return "Hace\x20" + Math["floor"](_0x8185a3 / 0x3c) + _0x1666a7(0x260);
-  if (_0x8185a3 < 0x15180)
+function tiempoRelativo(_0xaf7b21) {
+  const _0x399340 = _0x1b5bb5;
+  if (!_0xaf7b21) return _0x399340(0x18b);
+  const _0x5ebb38 = Date["now"](),
+    _0x230c07 = Math[_0x399340(0x221)]((_0x5ebb38 - _0xaf7b21) / 0x3e8);
+  if (_0x230c07 < 0x3c) return _0x399340(0x132) + _0x230c07 + _0x399340(0x283);
+  if (_0x230c07 < 0xe10)
     return (
-      _0x1666a7(0x409) + Math["floor"](_0x8185a3 / 0xe10) + _0x1666a7(0x3a0)
+      _0x399340(0x132) + Math["floor"](_0x230c07 / 0x3c) + _0x399340(0x34e)
     );
-  return (
-    _0x1666a7(0x409) +
-    Math[_0x1666a7(0x203)](_0x8185a3 / 0x15180) +
-    _0x1666a7(0x44f)
-  );
+  if (_0x230c07 < 0x15180)
+    return (
+      _0x399340(0x132) +
+      Math[_0x399340(0x221)](_0x230c07 / 0xe10) +
+      _0x399340(0x348)
+    );
+  return _0x399340(0x132) + Math["floor"](_0x230c07 / 0x15180) + "\x20días";
 }
 function renderUltimaActualizacion() {
-  const _0x3abd05 = _0x765170,
-    _0x55fdef = localStorage[_0x3abd05(0x341)]("productos_ts"),
-    _0x1e83a8 = localStorage[_0x3abd05(0x341)]("promociones_ts");
-  let _0x36d229 = _0x3abd05(0x297);
-  if (_0x55fdef && _0x1e83a8) {
-    const _0x395e56 = tiempoRelativo(Number(_0x55fdef)),
-      _0x586710 = tiempoRelativo(Number(_0x1e83a8)),
-      _0x11a2c3 = Math["abs"](Number(_0x55fdef) - Number(_0x1e83a8));
-    _0x11a2c3 < 0xea60
-      ? (_0x36d229 = _0x3abd05(0x1fc) + _0x395e56)
-      : (_0x36d229 =
-          "Productos:\x20" + _0x395e56 + _0x3abd05(0x32b) + _0x586710);
+  const _0x4de2d0 = _0x1b5bb5,
+    _0x2708fa = localStorage[_0x4de2d0(0x1bc)](_0x4de2d0(0x2f0)),
+    _0x4060a1 = localStorage[_0x4de2d0(0x1bc)](_0x4de2d0(0x12c));
+  let _0x215a5d = _0x4de2d0(0x16e);
+  if (_0x2708fa && _0x4060a1) {
+    const _0x337ca4 = tiempoRelativo(Number(_0x2708fa)),
+      _0x2600ce = tiempoRelativo(Number(_0x4060a1)),
+      _0x22e883 = Math[_0x4de2d0(0x230)](Number(_0x2708fa) - Number(_0x4060a1));
+    _0x22e883 < 0xea60
+      ? (_0x215a5d = "Última\x20actualización:\x20" + _0x337ca4)
+      : (_0x215a5d =
+          _0x4de2d0(0x279) + _0x337ca4 + _0x4de2d0(0xe2) + _0x2600ce);
   } else {
-    if (_0x55fdef)
-      _0x36d229 =
-        "Productos:\x20" + tiempoRelativo(Number(_0x55fdef)) + _0x3abd05(0x3c4);
+    if (_0x2708fa)
+      _0x215a5d =
+        _0x4de2d0(0x279) +
+        tiempoRelativo(Number(_0x2708fa)) +
+        "\x20|\x20Promociones:\x20nunca";
     else
-      _0x1e83a8 &&
-        (_0x36d229 = _0x3abd05(0x3d5) + tiempoRelativo(Number(_0x1e83a8)));
+      _0x4060a1 &&
+        (_0x215a5d = _0x4de2d0(0x1a8) + tiempoRelativo(Number(_0x4060a1)));
   }
-  ultimaActualizacionSpan[_0x3abd05(0x49e)] = _0x36d229;
+  ultimaActualizacionSpan[_0x4de2d0(0x29b)] = _0x215a5d;
 }
-function actualizarProgreso(_0x4e5323, _0x4234c4, _0x248e86 = "") {
-  const _0x2866a6 = _0x765170,
-    _0x3ac43a = Math[_0x2866a6(0x356)](
-      0x64,
-      Math[_0x2866a6(0x267)](0x0, _0x4e5323)
-    ),
-    _0x149620 =
-      _0x4e5323 >= 0x64
-        ? _0x2866a6(0x292)
-        : _0x4e5323 >= 0x32
-        ? _0x2866a6(0x46c)
-        : "primary";
-  mensajeActualizacion[_0x2866a6(0x2ea)] =
-    _0x2866a6(0x202) +
-    _0x4234c4 +
-    _0x2866a6(0x376) +
-    _0x4e5323 +
-    _0x2866a6(0x1fe) +
-    _0x149620 +
-    "\x22\x20role=\x22progressbar\x22\x20style=\x22width:\x20" +
-    _0x3ac43a +
-    _0x2866a6(0x303) +
-    _0x4e5323 +
-    "\x22\x20aria-valuemin=\x220\x22\x20aria-valuemax=\x22100\x22></div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20" +
-    (_0x248e86 ? _0x2866a6(0x440) + _0x248e86 + _0x2866a6(0x2b4) : "") +
-    _0x2866a6(0x4a7);
+function actualizarProgreso(_0x54b260, _0x5e7550, _0x2d0c3b = "") {
+  const _0x2d9f02 = _0x1b5bb5,
+    _0x211280 = Math["min"](0x64, Math[_0x2d9f02(0x220)](0x0, _0x54b260)),
+    _0x4e0ef1 =
+      _0x54b260 >= 0x64
+        ? _0x2d9f02(0x206)
+        : _0x54b260 >= 0x32
+        ? _0x2d9f02(0xa9)
+        : _0x2d9f02(0x212);
+  mensajeActualizacion[_0x2d9f02(0x12a)] =
+    "\x0a\x20\x20\x20\x20<div\x20class=\x22mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x20mb-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22fw-medium\x22>" +
+    _0x5e7550 +
+    _0x2d9f02(0x2b2) +
+    _0x54b260 +
+    _0x2d9f02(0x13c) +
+    _0x4e0ef1 +
+    _0x2d9f02(0x1d7) +
+    _0x211280 +
+    _0x2d9f02(0x141) +
+    _0x54b260 +
+    _0x2d9f02(0x20f) +
+    (_0x2d0c3b ? _0x2d9f02(0xfb) + _0x2d0c3b + _0x2d9f02(0xee) : "") +
+    _0x2d9f02(0x2e4);
 }
 async function actualizarTodosLosDatos() {
-  const _0x47eb69 = _0x765170;
-  console["log"]("🚀\x20Iniciando\x20actualización\x20con\x20progreso..."),
-    (btnActualizar[_0x47eb69(0x44d)] = !![]),
-    (btnTexto["textContent"] = _0x47eb69(0x337)),
-    btnSpinner["classList"][_0x47eb69(0x256)]("d-none");
-  const _0x1d1917 = Date[_0x47eb69(0x2b0)]();
-  let _0x133093 = ![],
-    _0x230605 = ![];
-  const _0xd7fd1 = () => {
-    const _0x508804 = _0x47eb69;
-    let _0x308790 = 0x0,
-      _0x350f5f = _0x508804(0x30e),
-      _0x3f5a83 = "";
-    if (!_0x133093 && !_0x230605)
-      (_0x308790 = 0xa),
-        (_0x350f5f = _0x508804(0x3f9)),
-        (_0x3f5a83 = _0x508804(0x411));
+  const _0x1cf0bc = _0x1b5bb5;
+  console[_0x1cf0bc(0x1f3)](
+    "🚀\x20Iniciando\x20actualización\x20con\x20progreso..."
+  ),
+    (btnActualizar[_0x1cf0bc(0x36e)] = !![]),
+    (btnTexto["textContent"] = _0x1cf0bc(0x243)),
+    btnSpinner[_0x1cf0bc(0x2e7)][_0x1cf0bc(0x365)](_0x1cf0bc(0x1aa));
+  const _0x3f28d2 = Date[_0x1cf0bc(0xdd)]();
+  let _0x3cbfc3 = ![],
+    _0x411afe = ![];
+  const _0x557a55 = () => {
+    const _0x874339 = _0x1cf0bc;
+    let _0x357e9b = 0x0,
+      _0x373959 = _0x874339(0x2e8),
+      _0x4a7aff = "";
+    if (!_0x3cbfc3 && !_0x411afe)
+      (_0x357e9b = 0xa),
+        (_0x373959 = _0x874339(0x24c)),
+        (_0x4a7aff = _0x874339(0x36c));
     else {
-      if (_0x133093 && !_0x230605)
-        (_0x308790 = 0x46),
-          (_0x350f5f = _0x508804(0x48a)),
-          (_0x3f5a83 = "Cargando\x20promociones");
+      if (_0x3cbfc3 && !_0x411afe)
+        (_0x357e9b = 0x46),
+          (_0x373959 = _0x874339(0x305)),
+          (_0x4a7aff = "Cargando\x20promociones");
       else {
-        if (!_0x133093 && _0x230605)
-          (_0x308790 = 0x46),
-            (_0x350f5f = _0x508804(0x343)),
-            (_0x3f5a83 = _0x508804(0x3c2));
+        if (!_0x3cbfc3 && _0x411afe)
+          (_0x357e9b = 0x46),
+            (_0x373959 = _0x874339(0x1c1)),
+            (_0x4a7aff = "Procesando\x20productos");
         else {
-          _0x308790 = 0x64;
-          const _0x5d6d8b = ((Date[_0x508804(0x2b0)]() - _0x1d1917) / 0x3e8)[
-            _0x508804(0x3ae)
+          _0x357e9b = 0x64;
+          const _0x5c0535 = ((Date[_0x874339(0xdd)]() - _0x3f28d2) / 0x3e8)[
+            "toFixed"
           ](0x1);
-          (_0x350f5f = "✅\x20Los\x203\x20endpoints\x20consultados"),
-            (_0x3f5a83 = _0x508804(0x43a) + _0x5d6d8b + _0x508804(0x2a8));
+          (_0x373959 = _0x874339(0x369)),
+            (_0x4a7aff = _0x874339(0x2ef) + _0x5c0535 + _0x874339(0x283));
         }
       }
     }
-    actualizarProgreso(_0x308790, _0x350f5f, _0x3f5a83);
+    actualizarProgreso(_0x357e9b, _0x373959, _0x4a7aff);
   };
-  _0xd7fd1();
+  _0x557a55();
   try {
-    await new Promise((_0x5add68) => setTimeout(_0x5add68, 0xc8)),
-      actualizarProgreso(
-        0x19,
-        _0x47eb69(0x4b2),
-        "Conectando\x20con\x20todos\x20los\x20servidores"
-      );
-    const _0x7a4b63 = cargarProductosRapido()["then"]((_0x1df46a) => {
-        return (_0x133093 = !![]), _0xd7fd1(), _0x1df46a;
+    await new Promise((_0x1e7fc6) => setTimeout(_0x1e7fc6, 0xc8)),
+      actualizarProgreso(0x19, _0x1cf0bc(0x26f), _0x1cf0bc(0x1ce));
+    const _0xe298a9 = cargarProductosRapido()[_0x1cf0bc(0x153)]((_0x1463a9) => {
+        return (_0x3cbfc3 = !![]), _0x557a55(), _0x1463a9;
       }),
-      _0x2bd2e8 = cargarPromocionesRapido()[_0x47eb69(0x461)]((_0xe81f8d) => {
-        return (_0x230605 = !![]), _0xd7fd1(), _0xe81f8d;
+      _0x3d23bd = cargarPromocionesRapido()["then"]((_0x31a138) => {
+        return (_0x411afe = !![]), _0x557a55(), _0x31a138;
       });
     setTimeout(() => {
-      const _0x21b514 = _0x47eb69;
-      (!_0x133093 || !_0x230605) &&
-        actualizarProgreso(
-          0x32,
-          "Descargando\x20desde\x20múltiples\x20endpoints...",
-          _0x21b514(0x338)
-        );
+      const _0x26b802 = _0x1cf0bc;
+      (!_0x3cbfc3 || !_0x411afe) &&
+        actualizarProgreso(0x32, _0x26b802(0x2a3), _0x26b802(0x160));
     }, 0x3e8);
-    const [_0x3e1b0b, _0x2170ae] = await Promise[_0x47eb69(0x401)]([
-        _0x7a4b63,
-        _0x2bd2e8,
+    const [_0x79f648, _0x5bc905] = await Promise[_0x1cf0bc(0x355)]([
+        _0xe298a9,
+        _0x3d23bd,
       ]),
-      _0x13337c = ((Date["now"]() - _0x1d1917) / 0x3e8)["toFixed"](0x1);
-    console["log"](_0x47eb69(0x369) + _0x13337c + "s");
-    const _0x5a340c = _0x3e1b0b[_0x47eb69(0x241)] === _0x47eb69(0x39d),
-      _0x2aa895 = _0x2170ae[_0x47eb69(0x241)] === _0x47eb69(0x39d);
-    if (_0x5a340c && _0x2aa895) {
-      const _0x4fd45b = _0x3e1b0b["value"]?.[_0x47eb69(0x428)] || 0x0,
-        _0x14e538 = _0x2170ae[_0x47eb69(0x2c5)]?.[_0x47eb69(0x452)] || 0x0,
-        _0x3a4e71 = _0x3e1b0b["value"]?.["detalles"] || "",
-        _0x2bb3ed = _0x2170ae[_0x47eb69(0x2c5)]?.[_0x47eb69(0x311)] || "";
+      _0x503aef = ((Date[_0x1cf0bc(0xdd)]() - _0x3f28d2) / 0x3e8)[
+        _0x1cf0bc(0x161)
+      ](0x1);
+    console["log"](_0x1cf0bc(0x203) + _0x503aef + "s");
+    const _0x20880a = _0x79f648[_0x1cf0bc(0x1af)] === "fulfilled",
+      _0x26a27a = _0x5bc905["status"] === _0x1cf0bc(0xf8);
+    if (_0x20880a && _0x26a27a) {
+      const _0x29a7e8 = _0x79f648[_0x1cf0bc(0xd6)]?.[_0x1cf0bc(0xf3)] || 0x0,
+        _0x3395d2 = _0x5bc905[_0x1cf0bc(0xd6)]?.["promociones"] || 0x0,
+        _0x33bfc0 = _0x79f648[_0x1cf0bc(0xd6)]?.[_0x1cf0bc(0x1a2)] || "",
+        _0x45eac4 = _0x5bc905["value"]?.["detalles"] || "";
       actualizarProgreso(
         0x64,
-        _0x47eb69(0x467),
-        _0x4fd45b +
-          _0x47eb69(0x3c6) +
-          _0x3a4e71 +
-          _0x47eb69(0x3b2) +
-          _0x14e538 +
-          _0x47eb69(0x21f) +
-          _0x2bb3ed +
-          ")\x20-\x20" +
-          _0x13337c +
+        _0x1cf0bc(0x117),
+        _0x29a7e8 +
+          _0x1cf0bc(0x2ce) +
+          _0x33bfc0 +
+          "),\x20" +
+          _0x3395d2 +
+          "\x20promociones\x20(" +
+          _0x45eac4 +
+          _0x1cf0bc(0xc0) +
+          _0x503aef +
           "s"
       );
     } else
-      _0x5a340c || _0x2aa895
+      _0x20880a || _0x26a27a
         ? actualizarProgreso(
             0x4b,
-            _0x47eb69(0x399),
-            _0x47eb69(0x2d3) + _0x13337c + "s)"
+            "⚠️\x20Consulta\x20parcial\x20de\x20endpoints",
+            "Algunos\x20endpoints\x20fallaron\x20(" + _0x503aef + "s)"
           )
         : actualizarProgreso(
             0x19,
-            _0x47eb69(0x421),
-            "Todos\x20los\x20endpoints\x20fallaron\x20(" + _0x13337c + "s)"
+            _0x1cf0bc(0x1ab),
+            _0x1cf0bc(0x37c) + _0x503aef + "s)"
           );
-    _0x3e1b0b[_0x47eb69(0x241)] === _0x47eb69(0x451) &&
-      console[_0x47eb69(0x258)](
-        "Error\x20al\x20cargar\x20productos:",
-        _0x3e1b0b["reason"]
-      ),
-      _0x2170ae[_0x47eb69(0x241)] === _0x47eb69(0x451) &&
-        console[_0x47eb69(0x258)](_0x47eb69(0x3b9), _0x2170ae["reason"]);
-  } catch (_0x2d1a63) {
-    console[_0x47eb69(0x258)](_0x47eb69(0x2ef), _0x2d1a63),
+    _0x79f648[_0x1cf0bc(0x1af)] === _0x1cf0bc(0x245) &&
+      console["error"](_0x1cf0bc(0x146), _0x79f648[_0x1cf0bc(0x2df)]),
+      _0x5bc905[_0x1cf0bc(0x1af)] === _0x1cf0bc(0x245) &&
+        console[_0x1cf0bc(0x12e)](
+          _0x1cf0bc(0x267),
+          _0x5bc905[_0x1cf0bc(0x2df)]
+        );
+  } catch (_0x21b1b0) {
+    console["error"](_0x1cf0bc(0x2b6), _0x21b1b0),
       actualizarProgreso(
         0x0,
         "❌\x20Error\x20de\x20conexión",
-        _0x47eb69(0x3a3)
+        _0x1cf0bc(0x2cc)
       );
   } finally {
-    (btnActualizar[_0x47eb69(0x44d)] = ![]),
-      (btnTexto[_0x47eb69(0x49e)] = _0x47eb69(0x3af)),
-      btnSpinner[_0x47eb69(0x2f0)][_0x47eb69(0x235)](_0x47eb69(0x49f)),
+    (btnActualizar[_0x1cf0bc(0x36e)] = ![]),
+      (btnTexto[_0x1cf0bc(0x29b)] = _0x1cf0bc(0xf1)),
+      btnSpinner[_0x1cf0bc(0x2e7)]["add"]("d-none"),
       setTimeout(() => {
         (mensajeActualizacion["textContent"] = ""), renderUltimaActualizacion();
       }, 0xfa0);
   }
 }
 async function cargarProductosRapido() {
-  const _0x4a132d = _0x765170,
-    _0x203b47 = Date["now"]();
-  if (!navigator["onLine"]) throw new Error(_0x4a132d(0x214));
-  let _0x59b5c4 = [],
-    _0x33e2c9 = [];
-  console["log"](_0x4a132d(0x3bd));
+  const _0x5b49db = _0x1b5bb5,
+    _0x5bf5c0 = Date[_0x5b49db(0xdd)]();
+  if (!navigator[_0x5b49db(0x195)]) throw new Error(_0x5b49db(0xc6));
+  let _0x163273 = [],
+    _0x5498b8 = [];
+  console[_0x5b49db(0x1f3)](_0x5b49db(0x307));
   if (CONFIG_ENDPOINTS["usarCodigosBarras"])
     try {
-      const _0x583b21 = CONFIG_ENDPOINTS[_0x4a132d(0x2a6)] + "?t=" + _0x203b47;
-      console["log"](_0x4a132d(0x3f7));
-      const _0x47d16e = await Promise[_0x4a132d(0x43e)]([
-        fetch(_0x583b21, {
+      const _0x9d94f1 =
+        CONFIG_ENDPOINTS["productosConCodigos"] + "?t=" + _0x5bf5c0;
+      console[_0x5b49db(0x1f3)](_0x5b49db(0x1cb));
+      const _0x1d1266 = await Promise[_0x5b49db(0x208)]([
+        fetch(_0x9d94f1, {
           cache: "no-store",
-          mode: "cors",
+          mode: _0x5b49db(0x2be),
           headers: {
-            Accept: _0x4a132d(0x33d),
-            "Content-Type": _0x4a132d(0x33d),
+            Accept: _0x5b49db(0x108),
+            "Content-Type": _0x5b49db(0x108),
           },
         }),
-        new Promise((_0x3885f4, _0x29dcfa) =>
+        new Promise((_0x4d3fc7, _0x43bc7d) =>
           setTimeout(
-            () => _0x29dcfa(new Error(_0x4a132d(0x484))),
-            CONFIG_ENDPOINTS[_0x4a132d(0x3f6)]
+            () => _0x43bc7d(new Error(_0x5b49db(0x105))),
+            CONFIG_ENDPOINTS["fallbackTiempo"]
           )
         ),
       ]);
-      if (_0x47d16e["ok"]) {
-        const _0x2f0cd4 = await _0x47d16e[_0x4a132d(0x497)]();
-        _0x2f0cd4[_0x4a132d(0x292)] && _0x2f0cd4[_0x4a132d(0x428)]
-          ? ((_0x59b5c4 = _0x2f0cd4[_0x4a132d(0x428)]),
-            _0x33e2c9[_0x4a132d(0x424)]("códigos\x20de\x20barras\x20✅"),
-            console[_0x4a132d(0x413)](
-              _0x4a132d(0x320),
-              _0x2f0cd4[_0x4a132d(0x428)]["length"]
+      if (_0x1d1266["ok"]) {
+        const _0xee989e = await _0x1d1266[_0x5b49db(0x193)]();
+        _0xee989e[_0x5b49db(0x206)] && _0xee989e[_0x5b49db(0xf3)]
+          ? ((_0x163273 = _0xee989e[_0x5b49db(0xf3)]),
+            _0x5498b8[_0x5b49db(0x311)](_0x5b49db(0x28c)),
+            console["log"](
+              "✅\x20Productos\x20cargados\x20con\x20códigos\x20de\x20barras:",
+              _0xee989e["productos"][_0x5b49db(0x359)]
             ))
-          : _0x33e2c9["push"](
-              "códigos\x20de\x20barras\x20⚠️\x20(sin\x20datos)"
-            );
+          : _0x5498b8["push"](_0x5b49db(0x2bd));
       } else
-        _0x33e2c9[_0x4a132d(0x424)](
-          _0x4a132d(0x372) + _0x47d16e[_0x4a132d(0x241)] + ")"
-        );
-    } catch (_0x203d77) {
-      console[_0x4a132d(0x371)](_0x4a132d(0x42c), _0x203d77[_0x4a132d(0x48f)]),
-        _0x203d77["message"]["includes"](_0x4a132d(0x207)) ||
-        _0x203d77[_0x4a132d(0x48f)][_0x4a132d(0x37b)](_0x4a132d(0x477))
-          ? (_0x33e2c9[_0x4a132d(0x424)](_0x4a132d(0x331)),
-            console[_0x4a132d(0x413)](_0x4a132d(0x2f6)))
-          : _0x33e2c9[_0x4a132d(0x424)](_0x4a132d(0x479));
+        _0x5498b8["push"](_0x5b49db(0x375) + _0x1d1266[_0x5b49db(0x1af)] + ")");
+    } catch (_0x47ae27) {
+      console[_0x5b49db(0x377)](_0x5b49db(0x17e), _0x47ae27[_0x5b49db(0x254)]),
+        _0x47ae27[_0x5b49db(0x254)][_0x5b49db(0x278)]("CORS") ||
+        _0x47ae27[_0x5b49db(0x254)][_0x5b49db(0x278)](_0x5b49db(0x20b))
+          ? (_0x5498b8[_0x5b49db(0x311)](
+              "códigos\x20de\x20barras\x20❌\x20(CORS/Red)"
+            ),
+            console[_0x5b49db(0x1f3)](_0x5b49db(0x1ca)))
+          : _0x5498b8[_0x5b49db(0x311)](_0x5b49db(0x192));
     }
   try {
-    const _0xdb085a =
-      CONFIG_ENDPOINTS["productosBasicos"] + _0x4a132d(0x294) + _0x203b47;
-    console[_0x4a132d(0x413)](_0x4a132d(0x31c));
-    const _0x17050a = await fetch(_0xdb085a, { cache: _0x4a132d(0x2d0) });
-    if (_0x17050a["ok"]) {
-      const _0x2f1bfb = await _0x17050a["json"](),
-        _0x4afb6b = Array[_0x4a132d(0x263)](_0x2f1bfb) ? _0x2f1bfb : [];
-      _0x59b5c4[_0x4a132d(0x37d)] === 0x0 &&
-        _0x4afb6b["length"] > 0x0 &&
-        (_0x59b5c4 = _0x4afb6b),
-        _0x33e2c9[_0x4a132d(0x424)]("básico\x20✅"),
-        console[_0x4a132d(0x413)](
-          _0x4a132d(0x419),
-          _0x4afb6b["length"],
-          "productos"
-        );
-    } else _0x33e2c9[_0x4a132d(0x424)]("básico\x20❌\x20(error\x20HTTP)");
-  } catch (_0x5714ef) {
-    console["warn"](_0x4a132d(0x3a5), _0x5714ef[_0x4a132d(0x48f)]),
-      _0x33e2c9["push"](_0x4a132d(0x2ac));
+    const _0x37eafd =
+      CONFIG_ENDPOINTS[_0x5b49db(0x295)] + _0x5b49db(0x127) + _0x5bf5c0;
+    console[_0x5b49db(0x1f3)](_0x5b49db(0x147));
+    const _0x5136f5 = await fetch(_0x37eafd, { cache: "no-store" });
+    if (_0x5136f5["ok"]) {
+      const _0x38dfc4 = await _0x5136f5[_0x5b49db(0x193)](),
+        _0x278611 = Array[_0x5b49db(0x116)](_0x38dfc4) ? _0x38dfc4 : [];
+      _0x163273[_0x5b49db(0x359)] === 0x0 &&
+        _0x278611[_0x5b49db(0x359)] > 0x0 &&
+        (_0x163273 = _0x278611),
+        _0x5498b8[_0x5b49db(0x311)](_0x5b49db(0x15d)),
+        console["log"](_0x5b49db(0x26a), _0x278611["length"], _0x5b49db(0xf3));
+    } else _0x5498b8[_0x5b49db(0x311)](_0x5b49db(0x2c4));
+  } catch (_0x426da1) {
+    console["warn"](_0x5b49db(0x201), _0x426da1[_0x5b49db(0x254)]),
+      _0x5498b8[_0x5b49db(0x311)](_0x5b49db(0x213));
   }
-  if (_0x59b5c4["length"] === 0x0) throw new Error(_0x4a132d(0x27f));
+  if (_0x163273["length"] === 0x0) throw new Error(_0x5b49db(0x28a));
   return (
     await clearProductos(),
-    await saveProductos(_0x59b5c4),
-    localStorage[_0x4a132d(0x266)](_0x4a132d(0x284), String(_0x203b47)),
-    console[_0x4a132d(0x413)](
-      "📊\x20Resumen\x20endpoints\x20productos:",
-      _0x33e2c9[_0x4a132d(0x36e)](",\x20")
+    await saveProductos(_0x163273),
+    localStorage[_0x5b49db(0x358)](_0x5b49db(0x2f0), String(_0x5bf5c0)),
+    console[_0x5b49db(0x1f3)](
+      _0x5b49db(0xe7),
+      _0x5498b8[_0x5b49db(0x1b5)](",\x20")
     ),
     {
-      productos: _0x59b5c4[_0x4a132d(0x37d)],
-      endpoints: _0x33e2c9,
-      detalles: _0x33e2c9["length"] + _0x4a132d(0x2c8),
+      productos: _0x163273[_0x5b49db(0x359)],
+      endpoints: _0x5498b8,
+      detalles: _0x5498b8["length"] + _0x5b49db(0xa7),
     }
   );
 }
 async function cargarPromocionesRapido() {
-  const _0x306e77 = _0x765170;
-  console[_0x306e77(0x413)](
-    "🔄\x20Consultando\x20endpoint\x20de\x20promociones..."
-  );
-  const _0x19746d = await fetch(CONFIG_ENDPOINTS[_0x306e77(0x452)], {
-    cache: _0x306e77(0x2d0),
-    headers: { Accept: _0x306e77(0x33d), "Content-Type": _0x306e77(0x33d) },
+  const _0x862803 = _0x1b5bb5;
+  console["log"](_0x862803(0x2a0));
+  const _0x172529 = await fetch(CONFIG_ENDPOINTS[_0x862803(0x29d)], {
+    cache: _0x862803(0x113),
+    headers: { Accept: "application/json", "Content-Type": "application/json" },
   });
-  if (!_0x19746d["ok"])
-    throw new Error(_0x306e77(0x485) + _0x19746d[_0x306e77(0x241)]);
-  const _0x21eb1a = await _0x19746d[_0x306e77(0x497)]();
+  if (!_0x172529["ok"]) throw new Error(_0x862803(0x10f) + _0x172529["status"]);
+  const _0x1b3f1d = await _0x172529[_0x862803(0x193)]();
   if (
-    _0x21eb1a["success"] &&
-    _0x21eb1a["data"] &&
-    _0x21eb1a[_0x306e77(0x3b3)]["promociones"]
+    _0x1b3f1d[_0x862803(0x206)] &&
+    _0x1b3f1d[_0x862803(0x36f)] &&
+    _0x1b3f1d[_0x862803(0x36f)][_0x862803(0x29d)]
   ) {
-    const _0xe5f161 = _0x21eb1a[_0x306e77(0x3b3)]["promociones"];
-    console["log"](
-      _0x306e77(0x35b) + _0xe5f161[_0x306e77(0x37d)] + _0x306e77(0x2d9)
+    const _0x24ae92 = _0x1b3f1d[_0x862803(0x36f)]["promociones"];
+    console[_0x862803(0x1f3)](
+      _0x862803(0x165) + _0x24ae92["length"] + _0x862803(0x314)
     );
     try {
-      await clearPromociones(), await savePromociones(_0xe5f161);
-      const _0x48977e = Date[_0x306e77(0x2b0)]();
-      localStorage[_0x306e77(0x266)](_0x306e77(0x312), String(_0x48977e)),
-        console[_0x306e77(0x413)](_0x306e77(0x350));
-    } catch (_0x17a5fd) {
-      console["error"](_0x306e77(0x450), _0x17a5fd);
+      await clearPromociones(), await savePromociones(_0x24ae92);
+      const _0x39fbe0 = Date[_0x862803(0xdd)]();
+      localStorage["setItem"]("promociones_ts", String(_0x39fbe0)),
+        console[_0x862803(0x1f3)](_0x862803(0x10b));
+    } catch (_0x4ec3c7) {
+      console["error"](_0x862803(0x2a6), _0x4ec3c7);
     }
     return {
-      promociones: _0xe5f161[_0x306e77(0x37d)],
-      detalles: _0x306e77(0x23b),
+      promociones: _0x24ae92[_0x862803(0x359)],
+      detalles: "promociones\x20✅",
     };
-  } else throw new Error(_0x306e77(0x244));
+  } else throw new Error(_0x862803(0x196));
 }
-btnActualizar[_0x765170(0x41e)](_0x765170(0x228), actualizarTodosLosDatos),
-  btnPromociones[_0x765170(0x41e)]("click", mostrarModalPromocionesGenerales),
+btnActualizar[_0x1b5bb5(0x342)](_0x1b5bb5(0x373), actualizarTodosLosDatos),
+  btnPromociones[_0x1b5bb5(0x342)](
+    _0x1b5bb5(0x373),
+    mostrarModalPromocionesGenerales
+  ),
   renderUltimaActualizacion(),
   setInterval(renderUltimaActualizacion, 0xea60),
-  openDB()[_0x765170(0x461)](async (_0x3df03b) => {
-    const _0x2cc6c3 = _0x765170,
-      _0x272821 = _0x3df03b[_0x2cc6c3(0x471)](DB_STORE, "readonly"),
-      _0x2509e2 = _0x272821[_0x2cc6c3(0x47b)](DB_STORE),
-      _0x4fabfa = _0x2509e2[_0x2cc6c3(0x454)](),
-      _0x2dd7d5 = _0x3df03b[_0x2cc6c3(0x471)](
+  openDB()["then"](async (_0x4a3855) => {
+    const _0x539614 = _0x1b5bb5,
+      _0x2e2930 = _0x4a3855["transaction"](DB_STORE, _0x539614(0x15a)),
+      _0x2c185c = _0x2e2930["objectStore"](DB_STORE),
+      _0x3e661b = _0x2c185c[_0x539614(0x32e)](),
+      _0x805d72 = _0x4a3855[_0x539614(0x2e9)](
         DB_STORE_PROMOCIONES,
-        _0x2cc6c3(0x4b4)
+        _0x539614(0x15a)
       ),
-      _0x4cec2a = _0x2dd7d5[_0x2cc6c3(0x47b)](DB_STORE_PROMOCIONES),
-      _0x4b11df = _0x4cec2a[_0x2cc6c3(0x454)]();
-    Promise[_0x2cc6c3(0x45b)]([
-      new Promise((_0x3c417f) => {
-        const _0x2915ec = _0x2cc6c3;
-        _0x4fabfa[_0x2915ec(0x4a3)] = () =>
-          _0x3c417f(_0x4fabfa[_0x2915ec(0x1fa)]);
+      _0x26966e = _0x805d72["objectStore"](DB_STORE_PROMOCIONES),
+      _0x362001 = _0x26966e[_0x539614(0x32e)]();
+    Promise[_0x539614(0x2e5)]([
+      new Promise((_0x91f31b) => {
+        const _0x3da1d8 = _0x539614;
+        _0x3e661b[_0x3da1d8(0x2dc)] = () => _0x91f31b(_0x3e661b["result"]);
       }),
-      new Promise((_0x5dcc9b) => {
-        const _0x53dcaf = _0x2cc6c3;
-        _0x4b11df[_0x53dcaf(0x4a3)] = () =>
-          _0x5dcc9b(_0x4b11df[_0x53dcaf(0x1fa)]);
+      new Promise((_0x1cab1f) => {
+        const _0x44b4e0 = _0x539614;
+        _0x362001[_0x44b4e0(0x2dc)] = () =>
+          _0x1cab1f(_0x362001[_0x44b4e0(0x228)]);
       }),
     ])
-      [_0x2cc6c3(0x461)](([_0x5a13d9, _0x18712c]) => {
-        const _0x3a3088 = _0x2cc6c3,
-          _0x88dc8a = _0x5a13d9 > 0x0,
-          _0x455bf5 = _0x18712c > 0x0;
-        if (!_0x88dc8a && !_0x455bf5)
-          console[_0x3a3088(0x413)](_0x3a3088(0x410)),
+      [_0x539614(0x153)](([_0x398950, _0x13d2e6]) => {
+        const _0x2fe63f = _0x539614,
+          _0x4bfd55 = _0x398950 > 0x0,
+          _0xaf6c93 = _0x13d2e6 > 0x0;
+        if (!_0x4bfd55 && !_0xaf6c93)
+          console[_0x2fe63f(0x1f3)](_0x2fe63f(0x119)),
             actualizarTodosLosDatos();
         else {
-          if (!_0x88dc8a)
-            console["log"](_0x3a3088(0x348)), actualizarTodosLosDatos();
+          if (!_0x4bfd55)
+            console[_0x2fe63f(0x1f3)](_0x2fe63f(0x34a)),
+              actualizarTodosLosDatos();
           else
-            !_0x455bf5 && !datosYaCargados
-              ? (console[_0x3a3088(0x413)](
-                  "🔄\x20Productos\x20existentes:\x20cargando\x20solo\x20promociones..."
-                ),
+            !_0xaf6c93 && !datosYaCargados
+              ? (console[_0x2fe63f(0x1f3)](_0x2fe63f(0xed)),
                 cargarPromocionesRapido())
-              : console[_0x3a3088(0x413)](
-                  _0x3a3088(0x483),
-                  _0x5a13d9,
-                  _0x3a3088(0x3e4),
-                  _0x18712c
+              : console[_0x2fe63f(0x1f3)](
+                  _0x2fe63f(0x2fb),
+                  _0x398950,
+                  _0x2fe63f(0x1fb),
+                  _0x13d2e6
                 );
         }
         datosYaCargados = !![];
       })
-      [_0x2cc6c3(0x21b)]((_0x24fc78) => {
-        const _0x4a030a = _0x2cc6c3;
-        console[_0x4a030a(0x258)](_0x4a030a(0x226), _0x24fc78),
+      [_0x539614(0xd7)]((_0x5bfb45) => {
+        const _0x25e5e8 = _0x539614;
+        console["error"](_0x25e5e8(0x150), _0x5bfb45),
           actualizarTodosLosDatos(),
           (datosYaCargados = !![]);
       });
   });
 let historial = [];
-const historialCookie = getCookie("historial");
+const historialCookie = getCookie(_0x1b5bb5(0x167));
 if (historialCookie)
   try {
-    historial = JSON[_0x765170(0x336)](historialCookie);
-  } catch (_0x4c18b2) {
+    historial = JSON[_0x1b5bb5(0x2c5)](historialCookie);
+  } catch (_0x4fee15) {
     historial = [];
   }
 function renderClearButton() {
-  const _0x8d27f0 = _0x765170;
-  return _0x8d27f0(0x270);
+  const _0x47d6c0 = _0x1b5bb5;
+  return _0x47d6c0(0xe5);
 }
 function renderHistorial() {
-  const _0x9e9f31 = _0x765170;
-  (historialDiv[_0x9e9f31(0x2ea)] =
-    _0x9e9f31(0x243) +
-    (historial[_0x9e9f31(0x37d)] > 0x0 ? renderClearButton() : "") +
-    _0x9e9f31(0x39c) +
-    (historial["length"] === 0x0
-      ? _0x9e9f31(0x460)
-      : "<ul\x20class=\x22list-group\x20list-group-flush\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
-        historial[_0x9e9f31(0x231)]((_0x18c475) => {
-          const _0x33d149 = _0x9e9f31,
-            _0x2b2e72 =
-              _0x18c475[_0x33d149(0x220)] ||
-              _0x18c475["NOMBRE"] ||
-              _0x33d149(0x24f),
-            _0x1487f4 =
-              _0x18c475[_0x33d149(0x3e7)] ||
-              _0x18c475[_0x33d149(0x367)] ||
-              _0x18c475[_0x33d149(0x3f1)] ||
-              _0x18c475[_0x33d149(0x233)] ||
-              _0x33d149(0x31d),
-            _0x4b13d2 =
-              _0x18c475[_0x33d149(0x279)] ||
-              _0x18c475["L1"] ||
-              _0x18c475[_0x33d149(0x283)] ||
+  const _0x26eafc = _0x1b5bb5;
+  (historialDiv[_0x26eafc(0x12a)] =
+    _0x26eafc(0x1e6) +
+    (historial[_0x26eafc(0x359)] > 0x0 ? renderClearButton() : "") +
+    _0x26eafc(0x35d) +
+    (historial[_0x26eafc(0x359)] === 0x0
+      ? _0x26eafc(0x349)
+      : _0x26eafc(0x158) +
+        historial[_0x26eafc(0x22e)]((_0x3c690d) => {
+          const _0x2456b8 = _0x26eafc,
+            _0x5bdf3b =
+              _0x3c690d[_0x2456b8(0xdf)] ||
+              _0x3c690d[_0x2456b8(0x27e)] ||
+              "Producto\x20desconocido",
+            _0x32697b =
+              _0x3c690d[_0x2456b8(0xe8)] ||
+              _0x3c690d["pr_gtin"] ||
+              _0x3c690d[_0x2456b8(0x2d8)] ||
+              _0x3c690d[_0x2456b8(0xe3)] ||
+              _0x2456b8(0xf9),
+            _0x102dce =
+              _0x3c690d[_0x2456b8(0x1ad)] ||
+              _0x3c690d["L1"] ||
+              _0x3c690d[_0x2456b8(0x159)] ||
               0x0,
-            _0x13f20a = Math[_0x33d149(0x2d7)](_0x4b13d2 * 1.16 * 0x64) / 0x64,
-            _0x54ecf9 = _0x18c475["FECHA_ESCANEO"]
-              ? new Date(_0x18c475[_0x33d149(0x4a8)])[_0x33d149(0x408)]()
-              : _0x33d149(0x4b3);
+            _0x3768c6 = Math[_0x2456b8(0x222)](_0x102dce * 1.16 * 0x64) / 0x64,
+            _0x569ee1 = _0x3c690d[_0x2456b8(0x1f6)]
+              ? new Date(_0x3c690d[_0x2456b8(0x1f6)])[_0x2456b8(0x2e3)]()
+              : _0x2456b8(0xf0);
           return (
-            _0x33d149(0x24a) +
-            _0x2b2e72 +
-            _0x33d149(0x2fe) +
-            _0x2b2e72 +
-            "\x22\x20style=\x22font-size:1.2rem;\x20color:#616161;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-clipboard\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22small\x20text-secondary\x20ms-md-2\x20d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20SKU:\x20<strong\x20class=\x22ms-1\x22>" +
-            _0x1487f4 +
-            _0x33d149(0x489) +
-            _0x1487f4 +
-            _0x33d149(0x274) +
-            _0x13f20a["toFixed"](0x2) +
-            _0x33d149(0x33a) +
-            _0x54ecf9 +
-            "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22ms-md-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-primary\x20btn-sm\x20consultar-historial-btn\x22\x20title=\x22Ver\x20detalles\x20completos\x22\x20data-sku=\x22" +
-            _0x1487f4 +
-            _0x33d149(0x321)
+            _0x2456b8(0x231) +
+            _0x5bdf3b +
+            _0x2456b8(0x16d) +
+            _0x5bdf3b +
+            _0x2456b8(0x2dd) +
+            _0x32697b +
+            _0x2456b8(0x136) +
+            _0x32697b +
+            "\x22\x20style=\x22font-size:1.2rem;\x20color:#616161;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-clipboard\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-success\x20fs-6\x20mb-1\x20mb-md-0\x20ms-md-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Precio:\x20$" +
+            _0x3768c6[_0x2456b8(0x161)](0x2) +
+            _0x2456b8(0x23a) +
+            _0x569ee1 +
+            _0x2456b8(0x265) +
+            _0x32697b +
+            _0x2456b8(0x34f)
           );
-        })[_0x9e9f31(0x36e)]("") +
-        _0x9e9f31(0x3fa)) +
-    _0x9e9f31(0x359)),
-    setCookie(_0x9e9f31(0x2fd), JSON[_0x9e9f31(0x2b3)](historial), 0x1e);
-  const _0x6e6800 = document[_0x9e9f31(0x2ce)](_0x9e9f31(0x3cf));
-  _0x6e6800 &&
-    _0x6e6800[_0x9e9f31(0x41e)](_0x9e9f31(0x228), () => {
-      const _0x3341fd = _0x9e9f31;
+        })[_0x26eafc(0x1b5)]("") +
+        _0x26eafc(0x2ed)) +
+    _0x26eafc(0x168)),
+    setCookie(_0x26eafc(0x167), JSON["stringify"](historial), 0x1e);
+  const _0x1b399e = document["getElementById"](_0x26eafc(0x1da));
+  _0x1b399e &&
+    _0x1b399e[_0x26eafc(0x342)](_0x26eafc(0x373), () => {
+      const _0x178278 = _0x26eafc;
       (historial = []),
-        setCookie(_0x3341fd(0x2fd), JSON[_0x3341fd(0x2b3)](historial), 0x1e),
+        setCookie(_0x178278(0x167), JSON[_0x178278(0x328)](historial), 0x1e),
         renderHistorial();
     });
-  const _0x3bc93d = historialDiv["querySelectorAll"](".copiar-btn");
-  _0x3bc93d["forEach"]((_0x13b8b9) => {
-    const _0x282eb1 = _0x9e9f31;
-    _0x13b8b9[_0x282eb1(0x41e)]("click", function (_0x3d324d) {
-      const _0x48dc8f = _0x282eb1,
-        _0x4baf34 = _0x13b8b9[_0x48dc8f(0x280)](_0x48dc8f(0x2d5));
-      navigator["clipboard"] &&
-        navigator[_0x48dc8f(0x4b8)]["writeText"](_0x4baf34)["then"](() => {
-          const _0x3a0274 = _0x48dc8f;
-          (_0x13b8b9[_0x3a0274(0x2ea)] = _0x3a0274(0x3be)),
-            setTimeout(() => {
-              const _0x123c93 = _0x3a0274;
-              _0x13b8b9["innerHTML"] = _0x123c93(0x2a4);
-            }, 0x4b0);
-        });
+  const _0x35841f = historialDiv[_0x26eafc(0x2f2)](".copiar-btn");
+  _0x35841f[_0x26eafc(0x248)]((_0x5efa01) => {
+    const _0x6ed0e6 = _0x26eafc;
+    _0x5efa01[_0x6ed0e6(0x342)](_0x6ed0e6(0x373), function (_0x1207d1) {
+      const _0x419591 = _0x6ed0e6,
+        _0x1eedc4 = _0x5efa01[_0x419591(0x329)](_0x419591(0xf5));
+      navigator[_0x419591(0x1a1)] &&
+        navigator[_0x419591(0x1a1)]
+          ["writeText"](_0x1eedc4)
+          [_0x419591(0x153)](() => {
+            const _0x3beb92 = _0x419591;
+            (_0x5efa01[_0x3beb92(0x12a)] = _0x3beb92(0x15e)),
+              setTimeout(() => {
+                const _0x154cc6 = _0x3beb92;
+                _0x5efa01[_0x154cc6(0x12a)] =
+                  "<i\x20class=\x22bi\x20bi-clipboard\x22></i>";
+              }, 0x4b0);
+          });
     });
   });
-  const _0x49623d = historialDiv[_0x9e9f31(0x31b)](".consultar-historial-btn");
-  _0x49623d[_0x9e9f31(0x392)]((_0x18f341) => {
-    const _0x12d093 = _0x9e9f31;
-    _0x18f341[_0x12d093(0x41e)](_0x12d093(0x228), function (_0x52ee15) {
-      const _0x144cf2 = _0x12d093,
-        _0x3af6c1 = _0x18f341[_0x144cf2(0x280)]("data-sku");
-      consultarProductoDesdeHistorial(_0x3af6c1);
+  const _0x936ec5 = historialDiv[_0x26eafc(0x2f2)](_0x26eafc(0x2a4));
+  _0x936ec5[_0x26eafc(0x248)]((_0x4833a9) => {
+    const _0x10ce6d = _0x26eafc;
+    _0x4833a9[_0x10ce6d(0x342)]("click", function (_0x506247) {
+      const _0x4d3e92 = _0x10ce6d,
+        _0x3b05d6 = _0x4833a9[_0x4d3e92(0x329)](_0x4d3e92(0x334));
+      consultarProductoDesdeHistorial(_0x3b05d6);
     });
   });
 }
-inputCodigo[_0x765170(0x41e)](_0x765170(0x33b), function (_0x5a5aee) {
-  const _0x2d18ce = _0x765170;
-  _0x5a5aee[_0x2d18ce(0x40b)] === "Enter" &&
-    (_0x5a5aee[_0x2d18ce(0x481)](),
-    form[_0x2d18ce(0x24b)](),
+inputCodigo[_0x1b5bb5(0x342)]("keydown", function (_0x24c119) {
+  const _0x19171f = _0x1b5bb5;
+  _0x24c119[_0x19171f(0x2d7)] === _0x19171f(0xd0) &&
+    (_0x24c119["preventDefault"](),
+    form[_0x19171f(0x19e)](),
     setTimeout(() => {
-      const _0x1f3bc3 = _0x2d18ce,
-        _0x48228c = document[_0x1f3bc3(0x2ce)](_0x1f3bc3(0x33e));
-      _0x48228c &&
-        _0x48228c[_0x1f3bc3(0x439)]({
-          behavior: _0x1f3bc3(0x45e),
-          block: _0x1f3bc3(0x26f),
-          inline: _0x1f3bc3(0x4a5),
+      const _0x3533de = _0x19171f,
+        _0x398c5e = document[_0x3533de(0x185)](_0x3533de(0x2c3));
+      _0x398c5e &&
+        _0x398c5e[_0x3533de(0x18a)]({
+          behavior: _0x3533de(0x2a2),
+          block: "start",
+          inline: _0x3533de(0x1f7),
         });
     }, 0x12c));
 }),
-  form[_0x765170(0x41e)](_0x765170(0x332), async (_0x457ceb) => {
-    const _0x5692ee = _0x765170;
-    _0x457ceb[_0x5692ee(0x481)]();
-    let _0xeaa8a3 = inputCodigo["value"]
-      [_0x5692ee(0x255)]()
-      ["replace"](/\s+$/, "");
-    (inputCodigo[_0x5692ee(0x2c5)] = _0xeaa8a3),
-      (resultadoDiv[_0x5692ee(0x2ea)] = ""),
+  form["addEventListener"](_0x1b5bb5(0x301), async (_0x4d8994) => {
+    const _0x29d33d = _0x1b5bb5;
+    _0x4d8994["preventDefault"]();
+    let _0x46d520 = inputCodigo[_0x29d33d(0xd6)]
+      [_0x29d33d(0x219)]()
+      [_0x29d33d(0x18e)](/\s+$/, "");
+    (inputCodigo["value"] = _0x46d520),
+      (resultadoDiv["innerHTML"] = ""),
       setTimeout(() => {
-        const _0x39bd12 = _0x5692ee,
-          _0x138437 = document[_0x39bd12(0x2ce)]("resultado");
-        _0x138437 &&
-          _0x138437[_0x39bd12(0x439)]({
-            behavior: "smooth",
+        const _0x54f94b = _0x29d33d,
+          _0x514c7b = document[_0x54f94b(0x185)](_0x54f94b(0x2c3));
+        _0x514c7b &&
+          _0x514c7b[_0x54f94b(0x18a)]({
+            behavior: _0x54f94b(0x2a2),
             block: "start",
-            inline: _0x39bd12(0x4a5),
+            inline: "nearest",
           });
       }, 0x64),
-      (sugerenciasDiv["innerHTML"] = ""),
-      (sugerenciasDiv[_0x5692ee(0x265)][_0x5692ee(0x3a1)] = "none");
-    if (!_0xeaa8a3) {
-      (resultadoDiv[_0x5692ee(0x2ea)] =
-        "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>Por\x20favor\x20ingresa\x20un\x20código</div>"),
+      (sugerenciasDiv[_0x29d33d(0x12a)] = ""),
+      (sugerenciasDiv["style"][_0x29d33d(0x34c)] = "none");
+    if (!_0x46d520) {
+      (resultadoDiv[_0x29d33d(0x12a)] = _0x29d33d(0x223)),
         renderHistorial(),
-        inputCodigo[_0x5692ee(0x4b0)]();
+        inputCodigo[_0x29d33d(0x9b)]();
       return;
     }
-    (inputCodigo["placeholder"] = ""),
-      (resultadoDiv["innerHTML"] = _0x5692ee(0x3ef));
-    let _0x544e9b = await getAllProductos(),
-      _0x3782ee = _0x544e9b[_0x5692ee(0x459)]((_0x31964e) => {
-        const _0x59ced2 = _0x5692ee;
+    (inputCodigo[_0x29d33d(0x2fc)] = ""),
+      (resultadoDiv[_0x29d33d(0x12a)] = _0x29d33d(0x277));
+    let _0x5dbf9f = await getAllProductos(),
+      _0xb4049 = _0x5dbf9f["find"]((_0x312c28) => {
+        const _0x3bce02 = _0x29d33d;
         if (
-          String(_0x31964e[_0x59ced2(0x3e7)]) === _0xeaa8a3 ||
-          String(_0x31964e[_0x59ced2(0x367)]) === _0xeaa8a3
+          String(_0x312c28[_0x3bce02(0xe8)]) === _0x46d520 ||
+          String(_0x312c28[_0x3bce02(0x308)]) === _0x46d520
         )
           return !![];
         if (
-          _0x31964e[_0x59ced2(0x425)] &&
-          Array[_0x59ced2(0x263)](_0x31964e[_0x59ced2(0x425)])
+          _0x312c28[_0x3bce02(0x232)] &&
+          Array[_0x3bce02(0x116)](_0x312c28[_0x3bce02(0x232)])
         )
-          return _0x31964e[_0x59ced2(0x425)][_0x59ced2(0x378)](
-            (_0x5b1fa7) => String(_0x5b1fa7) === _0xeaa8a3
+          return _0x312c28[_0x3bce02(0x232)][_0x3bce02(0x106)](
+            (_0x2b0b57) => String(_0x2b0b57) === _0x46d520
           );
         return ![];
       });
-    if (_0x3782ee) {
-      mostrarDetalleProducto(_0x3782ee);
-      const _0xddbeed = {
-        ..._0x3782ee,
-        FECHA_ESCANEO: new Date()["toISOString"](),
+    if (_0xb4049) {
+      mostrarDetalleProducto(_0xb4049);
+      const _0x4477fb = {
+        ..._0xb4049,
+        FECHA_ESCANEO: new Date()[_0x29d33d(0x271)](),
       };
-      historial[_0x5692ee(0x48d)](_0xddbeed),
-        setCookie(_0x5692ee(0x2fd), JSON[_0x5692ee(0x2b3)](historial), 0x1e),
-        (inputCodigo["value"] = ""),
-        inputCodigo[_0x5692ee(0x4b0)](),
-        _0x3782ee[_0x5692ee(0x425)] &&
-          _0x3782ee[_0x5692ee(0x425)][_0x5692ee(0x37d)] > 0x1 &&
-          console[_0x5692ee(0x413)](_0x5692ee(0x405), {
-            sku: _0x3782ee[_0x5692ee(0x3e7)],
-            gtin_principal: _0x3782ee[_0x5692ee(0x367)],
-            codigo_buscado: _0xeaa8a3,
-            todos_los_codigos: _0x3782ee[_0x5692ee(0x425)],
+      historial[_0x29d33d(0x2bc)](_0x4477fb),
+        setCookie(_0x29d33d(0x167), JSON[_0x29d33d(0x328)](historial), 0x1e),
+        (inputCodigo[_0x29d33d(0xd6)] = ""),
+        inputCodigo[_0x29d33d(0x9b)](),
+        _0xb4049[_0x29d33d(0x232)] &&
+          _0xb4049[_0x29d33d(0x232)]["length"] > 0x1 &&
+          console[_0x29d33d(0x1f3)](_0x29d33d(0x268), {
+            sku: _0xb4049[_0x29d33d(0xe8)],
+            gtin_principal: _0xb4049["pr_gtin"],
+            codigo_buscado: _0x46d520,
+            todos_los_codigos: _0xb4049[_0x29d33d(0x232)],
           });
     } else
-      (resultadoDiv[_0x5692ee(0x2ea)] =
+      (resultadoDiv["innerHTML"] =
         "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>No\x20se\x20encontró\x20el\x20código\x20ingresado</div>"),
-        (inputCodigo[_0x5692ee(0x2c5)] = ""),
-        inputCodigo[_0x5692ee(0x4b0)](),
+        (inputCodigo[_0x29d33d(0xd6)] = ""),
+        inputCodigo[_0x29d33d(0x9b)](),
         setTimeout(() => {
-          const _0x20270f = _0x5692ee;
-          resultadoDiv[_0x20270f(0x2ea)] = "";
+          resultadoDiv["innerHTML"] = "";
         }, 0x1388),
-        console[_0x5692ee(0x413)](
-          "❌\x20Código\x20no\x20encontrado:\x20\x22" + _0xeaa8a3 + "\x22"
-        );
+        console[_0x29d33d(0x1f3)](_0x29d33d(0x218) + _0x46d520 + "\x22");
     renderHistorial();
   });
-async function detectarPromocionReal(_0x56dab7) {
-  const _0x330b6f = _0x765170,
-    _0x53aed9 = (_0x56dab7["pr_sku"] || "")[_0x330b6f(0x3d0)]();
+async function detectarPromocionReal(_0x5be0aa) {
+  const _0xb1172d = _0x1b5bb5,
+    _0x2ebbdc = (_0x5be0aa[_0xb1172d(0xe8)] || "")[_0xb1172d(0x33c)]();
   try {
-    let _0x4cfbb5 = await getAllPromociones();
-    if (_0x4cfbb5[_0x330b6f(0x37d)] === 0x0) {
-      console[_0x330b6f(0x413)](_0x330b6f(0x446));
-      const _0x3dd487 = await fetch(_0x330b6f(0x41d));
-      if (!_0x3dd487["ok"])
+    let _0xd7cd4 = await getAllPromociones();
+    if (_0xd7cd4["length"] === 0x0) {
+      console[_0xb1172d(0x1f3)](_0xb1172d(0x246));
+      const _0x3cfaf1 = await fetch(_0xb1172d(0x155));
+      if (!_0x3cfaf1["ok"])
         return (
-          console[_0x330b6f(0x413)](
+          console[_0xb1172d(0x1f3)](
             "Error\x20al\x20obtener\x20promociones\x20mejoradas:",
-            _0x3dd487["status"]
+            _0x3cfaf1["status"]
           ),
           []
         );
-      const _0x3f0786 = await _0x3dd487[_0x330b6f(0x497)]();
+      const _0x221750 = await _0x3cfaf1[_0xb1172d(0x193)]();
       if (
-        _0x3f0786[_0x330b6f(0x241)] === _0x330b6f(0x417) &&
-        _0x3f0786[_0x330b6f(0x2a5)]
+        _0x221750[_0xb1172d(0x1af)] === "SUCCESS" &&
+        _0x221750[_0xb1172d(0x21b)]
       )
-        _0x4cfbb5 = _0x3f0786["promoResult"];
+        _0xd7cd4 = _0x221750[_0xb1172d(0x21b)];
       else {
-        if (Array["isArray"](_0x3f0786)) _0x4cfbb5 = _0x3f0786;
-        else return console[_0x330b6f(0x413)](_0x330b6f(0x25b)), [];
+        if (Array["isArray"](_0x221750)) _0xd7cd4 = _0x221750;
+        else return console["log"](_0xb1172d(0xef)), [];
       }
       try {
         await clearPromociones(),
-          await savePromociones(_0x4cfbb5),
+          await savePromociones(_0xd7cd4),
           localStorage["setItem"](
-            "promociones_ts",
-            String(Date[_0x330b6f(0x2b0)]())
+            _0xb1172d(0x12c),
+            String(Date[_0xb1172d(0xdd)]())
           ),
-          console[_0x330b6f(0x413)](_0x330b6f(0x49c));
-      } catch (_0x10d684) {
-        console[_0x330b6f(0x371)](_0x330b6f(0x370), _0x10d684);
+          console[_0xb1172d(0x1f3)](_0xb1172d(0x32f));
+      } catch (_0x11240d) {
+        console[_0xb1172d(0x377)](
+          "⚠️\x20Error\x20guardando\x20promociones:",
+          _0x11240d
+        );
       }
-    } else console["log"](_0x330b6f(0x444), _0x4cfbb5[_0x330b6f(0x37d)]);
-    console[_0x330b6f(0x413)](_0x330b6f(0x3dd), _0x53aed9);
-    const _0xbacbaf = [];
-    for (const _0x2689a4 of _0x4cfbb5) {
-      let _0x3ff82c = [];
+    } else console["log"](_0xb1172d(0x30f), _0xd7cd4[_0xb1172d(0x359)]);
+    console[_0xb1172d(0x1f3)](_0xb1172d(0x9d), _0x2ebbdc);
+    const _0x5a9f91 = [];
+    for (const _0x3f41f4 of _0xd7cd4) {
+      let _0x116220 = [];
       if (
-        _0x2689a4[_0x330b6f(0x3c7)] &&
-        Array[_0x330b6f(0x263)](_0x2689a4[_0x330b6f(0x3c7)])
+        _0x3f41f4["skus"] &&
+        Array[_0xb1172d(0x116)](_0x3f41f4[_0xb1172d(0x1be)])
       )
-        _0x3ff82c = _0x2689a4["skus"];
+        _0x116220 = _0x3f41f4[_0xb1172d(0x1be)];
       else
-        _0x2689a4[_0x330b6f(0x47e)] &&
-          _0x2689a4["pro_grupoProductos_primaria"][_0x330b6f(0x3e7)] &&
-          (Array[_0x330b6f(0x263)](_0x2689a4[_0x330b6f(0x47e)]["pr_sku"])
-            ? (_0x3ff82c = _0x2689a4[_0x330b6f(0x47e)]["pr_sku"])
-            : (_0x3ff82c = _0x2689a4[_0x330b6f(0x47e)][_0x330b6f(0x3e7)]
-                [_0x330b6f(0x3a4)]("\x20")
-                [_0x330b6f(0x447)]((_0xf15d0) => _0xf15d0["trim"]())));
-      if (_0x3ff82c[_0x330b6f(0x37b)](_0x53aed9)) {
-        const _0x31f7cc =
-            _0x2689a4["pro_nombrePromo"] ||
-            _0x2689a4[_0x330b6f(0x3ec)] ||
-            _0x2689a4[_0x330b6f(0x3de)] ||
-            _0x330b6f(0x490),
-          _0x2291ff =
-            _0x2689a4[_0x330b6f(0x385)] ||
-            _0x2689a4["cantidad"] ||
-            _0x2689a4[_0x330b6f(0x465)] ||
+        _0x3f41f4["pro_grupoProductos_primaria"] &&
+          _0x3f41f4[_0xb1172d(0x33d)][_0xb1172d(0xe8)] &&
+          (Array[_0xb1172d(0x116)](
+            _0x3f41f4["pro_grupoProductos_primaria"]["pr_sku"]
+          )
+            ? (_0x116220 = _0x3f41f4[_0xb1172d(0x33d)]["pr_sku"])
+            : (_0x116220 = _0x3f41f4[_0xb1172d(0x33d)][_0xb1172d(0xe8)]
+                ["split"]("\x20")
+                [_0xb1172d(0x17f)]((_0x524796) =>
+                  _0x524796[_0xb1172d(0x219)]()
+                )));
+      if (_0x116220[_0xb1172d(0x278)](_0x2ebbdc)) {
+        const _0x1085c5 =
+            _0x3f41f4["pro_nombrePromo"] ||
+            _0x3f41f4["descripcion"] ||
+            _0x3f41f4[_0xb1172d(0x291)] ||
+            "Promoción\x20especial",
+          _0x194301 =
+            _0x3f41f4[_0xb1172d(0x356)] ||
+            _0x3f41f4["cantidad"] ||
+            _0x3f41f4[_0xb1172d(0x24d)] ||
             "",
-          _0x3f24f5 =
-            _0x2689a4[_0x330b6f(0x3c5)] ||
-            _0x2689a4[_0x330b6f(0x316)] ||
-            _0x2689a4[_0x330b6f(0x457)] ||
-            _0x2689a4[_0x330b6f(0x302)] ||
-            _0x2689a4["precio_total"] ||
-            _0x2689a4[_0x330b6f(0x3d9)] ||
-            _0x2689a4[_0x330b6f(0x225)] ||
-            _0x2689a4[_0x330b6f(0x20b)] ||
+          _0x27c49b =
+            _0x3f41f4[_0xb1172d(0x27f)] ||
+            _0x3f41f4[_0xb1172d(0x2b9)] ||
+            _0x3f41f4["price"] ||
+            _0x3f41f4[_0xb1172d(0x19c)] ||
+            _0x3f41f4[_0xb1172d(0x1f5)] ||
+            _0x3f41f4["pro_precio_total"] ||
+            _0x3f41f4[_0xb1172d(0x2b7)] ||
+            _0x3f41f4[_0xb1172d(0xfa)] ||
             "";
-        console[_0x330b6f(0x413)](_0x330b6f(0x49b) + _0x53aed9 + ":", {
-          nombre: _0x31f7cc,
-          cantidad: _0x2291ff,
-          precio: _0x3f24f5,
-          campos_precio_disponibles: {
-            pro_precioPromo: _0x2689a4[_0x330b6f(0x3c5)],
-            precio: _0x2689a4["precio"],
-            price: _0x2689a4[_0x330b6f(0x457)],
-            precioTotal: _0x2689a4["precioTotal"],
-            precio_total: _0x2689a4[_0x330b6f(0x2e5)],
-            pro_precio_total: _0x2689a4[_0x330b6f(0x3d9)],
-            total_price: _0x2689a4["total_price"],
-            valor_total: _0x2689a4[_0x330b6f(0x20b)],
-          },
-          campos_disponibles: Object[_0x330b6f(0x3ce)](_0x2689a4),
-          promo_completa: _0x2689a4,
-        }),
-          _0xbacbaf[_0x330b6f(0x424)]({
+        console[_0xb1172d(0x1f3)](
+          "🎯\x20PROMOCIÓN\x20ENCONTRADA\x20para\x20SKU\x20" + _0x2ebbdc + ":",
+          {
+            nombre: _0x1085c5,
+            cantidad: _0x194301,
+            precio: _0x27c49b,
+            campos_precio_disponibles: {
+              pro_precioPromo: _0x3f41f4[_0xb1172d(0x27f)],
+              precio: _0x3f41f4["precio"],
+              price: _0x3f41f4["price"],
+              precioTotal: _0x3f41f4["precioTotal"],
+              precio_total: _0x3f41f4[_0xb1172d(0x1f5)],
+              pro_precio_total: _0x3f41f4[_0xb1172d(0x194)],
+              total_price: _0x3f41f4[_0xb1172d(0x2b7)],
+              valor_total: _0x3f41f4[_0xb1172d(0xfa)],
+            },
+            campos_disponibles: Object[_0xb1172d(0x101)](_0x3f41f4),
+            promo_completa: _0x3f41f4,
+          }
+        ),
+          _0x5a9f91[_0xb1172d(0x311)]({
             tipo: "promoción\x20oficial",
-            detalle: _0x330b6f(0x389) + _0x31f7cc,
-            nombre_promocion: _0x31f7cc,
+            detalle: _0xb1172d(0x10c) + _0x1085c5,
+            nombre_promocion: _0x1085c5,
             es_oficial: !![],
-            fuente: _0x330b6f(0x364),
-            id_promocion: _0x2689a4[_0x330b6f(0x3ac)] || _0x2689a4["id"],
-            cantidad: _0x2291ff,
-            precio: _0x3f24f5,
+            fuente: _0xb1172d(0x35e),
+            id_promocion: _0x3f41f4[_0xb1172d(0x1b8)] || _0x3f41f4["id"],
+            cantidad: _0x194301,
+            precio: _0x27c49b,
             mensaje:
-              _0x2689a4[_0x330b6f(0x396)] || _0x2689a4[_0x330b6f(0x2d1)] || "",
+              _0x3f41f4[_0xb1172d(0xcf)] || _0x3f41f4[_0xb1172d(0x304)] || "",
             tipo_promo:
-              _0x2689a4[_0x330b6f(0x257)] || _0x2689a4[_0x330b6f(0x28a)] || "",
+              _0x3f41f4[_0xb1172d(0x118)] || _0x3f41f4[_0xb1172d(0x15c)] || "",
             vigencia:
-              _0x2689a4[_0x330b6f(0x2b5)] && _0x2689a4["validTo"]
-                ? _0x2689a4[_0x330b6f(0x2b5)] +
-                  _0x330b6f(0x27b) +
-                  _0x2689a4["validTo"]
+              _0x3f41f4[_0xb1172d(0x1a6)] && _0x3f41f4["validTo"]
+                ? _0x3f41f4[_0xb1172d(0x1a6)] +
+                  _0xb1172d(0x93) +
+                  _0x3f41f4[_0xb1172d(0x343)]
                 : "",
             raw_data: {
-              pro_cantidad_base: _0x2689a4[_0x330b6f(0x385)],
-              pro_precioPromo: _0x2689a4[_0x330b6f(0x3c5)],
-              pro_nombrePromo: _0x2689a4[_0x330b6f(0x3cd)],
+              pro_cantidad_base: _0x3f41f4["pro_cantidad_base"],
+              pro_precioPromo: _0x3f41f4[_0xb1172d(0x27f)],
+              pro_nombrePromo: _0x3f41f4[_0xb1172d(0xf7)],
               todos_campos_precio: {
-                pro_precioPromo: _0x2689a4["pro_precioPromo"],
-                precio: _0x2689a4[_0x330b6f(0x316)],
-                price: _0x2689a4[_0x330b6f(0x457)],
-                precioTotal: _0x2689a4[_0x330b6f(0x302)],
-                precio_total: _0x2689a4[_0x330b6f(0x2e5)],
-                pro_precio_total: _0x2689a4[_0x330b6f(0x3d9)],
-                total_price: _0x2689a4[_0x330b6f(0x225)],
-                valor_total: _0x2689a4[_0x330b6f(0x20b)],
+                pro_precioPromo: _0x3f41f4[_0xb1172d(0x27f)],
+                precio: _0x3f41f4[_0xb1172d(0x2b9)],
+                price: _0x3f41f4[_0xb1172d(0xd1)],
+                precioTotal: _0x3f41f4[_0xb1172d(0x19c)],
+                precio_total: _0x3f41f4[_0xb1172d(0x1f5)],
+                pro_precio_total: _0x3f41f4[_0xb1172d(0x194)],
+                total_price: _0x3f41f4[_0xb1172d(0x2b7)],
+                valor_total: _0x3f41f4["valor_total"],
               },
             },
           });
       }
     }
     return (
-      _0xbacbaf[_0x330b6f(0x37d)] === 0x0
-        ? console[_0x330b6f(0x413)](
-            "❌\x20No\x20hay\x20promociones\x20para\x20SKU:\x20" + _0x53aed9
-          )
-        : console["log"](
+      _0x5a9f91["length"] === 0x0
+        ? console[_0xb1172d(0x1f3)](_0xb1172d(0x315) + _0x2ebbdc)
+        : console[_0xb1172d(0x1f3)](
             "✅\x20" +
-              _0xbacbaf[_0x330b6f(0x37d)] +
-              _0x330b6f(0x492) +
-              _0x53aed9
+              _0x5a9f91[_0xb1172d(0x359)] +
+              "\x20promocion(es)\x20encontrada(s)\x20para\x20SKU:\x20" +
+              _0x2ebbdc
           ),
-      _0xbacbaf
+      _0x5a9f91
     );
-  } catch (_0x21c173) {
-    return console[_0x330b6f(0x258)](_0x330b6f(0x2cd), _0x21c173), [];
+  } catch (_0x25ecec) {
+    return console[_0xb1172d(0x12e)](_0xb1172d(0x11d), _0x25ecec), [];
   }
 }
-function mostrarDetalleProducto(_0x2160e5) {
-  const _0x486635 = _0x765170;
-  let _0x38dbc8 = "";
+function mostrarDetalleProducto(_0x4ad413) {
+  const _0x25739d = _0x1b5bb5;
+  let _0x30841f = "";
   if (
-    _0x2160e5[_0x486635(0x296)] &&
-    _0x2160e5[_0x486635(0x296)][_0x486635(0x255)]() !== ""
+    _0x4ad413[_0x25739d(0xb4)] &&
+    _0x4ad413[_0x25739d(0xb4)][_0x25739d(0x219)]() !== ""
   ) {
-    if (_0x2160e5[_0x486635(0x296)][_0x486635(0x416)](_0x486635(0x36b)))
-      _0x38dbc8 = _0x2160e5[_0x486635(0x296)];
+    if (_0x4ad413[_0x25739d(0xb4)][_0x25739d(0x270)](_0x25739d(0x21e)))
+      _0x30841f = _0x4ad413[_0x25739d(0xb4)];
     else {
-      let _0x1c7c51 = _0x2160e5[_0x486635(0x296)]["startsWith"]("/")
-        ? _0x2160e5["pr_imagen"]
-        : "/" + _0x2160e5[_0x486635(0x296)];
-      _0x38dbc8 = _0x486635(0x237) + _0x1c7c51;
+      let _0x964f38 = _0x4ad413["pr_imagen"]["startsWith"]("/")
+        ? _0x4ad413["pr_imagen"]
+        : "/" + _0x4ad413[_0x25739d(0xb4)];
+      _0x30841f = _0x25739d(0x2f6) + _0x964f38;
     }
   }
-  let _0x3ad01e =
-      Number(_0x2160e5["pr_precio"]) || Number(_0x2160e5["L1"]) || 0x0,
-    _0x302953 = Math[_0x486635(0x2d7)](_0x3ad01e * 1.16 * 0x64) / 0x64,
-    _0x481d00 = 0xc,
-    _0xc41cd2 = 0.1,
-    _0x3171fb = Math["round"](_0x302953 * (0x1 + _0xc41cd2) * 0x64) / 0x64,
-    _0x111086 = "";
+  let _0x42a4f1 =
+      Number(_0x4ad413[_0x25739d(0x1ad)]) || Number(_0x4ad413["L1"]) || 0x0,
+    _0x55681b = Math["round"](_0x42a4f1 * 1.16 * 0x64) / 0x64,
+    _0x54f1c9 = 0xc,
+    _0x5aaa92 = 0.1,
+    _0x5e44d8 =
+      Math[_0x25739d(0x222)](_0x55681b * (0x1 + _0x5aaa92) * 0x64) / 0x64,
+    _0x556e85 = "";
   if (
-    _0x2160e5[_0x486635(0x425)] &&
-    _0x2160e5[_0x486635(0x425)]["length"] > 0x1
+    _0x4ad413["codigos_barras"] &&
+    _0x4ad413["codigos_barras"][_0x25739d(0x359)] > 0x1
   ) {
-    const _0x16de76 = [...new Set(_0x2160e5["codigos_barras"])]["filter"](
-      (_0x5e29fe) => _0x5e29fe && _0x5e29fe[_0x486635(0x255)]()
-    );
-    _0x16de76[_0x486635(0x37d)] > 0x1 &&
-      (_0x111086 =
-        _0x486635(0x438) +
-        _0x16de76[_0x486635(0x36e)](",\x20") +
-        _0x486635(0x20e));
+    const _0x8a6535 = [...new Set(_0x4ad413["codigos_barras"])][
+      _0x25739d(0x17f)
+    ]((_0x5bc7f3) => _0x5bc7f3 && _0x5bc7f3[_0x25739d(0x219)]());
+    _0x8a6535[_0x25739d(0x359)] > 0x1 &&
+      (_0x556e85 =
+        _0x25739d(0xb9) +
+        _0x8a6535["join"](",\x20") +
+        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20");
   }
   renderProductoConPromociones(
-    _0x2160e5,
-    _0x38dbc8,
-    _0x302953,
-    _0x3171fb,
-    _0x111086
+    _0x4ad413,
+    _0x30841f,
+    _0x55681b,
+    _0x5e44d8,
+    _0x556e85
   ),
     setTimeout(() => {
-      generarCodigoBarras(_0x2160e5);
+      generarCodigoBarras(_0x4ad413);
     }, 0x64),
-    detectarPromocionReal(_0x2160e5)
-      [_0x486635(0x461)]((_0x54ec1a) => {
+    detectarPromocionReal(_0x4ad413)
+      [_0x25739d(0x153)]((_0x1c4e8a) => {
         actualizarPromocionesEnVista(
-          _0x2160e5,
-          _0x38dbc8,
-          _0x302953,
-          _0x3171fb,
-          _0x111086,
-          _0x54ec1a
+          _0x4ad413,
+          _0x30841f,
+          _0x55681b,
+          _0x5e44d8,
+          _0x556e85,
+          _0x1c4e8a
         );
       })
-      [_0x486635(0x21b)]((_0x4c1896) => {
-        const _0x466c0c = _0x486635;
-        console[_0x466c0c(0x258)](_0x466c0c(0x275), _0x4c1896),
+      [_0x25739d(0xd7)]((_0x2c1b42) => {
+        const _0x648111 = _0x25739d;
+        console[_0x648111(0x12e)](_0x648111(0xca), _0x2c1b42),
           actualizarPromocionesEnVista(
-            _0x2160e5,
-            _0x38dbc8,
-            _0x302953,
-            _0x3171fb,
-            _0x111086,
+            _0x4ad413,
+            _0x30841f,
+            _0x55681b,
+            _0x5e44d8,
+            _0x556e85,
             []
           );
       });
 }
-function generarCodigoBarras(_0x475656) {
-  const _0x4a858b = _0x765170,
-    _0x3efe44 =
-      _0x475656[_0x4a858b(0x3e7)] || _0x475656[_0x4a858b(0x367)] || "",
-    _0x1d4eef = _0x4a858b(0x3bc) + _0x475656[_0x4a858b(0x3e7)],
-    _0x11d852 = document[_0x4a858b(0x2ce)](_0x1d4eef);
-  if (!_0x11d852 || !_0x3efe44) {
-    console[_0x4a858b(0x371)](_0x4a858b(0x349));
+function generarCodigoBarras(_0x395a36) {
+  const _0x4b1520 = _0x1b5bb5,
+    _0x235259 = _0x395a36[_0x4b1520(0xe8)] || _0x395a36[_0x4b1520(0x308)] || "",
+    _0x4c1421 = "barcode-" + _0x395a36["pr_sku"],
+    _0x15e006 = document["getElementById"](_0x4c1421);
+  if (!_0x15e006 || !_0x235259) {
+    console[_0x4b1520(0x377)](_0x4b1520(0x1e1));
     return;
   }
-  const _0x23308d = () => {
-    const _0x3eb586 = _0x4a858b;
-    if (window[_0x3eb586(0x254)])
+  const _0x573f1f = () => {
+    const _0x5d26e6 = _0x4b1520;
+    if (window[_0x5d26e6(0x376)])
       try {
-        let _0x46516c = _0x3eb586(0x4ad);
-        const _0x4c4d3e = String(_0x3efe44);
-        if (_0x4c4d3e["length"] === 0xd && /^\d+$/[_0x3eb586(0x26e)](_0x4c4d3e))
-          _0x46516c = _0x3eb586(0x3eb);
+        let _0x37ce3a = _0x5d26e6(0x189);
+        const _0x1097c9 = String(_0x235259);
+        if (_0x1097c9[_0x5d26e6(0x359)] === 0xd && /^\d+$/["test"](_0x1097c9))
+          _0x37ce3a = "EAN13";
         else {
           if (
-            _0x4c4d3e[_0x3eb586(0x37d)] === 0x8 &&
-            /^\d+$/[_0x3eb586(0x26e)](_0x4c4d3e)
+            _0x1097c9[_0x5d26e6(0x359)] === 0x8 &&
+            /^\d+$/[_0x5d26e6(0xdc)](_0x1097c9)
           )
-            _0x46516c = "EAN8";
+            _0x37ce3a = _0x5d26e6(0x24f);
           else
-            _0x4c4d3e[_0x3eb586(0x37d)] === 0xc &&
-              /^\d+$/[_0x3eb586(0x26e)](_0x4c4d3e) &&
-              (_0x46516c = _0x3eb586(0x45f));
+            _0x1097c9[_0x5d26e6(0x359)] === 0xc &&
+              /^\d+$/[_0x5d26e6(0xdc)](_0x1097c9) &&
+              (_0x37ce3a = "UPC");
         }
-        console[_0x3eb586(0x413)](
-          _0x3eb586(0x264) + _0x46516c + _0x3eb586(0x208) + _0x4c4d3e
+        console[_0x5d26e6(0x1f3)](
+          _0x5d26e6(0x285) + _0x37ce3a + _0x5d26e6(0x1fa) + _0x1097c9
         ),
-          JsBarcode(_0x11d852, _0x4c4d3e, {
-            format: _0x46516c,
+          JsBarcode(_0x15e006, _0x1097c9, {
+            format: _0x37ce3a,
             width: 0x2,
             height: 0x32,
             displayValue: ![],
             margin: 0x0,
-            background: "#ffffff",
-            lineColor: _0x3eb586(0x3c8),
+            background: _0x5d26e6(0x273),
+            lineColor: _0x5d26e6(0x124),
           }),
-          window["innerWidth"] <= 0x300 &&
-            JsBarcode(_0x11d852, _0x4c4d3e, {
-              format: _0x46516c,
+          window[_0x5d26e6(0x300)] <= 0x300 &&
+            JsBarcode(_0x15e006, _0x1097c9, {
+              format: _0x37ce3a,
               width: 1.5,
               height: 0x28,
               displayValue: ![],
               margin: 0x0,
-              background: _0x3eb586(0x219),
-              lineColor: "#000000",
+              background: _0x5d26e6(0x273),
+              lineColor: _0x5d26e6(0x124),
             });
-      } catch (_0x33e817) {
-        console[_0x3eb586(0x258)](_0x3eb586(0x26c), _0x33e817);
-        const _0x1e8cf5 = _0x11d852["getContext"]("2d");
-        (_0x1e8cf5["fillStyle"] = "#f8f9fa"),
-          _0x1e8cf5["fillRect"](
+      } catch (_0x1d5ea6) {
+        console["error"](
+          "Error\x20generando\x20código\x20de\x20barras:",
+          _0x1d5ea6
+        );
+        const _0x55a2c8 = _0x15e006[_0x5d26e6(0x331)]("2d");
+        (_0x55a2c8[_0x5d26e6(0xd8)] = _0x5d26e6(0x234)),
+          _0x55a2c8[_0x5d26e6(0x162)](
             0x0,
             0x0,
-            _0x11d852[_0x3eb586(0x40c)],
-            _0x11d852[_0x3eb586(0x1f3)]
+            _0x15e006["width"],
+            _0x15e006[_0x5d26e6(0x188)]
           ),
-          (_0x1e8cf5["fillStyle"] = _0x3eb586(0x456)),
-          (_0x1e8cf5[_0x3eb586(0x22c)] = _0x3eb586(0x227)),
-          (_0x1e8cf5[_0x3eb586(0x305)] = _0x3eb586(0x35e)),
-          _0x1e8cf5[_0x3eb586(0x290)](
-            _0x3eb586(0x273),
-            _0x11d852[_0x3eb586(0x40c)] / 0x2,
-            _0x11d852[_0x3eb586(0x1f3)] / 0x2
+          (_0x55a2c8[_0x5d26e6(0xd8)] = _0x5d26e6(0x309)),
+          (_0x55a2c8["font"] = "12px\x20Arial"),
+          (_0x55a2c8["textAlign"] = _0x5d26e6(0x2c8)),
+          _0x55a2c8[_0x5d26e6(0x24a)](
+            _0x5d26e6(0xf4),
+            _0x15e006[_0x5d26e6(0xfc)] / 0x2,
+            _0x15e006[_0x5d26e6(0x188)] / 0x2
           );
       }
-    else setTimeout(_0x23308d, 0x64);
+    else setTimeout(_0x573f1f, 0x64);
   };
-  _0x23308d();
+  _0x573f1f();
 }
 function renderProductoConPromociones(
-  _0x4fb4d6,
-  _0x6e8014,
-  _0x413cf8,
-  _0x2db20c,
-  _0xfc76fa
+  _0x4fcf0a,
+  _0x2b414b,
+  _0x58ac1f,
+  _0x54e8bb,
+  _0x1412e1
 ) {
-  const _0x1c31b = _0x765170;
-  resultadoDiv[_0x1c31b(0x2ea)] =
-    _0x1c31b(0x462) +
-    (_0x6e8014
-      ? _0x1c31b(0x38b) +
-        _0x6e8014 +
-        _0x1c31b(0x4b5) +
-        _0x4fb4d6["pr_name"] +
-        _0x1c31b(0x33f)
+  const _0x1fbbfe = _0x1b5bb5;
+  resultadoDiv[_0x1fbbfe(0x12a)] =
+    _0x1fbbfe(0x1f2) +
+    (_0x2b414b
+      ? _0x1fbbfe(0x21a) +
+        _0x2b414b +
+        "\x22\x20alt=\x22" +
+        _0x4fcf0a[_0x1fbbfe(0xdf)] +
+        _0x1fbbfe(0x284)
       : "") +
-    _0x1c31b(0x2ba) +
-    _0x4fb4d6[_0x1c31b(0x220)] +
-    _0x1c31b(0x205) +
-    _0x413cf8[_0x1c31b(0x3ae)](0x2) +
-    _0x1c31b(0x34c) +
-    _0x2db20c["toFixed"](0x2) +
-    _0x1c31b(0x400) +
-    _0x4fb4d6["pr_sku"] +
-    "\x22\x20class=\x22barcode-canvas\x22></canvas>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22fw-bold\x20text-dark\x22>" +
-    (_0x4fb4d6["pr_sku"] || _0x4fb4d6["pr_gtin"] || "N/A") +
-    _0x1c31b(0x375) +
-    _0xfc76fa +
-    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22promociones-container\x22\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20text-muted\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>🔍\x20Verificando\x20promociones...</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20";
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-12\x20col-lg-8\x20text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22fw-bold\x20nombre-producto-responsive\x22\x20style=\x22color:#616161;\x22>" +
+    _0x4fcf0a[_0x1fbbfe(0xdf)] +
+    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-center\x20align-items-center\x20gap-3\x20flex-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20align-items-center\x20gap-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22fw-bold\x20text-danger\x20precio-responsive\x22>$\x20" +
+    _0x58ac1f["toFixed"](0x2) +
+    _0x1fbbfe(0x186) +
+    _0x54e8bb[_0x1fbbfe(0x161)](0x2) +
+    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-muted\x22\x20style=\x22font-size:0.8rem;\x20margin-top:-2px;\x22>MSI</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Código\x20de\x20barras\x20funcional\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<canvas\x20id=\x22barcode-" +
+    _0x4fcf0a[_0x1fbbfe(0xe8)] +
+    _0x1fbbfe(0xa4) +
+    (_0x4fcf0a["pr_sku"] || _0x4fcf0a[_0x1fbbfe(0x308)] || _0x1fbbfe(0xa5)) +
+    _0x1fbbfe(0x103) +
+    _0x1412e1 +
+    _0x1fbbfe(0x1b4);
 }
 function actualizarPromocionesEnVista(
-  _0x3d150b,
-  _0x3f44e1,
-  _0x2ba7d4,
-  _0x46c4fc,
-  _0x53d380,
-  _0x2d6dd2
+  _0x517d2a,
+  _0x28b32a,
+  _0x567fe5,
+  _0x1dddbc,
+  _0x1753ab,
+  _0x457347
 ) {
-  const _0x72beb9 = _0x765170;
-  console[_0x72beb9(0x413)](_0x72beb9(0x218), _0x2d6dd2);
-  let _0x3cf2fa = "";
-  if (_0x2d6dd2[_0x72beb9(0x37d)] > 0x0) {
-    const _0x3f14f9 = _0x2d6dd2[_0x72beb9(0x447)](
-      (_0xf67a96) =>
-        _0xf67a96[_0x72beb9(0x361)] &&
-        (_0xf67a96[_0x72beb9(0x2f9)] === _0x72beb9(0x436) ||
-          _0xf67a96[_0x72beb9(0x2f9)] === _0x72beb9(0x364))
+  const _0x3f7afd = _0x1b5bb5;
+  console[_0x3f7afd(0x1f3)](
+    "🔍\x20Actualizando\x20promociones\x20en\x20vista:",
+    _0x457347
+  );
+  let _0x35dd8b = "";
+  if (_0x457347[_0x3f7afd(0x359)] > 0x0) {
+    const _0x1ff91f = _0x457347[_0x3f7afd(0x17f)](
+      (_0x55cc8c) =>
+        _0x55cc8c[_0x3f7afd(0x2b0)] &&
+        (_0x55cc8c[_0x3f7afd(0x24b)] === _0x3f7afd(0xd4) ||
+          _0x55cc8c["fuente"] === _0x3f7afd(0x35e))
     );
-    console[_0x72beb9(0x413)](_0x72beb9(0x206), _0x3f14f9);
-    if (_0x3f14f9[_0x72beb9(0x37d)] > 0x0) {
-      const _0x32c2fc = _0x3f14f9[_0x72beb9(0x231)]((_0x28606d) => {
-        const _0x488e47 = _0x72beb9;
-        console[_0x488e47(0x413)](_0x488e47(0x41b), _0x28606d);
-        const _0x21033e =
-          _0x28606d[_0x488e47(0x422)] || _0x28606d[_0x488e47(0x385)] || "";
-        let _0x16b376 =
-          _0x28606d[_0x488e47(0x316)] || _0x28606d[_0x488e47(0x3c5)] || "";
-        const _0x113357 =
-          _0x28606d[_0x488e47(0x323)] || _0x28606d[_0x488e47(0x3cd)] || "";
-        console[_0x488e47(0x413)](
-          "📊\x20Datos\x20extraídos\x20antes\x20de\x20procesamiento:",
-          { cantidad: _0x21033e, precio: _0x16b376, nombrePromo: _0x113357 }
+    console["log"](_0x3f7afd(0x320), _0x1ff91f);
+    if (_0x1ff91f[_0x3f7afd(0x359)] > 0x0) {
+      const _0x100dd9 = _0x1ff91f[_0x3f7afd(0x22e)]((_0x53a620) => {
+        const _0x3a230e = _0x3f7afd;
+        console[_0x3a230e(0x1f3)](
+          "🔍\x20Datos\x20de\x20promoción\x20recibidos:",
+          _0x53a620
         );
-        if (_0x21033e && _0x16b376) {
-          const _0x1c2c65 = parseInt(_0x21033e),
-            _0x1426cc = parseFloat(_0x16b376);
-          if (!isNaN(_0x1c2c65) && !isNaN(_0x1426cc)) {
-            const _0x41675c = _0x1c2c65 * _0x1426cc,
-              _0x529119 = Math["round"](_0x41675c);
-            console[_0x488e47(0x413)](
-              _0x488e47(0x2c1) +
-                _0x1c2c65 +
-                _0x488e47(0x390) +
-                _0x1426cc +
-                _0x488e47(0x31a) +
-                _0x41675c +
-                "\x20→\x20" +
-                _0x529119 +
-                _0x488e47(0x34e)
+        const _0x13fc98 =
+          _0x53a620[_0x3a230e(0x131)] || _0x53a620[_0x3a230e(0x356)] || "";
+        let _0x28047c =
+          _0x53a620[_0x3a230e(0x2b9)] || _0x53a620[_0x3a230e(0x27f)] || "";
+        const _0x4518f4 =
+          _0x53a620[_0x3a230e(0x205)] || _0x53a620[_0x3a230e(0xf7)] || "";
+        console[_0x3a230e(0x1f3)](_0x3a230e(0x1d8), {
+          cantidad: _0x13fc98,
+          precio: _0x28047c,
+          nombrePromo: _0x4518f4,
+        });
+        if (_0x13fc98 && _0x28047c) {
+          const _0x274579 = parseInt(_0x13fc98),
+            _0x3735b1 = parseFloat(_0x28047c);
+          if (!isNaN(_0x274579) && !isNaN(_0x3735b1)) {
+            const _0x1ff179 = _0x274579 * _0x3735b1,
+              _0x488931 = Math[_0x3a230e(0x222)](_0x1ff179);
+            console[_0x3a230e(0x1f3)](
+              "🧮\x20Calculando\x20precio\x20total:\x20" +
+                _0x274579 +
+                "\x20x\x20" +
+                _0x3735b1 +
+                _0x3a230e(0x370) +
+                _0x1ff179 +
+                _0x3a230e(0x32c) +
+                _0x488931 +
+                _0x3a230e(0x2d4)
             ),
-              (_0x16b376 = _0x529119[_0x488e47(0x3d0)]());
+              (_0x28047c = _0x488931[_0x3a230e(0x33c)]());
           }
         }
-        console[_0x488e47(0x413)](_0x488e47(0x2ed), {
-          cantidad: _0x21033e,
-          precio: _0x16b376,
-          nombrePromo: _0x113357,
+        console[_0x3a230e(0x1f3)](_0x3a230e(0x2ab), {
+          cantidad: _0x13fc98,
+          precio: _0x28047c,
+          nombrePromo: _0x4518f4,
         });
-        let _0x918295 = "";
-        if (_0x21033e && _0x16b376)
-          (_0x918295 = _0x21033e + "x" + _0x16b376),
-            console[_0x488e47(0x413)](_0x488e47(0x2fa), _0x918295);
+        let _0x536db3 = "";
+        if (_0x13fc98 && _0x28047c)
+          (_0x536db3 = _0x13fc98 + "x" + _0x28047c),
+            console[_0x3a230e(0x1f3)](_0x3a230e(0xd9), _0x536db3);
         else {
-          if (_0x113357) {
-            const _0x4b561d = _0x113357[_0x488e47(0x3d1)](
+          if (_0x4518f4) {
+            const _0x57cc7b = _0x4518f4[_0x3a230e(0x266)](
                 /(\d+)\s*[xX×]\s*(\d+)/i
               ),
-              _0x1c7ef7 = _0x113357[_0x488e47(0x3d1)](
-                /(\d+)\s*[xX×]\s*\$?\s*(\d+)/i
-              ),
-              _0x42a345 = _0x113357[_0x488e47(0x3d1)](/(\d+)\s*[xX×]/i);
-            if (_0x4b561d)
-              (_0x918295 = _0x4b561d[0x1] + "x" + _0x4b561d[0x2]),
-                console[_0x488e47(0x413)](_0x488e47(0x4a2), _0x918295);
+              _0xbad052 = _0x4518f4["match"](/(\d+)\s*[xX×]\s*\$?\s*(\d+)/i),
+              _0x558592 = _0x4518f4[_0x3a230e(0x266)](/(\d+)\s*[xX×]/i);
+            if (_0x57cc7b)
+              (_0x536db3 = _0x57cc7b[0x1] + "x" + _0x57cc7b[0x2]),
+                console[_0x3a230e(0x1f3)](
+                  "✅\x20Extraído\x20formato\x20completo\x20del\x20nombre:",
+                  _0x536db3
+                );
             else {
-              if (_0x1c7ef7)
-                (_0x918295 = _0x1c7ef7[0x1] + "x" + _0x1c7ef7[0x2]),
-                  console[_0x488e47(0x413)](_0x488e47(0x2d8), _0x918295);
+              if (_0xbad052)
+                (_0x536db3 = _0xbad052[0x1] + "x" + _0xbad052[0x2]),
+                  console[_0x3a230e(0x1f3)](_0x3a230e(0x1e4), _0x536db3);
               else
-                _0x42a345
-                  ? ((_0x918295 = _0x42a345[0x1] + "x"),
-                    console[_0x488e47(0x413)](_0x488e47(0x4a4), _0x918295))
-                  : ((_0x918295 = _0x113357),
-                    console[_0x488e47(0x413)](_0x488e47(0x3b8), _0x918295));
+                _0x558592
+                  ? ((_0x536db3 = _0x558592[0x1] + "x"),
+                    console[_0x3a230e(0x1f3)](_0x3a230e(0x1d0), _0x536db3))
+                  : ((_0x536db3 = _0x4518f4),
+                    console[_0x3a230e(0x1f3)](_0x3a230e(0x178), _0x536db3));
             }
           } else
-            (_0x918295 = "PROMO"), console[_0x488e47(0x413)](_0x488e47(0x397));
+            (_0x536db3 = _0x3a230e(0x35c)),
+              console[_0x3a230e(0x1f3)](_0x3a230e(0x174));
         }
-        return _0x488e47(0x404) + _0x918295 + _0x488e47(0x21a);
-      })[_0x72beb9(0x36e)]("");
-      _0x3cf2fa = _0x72beb9(0x48b) + _0x32c2fc + _0x72beb9(0x2a2);
-    } else _0x3cf2fa = _0x72beb9(0x2df);
-  } else _0x3cf2fa = _0x72beb9(0x41c);
-  const _0x55f37c = document[_0x72beb9(0x2ce)](_0x72beb9(0x418));
-  _0x55f37c && (_0x55f37c[_0x72beb9(0x2ea)] = _0x3cf2fa);
+        return _0x3a230e(0x226) + _0x536db3 + "</span>";
+      })["join"]("");
+      _0x35dd8b = _0x3f7afd(0x255) + _0x100dd9 + _0x3f7afd(0x17a);
+    } else _0x35dd8b = _0x3f7afd(0x1cc);
+  } else _0x35dd8b = _0x3f7afd(0x299);
+  const _0x2b972a = document[_0x3f7afd(0x185)](_0x3f7afd(0x357));
+  _0x2b972a && (_0x2b972a[_0x3f7afd(0x12a)] = _0x35dd8b);
 }
 async function mostrarModalPromocionesGenerales() {
-  const _0x466372 = _0x765170,
-    _0x47282d = document[_0x466372(0x2ce)](_0x466372(0x2e3));
-  if (!_0x47282d) return;
+  const _0x1eb844 = _0x1b5bb5,
+    _0x518ba3 = document["getElementById"](_0x1eb844(0x2c7)),
+    _0x28df7f = document[_0x1eb844(0x185)](_0x1eb844(0x274));
+  if (!_0x28df7f || !_0x518ba3) return;
+  let _0x217bec;
   try {
-    console[_0x466372(0x413)](_0x466372(0x4ae)),
-      (_0x47282d["innerHTML"] = _0x466372(0x29c));
-    const [_0x167c9a, _0x2f6be6] = await Promise[_0x466372(0x45b)]([
-      fetch(_0x466372(0x41d)),
+    _0x217bec = new bootstrap[_0x1eb844(0x35f)](_0x518ba3, {
+      backdrop: !![],
+      keyboard: !![],
+      focus: !![],
+    });
+  } catch (_0x3f88d3) {
+    console[_0x1eb844(0x12e)](_0x1eb844(0x237), _0x3f88d3);
+    return;
+  }
+  try {
+    console["log"](_0x1eb844(0x362)),
+      (_0x28df7f["innerHTML"] =
+        "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20p-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22spinner-border\x20text-warning\x22\x20role=\x22status\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22visually-hidden\x22>Cargando\x20promociones...</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mt-2\x22>Cargando\x20promociones\x20y\x20productos...</p>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20"),
+      _0x217bec["show"](),
+      _0x518ba3[_0x1eb844(0x342)](_0x1eb844(0x373), function (_0x2f924a) {
+        _0x2f924a["target"] === _0x518ba3 && cerrarModalIOS();
+      });
+    const [_0x4185cb, _0x34951e] = await Promise["all"]([
+      fetch(_0x1eb844(0x155)),
       getAllProductos(),
     ]);
-    if (!_0x167c9a["ok"])
+    if (!_0x4185cb["ok"])
       throw new Error(
-        _0x466372(0x2c9) +
-          _0x167c9a[_0x466372(0x241)] +
+        _0x1eb844(0x123) +
+          _0x4185cb[_0x1eb844(0x1af)] +
           ":\x20" +
-          _0x167c9a[_0x466372(0x2bc)]
+          _0x4185cb["statusText"]
       );
-    const _0x3fd7ac = await _0x167c9a["json"]();
-    console[_0x466372(0x413)](_0x466372(0x3b6), _0x3fd7ac);
-    let _0x1e963f = [];
+    const _0x597021 = await _0x4185cb[_0x1eb844(0x193)]();
+    console[_0x1eb844(0x1f3)]("📋\x20Datos\x20de\x20promociones:", _0x597021);
+    let _0x1c1979 = [];
     if (
-      _0x3fd7ac[_0x466372(0x241)] === _0x466372(0x417) &&
-      _0x3fd7ac[_0x466372(0x2a5)]
+      _0x597021[_0x1eb844(0x1af)] === _0x1eb844(0x13d) &&
+      _0x597021[_0x1eb844(0x21b)]
     )
-      _0x1e963f = _0x3fd7ac[_0x466372(0x2a5)];
+      _0x1c1979 = _0x597021[_0x1eb844(0x21b)];
     else {
-      if (Array[_0x466372(0x263)](_0x3fd7ac)) _0x1e963f = _0x3fd7ac;
-      else throw new Error(_0x466372(0x319));
+      if (Array["isArray"](_0x597021)) _0x1c1979 = _0x597021;
+      else throw new Error(_0x1eb844(0x166));
     }
-    if (_0x1e963f["length"] === 0x0) {
-      _0x47282d[_0x466372(0x2ea)] = _0x466372(0x38e);
+    if (_0x1c1979[_0x1eb844(0x359)] === 0x0) {
+      _0x28df7f[_0x1eb844(0x12a)] = _0x1eb844(0xbb);
       return;
     }
-    let _0x50f0cf = _0x466372(0x339);
-    _0x1e963f["forEach"]((_0x1fc4a4, _0x5a90a6) => {
-      const _0x418954 = _0x466372;
-      let _0x3bcdf8 = [];
+    let _0x242ee4 = "<div\x20class=\x22row\x22>";
+    _0x1c1979[_0x1eb844(0x248)]((_0x816724, _0x9e2d9e) => {
+      const _0x504188 = _0x1eb844;
+      let _0x3f4ccc = [];
       if (
-        _0x1fc4a4[_0x418954(0x3c7)] &&
-        Array[_0x418954(0x263)](_0x1fc4a4[_0x418954(0x3c7)])
+        _0x816724[_0x504188(0x1be)] &&
+        Array[_0x504188(0x116)](_0x816724[_0x504188(0x1be)])
       )
-        _0x3bcdf8 = _0x1fc4a4[_0x418954(0x3c7)];
+        _0x3f4ccc = _0x816724[_0x504188(0x1be)];
       else
-        _0x1fc4a4[_0x418954(0x47e)] &&
-          _0x1fc4a4[_0x418954(0x47e)][_0x418954(0x3e7)] &&
-          (Array["isArray"](_0x1fc4a4[_0x418954(0x47e)]["pr_sku"])
-            ? (_0x3bcdf8 = _0x1fc4a4[_0x418954(0x47e)][_0x418954(0x3e7)])
-            : (_0x3bcdf8 = _0x1fc4a4["pro_grupoProductos_primaria"][
-                _0x418954(0x3e7)
-              ]
-                ["split"]("\x20")
-                [_0x418954(0x447)]((_0x590ca8) =>
-                  _0x590ca8[_0x418954(0x255)]()
+        _0x816724[_0x504188(0x33d)] &&
+          _0x816724[_0x504188(0x33d)][_0x504188(0xe8)] &&
+          (Array[_0x504188(0x116)](
+            _0x816724["pro_grupoProductos_primaria"][_0x504188(0xe8)]
+          )
+            ? (_0x3f4ccc = _0x816724[_0x504188(0x33d)][_0x504188(0xe8)])
+            : (_0x3f4ccc = _0x816724[_0x504188(0x33d)]["pr_sku"]
+                [_0x504188(0x250)]("\x20")
+                [_0x504188(0x17f)]((_0x3378c4) =>
+                  _0x3378c4[_0x504188(0x219)]()
                 )));
-      const _0x10a788 = _0x3bcdf8["map"]((_0x2a55e9) => {
-          const _0x3aa348 = _0x418954;
-          return _0x2f6be6[_0x3aa348(0x459)](
-            (_0x3f678b) => _0x3f678b[_0x3aa348(0x3e7)] === _0x2a55e9
+      const _0x347a98 = _0x3f4ccc[_0x504188(0x22e)]((_0x3c8cd0) => {
+          const _0x539f87 = _0x504188;
+          return _0x34951e[_0x539f87(0x337)](
+            (_0x385108) => _0x385108[_0x539f87(0xe8)] === _0x3c8cd0
           );
-        })[_0x418954(0x447)]((_0x318e5a) => _0x318e5a !== undefined),
-        _0x35bc5e =
-          _0x1fc4a4[_0x418954(0x3cd)] ||
-          _0x1fc4a4[_0x418954(0x3ec)] ||
-          _0x418954(0x441) + (_0x5a90a6 + 0x1),
-        _0x48ea16 =
-          _0x1fc4a4[_0x418954(0x257)] ||
-          _0x1fc4a4["tipo"] ||
-          "No\x20especificado",
-        _0x300294 =
-          _0x1fc4a4[_0x418954(0x396)] || _0x1fc4a4[_0x418954(0x2d1)] || "",
-        _0x56bad5 = _0x1fc4a4[_0x418954(0x385)] || "",
-        _0x352b93 = Number(_0x56bad5) || 0x1;
-      let _0x537ad8 = 0x0;
-      const _0x5e8737 = (_0x300294 + "\x20" + _0x35bc5e)[_0x418954(0x1e9)](),
-        _0x49dbe4 = _0x5e8737["match"](/(\d+)\s*x\s*(\d+)/);
-      if (_0x49dbe4) _0x537ad8 = Math["round"](Number(_0x49dbe4[0x2]));
+        })[_0x504188(0x17f)]((_0x1ac77a) => _0x1ac77a !== undefined),
+        _0x571f91 =
+          _0x816724[_0x504188(0xf7)] ||
+          _0x816724[_0x504188(0x323)] ||
+          _0x504188(0x344) + (_0x9e2d9e + 0x1),
+        _0x495530 =
+          _0x816724[_0x504188(0x118)] || _0x816724["tipo"] || _0x504188(0x202),
+        _0x2b92a3 =
+          _0x816724[_0x504188(0xcf)] || _0x816724[_0x504188(0x304)] || "",
+        _0x5d5d89 = _0x816724[_0x504188(0x356)] || "",
+        _0x56c947 = Number(_0x5d5d89) || 0x1;
+      let _0x6e2e15 = 0x0;
+      const _0x5a858a = (_0x2b92a3 + "\x20" + _0x571f91)[_0x504188(0x374)](),
+        _0x18f16e = _0x5a858a[_0x504188(0x266)](/(\d+)\s*x\s*(\d+)/);
+      if (_0x18f16e) _0x6e2e15 = Math["round"](Number(_0x18f16e[0x2]));
       else {
-        const _0x13028d = Number(_0x1fc4a4[_0x418954(0x3c5)]) || 0x0;
-        _0x537ad8 = Math[_0x418954(0x2d7)](_0x13028d * _0x352b93);
+        const _0x5b436d = Number(_0x816724[_0x504188(0x27f)]) || 0x0;
+        _0x6e2e15 = Math[_0x504188(0x222)](_0x5b436d * _0x56c947);
       }
-      _0x50f0cf +=
-        _0x418954(0x351) +
-        _0x35bc5e +
-        "</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-danger\x20text-white\x22\x20style=\x22font-size:\x201.2rem;\x20padding:\x2010px\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
-        _0x352b93 +
+      _0x242ee4 +=
+        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-md-6\x20col-lg-4\x20mb-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20h-100\x20border-warning\x20shadow-sm\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-header\x20bg-warning\x20text-dark\x20text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20mb-0\x22>🏷️\x20" +
+        _0x571f91 +
+        _0x504188(0x235) +
+        _0x56c947 +
         "x" +
-        (_0x537ad8 > 0x0 ? _0x537ad8 : _0x418954(0x201)) +
-        _0x418954(0x430) +
-        (_0x10a788["length"] > 0x0
-          ? _0x10a788[_0x418954(0x231)]((_0x5b1bea) => {
-              const _0x5ad10b = _0x418954;
-              let _0x332899 = "";
+        (_0x6e2e15 > 0x0 ? _0x6e2e15 : "PROMO") +
+        _0x504188(0x30e) +
+        (_0x347a98[_0x504188(0x359)] > 0x0
+          ? _0x347a98[_0x504188(0x22e)]((_0x29e08d) => {
+              const _0xd20262 = _0x504188;
+              let _0x22efe6 = "";
               if (
-                _0x5b1bea[_0x5ad10b(0x296)] &&
-                _0x5b1bea[_0x5ad10b(0x296)][_0x5ad10b(0x255)]() !== ""
+                _0x29e08d["pr_imagen"] &&
+                _0x29e08d[_0xd20262(0xb4)]["trim"]() !== ""
               ) {
-                if (
-                  _0x5b1bea[_0x5ad10b(0x296)][_0x5ad10b(0x416)](
-                    _0x5ad10b(0x36b)
-                  )
-                )
-                  _0x332899 = _0x5b1bea["pr_imagen"];
+                if (_0x29e08d[_0xd20262(0xb4)][_0xd20262(0x270)]("http"))
+                  _0x22efe6 = _0x29e08d[_0xd20262(0xb4)];
                 else {
-                  let _0x16d7c4 = _0x5b1bea["pr_imagen"][_0x5ad10b(0x416)]("/")
-                    ? _0x5b1bea[_0x5ad10b(0x296)]
-                    : "/" + _0x5b1bea["pr_imagen"];
-                  _0x332899 = _0x5ad10b(0x237) + _0x16d7c4;
+                  let _0x12aa0c = _0x29e08d["pr_imagen"]["startsWith"]("/")
+                    ? _0x29e08d["pr_imagen"]
+                    : "/" + _0x29e08d[_0xd20262(0xb4)];
+                  _0x22efe6 = _0xd20262(0x2f6) + _0x12aa0c;
                 }
               }
-              const _0x270e2f =
-                  Number(_0x5b1bea["pr_precio"]) ||
-                  Number(_0x5b1bea["L1"]) ||
+              const _0x1240c1 =
+                  Number(_0x29e08d[_0xd20262(0x1ad)]) ||
+                  Number(_0x29e08d["L1"]) ||
                   0x0,
-                _0x480de2 =
-                  Math[_0x5ad10b(0x2d7)](_0x270e2f * 1.16 * 0x64) / 0x64;
+                _0x496fd8 =
+                  Math[_0xd20262(0x222)](_0x1240c1 * 1.16 * 0x64) / 0x64;
               return (
-                _0x5ad10b(0x395) +
-                (_0x332899
-                  ? "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22me-3\x22\x20style=\x22min-width:\x2060px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22" +
-                    _0x332899 +
-                    _0x5ad10b(0x4b5) +
-                    _0x5b1bea[_0x5ad10b(0x220)] +
-                    _0x5ad10b(0x4b1)
-                  : _0x5ad10b(0x23c)) +
-                _0x5ad10b(0x3ba) +
-                _0x5b1bea[_0x5ad10b(0x220)] +
-                _0x5ad10b(0x236) +
-                _0x480de2[_0x5ad10b(0x3ae)](0x2) +
-                _0x5ad10b(0x32f) +
-                _0x5b1bea["pr_sku"] +
+                "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20align-items-center\x20mb-3\x20p-2\x20border\x20rounded\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
+                (_0x22efe6
+                  ? _0xd20262(0x128) +
+                    _0x22efe6 +
+                    _0xd20262(0x1e7) +
+                    _0x29e08d[_0xd20262(0xdf)] +
+                    _0xd20262(0x350)
+                  : _0xd20262(0x345)) +
+                _0xd20262(0xd5) +
+                _0x29e08d[_0xd20262(0xdf)] +
+                _0xd20262(0x1b1) +
+                _0x496fd8[_0xd20262(0x161)](0x2) +
+                _0xd20262(0x18d) +
+                _0x29e08d["pr_sku"] +
                 "\x27)\x22\x20title=\x22Ver\x20detalles\x20completos\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-search\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
               );
             })["join"]("")
-          : _0x418954(0x393)) +
-        _0x418954(0x31f);
+          : _0x504188(0x1ea)) +
+        _0x504188(0x25c);
     }),
-      (_0x50f0cf += _0x466372(0x289)),
-      (_0x47282d[_0x466372(0x2ea)] = _0x50f0cf);
-  } catch (_0x179a4f) {
-    console["error"](_0x466372(0x275), _0x179a4f),
-      (_0x47282d["innerHTML"] =
+      (_0x242ee4 += _0x1eb844(0x154)),
+      (_0x28df7f[_0x1eb844(0x12a)] = _0x242ee4);
+  } catch (_0x102720) {
+    console[_0x1eb844(0x12e)](_0x1eb844(0xca), _0x102720),
+      (_0x28df7f[_0x1eb844(0x12a)] =
         "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-exclamation-triangle\x22\x20style=\x22font-size:\x203rem;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22mt-3\x22>❌\x20Error\x20al\x20cargar\x20promociones</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>" +
-        _0x179a4f[_0x466372(0x48f)] +
-        _0x466372(0x22d));
+        _0x102720[_0x1eb844(0x254)] +
+        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-warning\x22\x20onclick=\x22mostrarModalPromocionesGenerales()\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔄\x20Reintentar\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20");
   }
 }
-async function consultarProductoDesdeModal(_0x321868) {
-  const _0x5949d1 = _0x765170;
+async function consultarProductoDesdeModal(_0x103502) {
+  const _0x27c49f = _0x1b5bb5;
   try {
-    const _0x4ce023 = bootstrap["Modal"][_0x5949d1(0x435)](
-      document[_0x5949d1(0x2ce)](_0x5949d1(0x2ee))
+    const _0x248b65 = bootstrap[_0x27c49f(0x35f)][_0x27c49f(0x27c)](
+      document["getElementById"]("promocionesGeneralesModal")
     );
-    _0x4ce023 && _0x4ce023[_0x5949d1(0x2a1)]();
-    const _0x53f463 = await getAllProductos(),
-      _0x2b7885 = _0x53f463["find"](
-        (_0x33459f) =>
-          String(_0x33459f["pr_sku"]) === String(_0x321868) ||
-          String(_0x33459f[_0x5949d1(0x367)]) === String(_0x321868)
+    _0x248b65 && _0x248b65[_0x27c49f(0x16f)]();
+    const _0x4321e4 = await getAllProductos(),
+      _0x54eac0 = _0x4321e4["find"](
+        (_0x46f162) =>
+          String(_0x46f162[_0x27c49f(0xe8)]) === String(_0x103502) ||
+          String(_0x46f162["pr_gtin"]) === String(_0x103502)
       );
-    if (_0x2b7885) {
-      (inputCodigo["value"] = ""), mostrarDetalleProducto(_0x2b7885);
-      const _0x2db35d = {
-        ..._0x2b7885,
-        FECHA_ESCANEO: new Date()["toISOString"](),
+    if (_0x54eac0) {
+      (inputCodigo[_0x27c49f(0xd6)] = ""), mostrarDetalleProducto(_0x54eac0);
+      const _0x2cae7e = {
+        ..._0x54eac0,
+        FECHA_ESCANEO: new Date()[_0x27c49f(0x271)](),
       };
-      historial[_0x5949d1(0x48d)](_0x2db35d),
-        setCookie(_0x5949d1(0x2fd), JSON["stringify"](historial), 0x1e),
+      historial[_0x27c49f(0x2bc)](_0x2cae7e),
+        setCookie(_0x27c49f(0x167), JSON[_0x27c49f(0x328)](historial), 0x1e),
         renderHistorial(),
         setTimeout(() => {
-          const _0x196dbe = _0x5949d1,
-            _0x5722f9 = document[_0x196dbe(0x2ce)](_0x196dbe(0x33e));
-          _0x5722f9 &&
-            _0x5722f9[_0x196dbe(0x439)]({
-              behavior: "smooth",
-              block: _0x196dbe(0x26f),
-              inline: _0x196dbe(0x4a5),
+          const _0x3436c1 = _0x27c49f,
+            _0x168432 = document[_0x3436c1(0x185)]("resultado");
+          _0x168432 &&
+            _0x168432["scrollIntoView"]({
+              behavior: _0x3436c1(0x2a2),
+              block: _0x3436c1(0xb2),
+              inline: _0x3436c1(0x1f7),
             });
         }, 0x12c);
     } else
-      (resultadoDiv[_0x5949d1(0x2ea)] =
-        _0x5949d1(0x2e0) + _0x321868 + _0x5949d1(0x429)),
+      (resultadoDiv[_0x27c49f(0x12a)] =
+        _0x27c49f(0x33a) + _0x103502 + _0x27c49f(0x1c5)),
         setTimeout(() => {
           resultadoDiv["innerHTML"] = "";
         }, 0x1388);
-  } catch (_0x3e6973) {
-    console[_0x5949d1(0x258)](
+  } catch (_0x347975) {
+    console["error"](
       "Error\x20consultando\x20producto\x20desde\x20modal:",
-      _0x3e6973
+      _0x347975
     ),
-      (resultadoDiv[_0x5949d1(0x2ea)] =
-        _0x5949d1(0x335) + _0x3e6973[_0x5949d1(0x48f)] + _0x5949d1(0x36f)),
+      (resultadoDiv[_0x27c49f(0x12a)] =
+        _0x27c49f(0x1ec) + _0x347975[_0x27c49f(0x254)] + _0x27c49f(0x12f)),
       setTimeout(() => {
-        const _0x4cd13f = _0x5949d1;
-        resultadoDiv[_0x4cd13f(0x2ea)] = "";
+        const _0x59bbee = _0x27c49f;
+        resultadoDiv[_0x59bbee(0x12a)] = "";
       }, 0x1388);
   }
 }
-async function consultarProductoDesdeHistorial(_0x5e4bfc) {
-  const _0x4996aa = _0x765170;
+async function consultarProductoDesdeHistorial(_0x5c6058) {
+  const _0xfb6716 = _0x1b5bb5;
   try {
-    const _0x17441d = await getAllProductos(),
-      _0x160484 = _0x17441d[_0x4996aa(0x459)](
-        (_0x11f02f) =>
-          String(_0x11f02f["pr_sku"]) === String(_0x5e4bfc) ||
-          String(_0x11f02f[_0x4996aa(0x367)]) === String(_0x5e4bfc)
+    const _0x4e62ac = await getAllProductos(),
+      _0x4ea14c = _0x4e62ac[_0xfb6716(0x337)](
+        (_0x44557f) =>
+          String(_0x44557f["pr_sku"]) === String(_0x5c6058) ||
+          String(_0x44557f[_0xfb6716(0x308)]) === String(_0x5c6058)
       );
-    if (_0x160484) {
-      (inputCodigo[_0x4996aa(0x2c5)] = ""), mostrarDetalleProducto(_0x160484);
-      const _0x5a904a = historial[_0x4996aa(0x2c6)](
-        (_0x5ccd57) =>
-          (_0x5ccd57[_0x4996aa(0x3e7)] &&
-            String(_0x5ccd57[_0x4996aa(0x3e7)]) === String(_0x5e4bfc)) ||
-          (_0x5ccd57["pr_gtin"] &&
-            String(_0x5ccd57[_0x4996aa(0x367)]) === String(_0x5e4bfc))
+    if (_0x4ea14c) {
+      (inputCodigo[_0xfb6716(0xd6)] = ""), mostrarDetalleProducto(_0x4ea14c);
+      const _0x577107 = historial[_0xfb6716(0x32d)](
+        (_0xe3e835) =>
+          (_0xe3e835[_0xfb6716(0xe8)] &&
+            String(_0xe3e835[_0xfb6716(0xe8)]) === String(_0x5c6058)) ||
+          (_0xe3e835[_0xfb6716(0x308)] &&
+            String(_0xe3e835[_0xfb6716(0x308)]) === String(_0x5c6058))
       );
-      if (_0x5a904a !== -0x1) {
-        const _0x4bb130 = historial[_0x4996aa(0x3f8)](_0x5a904a, 0x1)[0x0];
-        (_0x4bb130[_0x4996aa(0x4a8)] = new Date()[_0x4996aa(0x211)]()),
-          historial[_0x4996aa(0x48d)](_0x4bb130),
-          setCookie(_0x4996aa(0x2fd), JSON["stringify"](historial), 0x1e),
+      if (_0x577107 !== -0x1) {
+        const _0x249d71 = historial[_0xfb6716(0x272)](_0x577107, 0x1)[0x0];
+        (_0x249d71[_0xfb6716(0x1f6)] = new Date()["toISOString"]()),
+          historial[_0xfb6716(0x2bc)](_0x249d71),
+          setCookie("historial", JSON["stringify"](historial), 0x1e),
           renderHistorial();
       }
       setTimeout(() => {
-        const _0x4bc9c6 = _0x4996aa,
-          _0x1da599 = document[_0x4bc9c6(0x2ce)](_0x4bc9c6(0x33e));
-        _0x1da599 &&
-          _0x1da599["scrollIntoView"]({
-            behavior: _0x4bc9c6(0x45e),
-            block: "start",
-            inline: _0x4bc9c6(0x4a5),
+        const _0x2ebd0f = _0xfb6716,
+          _0x19cf4a = document[_0x2ebd0f(0x185)]("resultado");
+        _0x19cf4a &&
+          _0x19cf4a[_0x2ebd0f(0x18a)]({
+            behavior: _0x2ebd0f(0x2a2),
+            block: _0x2ebd0f(0xb2),
+            inline: _0x2ebd0f(0x1f7),
           });
       }, 0x12c);
     } else
-      (resultadoDiv[_0x4996aa(0x2ea)] =
+      (resultadoDiv[_0xfb6716(0x12a)] =
         "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>❌\x20Producto\x20no\x20encontrado</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20se\x20pudo\x20encontrar\x20el\x20producto\x20con\x20SKU:\x20" +
-        _0x5e4bfc +
-        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20"),
+        _0x5c6058 +
+        _0xfb6716(0x1c5)),
         setTimeout(() => {
-          const _0x3d3881 = _0x4996aa;
-          resultadoDiv[_0x3d3881(0x2ea)] = "";
+          const _0xd718df = _0xfb6716;
+          resultadoDiv[_0xd718df(0x12a)] = "";
         }, 0x1388);
-  } catch (_0x4ee415) {
-    console[_0x4996aa(0x258)](_0x4996aa(0x43c), _0x4ee415),
-      (resultadoDiv[_0x4996aa(0x2ea)] =
-        _0x4996aa(0x335) + _0x4ee415[_0x4996aa(0x48f)] + _0x4996aa(0x36f)),
+  } catch (_0x179937) {
+    console[_0xfb6716(0x12e)](_0xfb6716(0x2cf), _0x179937),
+      (resultadoDiv[_0xfb6716(0x12a)] =
+        "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h6>❌\x20Error</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20al\x20consultar\x20el\x20producto:\x20" +
+        _0x179937[_0xfb6716(0x254)] +
+        "</p>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20"),
       setTimeout(() => {
-        const _0x59f497 = _0x4996aa;
-        resultadoDiv[_0x59f497(0x2ea)] = "";
+        const _0x29a19b = _0xfb6716;
+        resultadoDiv[_0x29a19b(0x12a)] = "";
       }, 0x1388);
   }
 }
-(window[_0x765170(0x36a)] = mostrarModalPromocionesGenerales),
-  (window[_0x765170(0x3f4)] = consultarProductoDesdeModal),
-  (window[_0x765170(0x3d7)] = consultarProductoDesdeHistorial);
-async function tienePromociones(_0x67de7f) {
-  const _0x1887ad = _0x765170;
+function cerrarModalIOS() {
+  const _0x538dc1 = _0x1b5bb5,
+    _0x7bd7c = document["getElementById"]("promocionesGeneralesModal");
+  if (_0x7bd7c) {
+    const _0x182c2a = bootstrap["Modal"]["getInstance"](_0x7bd7c);
+    if (_0x182c2a) _0x182c2a[_0x538dc1(0x16f)]();
+    else {
+      _0x7bd7c[_0x538dc1(0x2e7)][_0x538dc1(0x365)]("show"),
+        (_0x7bd7c[_0x538dc1(0x280)][_0x538dc1(0x34c)] = _0x538dc1(0x140)),
+        document[_0x538dc1(0x27b)]["classList"]["remove"]("modal-open");
+      const _0x3ca1a1 = document[_0x538dc1(0x18c)](_0x538dc1(0x1df));
+      _0x3ca1a1 && _0x3ca1a1[_0x538dc1(0x365)]();
+    }
+  }
+}
+(window[_0x1b5bb5(0x152)] = mostrarModalPromocionesGenerales),
+  (window[_0x1b5bb5(0x30d)] = consultarProductoDesdeModal),
+  (window[_0x1b5bb5(0x1b3)] = consultarProductoDesdeHistorial),
+  (window[_0x1b5bb5(0x16b)] = cerrarModalIOS);
+async function tienePromociones(_0x3a52ee) {
+  const _0x463c39 = _0x1b5bb5;
   try {
-    const _0x4174fb = (_0x67de7f[_0x1887ad(0x3e7)] || "")[_0x1887ad(0x3d0)]();
-    if (!_0x4174fb) return ![];
-    const _0x1cd17a = await getAllPromociones();
-    if (_0x1cd17a[_0x1887ad(0x37d)] === 0x0) return ![];
-    for (const _0x1f2a18 of _0x1cd17a) {
-      let _0x3eb787 = [];
+    const _0x5eef02 = (_0x3a52ee[_0x463c39(0xe8)] || "")["toString"]();
+    if (!_0x5eef02) return ![];
+    const _0x2ca356 = await getAllPromociones();
+    if (_0x2ca356["length"] === 0x0) return ![];
+    for (const _0x8f4a4a of _0x2ca356) {
+      let _0x2a6f22 = [];
       if (
-        _0x1f2a18[_0x1887ad(0x3c7)] &&
-        Array[_0x1887ad(0x263)](_0x1f2a18[_0x1887ad(0x3c7)])
+        _0x8f4a4a[_0x463c39(0x1be)] &&
+        Array[_0x463c39(0x116)](_0x8f4a4a[_0x463c39(0x1be)])
       )
-        _0x3eb787 = _0x1f2a18["skus"];
+        _0x2a6f22 = _0x8f4a4a["skus"];
       else
-        _0x1f2a18[_0x1887ad(0x47e)] &&
-          _0x1f2a18[_0x1887ad(0x47e)][_0x1887ad(0x3e7)] &&
-          (Array[_0x1887ad(0x263)](_0x1f2a18[_0x1887ad(0x47e)]["pr_sku"])
-            ? (_0x3eb787 = _0x1f2a18[_0x1887ad(0x47e)][_0x1887ad(0x3e7)])
-            : (_0x3eb787 = _0x1f2a18[_0x1887ad(0x47e)]["pr_sku"]
-                [_0x1887ad(0x3a4)]("\x20")
-                ["filter"]((_0x2fd08f) => _0x2fd08f[_0x1887ad(0x255)]())));
-      if (_0x3eb787[_0x1887ad(0x37b)](_0x4174fb)) return !![];
+        _0x8f4a4a[_0x463c39(0x33d)] &&
+          _0x8f4a4a[_0x463c39(0x33d)][_0x463c39(0xe8)] &&
+          (Array[_0x463c39(0x116)](_0x8f4a4a[_0x463c39(0x33d)][_0x463c39(0xe8)])
+            ? (_0x2a6f22 = _0x8f4a4a[_0x463c39(0x33d)][_0x463c39(0xe8)])
+            : (_0x2a6f22 = _0x8f4a4a[_0x463c39(0x33d)][_0x463c39(0xe8)]
+                [_0x463c39(0x250)]("\x20")
+                [_0x463c39(0x17f)]((_0x41834a) => _0x41834a["trim"]())));
+      if (_0x2a6f22[_0x463c39(0x278)](_0x5eef02)) return !![];
     }
     return ![];
-  } catch (_0x36f8f0) {
-    return console["warn"](_0x1887ad(0x44b), _0x36f8f0), ![];
+  } catch (_0x2bc296) {
+    return console[_0x463c39(0x377)](_0x463c39(0x29f), _0x2bc296), ![];
   }
 }
 let searchTimeout;
-inputCodigo[_0x765170(0x41e)](_0x765170(0x47f), async function (_0x47b25d) {
-  const _0x1e6baa = _0x765170,
-    _0x55a113 = inputCodigo[_0x1e6baa(0x2c5)]
-      [_0x1e6baa(0x255)]()
-      [_0x1e6baa(0x1e9)]();
-  clearTimeout(searchTimeout), (sugerenciasDiv[_0x1e6baa(0x2ea)] = "");
-  if (!_0x55a113 || _0x55a113["length"] < 0x2) {
-    sugerenciasDiv["style"]["display"] = _0x1e6baa(0x3a8);
+inputCodigo[_0x1b5bb5(0x342)](_0x1b5bb5(0x2f3), async function (_0x44c505) {
+  const _0x2ae37a = _0x1b5bb5,
+    _0x47b9f6 = inputCodigo[_0x2ae37a(0xd6)]
+      [_0x2ae37a(0x219)]()
+      [_0x2ae37a(0x374)]();
+  clearTimeout(searchTimeout), (sugerenciasDiv[_0x2ae37a(0x12a)] = "");
+  if (!_0x47b9f6 || _0x47b9f6["length"] < 0x2) {
+    sugerenciasDiv[_0x2ae37a(0x280)][_0x2ae37a(0x34c)] = _0x2ae37a(0x140);
     return;
   }
   searchTimeout = setTimeout(async () => {
-    const _0x503071 = _0x1e6baa;
-    let _0xeccb7c = await getAllProductos(),
-      _0x24554a = _0xeccb7c["filter"]((_0x1e85e7) => {
-        const _0x227727 = _0x3929;
+    const _0x5ea3bb = _0x2ae37a;
+    let _0x2cd6ce = await getAllProductos(),
+      _0x574c2d = _0x2cd6ce["filter"]((_0x3fb263) => {
+        const _0x3cc499 = _0x1f33;
         return (
-          (_0x1e85e7[_0x227727(0x220)] &&
-            _0x1e85e7["pr_name"]
-              [_0x227727(0x1e9)]()
-              [_0x227727(0x37b)](_0x55a113)) ||
-          (_0x1e85e7[_0x227727(0x3e7)] &&
-            String(_0x1e85e7["pr_sku"])
-              [_0x227727(0x1e9)]()
-              [_0x227727(0x37b)](_0x55a113)) ||
-          (_0x1e85e7["pr_gtin"] &&
-            String(_0x1e85e7[_0x227727(0x367)])
-              [_0x227727(0x1e9)]()
-              ["includes"](_0x55a113))
+          (_0x3fb263[_0x3cc499(0xdf)] &&
+            _0x3fb263[_0x3cc499(0xdf)]
+              [_0x3cc499(0x374)]()
+              [_0x3cc499(0x278)](_0x47b9f6)) ||
+          (_0x3fb263["pr_sku"] &&
+            String(_0x3fb263[_0x3cc499(0xe8)])
+              [_0x3cc499(0x374)]()
+              [_0x3cc499(0x278)](_0x47b9f6)) ||
+          (_0x3fb263[_0x3cc499(0x308)] &&
+            String(_0x3fb263[_0x3cc499(0x308)])
+              ["toLowerCase"]()
+              [_0x3cc499(0x278)](_0x47b9f6))
         );
       });
-    const _0x346769 = new Set();
-    _0x24554a = _0x24554a["filter"]((_0x304e7b) => {
-      const _0x53185d = _0x3929,
-        _0x2e1a2c = _0x304e7b[_0x53185d(0x3e7)] || _0x304e7b[_0x53185d(0x367)];
-      if (!_0x2e1a2c || _0x346769[_0x53185d(0x313)](_0x2e1a2c)) return ![];
-      return _0x346769[_0x53185d(0x235)](_0x2e1a2c), !![];
+    const _0x2c8be6 = new Set();
+    _0x574c2d = _0x574c2d[_0x5ea3bb(0x17f)]((_0xa1e30b) => {
+      const _0x25767a = _0x5ea3bb,
+        _0x266a2f = _0xa1e30b[_0x25767a(0xe8)] || _0xa1e30b[_0x25767a(0x308)];
+      if (!_0x266a2f || _0x2c8be6[_0x25767a(0x1eb)](_0x266a2f)) return ![];
+      return _0x2c8be6[_0x25767a(0xe0)](_0x266a2f), !![];
     });
-    if (_0x24554a["length"] === 0x0) {
-      sugerenciasDiv[_0x503071(0x265)][_0x503071(0x3a1)] = "none";
+    if (_0x574c2d[_0x5ea3bb(0x359)] === 0x0) {
+      sugerenciasDiv[_0x5ea3bb(0x280)]["display"] = "none";
       return;
     }
-    _0x24554a[_0x503071(0x470)]((_0x22f777, _0x44f697) => {
-      const _0x47a07 = _0x503071,
-        _0x2ccea3 = (_0x22f777[_0x47a07(0x220)] || "")[_0x47a07(0x1e9)](),
-        _0x5982e5 = (_0x44f697[_0x47a07(0x220)] || "")[_0x47a07(0x1e9)](),
-        _0x385e68 = _0x2ccea3["startsWith"](_0x55a113),
-        _0x20f780 = _0x5982e5[_0x47a07(0x416)](_0x55a113);
-      if (_0x385e68 && !_0x20f780) return -0x1;
-      if (!_0x385e68 && _0x20f780) return 0x1;
-      return _0x2ccea3["length"] - _0x5982e5[_0x47a07(0x37d)];
+    _0x574c2d[_0x5ea3bb(0x31f)]((_0x448702, _0x29b9df) => {
+      const _0x526bac = _0x5ea3bb,
+        _0x24ac52 = (_0x448702[_0x526bac(0xdf)] || "")["toLowerCase"](),
+        _0x54bd8d = (_0x29b9df[_0x526bac(0xdf)] || "")[_0x526bac(0x374)](),
+        _0x3f3269 = _0x24ac52[_0x526bac(0x270)](_0x47b9f6),
+        _0x2e5aed = _0x54bd8d["startsWith"](_0x47b9f6);
+      if (_0x3f3269 && !_0x2e5aed) return -0x1;
+      if (!_0x3f3269 && _0x2e5aed) return 0x1;
+      return _0x24ac52[_0x526bac(0x359)] - _0x54bd8d["length"];
     });
-    const _0xfa90e = _0x24554a[_0x503071(0x231)]((_0x391921) =>
-        tienePromociones(_0x391921)
+    const _0x359cca = _0x574c2d["map"]((_0x275430) =>
+        tienePromociones(_0x275430)
       ),
-      _0x437d0b = await Promise[_0x503071(0x45b)](_0xfa90e);
-    _0x24554a[_0x503071(0x392)]((_0x24b4f2, _0x287bbc) => {
-      const _0x3a5e00 = _0x503071,
-        _0x266f9d = _0x437d0b[_0x287bbc],
-        _0x28998b = document["createElement"]("button");
-      (_0x28998b[_0x3a5e00(0x2b8)] = _0x3a5e00(0x386)),
-        (_0x28998b[_0x3a5e00(0x42a)] = _0x3a5e00(0x33c));
-      let _0x394a24 = "";
+      _0x83f8b1 = await Promise["all"](_0x359cca);
+    _0x574c2d[_0x5ea3bb(0x248)]((_0x48fc90, _0x46de3c) => {
+      const _0x2a574f = _0x5ea3bb,
+        _0x5ed481 = _0x83f8b1[_0x46de3c],
+        _0x13993b = document[_0x2a574f(0x14e)]("button");
+      (_0x13993b[_0x2a574f(0xa0)] = _0x2a574f(0x2ac)),
+        (_0x13993b[_0x2a574f(0xeb)] =
+          "list-group-item\x20list-group-item-action\x20d-flex\x20align-items-center");
+      let _0x352575 = "";
       if (
-        _0x24b4f2[_0x3a5e00(0x296)] &&
-        _0x24b4f2[_0x3a5e00(0x296)][_0x3a5e00(0x255)]() !== ""
+        _0x48fc90["pr_imagen"] &&
+        _0x48fc90[_0x2a574f(0xb4)][_0x2a574f(0x219)]() !== ""
       ) {
-        let _0x1eb4ac = "";
-        if (_0x24b4f2[_0x3a5e00(0x296)][_0x3a5e00(0x416)](_0x3a5e00(0x36b)))
-          _0x1eb4ac = _0x24b4f2[_0x3a5e00(0x296)];
+        let _0x472000 = "";
+        if (_0x48fc90[_0x2a574f(0xb4)][_0x2a574f(0x270)](_0x2a574f(0x21e)))
+          _0x472000 = _0x48fc90[_0x2a574f(0xb4)];
         else {
-          let _0x374c32 = _0x24b4f2[_0x3a5e00(0x296)][_0x3a5e00(0x416)]("/")
-            ? _0x24b4f2["pr_imagen"]
-            : "/" + _0x24b4f2[_0x3a5e00(0x296)];
-          _0x1eb4ac = _0x3a5e00(0x237) + _0x374c32;
+          let _0x5ee50b = _0x48fc90[_0x2a574f(0xb4)][_0x2a574f(0x270)]("/")
+            ? _0x48fc90["pr_imagen"]
+            : "/" + _0x48fc90["pr_imagen"];
+          _0x472000 = _0x2a574f(0x2f6) + _0x5ee50b;
         }
-        _0x394a24 =
-          _0x3a5e00(0x230) +
-          _0x1eb4ac +
-          _0x3a5e00(0x4b5) +
-          _0x24b4f2[_0x3a5e00(0x220)] +
-          _0x3a5e00(0x34d);
+        _0x352575 =
+          _0x2a574f(0x211) +
+          _0x472000 +
+          _0x2a574f(0x1e7) +
+          _0x48fc90[_0x2a574f(0xdf)] +
+          "\x22\x20style=\x22width:40px;\x20height:40px;\x20object-fit:cover;\x20border-radius:4px;\x20margin-right:12px;\x20background:#f8f9fa;\x22>";
       }
-      const _0x2f8899 = _0x266f9d ? _0x3a5e00(0x46d) : "";
-      (_0x28998b[_0x3a5e00(0x2ea)] =
-        _0x3a5e00(0x213) +
-        _0x394a24 +
-        "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22flex-grow-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>" +
-        _0x24b4f2[_0x3a5e00(0x220)] +
-        _0x3a5e00(0x352) +
-        _0x2f8899 +
-        _0x3a5e00(0x314) +
-        (_0x24b4f2["pr_sku"] || _0x24b4f2[_0x3a5e00(0x367)] || "") +
+      const _0x116eb8 = _0x5ed481 ? _0x2a574f(0x2a5) : "";
+      (_0x13993b[_0x2a574f(0x12a)] =
+        _0x2a574f(0x214) +
+        _0x352575 +
+        _0x2a574f(0x33e) +
+        _0x48fc90[_0x2a574f(0xdf)] +
+        _0x2a574f(0x144) +
+        _0x116eb8 +
+        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>SKU:\x20" +
+        (_0x48fc90[_0x2a574f(0xe8)] || _0x48fc90[_0x2a574f(0x308)] || "") +
         "</small>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20"),
-        (_0x28998b[_0x3a5e00(0x494)] = function () {
-          const _0x3895eb = _0x3a5e00;
-          mostrarDetalleProducto(_0x24b4f2);
-          const _0xd4d9da = {
-            ..._0x24b4f2,
-            FECHA_ESCANEO: new Date()["toISOString"](),
+        (_0x13993b[_0x2a574f(0x109)] = function () {
+          const _0x3d97a7 = _0x2a574f;
+          mostrarDetalleProducto(_0x48fc90);
+          const _0x35510b = {
+            ..._0x48fc90,
+            FECHA_ESCANEO: new Date()[_0x3d97a7(0x271)](),
           };
-          historial[_0x3895eb(0x48d)](_0xd4d9da),
-            setCookie("historial", JSON[_0x3895eb(0x2b3)](historial), 0x1e),
+          historial[_0x3d97a7(0x2bc)](_0x35510b),
+            setCookie("historial", JSON[_0x3d97a7(0x328)](historial), 0x1e),
             renderHistorial(),
-            (inputCodigo[_0x3895eb(0x2c5)] = ""),
+            (inputCodigo[_0x3d97a7(0xd6)] = ""),
             (sugerenciasDiv["innerHTML"] = ""),
-            (sugerenciasDiv[_0x3895eb(0x265)]["display"] = _0x3895eb(0x3a8));
+            (sugerenciasDiv["style"][_0x3d97a7(0x34c)] = _0x3d97a7(0x140));
         }),
-        sugerenciasDiv[_0x3a5e00(0x3a2)](_0x28998b);
+        sugerenciasDiv["appendChild"](_0x13993b);
     }),
-      (sugerenciasDiv[_0x503071(0x265)]["display"] = "block");
+      (sugerenciasDiv["style"][_0x5ea3bb(0x34c)] = "block");
   }, 0x12c);
 }),
-  document[_0x765170(0x41e)]("click", function (_0x45395e) {
-    const _0x531da1 = _0x765170;
-    !inputCodigo[_0x531da1(0x330)](_0x45395e["target"]) &&
-      !sugerenciasDiv[_0x531da1(0x330)](_0x45395e[_0x531da1(0x2a7)]) &&
-      ((sugerenciasDiv[_0x531da1(0x2ea)] = ""),
-      (sugerenciasDiv[_0x531da1(0x265)][_0x531da1(0x3a1)] = _0x531da1(0x3a8)));
+  document[_0x1b5bb5(0x342)](_0x1b5bb5(0x373), function (_0x28a5c1) {
+    const _0xe5477b = _0x1b5bb5;
+    !inputCodigo["contains"](_0x28a5c1["target"]) &&
+      !sugerenciasDiv[_0xe5477b(0x31e)](_0x28a5c1[_0xe5477b(0x26e)]) &&
+      ((sugerenciasDiv[_0xe5477b(0x12a)] = ""),
+      (sugerenciasDiv["style"][_0xe5477b(0x34c)] = _0xe5477b(0x140)));
   });
 function iniciarScanner() {
-  const _0x52b988 = _0x765170;
+  const _0xc1e9de = _0x1b5bb5;
   if (scannerActivo) return;
-  navigator[_0x52b988(0x3dc)]
-    [_0x52b988(0x1fd)]({ video: !![] })
-    [_0x52b988(0x461)]((_0x2ab685) => {
-      const _0x5d3b7c = _0x52b988;
-      _0x2ab685["getTracks"]()[_0x5d3b7c(0x392)]((_0x355e6b) =>
-        _0x355e6b[_0x5d3b7c(0x3bb)]()
+  navigator[_0xc1e9de(0x17d)]
+    ["getUserMedia"]({ video: !![] })
+    ["then"]((_0x4d0732) => {
+      const _0x24e83d = _0xc1e9de;
+      _0x4d0732[_0x24e83d(0x249)]()[_0x24e83d(0x248)]((_0xa7b045) =>
+        _0xa7b045[_0x24e83d(0x2e0)]()
       ),
         (scannerActivo = !![]),
-        (readerDiv[_0x5d3b7c(0x265)]["display"] = _0x5d3b7c(0x3c9)),
-        document[_0x5d3b7c(0x2ce)](_0x5d3b7c(0x27c))[_0x5d3b7c(0x439)]({
-          behavior: "smooth",
-          block: "center",
+        (readerDiv[_0x24e83d(0x280)][_0x24e83d(0x34c)] = _0x24e83d(0x112)),
+        document[_0x24e83d(0x185)](_0x24e83d(0x197))[_0x24e83d(0x18a)]({
+          behavior: _0x24e83d(0x2a2),
+          block: _0x24e83d(0x2c8),
         }),
-        (ayudaTexto[_0x5d3b7c(0x265)][_0x5d3b7c(0x3a1)] = _0x5d3b7c(0x3c9));
-      const _0x43b0a2 = new Html5Qrcode(_0x5d3b7c(0x27c)),
-        _0x3ecbcc = {
+        (ayudaTexto["style"]["display"] = _0x24e83d(0x112));
+      const _0x1e5b08 = new Html5Qrcode("reader"),
+        _0xb7fbc4 = {
           fps: 0xa,
           videoConstraints: {
             width: { min: 0x190, ideal: 0x780 },
             height: { min: 0x190, ideal: 0x438 },
-            facingMode: "environment",
+            facingMode: _0x24e83d(0x1bd),
             advanced: [{ zoom: 0x2 }],
           },
-          qrbox: function (_0x18d36b, _0x5592dd) {
-            const _0x2f53c1 = Math["min"](0x12c, _0x18d36b * 0.9),
-              _0x165a9a = 0x64;
-            return { width: _0x2f53c1, height: _0x165a9a };
+          qrbox: function (_0x2f6977, _0x5473ab) {
+            const _0xa7967f = Math["min"](0x12c, _0x2f6977 * 0.9),
+              _0x17f07d = 0x64;
+            return { width: _0xa7967f, height: _0x17f07d };
           },
           rememberLastUsedCamera: !![],
           aspectRatio: 0x1,
           formatsToSupport: [
-            Html5QrcodeSupportedFormats["CODE_128"],
-            Html5QrcodeSupportedFormats[_0x5d3b7c(0x2ad)],
-            Html5QrcodeSupportedFormats[_0x5d3b7c(0x1f7)],
-            Html5QrcodeSupportedFormats[_0x5d3b7c(0x25e)],
-            Html5QrcodeSupportedFormats["UPC_E"],
-            Html5QrcodeSupportedFormats[_0x5d3b7c(0x23f)],
-            Html5QrcodeSupportedFormats[_0x5d3b7c(0x288)],
-            Html5QrcodeSupportedFormats["CODABAR"],
-            Html5QrcodeSupportedFormats[_0x5d3b7c(0x248)],
-            Html5QrcodeSupportedFormats[_0x5d3b7c(0x3e9)],
-            Html5QrcodeSupportedFormats[_0x5d3b7c(0x3a6)],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x26c)],
+            Html5QrcodeSupportedFormats["EAN_13"],
+            Html5QrcodeSupportedFormats["EAN_8"],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x2d6)],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x95)],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x98)],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x1e9)],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x24e)],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x2d9)],
+            Html5QrcodeSupportedFormats["QR_CODE"],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x139)],
             Html5QrcodeSupportedFormats["AZTEC"],
-            Html5QrcodeSupportedFormats["PDF_417"],
+            Html5QrcodeSupportedFormats[_0x24e83d(0x23f)],
           ],
           experimentalFeatures: { useBarCodeDetectorIfSupported: !![] },
         };
-      _0x43b0a2["start"](
-        { facingMode: "environment" },
-        _0x3ecbcc,
-        (_0x47a024) => {
-          const _0x3eecd6 = _0x5d3b7c;
-          (inputCodigo[_0x3eecd6(0x2c5)] = _0x47a024[_0x3eecd6(0x255)]()[
-            _0x3eecd6(0x4a1)
+      _0x1e5b08[_0x24e83d(0xb2)](
+        { facingMode: _0x24e83d(0x1bd) },
+        _0xb7fbc4,
+        (_0xdcd47) => {
+          const _0x43fd2d = _0x24e83d;
+          (inputCodigo["value"] = _0xdcd47[_0x43fd2d(0x219)]()[
+            _0x43fd2d(0x18e)
           ](/\s+$/, "")),
-            _0x43b0a2[_0x3eecd6(0x3bb)]()[_0x3eecd6(0x461)](() => {
-              const _0x563607 = _0x3eecd6;
-              (readerDiv["style"][_0x563607(0x3a1)] = _0x563607(0x3a8)),
-                (ayudaTexto[_0x563607(0x265)]["display"] = _0x563607(0x3a8)),
+            _0x1e5b08[_0x43fd2d(0x2e0)]()["then"](() => {
+              const _0x35e523 = _0x43fd2d;
+              (readerDiv[_0x35e523(0x280)][_0x35e523(0x34c)] =
+                _0x35e523(0x140)),
+                (ayudaTexto["style"]["display"] = "none"),
                 (scannerActivo = ![]),
-                _0x43b0a2[_0x563607(0x3d2)](),
-                form["requestSubmit"](),
+                _0x1e5b08[_0x35e523(0x30b)](),
+                form[_0x35e523(0x19e)](),
                 setTimeout(() => {
-                  const _0x491a63 = _0x563607,
-                    _0x4d2e0e = document["getElementById"](_0x491a63(0x33e));
-                  _0x4d2e0e &&
-                    _0x4d2e0e[_0x491a63(0x439)]({
-                      behavior: _0x491a63(0x45e),
-                      block: _0x491a63(0x26f),
-                      inline: "nearest",
+                  const _0x60d934 = _0x35e523,
+                    _0x24415d = document["getElementById"](_0x60d934(0x2c3));
+                  _0x24415d &&
+                    _0x24415d[_0x60d934(0x18a)]({
+                      behavior: _0x60d934(0x2a2),
+                      block: _0x60d934(0xb2),
+                      inline: _0x60d934(0x1f7),
                     });
                 }, 0x1f4);
             });
         },
-        (_0x3cd9a3) => {}
+        (_0x3a4280) => {}
       )
-        [_0x5d3b7c(0x461)](() => {
+        [_0x24e83d(0x153)](() => {
           setTimeout(() => {
-            const _0x27e578 = _0x3929,
-              _0x26754a = readerDiv[_0x27e578(0x39b)](_0x27e578(0x27e));
-            if (_0x26754a) {
-              const _0x12e43c =
-                _0x26754a[_0x27e578(0x398)]["getVideoTracks"]()[0x0];
-              _0x12e43c[_0x27e578(0x32e)]({
-                focusMode: "continuous",
+            const _0x2e8bec = _0x1f33,
+              _0x2969db = readerDiv[_0x2e8bec(0x18c)](_0x2e8bec(0x209));
+            if (_0x2969db) {
+              const _0x2f9b6c =
+                _0x2969db[_0x2e8bec(0x233)][_0x2e8bec(0x9c)]()[0x0];
+              _0x2f9b6c[_0x2e8bec(0x25a)]({
+                focusMode: _0x2e8bec(0x122),
                 advanced: [{ zoom: 0x2 }],
               })
-                [_0x27e578(0x461)](() => {})
-                ["catch"]((_0x5a83e3) => {});
+                [_0x2e8bec(0x153)](() => {})
+                [_0x2e8bec(0xd7)]((_0x2b520e) => {});
             }
           }, 0x7d0);
         })
-        [_0x5d3b7c(0x21b)]((_0x4a005d) => {
-          const _0x559b5c = _0x5d3b7c;
+        [_0x24e83d(0xd7)]((_0x40c6c2) => {
+          const _0x255394 = _0x24e83d;
           (scannerActivo = ![]),
-            (resultadoDiv[_0x559b5c(0x2ea)] =
-              "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>No\x20se\x20pudo\x20acceder\x20a\x20la\x20cámara:\x20" +
-              _0x4a005d +
-              "</div>"),
+            (resultadoDiv[_0x255394(0x12a)] =
+              _0x255394(0x1d3) + _0x40c6c2 + "</div>"),
             renderHistorial();
         });
-      const _0x3108fe = new MutationObserver(() => {
-        const _0x13561f = _0x5d3b7c,
-          _0x3a68ee = readerDiv[_0x13561f(0x39b)](_0x13561f(0x27e));
-        _0x3a68ee &&
-          (_0x3a68ee[_0x13561f(0x347)](_0x13561f(0x276), ""),
-          _0x3a68ee[_0x13561f(0x347)]("autoplay", ""),
-          _0x3a68ee["setAttribute"](_0x13561f(0x1f9), ""),
-          _0x3108fe[_0x13561f(0x2cb)]());
+      const _0x2bb212 = new MutationObserver(() => {
+        const _0x5457bf = _0x24e83d,
+          _0x43605 = readerDiv[_0x5457bf(0x18c)](_0x5457bf(0x209));
+        _0x43605 &&
+          (_0x43605[_0x5457bf(0x2bf)](_0x5457bf(0x360), ""),
+          _0x43605["setAttribute"]("autoplay", ""),
+          _0x43605[_0x5457bf(0x2bf)]("muted", ""),
+          _0x2bb212[_0x5457bf(0x2ad)]());
       });
-      _0x3108fe["observe"](readerDiv, { childList: !![], subtree: !![] });
+      _0x2bb212["observe"](readerDiv, { childList: !![], subtree: !![] });
     })
-    [_0x52b988(0x21b)]((_0x5d6704) => {
-      const _0x423102 = _0x52b988;
-      (resultadoDiv["innerHTML"] = _0x423102(0x259)), renderHistorial();
+    [_0xc1e9de(0xd7)]((_0xed6b5) => {
+      const _0x6fee38 = _0xc1e9de;
+      (resultadoDiv["innerHTML"] = _0x6fee38(0x1b7)), renderHistorial();
     });
 }
-const fileInput = document[_0x765170(0x2ce)]("fileInput");
-fileInput[_0x765170(0x41e)](_0x765170(0x41a), async (_0x3623e7) => {
-  const _0xf86558 = _0x765170,
-    _0x858ffe = _0x3623e7["target"][_0xf86558(0x426)][0x0];
-  if (!_0x858ffe) return;
-  resultadoDiv[_0xf86558(0x2ea)] = _0xf86558(0x23a);
+const fileInput = document[_0x1b5bb5(0x185)](_0x1b5bb5(0x1a7));
+fileInput["addEventListener"](_0x1b5bb5(0x378), async (_0x32d014) => {
+  const _0x5831fa = _0x1b5bb5,
+    _0x3e1931 = _0x32d014[_0x5831fa(0x26e)][_0x5831fa(0x240)][0x0];
+  if (!_0x3e1931) return;
+  resultadoDiv["innerHTML"] = _0x5831fa(0x23c);
   try {
-    const _0x31ea79 = new Image(),
-      _0x3a4a4c = new Promise((_0x44329b, _0x34cfb8) => {
-        const _0x4eb4b1 = _0xf86558;
-        (_0x31ea79[_0x4eb4b1(0x215)] = _0x44329b),
-          (_0x31ea79[_0x4eb4b1(0x472)] = _0x34cfb8),
-          (_0x31ea79[_0x4eb4b1(0x345)] = URL["createObjectURL"](_0x858ffe));
+    const _0x3cc073 = new Image(),
+      _0x458dbe = new Promise((_0x276e09, _0x345919) => {
+        const _0x2bb640 = _0x5831fa;
+        (_0x3cc073[_0x2bb640(0x31c)] = _0x276e09),
+          (_0x3cc073[_0x2bb640(0x2ea)] = _0x345919),
+          (_0x3cc073[_0x2bb640(0x37a)] = URL[_0x2bb640(0x286)](_0x3e1931));
       });
-    await _0x3a4a4c;
+    await _0x458dbe;
     if (
-      GOOGLE_VISION_CONFIG["enabled"] &&
-      visionUsageTracker[_0xf86558(0x2fb)]()
+      GOOGLE_VISION_CONFIG[_0x5831fa(0x142)] &&
+      visionUsageTracker[_0x5831fa(0x2e2)]()
     ) {
-      console[_0xf86558(0x413)](
-        "🚀\x20Intentando\x20con\x20Google\x20Vision\x20API..."
-      );
+      console[_0x5831fa(0x1f3)](_0x5831fa(0x302));
       try {
-        const _0x1d91e2 = await detectarConGoogleVision(_0x31ea79);
-        if (_0x1d91e2) {
-          console[_0xf86558(0x413)](
-            "✅\x20Google\x20Vision\x20detectó:",
-            _0x1d91e2
-          ),
-            (inputCodigo["value"] = _0x1d91e2),
-            form[_0xf86558(0x24b)](),
-            URL[_0xf86558(0x2f1)](_0x31ea79[_0xf86558(0x345)]),
-            (fileInput[_0xf86558(0x2c5)] = "");
+        const _0xea5ebe = await detectarConGoogleVision(_0x3cc073);
+        if (_0xea5ebe) {
+          console[_0x5831fa(0x1f3)](_0x5831fa(0xaa), _0xea5ebe),
+            (inputCodigo[_0x5831fa(0xd6)] = _0xea5ebe),
+            form[_0x5831fa(0x19e)](),
+            URL[_0x5831fa(0xec)](_0x3cc073[_0x5831fa(0x37a)]),
+            (fileInput["value"] = "");
           return;
         }
-      } catch (_0x5f0f6b) {
-        console[_0xf86558(0x413)](
-          "❌\x20Error\x20con\x20Google\x20Vision,\x20usando\x20fallback:",
-          _0x5f0f6b[_0xf86558(0x48f)]
+      } catch (_0x273162) {
+        console[_0x5831fa(0x1f3)](
+          _0x5831fa(0x14b),
+          _0x273162[_0x5831fa(0x254)]
         );
-        if (_0x5f0f6b[_0xf86558(0x48f)]["includes"]("CORS_ERROR"))
-          console[_0xf86558(0x413)](_0xf86558(0x3df));
+        if (_0x273162[_0x5831fa(0x254)][_0x5831fa(0x278)](_0x5831fa(0x1f4)))
+          console[_0x5831fa(0x1f3)](
+            "🔧\x20Problema\x20de\x20CORS\x20detectado\x20-\x20necesita\x20configuración\x20en\x20backend"
+          );
         else {
-          if (_0x5f0f6b[_0xf86558(0x48f)][_0xf86558(0x37b)](_0xf86558(0x212)))
-            console[_0xf86558(0x413)](
-              "🔧\x20Error\x20500:\x20Problema\x20con\x20Google\x20Vision\x20API"
-            ),
-              _0x5f0f6b[_0xf86558(0x48f)]["includes"](_0xf86558(0x49d))
-                ? (console[_0xf86558(0x413)](_0xf86558(0x3f5)),
-                  console[_0xf86558(0x413)](
-                    "💡\x20Ve\x20a:\x20https://console.developers.google.com/billing/enable?project=1070150612422"
-                  ))
-                : console[_0xf86558(0x413)](
+          if (_0x273162["message"]["includes"](_0x5831fa(0x1db)))
+            console["log"](_0x5831fa(0xb3)),
+              _0x273162["message"]["includes"]("BILLING_DISABLED")
+                ? (console[_0x5831fa(0x1f3)](_0x5831fa(0x200)),
+                  console["log"](_0x5831fa(0x264)))
+                : console[_0x5831fa(0x1f3)](
                     "💡\x20Verifica\x20la\x20configuración\x20de\x20GOOGLE_VISION_API_KEY\x20en\x20Vercel"
                   );
           else
-            _0x5f0f6b["message"][_0xf86558(0x37b)](_0xf86558(0x249)) &&
-              console[_0xf86558(0x413)](
+            _0x273162[_0x5831fa(0x254)]["includes"](_0x5831fa(0x104)) &&
+              console[_0x5831fa(0x1f3)](
                 "🔄\x20Backend\x20no\x20disponible,\x20usando\x20detección\x20local"
               );
         }
       }
     } else {
       if (
-        GOOGLE_VISION_CONFIG[_0xf86558(0x344)] &&
-        !visionUsageTracker[_0xf86558(0x2fb)]()
+        GOOGLE_VISION_CONFIG[_0x5831fa(0x142)] &&
+        !visionUsageTracker[_0x5831fa(0x2e2)]()
       ) {
-        const _0x46a29a = visionUsageTracker[_0xf86558(0x3ad)]();
-        console["log"](
-          _0xf86558(0x3e3) +
-            _0x46a29a["monthlyUsed"] +
+        const _0x18c7b3 = visionUsageTracker[_0x5831fa(0x287)]();
+        console[_0x5831fa(0x1f3)](
+          _0x5831fa(0x181) +
+            _0x18c7b3[_0x5831fa(0xcb)] +
             "/" +
-            _0x46a29a["monthlyLimit"] +
-            ",\x20Diario:\x20" +
-            _0x46a29a[_0xf86558(0x326)] +
+            _0x18c7b3[_0x5831fa(0x25d)] +
+            _0x5831fa(0x325) +
+            _0x18c7b3["dailyUsed"] +
             "/" +
-            _0x46a29a["dailyLimit"]
+            _0x18c7b3[_0x5831fa(0x102)]
         );
       }
     }
-    if ("BarcodeDetector" in window) {
-      console[_0xf86558(0x413)](_0xf86558(0x445));
+    if (_0x5831fa(0x216) in window) {
+      console["log"](_0x5831fa(0x173));
       try {
-        const _0x59ef5f = [
-            "aztec",
-            _0xf86558(0x46b),
+        const _0x4b1fd3 = [
+            _0x5831fa(0x99),
+            "code_128",
             "code_39",
             "code_93",
-            _0xf86558(0x4b9),
-            _0xf86558(0x434),
-            _0xf86558(0x28b),
-            _0xf86558(0x34b),
-            _0xf86558(0x25c),
-            "pdf417",
-            _0xf86558(0x28e),
-            _0xf86558(0x381),
-            _0xf86558(0x34a),
+            _0x5831fa(0x363),
+            _0x5831fa(0xe9),
+            _0x5831fa(0x2f7),
+            _0x5831fa(0x126),
+            _0x5831fa(0x13f),
+            _0x5831fa(0x9e),
+            _0x5831fa(0x30a),
+            _0x5831fa(0x121),
+            _0x5831fa(0x107),
           ],
-          _0x28343e = new BarcodeDetector({ formats: _0x59ef5f }),
-          _0xc4f153 = await _0x28343e[_0xf86558(0x27a)](_0x31ea79);
-        console[_0xf86558(0x413)](
-          "🔍\x20Códigos\x20detectados\x20por\x20API\x20nativa:\x20" +
-            _0xc4f153[_0xf86558(0x37d)],
-          _0xc4f153
+          _0x53a9b7 = new BarcodeDetector({ formats: _0x4b1fd3 }),
+          _0x44e8c3 = await _0x53a9b7["detect"](_0x3cc073);
+        console[_0x5831fa(0x1f3)](
+          _0x5831fa(0x20c) + _0x44e8c3[_0x5831fa(0x359)],
+          _0x44e8c3
         );
-        if (_0xc4f153[_0xf86558(0x37d)] > 0x0) {
-          const _0x3b23de = _0xc4f153[_0xf86558(0x447)]((_0x4da951) => {
-            const _0x11ed2a = _0xf86558,
-              _0x2395a5 = _0x4da951["rawValue"]["trim"]();
-            console["log"](
-              "🔍\x20Validando:\x20\x22" +
-                _0x2395a5 +
-                _0x11ed2a(0x3ee) +
-                _0x4da951[_0x11ed2a(0x448)] +
-                _0x11ed2a(0x250) +
-                _0x2395a5[_0x11ed2a(0x37d)]
+        if (_0x44e8c3[_0x5831fa(0x359)] > 0x0) {
+          const _0x544b14 = _0x44e8c3[_0x5831fa(0x17f)]((_0x5f0a9b) => {
+            const _0x696dec = _0x5831fa,
+              _0x2367c1 = _0x5f0a9b[_0x696dec(0x2b1)]["trim"]();
+            console[_0x696dec(0x1f3)](
+              _0x696dec(0x2cd) +
+                _0x2367c1 +
+                _0x696dec(0x22a) +
+                _0x5f0a9b[_0x696dec(0x111)] +
+                _0x696dec(0x21c) +
+                _0x2367c1[_0x696dec(0x359)]
             );
-            switch (_0x4da951[_0x11ed2a(0x448)]) {
-              case _0x11ed2a(0x28b):
+            switch (_0x5f0a9b[_0x696dec(0x111)]) {
+              case _0x696dec(0x2f7):
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] === 0xd &&
-                  /^\d{13}$/[_0x11ed2a(0x26e)](_0x2395a5)
+                  _0x2367c1[_0x696dec(0x359)] === 0xd &&
+                  /^\d{13}$/[_0x696dec(0xdc)](_0x2367c1)
                 );
-              case _0x11ed2a(0x381):
+              case _0x696dec(0x121):
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] === 0xc &&
-                  /^\d{12}$/[_0x11ed2a(0x26e)](_0x2395a5)
+                  _0x2367c1["length"] === 0xc &&
+                  /^\d{12}$/[_0x696dec(0xdc)](_0x2367c1)
                 );
-              case _0x11ed2a(0x34b):
+              case _0x696dec(0x126):
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] === 0x8 &&
-                  /^\d{8}$/[_0x11ed2a(0x26e)](_0x2395a5)
+                  _0x2367c1[_0x696dec(0x359)] === 0x8 &&
+                  /^\d{8}$/[_0x696dec(0xdc)](_0x2367c1)
                 );
-              case _0x11ed2a(0x34a):
+              case _0x696dec(0x107):
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x6 &&
-                  _0x2395a5["length"] <= 0x8 &&
-                  /^\d+$/[_0x11ed2a(0x26e)](_0x2395a5)
+                  _0x2367c1[_0x696dec(0x359)] >= 0x6 &&
+                  _0x2367c1["length"] <= 0x8 &&
+                  /^\d+$/[_0x696dec(0xdc)](_0x2367c1)
                 );
-              case _0x11ed2a(0x46b):
+              case _0x696dec(0x32a):
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x1 &&
-                  _0x2395a5[_0x11ed2a(0x37d)] <= 0x32
+                  _0x2367c1[_0x696dec(0x359)] >= 0x1 &&
+                  _0x2367c1["length"] <= 0x32
                 );
-              case _0x11ed2a(0x43f):
+              case _0x696dec(0xf6):
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x1 &&
-                  /^[A-Z0-9\-. $\/+%*]+$/["test"](_0x2395a5)
+                  _0x2367c1[_0x696dec(0x359)] >= 0x1 &&
+                  /^[A-Z0-9\-. $\/+%*]+$/[_0x696dec(0xdc)](_0x2367c1)
                 );
-              case _0x11ed2a(0x48c):
+              case _0x696dec(0x2b4):
                 return (
-                  _0x2395a5["length"] >= 0x1 &&
-                  _0x2395a5[_0x11ed2a(0x37d)] <= 0x32
+                  _0x2367c1[_0x696dec(0x359)] >= 0x1 &&
+                  _0x2367c1[_0x696dec(0x359)] <= 0x32
                 );
-              case _0x11ed2a(0x4b9):
+              case "codabar":
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x3 &&
-                  /^[A-D][0-9\-$:\/.\+]+[A-D]$/[_0x11ed2a(0x26e)](_0x2395a5)
+                  _0x2367c1[_0x696dec(0x359)] >= 0x3 &&
+                  /^[A-D][0-9\-$:\/.\+]+[A-D]$/["test"](_0x2367c1)
                 );
-              case _0x11ed2a(0x25c):
+              case _0x696dec(0x13f):
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x2 &&
-                  _0x2395a5["length"] % 0x2 === 0x0 &&
-                  /^\d+$/[_0x11ed2a(0x26e)](_0x2395a5)
+                  _0x2367c1[_0x696dec(0x359)] >= 0x2 &&
+                  _0x2367c1["length"] % 0x2 === 0x0 &&
+                  /^\d+$/[_0x696dec(0xdc)](_0x2367c1)
                 );
               case "qr_code":
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x1 &&
-                  _0x2395a5["length"] <= 0x10c8
+                  _0x2367c1[_0x696dec(0x359)] >= 0x1 &&
+                  _0x2367c1["length"] <= 0x10c8
                 );
-              case _0x11ed2a(0x434):
+              case _0x696dec(0xe9):
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x1 &&
-                  _0x2395a5[_0x11ed2a(0x37d)] <= 0xc2c
+                  _0x2367c1[_0x696dec(0x359)] >= 0x1 &&
+                  _0x2367c1[_0x696dec(0x359)] <= 0xc2c
                 );
-              case _0x11ed2a(0x40a):
+              case _0x696dec(0x9e):
                 return (
-                  _0x2395a5["length"] >= 0x1 &&
-                  _0x2395a5[_0x11ed2a(0x37d)] <= 0xa96
+                  _0x2367c1[_0x696dec(0x359)] >= 0x1 &&
+                  _0x2367c1[_0x696dec(0x359)] <= 0xa96
                 );
-              case _0x11ed2a(0x3a9):
+              case "aztec":
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x1 &&
-                  _0x2395a5["length"] <= 0xef8
+                  _0x2367c1["length"] >= 0x1 &&
+                  _0x2367c1[_0x696dec(0x359)] <= 0xef8
                 );
               default:
                 return (
-                  _0x2395a5[_0x11ed2a(0x37d)] >= 0x1 &&
-                  _0x2395a5[_0x11ed2a(0x37d)] <= 0x64
+                  _0x2367c1[_0x696dec(0x359)] >= 0x1 &&
+                  _0x2367c1[_0x696dec(0x359)] <= 0x64
                 );
             }
           });
-          console["log"](_0xf86558(0x3db) + _0x3b23de[_0xf86558(0x37d)]);
-          if (_0x3b23de[_0xf86558(0x37d)] > 0x0) {
-            const _0x3039e9 = {
+          console[_0x5831fa(0x1f3)](
+            _0x5831fa(0x129) + _0x544b14[_0x5831fa(0x359)]
+          );
+          if (_0x544b14[_0x5831fa(0x359)] > 0x0) {
+            const _0x25ca53 = {
                 ean_13: 0xa,
                 upc_a: 0x9,
                 ean_8: 0x8,
@@ -3147,201 +2459,203 @@ fileInput[_0x765170(0x41e)](_0x765170(0x41a), async (_0x3623e7) => {
                 pdf417: 0x1,
                 aztec: 0x1,
               },
-              _0x4d1059 = _0x3b23de[_0xf86558(0x470)](
-                (_0x3d3053, _0x4d165f) => {
-                  const _0x20d373 = _0xf86558,
-                    _0x1fab5a =
-                      (_0x3039e9[_0x4d165f[_0x20d373(0x448)]] || 0x0) -
-                      (_0x3039e9[_0x3d3053["format"]] || 0x0);
-                  if (_0x1fab5a !== 0x0) return _0x1fab5a;
+              _0x1b8062 = _0x544b14[_0x5831fa(0x31f)](
+                (_0x198abe, _0x2e2cc7) => {
+                  const _0x5eda1d = _0x5831fa,
+                    _0x35d110 =
+                      (_0x25ca53[_0x2e2cc7[_0x5eda1d(0x111)]] || 0x0) -
+                      (_0x25ca53[_0x198abe[_0x5eda1d(0x111)]] || 0x0);
+                  if (_0x35d110 !== 0x0) return _0x35d110;
                   if (
                     [
-                      _0x20d373(0x28b),
-                      _0x20d373(0x381),
-                      _0x20d373(0x34b),
-                      _0x20d373(0x34a),
-                      _0x20d373(0x46b),
-                      _0x20d373(0x43f),
-                      _0x20d373(0x48c),
-                      _0x20d373(0x25c),
-                      _0x20d373(0x4b9),
-                    ][_0x20d373(0x37b)](_0x3d3053["format"])
+                      _0x5eda1d(0x2f7),
+                      _0x5eda1d(0x121),
+                      _0x5eda1d(0x126),
+                      _0x5eda1d(0x107),
+                      _0x5eda1d(0x32a),
+                      _0x5eda1d(0xf6),
+                      "code_93",
+                      _0x5eda1d(0x13f),
+                      "codabar",
+                    ]["includes"](_0x198abe[_0x5eda1d(0x111)])
                   ) {
-                    const _0x460dd4 =
-                        _0x3d3053[_0x20d373(0x2b9)][_0x20d373(0x40c)] *
-                        _0x3d3053["boundingBox"]["height"],
-                      _0x4857c7 =
-                        _0x4d165f[_0x20d373(0x2b9)][_0x20d373(0x40c)] *
-                        _0x4d165f["boundingBox"][_0x20d373(0x1f3)];
-                    return _0x4857c7 - _0x460dd4;
+                    const _0x4b5e36 =
+                        _0x198abe["boundingBox"][_0x5eda1d(0xfc)] *
+                        _0x198abe[_0x5eda1d(0x2c9)][_0x5eda1d(0x188)],
+                      _0x4a48c2 =
+                        _0x2e2cc7[_0x5eda1d(0x2c9)][_0x5eda1d(0xfc)] *
+                        _0x2e2cc7[_0x5eda1d(0x2c9)][_0x5eda1d(0x188)];
+                    return _0x4a48c2 - _0x4b5e36;
                   }
-                  const _0x47a1b0 =
-                      _0x3d3053["boundingBox"]["x"] +
-                      _0x3d3053[_0x20d373(0x2b9)][_0x20d373(0x40c)] / 0x2,
-                    _0x5e1fb5 =
-                      _0x4d165f[_0x20d373(0x2b9)]["x"] +
-                      _0x4d165f[_0x20d373(0x2b9)][_0x20d373(0x40c)] / 0x2,
-                    _0x4294f8 = _0x31ea79[_0x20d373(0x40c)] / 0x2;
+                  const _0x1ef2e2 =
+                      _0x198abe[_0x5eda1d(0x2c9)]["x"] +
+                      _0x198abe[_0x5eda1d(0x2c9)][_0x5eda1d(0xfc)] / 0x2,
+                    _0x33c5d9 =
+                      _0x2e2cc7["boundingBox"]["x"] +
+                      _0x2e2cc7[_0x5eda1d(0x2c9)][_0x5eda1d(0xfc)] / 0x2,
+                    _0x234592 = _0x3cc073[_0x5eda1d(0xfc)] / 0x2;
                   return (
-                    Math[_0x20d373(0x3e1)](_0x47a1b0 - _0x4294f8) -
-                    Math[_0x20d373(0x3e1)](_0x5e1fb5 - _0x4294f8)
+                    Math[_0x5eda1d(0x230)](_0x1ef2e2 - _0x234592) -
+                    Math[_0x5eda1d(0x230)](_0x33c5d9 - _0x234592)
                   );
                 }
               ),
-              _0x308ed4 = _0x4d1059[0x0],
-              _0x1cbb7d = _0x308ed4[_0xf86558(0x245)]
-                [_0xf86558(0x255)]()
-                [_0xf86558(0x4a1)](/\s+$/, "");
-            console[_0xf86558(0x413)](
-              "🎯\x20Mejor\x20código\x20seleccionado:\x20\x22" +
-                _0x1cbb7d +
-                _0xf86558(0x28f) +
-                _0x308ed4[_0xf86558(0x448)] +
+              _0x5c5505 = _0x1b8062[0x0],
+              _0x241b05 = _0x5c5505[_0x5831fa(0x2b1)]
+                [_0x5831fa(0x219)]()
+                [_0x5831fa(0x18e)](/\s+$/, "");
+            console[_0x5831fa(0x1f3)](
+              _0x5831fa(0x13e) +
+                _0x241b05 +
+                _0x5831fa(0x19d) +
+                _0x5c5505[_0x5831fa(0x111)] +
                 ")"
             ),
-              (inputCodigo["value"] = _0x1cbb7d),
-              form[_0xf86558(0x24b)](),
-              URL[_0xf86558(0x2f1)](_0x31ea79["src"]),
+              (inputCodigo[_0x5831fa(0xd6)] = _0x241b05),
+              form[_0x5831fa(0x19e)](),
+              URL[_0x5831fa(0xec)](_0x3cc073[_0x5831fa(0x37a)]),
               (fileInput["value"] = "");
             return;
           }
         }
-        console[_0xf86558(0x413)](_0xf86558(0x2fc));
-      } catch (_0x3e02e7) {
-        console[_0xf86558(0x413)](_0xf86558(0x44c), _0x3e02e7);
+        console[_0x5831fa(0x1f3)](_0x5831fa(0x330));
+      } catch (_0x3bf66a) {
+        console[_0x5831fa(0x1f3)](
+          "❌\x20Error\x20con\x20API\x20nativa,\x20usando\x20fallback:",
+          _0x3bf66a
+        );
       }
-    } else
-      console[_0xf86558(0x413)](
-        "⚠️\x20BarcodeDetector\x20no\x20disponible\x20en\x20este\x20navegador"
-      );
-    console["log"](_0xf86558(0x478)), usarQuaggaFallback(_0x31ea79);
-  } catch (_0x211aee) {
-    console[_0xf86558(0x258)]("Error\x20procesando\x20imagen:", _0x211aee),
-      (resultadoDiv[_0xf86558(0x2ea)] = _0xf86558(0x38c)),
+    } else console[_0x5831fa(0x1f3)](_0x5831fa(0x1f8));
+    console["log"](_0x5831fa(0xce)), usarQuaggaFallback(_0x3cc073);
+  } catch (_0x366553) {
+    console[_0x5831fa(0x12e)](_0x5831fa(0x28b), _0x366553),
+      (resultadoDiv[_0x5831fa(0x12a)] = _0x5831fa(0xc8)),
       renderHistorial(),
-      (fileInput[_0xf86558(0x2c5)] = "");
+      (fileInput[_0x5831fa(0xd6)] = "");
   }
 });
-function usarQuaggaFallback(_0x44e9b9) {
-  const _0x1a2999 = _0x765170;
-  console[_0x1a2999(0x413)]("📸\x20Procesando\x20con\x20Quagga...");
-  const _0x509015 = document["createElement"](_0x1a2999(0x406)),
-    _0x79b452 = _0x509015[_0x1a2999(0x373)]("2d");
-  let { width: _0x353703, height: _0x2b2eb6 } = _0x44e9b9;
-  const _0x18d826 = 0x190;
-  if (_0x353703 < _0x18d826 || _0x2b2eb6 < _0x18d826) {
-    const _0x432427 =
-      Math[_0x1a2999(0x267)](_0x18d826 / _0x353703, _0x18d826 / _0x2b2eb6) *
+function usarQuaggaFallback(_0x52202b) {
+  const _0x206d8c = _0x1b5bb5;
+  console["log"]("📸\x20Procesando\x20con\x20Quagga...");
+  const _0x5d1cc7 = document[_0x206d8c(0x14e)]("canvas"),
+    _0xfde757 = _0x5d1cc7[_0x206d8c(0x331)]("2d");
+  let { width: _0x1cd959, height: _0x5ad23e } = _0x52202b;
+  const _0x4ca56c = 0x190;
+  if (_0x1cd959 < _0x4ca56c || _0x5ad23e < _0x4ca56c) {
+    const _0x1bc63e =
+      Math[_0x206d8c(0x220)](_0x4ca56c / _0x1cd959, _0x4ca56c / _0x5ad23e) *
       1.5;
-    (_0x353703 *= _0x432427),
-      (_0x2b2eb6 *= _0x432427),
+    (_0x1cd959 *= _0x1bc63e),
+      (_0x5ad23e *= _0x1bc63e),
       console["log"](
-        _0x1a2999(0x2b7) +
-          _0x44e9b9[_0x1a2999(0x40c)] +
+        _0x206d8c(0xaf) +
+          _0x52202b[_0x206d8c(0xfc)] +
           "x" +
-          _0x44e9b9[_0x1a2999(0x1f3)] +
-          _0x1a2999(0x368) +
-          _0x353703 +
+          _0x52202b[_0x206d8c(0x188)] +
+          _0x206d8c(0x12b) +
+          _0x1cd959 +
           "x" +
-          _0x2b2eb6
+          _0x5ad23e
       );
   }
-  const _0x4ac249 = 0x5dc;
-  if (_0x353703 > _0x4ac249 || _0x2b2eb6 > _0x4ac249) {
-    const _0x25311e = Math["min"](_0x4ac249 / _0x353703, _0x4ac249 / _0x2b2eb6);
-    (_0x353703 *= _0x25311e), (_0x2b2eb6 *= _0x25311e);
-  }
-  (_0x509015[_0x1a2999(0x40c)] = _0x353703),
-    (_0x509015[_0x1a2999(0x1f3)] = _0x2b2eb6),
-    (_0x79b452[_0x1a2999(0x25a)] = ![]),
-    _0x79b452[_0x1a2999(0x45d)](_0x44e9b9, 0x0, 0x0, _0x353703, _0x2b2eb6);
-  const _0xb37484 = _0x79b452[_0x1a2999(0x35d)](0x0, 0x0, _0x353703, _0x2b2eb6),
-    _0x11bd8c = _0xb37484["data"];
-  let _0x4cc13d = new Array(0x100)[_0x1a2999(0x25d)](0x0);
-  for (
-    let _0x33a01b = 0x0;
-    _0x33a01b < _0x11bd8c[_0x1a2999(0x37d)];
-    _0x33a01b += 0x4
-  ) {
-    const _0x534695 = Math[_0x1a2999(0x2d7)](
-      0.299 * _0x11bd8c[_0x33a01b] +
-        0.587 * _0x11bd8c[_0x33a01b + 0x1] +
-        0.114 * _0x11bd8c[_0x33a01b + 0x2]
+  const _0x573b72 = 0x5dc;
+  if (_0x1cd959 > _0x573b72 || _0x5ad23e > _0x573b72) {
+    const _0x3841b0 = Math[_0x206d8c(0xa6)](
+      _0x573b72 / _0x1cd959,
+      _0x573b72 / _0x5ad23e
     );
-    _0x4cc13d[_0x534695]++;
+    (_0x1cd959 *= _0x3841b0), (_0x5ad23e *= _0x3841b0);
   }
-  let _0x33e8a6 = 0x80,
-    _0x255b84 = 0x0;
-  const _0x321285 = _0x353703 * _0x2b2eb6;
-  for (let _0x30c668 = 0x0; _0x30c668 < 0x100; _0x30c668++) {
-    let _0x3bb77e = 0x0,
-      _0x4aaade = 0x0,
-      _0x4d426e = 0x0,
-      _0x223804 = 0x0;
-    for (let _0x1c935c = 0x0; _0x1c935c <= _0x30c668; _0x1c935c++) {
-      (_0x3bb77e += _0x4cc13d[_0x1c935c]),
-        (_0x4d426e += _0x1c935c * _0x4cc13d[_0x1c935c]);
-    }
-    for (let _0x45b648 = _0x30c668 + 0x1; _0x45b648 < 0x100; _0x45b648++) {
-      (_0x4aaade += _0x4cc13d[_0x45b648]),
-        (_0x223804 += _0x45b648 * _0x4cc13d[_0x45b648]);
-    }
-    if (_0x3bb77e === 0x0 || _0x4aaade === 0x0) continue;
-    const _0x4c90ae = _0x4d426e / _0x3bb77e,
-      _0x4c92f9 = _0x223804 / _0x4aaade,
-      _0x4fbc57 =
-        _0x3bb77e *
-        _0x4aaade *
-        (_0x4c90ae - _0x4c92f9) *
-        (_0x4c90ae - _0x4c92f9);
-    _0x4fbc57 > _0x255b84 && ((_0x255b84 = _0x4fbc57), (_0x33e8a6 = _0x30c668));
-  }
-  console[_0x1a2999(0x413)](_0x1a2999(0x394) + _0x33e8a6);
-  const _0x31e05e = new Uint8ClampedArray(_0x11bd8c);
-  for (let _0xb7cf9b = 0x0; _0xb7cf9b < _0x11bd8c["length"]; _0xb7cf9b += 0x4) {
-    const _0xb60e76 = Math[_0x1a2999(0x2d7)](
-        0.299 * _0x11bd8c[_0xb7cf9b] +
-          0.587 * _0x11bd8c[_0xb7cf9b + 0x1] +
-          0.114 * _0x11bd8c[_0xb7cf9b + 0x2]
-      ),
-      _0x3480a2 = _0xb60e76 > _0x33e8a6 ? 0xff : 0x0;
-    (_0x11bd8c[_0xb7cf9b] = _0x3480a2),
-      (_0x11bd8c[_0xb7cf9b + 0x1] = _0x3480a2),
-      (_0x11bd8c[_0xb7cf9b + 0x2] = _0x3480a2);
-  }
-  _0x79b452[_0x1a2999(0x246)](_0xb37484, 0x0, 0x0);
-  let _0x3831a8 = _0x509015[_0x1a2999(0x277)](_0x1a2999(0x229));
-  const _0x21b886 = _0x79b452["createImageData"](_0x353703, _0x2b2eb6),
-    _0x2eefda = _0x21b886[_0x1a2999(0x3b3)];
+  (_0x5d1cc7["width"] = _0x1cd959),
+    (_0x5d1cc7[_0x206d8c(0x188)] = _0x5ad23e),
+    (_0xfde757[_0x206d8c(0x217)] = ![]),
+    _0xfde757["drawImage"](_0x52202b, 0x0, 0x0, _0x1cd959, _0x5ad23e);
+  const _0x106ae6 = _0xfde757[_0x206d8c(0x11b)](0x0, 0x0, _0x1cd959, _0x5ad23e),
+    _0x4dbebe = _0x106ae6["data"];
+  let _0x1d1611 = new Array(0x100)["fill"](0x0);
   for (
-    let _0x522148 = 0x0;
-    _0x522148 < _0x31e05e[_0x1a2999(0x37d)];
-    _0x522148 += 0x4
+    let _0x595fc0 = 0x0;
+    _0x595fc0 < _0x4dbebe[_0x206d8c(0x359)];
+    _0x595fc0 += 0x4
   ) {
-    const _0x585bf8 = Math[_0x1a2999(0x2d7)](
-        0.299 * _0x31e05e[_0x522148] +
-          0.587 * _0x31e05e[_0x522148 + 0x1] +
-          0.114 * _0x31e05e[_0x522148 + 0x2]
-      ),
-      _0x398e53 = _0x585bf8 > _0x33e8a6 * 0.7 ? 0xff : 0x0;
-    (_0x2eefda[_0x522148] = _0x398e53),
-      (_0x2eefda[_0x522148 + 0x1] = _0x398e53),
-      (_0x2eefda[_0x522148 + 0x2] = _0x398e53),
-      (_0x2eefda[_0x522148 + 0x3] = 0xff);
+    const _0x492dc1 = Math[_0x206d8c(0x222)](
+      0.299 * _0x4dbebe[_0x595fc0] +
+        0.587 * _0x4dbebe[_0x595fc0 + 0x1] +
+        0.114 * _0x4dbebe[_0x595fc0 + 0x2]
+    );
+    _0x1d1611[_0x492dc1]++;
   }
-  const _0x4cd1bf = document["createElement"](_0x1a2999(0x406));
-  (_0x4cd1bf[_0x1a2999(0x40c)] = _0x353703),
-    (_0x4cd1bf[_0x1a2999(0x1f3)] = _0x2b2eb6);
-  const _0x3f1657 = _0x4cd1bf[_0x1a2999(0x373)]("2d");
-  _0x3f1657[_0x1a2999(0x246)](_0x21b886, 0x0, 0x0);
-  const _0xaade35 = _0x4cd1bf["toDataURL"](_0x1a2999(0x229)),
-    _0xbc40ab = {
-      src: _0x3831a8,
+  let _0x294e0e = 0x80,
+    _0x570e07 = 0x0;
+  const _0x30e969 = _0x1cd959 * _0x5ad23e;
+  for (let _0x46600e = 0x0; _0x46600e < 0x100; _0x46600e++) {
+    let _0x736d92 = 0x0,
+      _0x535fca = 0x0,
+      _0x569226 = 0x0,
+      _0x4afa39 = 0x0;
+    for (let _0x7b7da1 = 0x0; _0x7b7da1 <= _0x46600e; _0x7b7da1++) {
+      (_0x736d92 += _0x1d1611[_0x7b7da1]),
+        (_0x569226 += _0x7b7da1 * _0x1d1611[_0x7b7da1]);
+    }
+    for (let _0x2070d6 = _0x46600e + 0x1; _0x2070d6 < 0x100; _0x2070d6++) {
+      (_0x535fca += _0x1d1611[_0x2070d6]),
+        (_0x4afa39 += _0x2070d6 * _0x1d1611[_0x2070d6]);
+    }
+    if (_0x736d92 === 0x0 || _0x535fca === 0x0) continue;
+    const _0x4fefa4 = _0x569226 / _0x736d92,
+      _0x5904a9 = _0x4afa39 / _0x535fca,
+      _0x38a16e =
+        _0x736d92 *
+        _0x535fca *
+        (_0x4fefa4 - _0x5904a9) *
+        (_0x4fefa4 - _0x5904a9);
+    _0x38a16e > _0x570e07 && ((_0x570e07 = _0x38a16e), (_0x294e0e = _0x46600e));
+  }
+  console[_0x206d8c(0x1f3)](_0x206d8c(0x236) + _0x294e0e);
+  const _0x4630c3 = new Uint8ClampedArray(_0x4dbebe);
+  for (
+    let _0x32d7ed = 0x0;
+    _0x32d7ed < _0x4dbebe[_0x206d8c(0x359)];
+    _0x32d7ed += 0x4
+  ) {
+    const _0x4044f0 = Math["round"](
+        0.299 * _0x4dbebe[_0x32d7ed] +
+          0.587 * _0x4dbebe[_0x32d7ed + 0x1] +
+          0.114 * _0x4dbebe[_0x32d7ed + 0x2]
+      ),
+      _0x1cdac4 = _0x4044f0 > _0x294e0e ? 0xff : 0x0;
+    (_0x4dbebe[_0x32d7ed] = _0x1cdac4),
+      (_0x4dbebe[_0x32d7ed + 0x1] = _0x1cdac4),
+      (_0x4dbebe[_0x32d7ed + 0x2] = _0x1cdac4);
+  }
+  _0xfde757[_0x206d8c(0x19b)](_0x106ae6, 0x0, 0x0);
+  let _0x346571 = _0x5d1cc7[_0x206d8c(0x333)]("image/png");
+  const _0x363539 = _0xfde757[_0x206d8c(0x94)](_0x1cd959, _0x5ad23e),
+    _0x32490c = _0x363539[_0x206d8c(0x36f)];
+  for (let _0xc1a6fa = 0x0; _0xc1a6fa < _0x4630c3["length"]; _0xc1a6fa += 0x4) {
+    const _0x18b815 = Math["round"](
+        0.299 * _0x4630c3[_0xc1a6fa] +
+          0.587 * _0x4630c3[_0xc1a6fa + 0x1] +
+          0.114 * _0x4630c3[_0xc1a6fa + 0x2]
+      ),
+      _0x4fc823 = _0x18b815 > _0x294e0e * 0.7 ? 0xff : 0x0;
+    (_0x32490c[_0xc1a6fa] = _0x4fc823),
+      (_0x32490c[_0xc1a6fa + 0x1] = _0x4fc823),
+      (_0x32490c[_0xc1a6fa + 0x2] = _0x4fc823),
+      (_0x32490c[_0xc1a6fa + 0x3] = 0xff);
+  }
+  const _0x343719 = document[_0x206d8c(0x14e)]("canvas");
+  (_0x343719[_0x206d8c(0xfc)] = _0x1cd959), (_0x343719["height"] = _0x5ad23e);
+  const _0x2b4e60 = _0x343719[_0x206d8c(0x331)]("2d");
+  _0x2b4e60[_0x206d8c(0x19b)](_0x363539, 0x0, 0x0);
+  const _0xacb6ea = _0x343719[_0x206d8c(0x333)](_0x206d8c(0xdb)),
+    _0x4c8435 = {
+      src: _0x346571,
       numOfWorkers: 0x0,
       locate: !![],
-      inputStream: { size: Math[_0x1a2999(0x267)](_0x353703, _0x2b2eb6) },
+      inputStream: { size: Math[_0x206d8c(0x220)](_0x1cd959, _0x5ad23e) },
       locator: {
-        patchSize: _0x1a2999(0x22a),
+        patchSize: _0x206d8c(0x2d2),
         halfSample: ![],
         debug: {
           showCanvas: ![],
@@ -3360,369 +2674,1125 @@ function usarQuaggaFallback(_0x44e9b9) {
       },
       decoder: {
         readers: [
-          _0x1a2999(0x493),
-          _0x1a2999(0x20f),
-          "upc_reader",
-          _0x1a2999(0x299),
-          _0x1a2999(0x458),
-          _0x1a2999(0x32a),
-          _0x1a2999(0x329),
-          "code_93_reader",
-          _0x1a2999(0x432),
-          _0x1a2999(0x46e),
-          _0x1a2999(0x2e1),
+          _0x206d8c(0xea),
+          "ean_8_reader",
+          _0x206d8c(0x1c9),
+          "upc_e_reader",
+          _0x206d8c(0x366),
+          "code_39_reader",
+          _0x206d8c(0x163),
+          _0x206d8c(0xb7),
+          _0x206d8c(0x35b),
+          _0x206d8c(0x2d0),
+          _0x206d8c(0x134),
         ],
         multiple: !![],
         debug: { drawBoundingBox: ![], showFrequency: ![], showPattern: ![] },
       },
     };
-  console[_0x1a2999(0x413)](_0x1a2999(0x287));
-  const _0x3fa038 = (_0x47ab18, _0x3ce582, _0x134219) => {
-    const _0x5c870b = _0x1a2999;
-    console[_0x5c870b(0x413)](_0x5c870b(0x20c) + _0x3ce582);
-    const _0x30d47d = {
-      src: _0x47ab18,
+  console["log"]("🔄\x20Iniciando\x20detección\x20con\x20Quagga...");
+  const _0x432153 = (_0x53e214, _0x465d4e, _0x15ae3c) => {
+    const _0x243769 = _0x206d8c;
+    console[_0x243769(0x1f3)](
+      "📋\x20Probando\x20configuración:\x20" + _0x465d4e
+    );
+    const _0x3a1a76 = {
+      src: _0x53e214,
       numOfWorkers: 0x0,
       locate: !![],
-      inputStream: { size: Math["max"](_0x353703, _0x2b2eb6) },
+      inputStream: { size: Math["max"](_0x1cd959, _0x5ad23e) },
       locator: {
-        patchSize: _0x3ce582 === "agresiva" ? _0x5c870b(0x1f2) : "large",
-        halfSample: _0x3ce582 === "alternativa" ? !![] : ![],
+        patchSize:
+          _0x465d4e === _0x243769(0x1ee) ? _0x243769(0x1c3) : _0x243769(0x2d2),
+        halfSample: _0x465d4e === _0x243769(0x1c4) ? !![] : ![],
         debug: { showCanvas: ![], showPatches: ![], showFoundPatches: ![] },
       },
       decoder: {
         readers: [
-          "ean_reader",
-          _0x5c870b(0x20f),
-          _0x5c870b(0x2b6),
-          "upc_e_reader",
-          _0x5c870b(0x458),
-          _0x5c870b(0x32a),
-          "code_39_vin_reader",
+          _0x243769(0xea),
+          "ean_8_reader",
+          _0x243769(0x1c9),
+          _0x243769(0x16c),
+          _0x243769(0x366),
+          _0x243769(0xb1),
+          _0x243769(0x163),
           "code_93_reader",
-          _0x5c870b(0x432),
-          _0x5c870b(0x46e),
+          _0x243769(0x35b),
+          _0x243769(0x2d0),
         ],
         multiple: !![],
         debug: { drawBoundingBox: ![], showFrequency: ![], showPattern: ![] },
       },
     };
-    Quagga[_0x5c870b(0x357)](_0x30d47d, _0x134219);
+    Quagga[_0x243769(0x115)](_0x3a1a76, _0x15ae3c);
   };
-  let _0x2f4398 = [];
-  _0x3fa038(_0x3831a8, _0x1a2999(0x301), function (_0x55f789) {
-    const _0x35a6d1 = _0x1a2999;
-    if (_0x55f789 && _0x55f789[_0x35a6d1(0x455)]) {
-      let _0x5b177c = _0x55f789[_0x35a6d1(0x455)][_0x35a6d1(0x2a9)]
-        [_0x35a6d1(0x255)]()
-        [_0x35a6d1(0x4a1)](/\s+$/, "");
-      _0x2f4398[_0x35a6d1(0x424)](
-        _0x5b177c +
-          "\x20(" +
-          _0x55f789[_0x35a6d1(0x455)][_0x35a6d1(0x448)] +
-          ")"
+  let _0x164360 = [];
+  _0x432153(_0x346571, _0x206d8c(0x29c), function (_0x3a4a8c) {
+    const _0x4fc3ef = _0x206d8c;
+    if (_0x3a4a8c && _0x3a4a8c[_0x4fc3ef(0xc7)]) {
+      let _0x4a0a27 = _0x3a4a8c[_0x4fc3ef(0xc7)][_0x4fc3ef(0x10d)]
+        [_0x4fc3ef(0x219)]()
+        ["replace"](/\s+$/, "");
+      _0x164360["push"](
+        _0x4a0a27 + "\x20(" + _0x3a4a8c[_0x4fc3ef(0xc7)][_0x4fc3ef(0x111)] + ")"
       ),
-        console[_0x35a6d1(0x413)](
-          _0x35a6d1(0x30b),
-          _0x5b177c,
-          _0x35a6d1(0x342),
-          _0x55f789["codeResult"][_0x35a6d1(0x448)]
+        console[_0x4fc3ef(0x1f3)](
+          _0x4fc3ef(0x1b0),
+          _0x4a0a27,
+          _0x4fc3ef(0x130),
+          _0x3a4a8c[_0x4fc3ef(0xc7)][_0x4fc3ef(0x111)]
         );
       if (
-        validarCodigo(_0x5b177c, _0x55f789[_0x35a6d1(0x455)][_0x35a6d1(0x448)])
+        validarCodigo(_0x4a0a27, _0x3a4a8c[_0x4fc3ef(0xc7)][_0x4fc3ef(0x111)])
       ) {
-        (inputCodigo[_0x35a6d1(0x2c5)] = _0x5b177c),
-          form[_0x35a6d1(0x24b)](),
-          URL["revokeObjectURL"](_0x44e9b9[_0x35a6d1(0x345)]),
+        (inputCodigo[_0x4fc3ef(0xd6)] = _0x4a0a27),
+          form["requestSubmit"](),
+          URL[_0x4fc3ef(0xec)](_0x52202b["src"]),
           (fileInput["value"] = "");
         return;
       }
     }
-    console["log"](_0x35a6d1(0x2da)),
-      _0x3fa038(_0xaade35, _0x35a6d1(0x224), function (_0x3ec1d2) {
-        const _0x5de01b = _0x35a6d1;
-        if (_0x3ec1d2 && _0x3ec1d2[_0x5de01b(0x455)]) {
-          let _0x13ea0c = _0x3ec1d2[_0x5de01b(0x455)][_0x5de01b(0x2a9)]
+    console["log"](_0x4fc3ef(0x180)),
+      _0x432153(_0xacb6ea, "agresiva", function (_0x1a6531) {
+        const _0xde7eec = _0x4fc3ef;
+        if (_0x1a6531 && _0x1a6531["codeResult"]) {
+          let _0x2d42f5 = _0x1a6531[_0xde7eec(0xc7)][_0xde7eec(0x10d)]
             ["trim"]()
-            ["replace"](/\s+$/, "");
-          _0x2f4398[_0x5de01b(0x424)](
-            _0x13ea0c +
-              "\x20(" +
-              _0x3ec1d2[_0x5de01b(0x455)][_0x5de01b(0x448)] +
-              ")"
+            [_0xde7eec(0x18e)](/\s+$/, "");
+          _0x164360[_0xde7eec(0x311)](
+            _0x2d42f5 + "\x20(" + _0x1a6531[_0xde7eec(0xc7)]["format"] + ")"
           ),
-            console[_0x5de01b(0x413)](
-              _0x5de01b(0x1ed),
-              _0x13ea0c,
+            console[_0xde7eec(0x1f3)](
+              _0xde7eec(0x1de),
+              _0x2d42f5,
               "Formato:",
-              _0x3ec1d2["codeResult"][_0x5de01b(0x448)]
+              _0x1a6531[_0xde7eec(0xc7)][_0xde7eec(0x111)]
             );
           if (
-            validarCodigo(_0x13ea0c, _0x3ec1d2["codeResult"][_0x5de01b(0x448)])
+            validarCodigo(_0x2d42f5, _0x1a6531["codeResult"][_0xde7eec(0x111)])
           ) {
-            (inputCodigo["value"] = _0x13ea0c),
-              form[_0x5de01b(0x24b)](),
-              URL[_0x5de01b(0x2f1)](_0x44e9b9[_0x5de01b(0x345)]),
-              (fileInput[_0x5de01b(0x2c5)] = "");
+            (inputCodigo[_0xde7eec(0xd6)] = _0x2d42f5),
+              form["requestSubmit"](),
+              URL[_0xde7eec(0xec)](_0x52202b[_0xde7eec(0x37a)]),
+              (fileInput["value"] = "");
             return;
           }
         }
-        console["log"](_0x5de01b(0x30f)),
-          intentarSegundaPasada(_0x44e9b9, _0x2f4398);
+        console[_0xde7eec(0x1f3)](
+          "🔄\x20Probando\x20con\x20imagen\x20original..."
+        ),
+          intentarSegundaPasada(_0x52202b, _0x164360);
       });
   });
 }
-function validarCodigo(_0x5a61b2, _0x1c6c3f) {
-  const _0x327f21 = _0x765170;
-  console[_0x327f21(0x413)](
-    _0x327f21(0x466) +
-      _0x5a61b2 +
-      _0x327f21(0x3ee) +
-      _0x1c6c3f +
-      _0x327f21(0x250) +
-      _0x5a61b2["length"]
+function validarCodigo(_0x15a9d4, _0x1ecffe) {
+  const _0x5c88f7 = _0x1b5bb5;
+  console["log"](
+    _0x5c88f7(0x2cd) +
+      _0x15a9d4 +
+      _0x5c88f7(0x22a) +
+      _0x1ecffe +
+      _0x5c88f7(0x21c) +
+      _0x15a9d4[_0x5c88f7(0x359)]
   );
-  switch (_0x1c6c3f) {
-    case _0x327f21(0x28b):
+  switch (_0x1ecffe) {
+    case _0x5c88f7(0x2f7):
       return (
-        _0x5a61b2[_0x327f21(0x37d)] === 0xd &&
-        /^\d{13}$/[_0x327f21(0x26e)](_0x5a61b2)
+        _0x15a9d4[_0x5c88f7(0x359)] === 0xd && /^\d{13}$/["test"](_0x15a9d4)
       );
-    case _0x327f21(0x381):
+    case "upc_a":
       return (
-        _0x5a61b2[_0x327f21(0x37d)] === 0xc &&
-        /^\d{12}$/[_0x327f21(0x26e)](_0x5a61b2)
+        _0x15a9d4[_0x5c88f7(0x359)] === 0xc &&
+        /^\d{12}$/[_0x5c88f7(0xdc)](_0x15a9d4)
       );
     case "ean_8":
       return (
-        _0x5a61b2["length"] === 0x8 && /^\d{8}$/[_0x327f21(0x26e)](_0x5a61b2)
+        _0x15a9d4[_0x5c88f7(0x359)] === 0x8 &&
+        /^\d{8}$/[_0x5c88f7(0xdc)](_0x15a9d4)
       );
-    case _0x327f21(0x34a):
+    case _0x5c88f7(0x107):
       return (
-        _0x5a61b2[_0x327f21(0x37d)] >= 0x6 &&
-        _0x5a61b2[_0x327f21(0x37d)] <= 0x8 &&
-        /^\d+$/[_0x327f21(0x26e)](_0x5a61b2)
+        _0x15a9d4[_0x5c88f7(0x359)] >= 0x6 &&
+        _0x15a9d4[_0x5c88f7(0x359)] <= 0x8 &&
+        /^\d+$/[_0x5c88f7(0xdc)](_0x15a9d4)
       );
-    case _0x327f21(0x46b):
-    case _0x327f21(0x43f):
-    case _0x327f21(0x48c):
+    case _0x5c88f7(0x32a):
+    case _0x5c88f7(0xf6):
+    case _0x5c88f7(0x2b4):
+      return _0x15a9d4["length"] >= 0x1 && _0x15a9d4[_0x5c88f7(0x359)] <= 0x32;
+    case _0x5c88f7(0x363):
       return (
-        _0x5a61b2[_0x327f21(0x37d)] >= 0x1 &&
-        _0x5a61b2[_0x327f21(0x37d)] <= 0x32
+        _0x15a9d4[_0x5c88f7(0x359)] >= 0x3 &&
+        /^[A-D][0-9\-$:\/.\+]+[A-D]$/[_0x5c88f7(0xdc)](_0x15a9d4)
       );
-    case _0x327f21(0x4b9):
+    case _0x5c88f7(0x91):
       return (
-        _0x5a61b2[_0x327f21(0x37d)] >= 0x3 &&
-        /^[A-D][0-9\-$:\/.\+]+[A-D]$/[_0x327f21(0x26e)](_0x5a61b2)
-      );
-    case _0x327f21(0x28c):
-      return (
-        _0x5a61b2["length"] >= 0x2 &&
-        _0x5a61b2[_0x327f21(0x37d)] % 0x2 === 0x0 &&
-        /^\d+$/[_0x327f21(0x26e)](_0x5a61b2)
+        _0x15a9d4[_0x5c88f7(0x359)] >= 0x2 &&
+        _0x15a9d4["length"] % 0x2 === 0x0 &&
+        /^\d+$/[_0x5c88f7(0xdc)](_0x15a9d4)
       );
     default:
-      return _0x5a61b2[_0x327f21(0x37d)] >= 0x1 && _0x5a61b2["length"] <= 0x32;
+      return (
+        _0x15a9d4[_0x5c88f7(0x359)] >= 0x1 &&
+        _0x15a9d4[_0x5c88f7(0x359)] <= 0x32
+      );
   }
 }
-function intentarSegundaPasada(_0x2d640e, _0x5a083f = []) {
-  const _0x590a72 = _0x765170;
-  console[_0x590a72(0x413)](_0x590a72(0x2a3));
-  const _0xb3b973 = document[_0x590a72(0x47a)](_0x590a72(0x406)),
-    _0x3b95eb = _0xb3b973[_0x590a72(0x373)]("2d");
-  let { width: _0x54c512, height: _0xd6f1b2 } = _0x2d640e;
-  const _0x57c1b0 = 0x640;
-  if (_0x54c512 < _0x57c1b0) {
-    const _0x3a5c97 = _0x57c1b0 / _0x54c512;
-    (_0x54c512 *= _0x3a5c97), (_0xd6f1b2 *= _0x3a5c97);
+function _0x2e04() {
+  const _0x220cdc = [
+    "📡\x20Consultando\x20TODOS\x20los\x20endpoints\x20de\x20productos...",
+    "pr_gtin",
+    "#6c757d",
+    "qr_code",
+    "clear",
+    "description",
+    "consultarProductoDesdeModal",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22productos-lista\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "✅\x20Usando\x20promociones\x20desde\x20IndexedDB:",
+    "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20<strong>⚠️\x20No\x20se\x20detectó\x20código\x20válido</strong><br>\x0a\x20\x20\x20\x20\x20\x20Para\x20códigos\x20largos\x20como\x20este,\x20intenta:<br>\x0a\x20\x20\x20\x20\x20\x20•\x20📏\x20<strong>Recortar\x20muy\x20cerca\x20del\x20código</strong><br>\x0a\x20\x20\x20\x20\x20\x20•\x20💡\x20<strong>Mejor\x20iluminación\x20uniforme</strong><br>\x0a\x20\x20\x20\x20\x20\x20•\x20📱\x20<strong>Evitar\x20superficies\x20reflectivas</strong><br>\x0a\x20\x20\x20\x20\x20\x20•\x20🔍\x20<strong>Imagen\x20más\x20nítida\x20y\x20estable</strong>",
+    "push",
+    "accepted",
+    "overflowY",
+    "\x20promociones",
+    "❌\x20No\x20hay\x20promociones\x20para\x20SKU:\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "⚠️\x20Error\x20al\x20detectar\x20promociones\x20para\x20SKU\x20",
+    "\x20usos\x20hoy",
+    "\x0a\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x20w-100\x20mb-2\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22d-flex\x20flex-column\x20flex-md-row\x20align-items-md-end\x20gap-2\x22>\x0a\x20\x20\x20\x20\x20\x20<h5\x20class=\x22ant-typography\x20css-1r8qqf1\x20mb-0\x22>Productos</h5>\x0a\x20\x20\x20\x20\x20\x20<span\x20id=\x22ultimaActualizacion\x22\x20class=\x22ant-typography\x20css-1r8qqf1\x20ms-md-4\x22\x20style=\x22font-size:1rem;\x22>Última\x20actualización:\x20nunca\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<div\x20class=\x22d-flex\x20gap-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22btnActualizar\x22\x20class=\x22ant-btn\x20css-1r8qqf1\x20ant-btn-default\x20ant-btn-color-default\x20ant-btn-variant-outlined\x20ant-btn-sm\x22\x20style=\x22border-radius:6px;\x20border:1px\x20solid\x20#d9d9d9;\x20background:#fff;\x20color:#222;\x20font-size:1rem;\x20padding:2px\x2016px;\x20margin-left:15px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22btnTexto\x22>Actualizar</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22btnSpinner\x22\x20class=\x22d-none\x20spinner-border\x20spinner-border-sm\x20ms-2\x22\x20role=\x22status\x22></span>\x0a\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a\x20\x20<div\x20id=\x22mensajeActualizacion\x22\x20class=\x22text-center\x22\x20style=\x22min-height:\x201.5rem;\x22></div>\x0a\x0a\x20\x20<!--\x20Modal\x20para\x20promociones\x20generales\x20-->\x0a\x20\x20<div\x20class=\x22modal\x20fade\x22\x20id=\x22promocionesGeneralesModal\x22\x20tabindex=\x22-1\x22\x20aria-labelledby=\x22promocionesGeneralesModalLabel\x22\x20aria-hidden=\x22true\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22modal-dialog\x20modal-xl\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22modal-header\x20bg-warning\x20text-dark\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h5\x20class=\x22modal-title\x22\x20id=\x22promocionesGeneralesModalLabel\x22>🏷️\x20Todas\x20las\x20Promociones\x20Disponibles</h5>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22btn-close\x22\x20onclick=\x22cerrarModalIOS()\x22\x20aria-label=\x22Close\x22></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22modal-body\x22\x20id=\x22promociones-generales-modal-body\x22\x20style=\x22max-height:\x2070vh;\x20overflow-y:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20p-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22spinner-border\x20text-warning\x22\x20role=\x22status\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22visually-hidden\x22>Cargando\x20promociones...</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mt-2\x22>Cargando\x20promociones...</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22modal-footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x20me-auto\x22>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22btn\x20btn-secondary\x22\x20onclick=\x22cerrarModalIOS()\x22>Cerrar</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20</div>\x0a",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-primary\x22\x20style=\x22font-size:\x200.65rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20SKU:\x20",
+    "writeText",
+    "onload",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-primary\x22>",
+    "contains",
+    "sort",
+    "🏷️\x20Promociones\x20oficiales\x20filtradas:",
+    "💡\x20Ve\x20a:\x20https://console.cloud.google.com/apis/library/vision.googleapis.com",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<strong>🏷️\x20Sistema\x20de\x20Códigos\x20de\x20Barras:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20•\x20<strong>Productos:</strong>\x20",
+    "descripcion",
+    "\x20me-1\x20mb-1\x22\x20style=\x22font-size:0.75rem;\x22>",
+    ",\x20Diario:\x20",
+    "productosConCodigosAdicionales",
+    "🔧\x20Error\x20500:\x20Problema\x20interno\x20del\x20servidor",
+    "stringify",
+    "getAttribute",
+    "code_128",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>\x20\x20Total\x20SKUs:</strong>\x20",
+    "\x20→\x20",
+    "findIndex",
+    "count",
+    "💾\x20Promociones\x20guardadas\x20en\x20IndexedDB\x20desde\x20servidor",
+    "⚠️\x20API\x20nativa\x20no\x20detectó\x20códigos\x20válidos",
+    "getContext",
+    "location",
+    "toDataURL",
+    "data-sku",
+    "GET",
+    "\x0a\x20\x20#reader\x20{\x0a\x20\x20\x20\x20position:\x20relative;\x0a\x20\x20\x20\x20width:\x20320px;\x0a\x20\x20\x20\x20height:\x20120px;\x0a\x20\x20\x20\x20overflow:\x20hidden;\x0a\x20\x20\x20\x20margin:\x200\x20auto;\x0a\x20\x20\x20\x20background:\x20#000;\x0a\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20box-shadow:\x200\x202px\x208px\x20rgba(0,0,0,0.15);\x0a\x20\x20}\x0a\x20\x20#reader\x20video\x20{\x0a\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20left:\x2050%;\x0a\x20\x20\x20\x20transform:\x20translateX(-50%);\x0a\x20\x20\x20\x20width:\x20320px\x20!important;\x0a\x20\x20\x20\x20height:\x20120px\x20!important;\x0a\x20\x20\x20\x20object-fit:\x20cover;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20/*\x20Estilos\x20responsivos\x20para\x20nombre\x20del\x20producto\x20*/\x0a\x20\x20.nombre-producto-responsive\x20{\x0a\x20\x20\x20\x20font-size:\x201.4rem;\x0a\x20\x20\x20\x20line-height:\x201.3;\x0a\x20\x20\x20\x20margin-bottom:\x200.5rem;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20768px)\x20{\x0a\x20\x20\x20\x20.nombre-producto-responsive\x20{\x0a\x20\x20\x20\x20\x20\x20font-size:\x201.2rem\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20480px)\x20{\x0a\x20\x20\x20\x20.nombre-producto-responsive\x20{\x0a\x20\x20\x20\x20\x20\x20font-size:\x201.1rem\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x0a\x20\x20/*\x20Estilos\x20responsivos\x20para\x20precios\x20*/\x0a\x20\x20.precio-responsive\x20{\x0a\x20\x20\x20\x20font-size:\x203.5rem;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20768px)\x20{\x0a\x20\x20\x20\x20.precio-responsive\x20{\x0a\x20\x20\x20\x20\x20\x20font-size:\x202.2rem\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20480px)\x20{\x0a\x20\x20\x20\x20.precio-responsive\x20{\x0a\x20\x20\x20\x20\x20\x20font-size:\x201.8rem\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20/*\x20Estilos\x20para\x20código\x20de\x20barras\x20funcional\x20*/\x0a\x20\x20.barcode-canvas\x20{\x0a\x20\x20\x20\x20max-width:\x20100%;\x0a\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20border:\x201px\x20solid\x20#ddd;\x0a\x20\x20\x20\x20border-radius:\x204px;\x0a\x20\x20\x20\x20background:\x20#ffffff;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20.codigo-barras-container\x20{\x0a\x20\x20\x20\x20max-width:\x20300px;\x0a\x20\x20\x20\x20margin:\x200\x20auto;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20768px)\x20{\x0a\x20\x20\x20\x20.codigo-barras-container\x20{\x0a\x20\x20\x20\x20\x20\x20padding:\x202rem\x20!important;\x0a\x20\x20\x20\x20\x20\x20max-width:\x20250px;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.barcode-canvas\x20{\x0a\x20\x20\x20\x20\x20\x20max-width:\x20200px;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20@media\x20(max-width:\x20480px)\x20{\x0a\x20\x20\x20\x20.codigo-barras-container\x20{\x0a\x20\x20\x20\x20\x20\x20padding:\x201.5rem\x20!important;\x0a\x20\x20\x20\x20\x20\x20max-width:\x20200px;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.barcode-canvas\x20{\x0a\x20\x20\x20\x20\x20\x20max-width:\x20160px;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x0a\x20\x20/*\x20Fix\x20específico\x20para\x20iOS\x20-\x20Modal\x20compatibility\x20*/\x0a\x20\x20@supports\x20(-webkit-touch-callout:\x20none)\x20{\x0a\x20\x20\x20\x20.modal\x20{\x0a\x20\x20\x20\x20\x20\x20-webkit-transform:\x20translate3d(0,0,0);\x0a\x20\x20\x20\x20\x20\x20transform:\x20translate3d(0,0,0);\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20.modal-backdrop\x20{\x0a\x20\x20\x20\x20\x20\x20-webkit-transform:\x20translate3d(0,0,0);\x0a\x20\x20\x20\x20\x20\x20transform:\x20translate3d(0,0,0);\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20.modal-content\x20{\x0a\x20\x20\x20\x20\x20\x20-webkit-transform:\x20translate3d(0,0,0);\x0a\x20\x20\x20\x20\x20\x20transform:\x20translate3d(0,0,0);\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20/*\x20Asegurar\x20que\x20el\x20modal\x20sea\x20interactivo\x20en\x20iOS\x20*/\x0a\x20\x20.modal.show\x20{\x0a\x20\x20\x20\x20display:\x20block\x20!important;\x0a\x20\x20\x20\x20opacity:\x201\x20!important;\x0a\x20\x20\x20\x20pointer-events:\x20auto\x20!important;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20.modal-backdrop.show\x20{\x0a\x20\x20\x20\x20opacity:\x200.5\x20!important;\x0a\x20\x20\x20\x20pointer-events:\x20auto\x20!important;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20/*\x20Fix\x20para\x20z-index\x20en\x20iOS\x20*/\x0a\x20\x20@media\x20screen\x20and\x20(-webkit-min-device-pixel-ratio:\x200)\x20{\x0a\x20\x20\x20\x20.modal\x20{\x0a\x20\x20\x20\x20\x20\x20z-index:\x201060\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.modal-backdrop\x20{\x0a\x20\x20\x20\x20\x20\x20z-index:\x201040\x20!important;\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a",
+    "find",
+    "createObjectStore",
+    "\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22height:\x2080px;\x20object-fit:\x20contain;\x20padding:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x20d-block\x20text-truncate\x22\x20style=\x22font-size:\x200.7rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>❌\x20Producto\x20no\x20encontrado</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20se\x20pudo\x20encontrar\x20el\x20producto\x20con\x20SKU:\x20",
+    "usage",
+    "toString",
+    "pro_grupoProductos_primaria",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22flex-grow-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>",
+    "</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "objectStore",
+    "resetMonthlyUsage",
+    "addEventListener",
+    "validTo",
+    "Promoción\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22me-3\x20d-flex\x20align-items-center\x20justify-content-center\x20bg-light\x20rounded\x22\x20style=\x22min-width:\x2060px;\x20height:\x2060px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-image\x20text-muted\x22\x20style=\x22font-size:\x201.5rem;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "head",
+    "drawImage",
+    "\x20horas",
+    "<p\x20class=\x22text-muted\x20mb-0\x22>No\x20hay\x20productos\x20escaneados.</p>",
+    "🔄\x20Sin\x20productos:\x20cargando\x20productos\x20y\x20promociones...",
+    "\x0a\x20\x20\x20\x20</div>",
+    "display",
+    "\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22font-size:\x200.6rem;\x20padding:\x201px\x204px;\x20border-radius:\x203px;\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20title=\x22Copiar\x20SKU\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📋\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x20minutos",
+    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-search\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</li>",
+    "\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22width:\x2060px;\x20height:\x2060px;\x20object-fit:\x20contain;\x20border-radius:\x208px;\x20background:\x20#f8f9fa;\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onerror=\x22this.style.display=\x27none\x27\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "toDateString",
+    "💡\x20Verifica\x20que\x20el\x20proyecto\x20#1070150612422\x20tenga\x20facturación\x20activa",
+    "🧪\x20Probando\x20vision-detect\x20con\x20imagen\x20de\x20prueba...",
+    "update",
+    "allSettled",
+    "pro_cantidad_base",
+    "promociones-container",
+    "setItem",
+    "length",
+    "objectStoreNames",
+    "codabar_reader",
+    "PROMO",
+    "\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
+    "indexeddb_local",
+    "Modal",
+    "playsinline",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22text-muted\x20mb-2\x22>📋\x20Descripción\x20completa\x20de\x20productos:</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22border\x20rounded\x20p-3\x20bg-light\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "🎯\x20Consultando\x20promociones\x20generales...",
+    "codabar",
+    "alert-warning",
+    "remove",
+    "code_128_reader",
+    "showUsageWarning",
+    "📸\x20Preparando\x20imagen\x20para\x20Google\x20Vision...",
+    "✅\x20Los\x203\x20endpoints\x20consultados",
+    "📊\x20Status\x20HTTP:",
+    "postMessage",
+    "Productos\x20básicos,\x20códigos\x20de\x20barras\x20y\x20promociones",
+    "6205FNbWXK",
+    "disabled",
+    "data",
+    "\x20=\x20",
+    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22d-block\x20text-muted\x22>Cantidad</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "⚠️\x20No\x20se\x20pudieron\x20obtener\x20estadísticas\x20de\x20códigos\x20de\x20barras",
+    "click",
+    "toLowerCase",
+    "códigos\x20de\x20barras\x20❌\x20(HTTP\x20",
+    "JsBarcode",
+    "warn",
+    "change",
+    "<span\x20class=\x22badge\x20",
+    "src",
+    "https://verificadorb9-backend.vercel.app/api/promociones",
+    "Todos\x20los\x20endpoints\x20fallaron\x20(",
+    "i2of5",
+    "🎉\x20¡Google\x20Vision\x20API\x20funcionando\x20correctamente!",
+    "\x20al\x20",
+    "createImageData",
+    "UPC_E",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-light\x20text-dark\x20me-1\x20mb-1\x22\x20style=\x22font-size:\x200.7rem;\x22>",
+    "updatefound",
+    "CODE_39",
+    "aztec",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>ℹ️\x20Sin\x20promociones</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20hay\x20promociones\x20activas\x20en\x20este\x20momento.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x20text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "focus",
+    "getVideoTracks",
+    "🔍\x20Buscando\x20promociones\x20para\x20SKU:",
+    "pdf417",
+    "✅\x20Service\x20Worker\x20registrado:",
+    "type",
+    "month",
+    "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>SKU:\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>🚫\x20Vision\x20API\x20No\x20Habilitada</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>La\x20Vision\x20API\x20no\x20está\x20habilitada\x20en\x20tu\x20proyecto</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small><a\x20href=\x22https://console.cloud.google.com/apis/library/vision.googleapis.com\x22\x20target=\x22_blank\x22>Habilitar\x20Vision\x20API</a></small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x22\x20class=\x22barcode-canvas\x22></canvas>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22fw-bold\x20text-dark\x22>",
+    "N/A",
+    "min",
+    "\x20endpoints\x20consultados",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-success\x22\x20style=\x22font-size:\x200.9rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20💰\x20Ahorras\x20$",
+    "warning",
+    "✅\x20Google\x20Vision\x20detectó:",
+    "<small\x20class=\x22text-muted\x20d-block\x22><strong>Código:</strong>\x20",
+    "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Total\x20Normal</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "✅\x20Detección\x20avanzada\x20(backend)\x20configurada\x20y\x20activa",
+    "ean_8_reader",
+    "📏\x20Ampliando\x20imagen\x20pequeña:\x20",
+    "substring",
+    "code_39_reader",
+    "start",
+    "🔧\x20Error\x20500:\x20Problema\x20con\x20Google\x20Vision\x20API",
+    "pr_imagen",
+    "\x22\x20class=\x22card-img-top\x22\x20alt=\x22",
+    "<br><br>🌐\x20<strong>Backend:</strong>\x20",
+    "code_93_reader",
+    "https://contador-apicloudvision.vercel.app/api/stats",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-secondary\x20mt-2\x22\x20style=\x22font-size:0.9rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Códigos\x20disponibles:</strong>\x20",
+    "\x20(quedan\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-info-circle\x22\x20style=\x22font-size:\x203rem;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22mt-3\x22>ℹ️\x20Sin\x20promociones</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20hay\x20promociones\x20activas\x20en\x20este\x20momento.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "Error\x20en\x20detección",
+    "CANTIDAD_X_PRECIO_FIJO",
+    "<div\x20class=\x22alert\x20alert-info\x20mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>Mostrando\x20los\x20primeros\x2020\x20productos.\x20Hay\x20",
+    "dailyUsed",
+    ")\x20-\x20",
+    "appendChild",
+    "ultimaActualizacion",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "⚠️\x20Backend\x20responde\x20pero\x20con\x20error:",
+    "\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+    "Sin\x20conexión\x20a\x20internet",
+    "codeResult",
+    "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>Error\x20al\x20procesar\x20la\x20imagen</div>",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22text-muted\x20mb-2\x22>📦\x20Productos\x20en\x20promoción:</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "Error\x20cargando\x20promociones:",
+    "monthlyUsed",
+    "getFullYear",
+    "recordUsage",
+    "📸\x20Usando\x20Quagga\x20como\x20fallback",
+    "pro_mensaje",
+    "Enter",
+    "price",
+    "❌\x20Error\x20cargando\x20promociones:",
+    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Unidades</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-success\x20d-block\x22\x20style=\x22font-size:\x201.3rem;\x22>$",
+    "backend_mejorado",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22flex-grow-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22fw-bold\x22\x20style=\x22font-size:\x200.9rem;\x20line-height:\x201.2;\x22>",
+    "value",
+    "catch",
+    "fillStyle",
+    "✅\x20Usando\x20cantidad\x20y\x20precio\x20calculado:",
+    "cookie",
+    "image/png",
+    "test",
+    "now",
+    "\x20con\x20datos\x20disponibles)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "pr_name",
+    "add",
+    "<br>•\x20🔍\x20<strong>Códigos\x20detectados:</strong>\x20",
+    "\x20|\x20Promociones:\x20",
+    "SKU",
+    "PERMISSION_DENIED",
+    "\x0a\x20\x20\x20\x20<div\x20class=\x22d-flex\x20align-items-center\x20justify-content-end\x20h-100\x22>\x0a\x20\x20\x20\x20\x20\x20<button\x20id=\x22limpiarHistorialBtn\x22\x20class=\x22btn\x20btn-danger\x20btn-sm\x22>Limpiar\x20historial</button>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20",
+    "autocapitalize",
+    "📊\x20Resumen\x20endpoints\x20productos:",
+    "pr_sku",
+    "data_matrix",
+    "ean_reader",
+    "className",
+    "revokeObjectURL",
+    "🔄\x20Productos\x20existentes:\x20cargando\x20solo\x20promociones...",
+    "</small>",
+    "❌\x20Formato\x20de\x20promociones\x20inválido",
+    "Fecha\x20desconocida",
+    "Actualizar",
+    "Nueva\x20versión\x20disponible.\x20¿Recargar\x20la\x20página?",
+    "productos",
+    "Código\x20no\x20válido",
+    "data-copiar",
+    "code_39",
+    "pro_nombrePromo",
+    "fulfilled",
+    "SKU\x20desconocido",
+    "valor_total",
+    "<small\x20class=\x22text-muted\x20mt-1\x20d-block\x22>",
+    "width",
+    "userAgent",
+    "\x20encontrados</span>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x20text-center\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small><strong>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</strong></small>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
+    "❌\x20Error\x20cargando\x20configuración:",
+    "<br><br>🌐\x20<strong>Backend:</strong>\x20Error\x20verificando\x20estado",
+    "keys",
+    "dailyLimit",
+    "</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
+    "Backend\x20error",
+    "Timeout",
+    "some",
+    "upc_e",
+    "application/json",
+    "onclick",
+    "📋\x20Configuración\x20final\x20para\x20códigos\x20largos...",
+    "💾\x20Promociones\x20guardadas\x20en\x20IndexedDB",
+    "🔥\x20",
+    "code",
+    "<div\x20class=\x22row\x22>",
+    "Error\x20HTTP:\x20",
+    "❌\x20Error\x20en\x20diagnóstico:",
+    "format",
+    "block",
+    "no-store",
+    "#198754",
+    "decodeSingle",
+    "isArray",
+    "✅\x20Todos\x20los\x20endpoints\x20consultados",
+    "pro_tipoPromo",
+    "🔄\x20Primera\x20carga:\x20cargando\x20productos\x20y\x20promociones...",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-warning\x20text-dark\x22>",
+    "getImageData",
+    "d-flex\x20justify-content-center\x20mb-3",
+    "Error\x20obteniendo\x20promociones:",
+    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-success\x22>Total\x20con\x20Promo</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20p-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22spinner-border\x20text-warning\x22\x20role=\x22status\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22visually-hidden\x22>Cargando\x20promociones...</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mt-2\x22>Cargando\x20promociones\x20y\x20productos...</p>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+    "upc_a",
+    "continuous",
+    "Error\x20",
+    "#000000",
+    "1292929CACxpu",
+    "ean_8",
+    "?t=",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22me-3\x22\x20style=\x22min-width:\x2060px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22",
+    "✅\x20Códigos\x20válidos:\x20",
+    "innerHTML",
+    "\x20->\x20",
+    "promociones_ts",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "error",
+    "</p>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+    "Formato:",
+    "cantidad",
+    "Hace\x20",
+    "API_KEY_INVALID",
+    "code_32_reader",
+    "toUTCString",
+    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-link\x20btn-sm\x20ms-2\x20p-0\x20copiar-btn\x22\x20title=\x22Copiar\x20SKU\x22\x20data-copiar=\x22",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x20text-center\x20mt-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<strong>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</strong>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+    "remainingDaily",
+    "DATA_MATRIX",
+    "history",
+    "</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mb-2\x22>",
+    "%</small>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22progress\x22\x20style=\x22height:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22progress-bar\x20bg-",
+    "SUCCESS",
+    "🎯\x20Mejor\x20código\x20seleccionado:\x20\x22",
+    "itf",
+    "none",
+    "%;\x20transition:\x20width\x200.3s\x20ease;\x22\x20aria-valuenow=\x22",
+    "enabled",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h6>❌\x20Error</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20se\x20pudieron\x20cargar\x20las\x20promociones:\x20",
+    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20•\x20<strong>Con\x20códigos\x20adicionales:</strong>\x20",
+    "Error\x20al\x20cargar\x20productos:",
+    "🔄\x20Consultando\x20endpoint\x20básico...",
+    "<div\x20class=\x22alert\x20alert-danger\x22>🔑\x20API\x20Key\x20inválida\x20-\x20verifica\x20la\x20configuración\x20en\x20Vercel</div>",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>🏦\x20Problema\x20de\x20Facturación</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>La\x20facturación\x20no\x20está\x20habilitada\x20en\x20el\x20proyecto\x20correcto\x20(#1070150612422)</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small><a\x20href=\x22https://console.cloud.google.com/billing\x22\x20target=\x22_blank\x22>Ve\x20a\x20Google\x20Cloud\x20Billing</a></small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "readwrite",
+    "❌\x20Error\x20con\x20Google\x20Vision,\x20usando\x20fallback:",
+    "controllerchange",
+    "Backend\x20no\x20disponible\x20-\x20usando\x20detección\x20local",
+    "createElement",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "Error\x20verificando\x20datos\x20locales:",
+    "2441097pHYTvn",
+    "mostrarModalPromocionesGenerales",
+    "then",
+    "</div>",
+    "https://verificadorb9-backend.vercel.app/api/promociones-mejoradas",
+    "d-flex\x20flex-column\x20align-items-center\x20mb-3",
+    "💾\x20Guardar",
+    "<ul\x20class=\x22list-group\x20list-group-flush\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "PRECIO",
+    "readonly",
+    "•\x20Diario:\x20",
+    "tipo",
+    "básico\x20✅",
+    "<i\x20class=\x22bi\x20bi-clipboard-check\x22></i>",
+    ".alert-danger",
+    "Básicos,\x20códigos\x20de\x20barras\x20y\x20promociones",
+    "toFixed",
+    "fillRect",
+    "code_39_vin_reader",
+    "loadUsage",
+    "✅\x20Endpoint\x20promociones\x20consultado:\x20",
+    "Formato\x20de\x20respuesta\x20no\x20reconocido",
+    "historial",
+    "\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20",
+    "saveUsage",
+    "\x20usos\x20mensuales",
+    "cerrarModalIOS",
+    "upc_e_reader",
+    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-link\x20btn-sm\x20ms-2\x20p-0\x20copiar-btn\x22\x20title=\x22Copiar\x20descripción\x22\x20data-copiar=\x22",
+    "Nunca\x20actualizado",
+    "hide",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-success\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6>🎉\x20¡Google\x20Vision\x20API\x20Activa!</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>✅\x20La\x20detección\x20premium\x20está\x20funcionando\x20correctamente</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Fallback\x20automático:\x20Local\x20→\x20Google\x20Vision</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    ";\x20path=/",
+    "statechange",
+    "🚀\x20Usando\x20Barcode\x20Detection\x20API\x20nativa",
+    "❌\x20Sin\x20datos,\x20usando\x20genérico",
+    "ayuda",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mb-3\x20",
+    "8367MpfjrA",
+    "⚠️\x20Usando\x20nombre\x20completo:",
+    "\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20text-truncate\x22\x20title=\x22",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-warning\x22\x20style=\x22font-weight:500;\x22>⚠️\x20Las\x20promociones\x20solo\x20aplican\x20pagando\x20de\x20contado</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "#btnTexto",
+    "✅\x20Google\x20Vision\x20API\x20usada\x20exitosamente\x20-\x20contador\x20local\x20actualizado",
+    "mediaDevices",
+    "⚠️\x20Error\x20con\x20endpoint\x20de\x20códigos\x20de\x20barras:",
+    "filter",
+    "🔄\x20Probando\x20configuración\x20alternativa...",
+    "⚠️\x20Límite\x20local\x20alcanzado.\x20Mensual:\x20",
+    "oncomplete",
+    "matchAll",
+    "<div\x20class=\x22alert\x20alert-danger\x22>❓\x20Error\x20desconocido\x20en\x20Google\x20Vision\x20API</div>",
+    "getElementById",
+    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-muted\x22\x20style=\x22font-size:0.8rem;\x20margin-top:-2px;\x22>CONTADO</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-muted\x20mx-2\x22\x20style=\x22font-size:1.5rem;\x22>|</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22fw-bold\x20text-primary\x20precio-responsive\x22>$\x20",
+    "preventDefault",
+    "height",
+    "CODE128",
+    "scrollIntoView",
+    "Nunca",
+    "querySelector",
+    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ms-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-primary\x20btn-sm\x22\x20onclick=\x22consultarProductoDesdeModal(\x27",
+    "replace",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Área\x20para\x20mostrar\x20resultados\x20del\x20diagnóstico\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22diagnostico-resultado\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>💡\x20Detección\x20de\x20Códigos\x20de\x20Barras:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20📷\x20<strong>Local:</strong>\x20Html5QrCode\x20+\x20BarcodeDetector\x20+\x20Quagga.js<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20🌐\x20<strong>Premium:</strong>\x20Google\x20Vision\x20API\x20(para\x20códigos\x20difíciles)<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20🔄\x20<strong>Automático:</strong>\x20Fallback\x20inteligente\x20entre\x20métodos\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-success\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>✅\x20Ventajas\x20del\x20backend:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Sin\x20límites\x20por\x20dispositivo<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Detección\x20superior\x20en\x20superficies\x20reflectivas<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Mejor\x20precisión\x20con\x20códigos\x20largos<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Funciona\x20con\x20imágenes\x20de\x20baja\x20calidad<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Gestión\x20centralizada\x20de\x20recursos\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>🔄\x20Fallback\x20automático:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Si\x20el\x20backend\x20no\x20está\x20disponible,\x20la\x20app\x20usará\x20detección\x20local\x20automáticamente.\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-muted\x20small\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>💡\x20Recomendación:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Mantén\x20activada\x20la\x20detección\x20avanzada\x20para\x20mejores\x20resultados.\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "🔄\x20Nueva\x20versión\x20del\x20Service\x20Worker\x20disponible",
+    "códigos\x20de\x20barras\x20❌\x20(timeout/error)",
+    "json",
+    "pro_precio_total",
+    "onLine",
+    "Formato\x20de\x20promociones\x20inválido",
+    "reader",
+    "904LCdcZb",
+    "27349pBRSzm",
+    "autocomplete",
+    "putImageData",
+    "precioTotal",
+    "\x22\x20(",
+    "requestSubmit",
+    "slice",
+    "codigo",
+    "clipboard",
+    "detalles",
+    "❌\x20Google\x20Vision\x20no\x20detectó\x20texto",
+    "position",
+    "<br>",
+    "validFrom",
+    "fileInput",
+    "Productos:\x20nunca\x20|\x20Promociones:\x20",
+    "./service-worker.js",
+    "d-none",
+    "❌\x20Error\x20consultando\x20endpoints",
+    "2023374msXyzE",
+    "pr_precio",
+    "\x0a\x20\x20\x20\x20<div\x20class=\x22mb-4\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h4\x20class=\x22text-warning\x22>🏷️\x20Productos\x20con\x20Promociones</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-warning\x20text-dark\x22>",
+    "status",
+    "✅\x20Código\x20detectado\x20(configuración\x20principal):",
+    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-success\x20fw-bold\x20mt-1\x22>$",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x20col-md-3\x20mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20border-0\x20bg-light\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-img-top\x20d-flex\x20align-items-center\x20justify-content-center\x20bg-secondary\x22\x20style=\x22height:\x2080px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-white\x22>📦</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x20d-block\x20text-truncate\x22\x20style=\x22font-size:\x200.7rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "consultarProductoDesdeHistorial",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22promociones-container\x22\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20text-muted\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>🔍\x20Verificando\x20promociones...</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20",
+    "join",
+    "checked",
+    "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>Por\x20favor\x20autoriza\x20el\x20acceso\x20a\x20la\x20cámara</div>",
+    "idPromo",
+    "Error\x20al\x20copiar:",
+    "•\x20Mensual:\x20",
+    "auto",
+    "getItem",
+    "environment",
+    "skus",
+    "state",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-12\x20text-center\x20mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>...\x20y\x20",
+    "1\x20endpoint\x20completado,\x20finalizando...",
+    "⚠️\x20<strong>Límite\x20diario\x20cerca:</strong>\x20",
+    "x-large",
+    "alternativa",
+    "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "⚠️\x20Usando\x20solo\x20detección\x20local",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-success\x22>$",
+    "🏷️\x20",
+    "upc_reader",
+    "🔧\x20Sugerencia:\x20Verificar\x20configuración\x20CORS\x20en\x20el\x20backend\x20para\x20/api/productos-con-codigos",
+    "🔄\x20Consultando\x20endpoint\x20con\x20códigos\x20de\x20barras...",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20p-2\x20text-center\x22\x20style=\x22background-color:#f8f9fa;\x20border-radius:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>ℹ️\x20Sin\x20promociones\x20activas</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20(",
+    "Conectando\x20con\x20todos\x20los\x20servidores",
+    "serviceWorker",
+    "⚠️\x20Solo\x20cantidad\x20extraída:",
+    "dailyCount",
+    "\x20\x20\x20•\x20Problema\x20en\x20el\x20código\x20de\x20la\x20función\x20serverless",
+    "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>No\x20se\x20pudo\x20acceder\x20a\x20la\x20cámara:\x20",
+    "30CxyGSO",
+    "🔍\x20Código\x20candidato\x20encontrado:\x20",
+    "\x20unidades\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x22\x20role=\x22progressbar\x22\x20style=\x22width:\x20",
+    "📊\x20Datos\x20extraídos\x20antes\x20de\x20procesamiento:",
+    "left",
+    "limpiarHistorialBtn",
+    "500",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "userChoice",
+    "✅\x20Código\x20detectado\x20(configuración\x20agresiva):",
+    ".modal-backdrop",
+    "1006422iZhcWl",
+    "No\x20se\x20puede\x20generar\x20código\x20de\x20barras:\x20canvas\x20o\x20código\x20faltante",
+    "googleVisionConfig",
+    "sugerenciasDiv",
+    "✅\x20Extraído\x20formato\x20con\x20peso\x20del\x20nombre:",
+    "❌\x20Endpoint\x20/api/stats\x20falló:",
+    "\x0a\x20\x20\x20\x20<div\x20class=\x22card\x20shadow-sm\x20mb-3\x20w-100\x22>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-header\x20bg-primary\x20text-white\x20d-flex\x20flex-column\x20flex-md-row\x20justify-content-between\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<strong>Historial\x20de\x20productos\x20escaneados:</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x22\x20alt=\x22",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22spinner-border\x20spinner-border-sm\x20me-2\x22\x20role=\x22status\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🔍\x20Diagnosticando\x20backend...\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+    "CODE_93",
+    "<div\x20class=\x22text-center\x20text-muted\x20p-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-box-seam\x22\x20style=\x22font-size:\x202rem;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22mt-2\x20mb-0\x22>Productos\x20no\x20disponibles</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>",
+    "has",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h6>❌\x20Error</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20al\x20consultar\x20el\x20producto:\x20",
+    "btn-success",
+    "agresiva",
+    "🌐\x20<strong>Backend:</strong>\x20Verificando...",
+    "storageKey",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x0a\x20\x20\x20\x20<div\x20class=\x22row\x20align-items-center\x20justify-content-center\x20g-0\x20mb-4\x22\x20style=\x22padding:\x200px\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20",
+    "log",
+    "CORS_ERROR",
+    "precio_total",
+    "FECHA_ESCANEO",
+    "nearest",
+    "⚠️\x20BarcodeDetector\x20no\x20disponible\x20en\x20este\x20navegador",
+    "relative",
+    "\x20para:\x20",
+    "promociones:",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22card-text\x20text-muted\x20small\x22>",
+    "\x20comprando\x20",
+    "🔗\x20Ve\x20a:\x20https://console.cloud.google.com/billing",
+    "warningThreshold",
+    "🏦\x20Error\x20de\x20facturación:\x20Habilita\x20billing\x20en\x20Google\x20Cloud",
+    "⚠️\x20Error\x20con\x20endpoint\x20básico:",
+    "No\x20especificado",
+    "⚡\x20Actualización\x20completada\x20en\x20",
+    "<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20•\x20<strong>Actualizado:</strong>\x20",
+    "nombre_promocion",
+    "success",
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==",
+    "race",
+    "video",
+    "getMonth",
+    "Failed\x20to\x20fetch",
+    "🔍\x20Códigos\x20detectados\x20por\x20API\x20nativa:\x20",
+    "<div\x20class=\x22alert\x20alert-danger\x22>❌\x20Error\x20en\x20diagnóstico:\x20",
+    "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x22\x20aria-valuemin=\x220\x22\x20aria-valuemax=\x22100\x22></div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "\x20\x20\x20Posibles\x20causas:",
+    "<img\x20src=\x22",
+    "primary",
+    "básico\x20❌\x20(error)",
+    "\x0a\x20\x20\x20\x20\x20\x20",
+    "</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "BarcodeDetector",
+    "imageSmoothingEnabled",
+    "❌\x20Código\x20no\x20encontrado:\x20\x22",
+    "trim",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-12\x20col-lg-4\x20d-flex\x20justify-content-center\x20mb-3\x20mb-lg-0\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:#fff;\x20border-radius:16px;\x20box-shadow:0\x204px\x2024px\x20rgba(0,0,0,0.15);\x20padding:16px;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20width:240px;\x20height:140px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22",
+    "promoResult",
+    "\x20longitud:\x20",
+    "zIndex",
+    "http",
+    "NetworkError",
+    "max",
+    "floor",
+    "round",
+    "<div\x20class=\x22alert\x20alert-danger\x22\x20role=\x22alert\x22>Por\x20favor\x20ingresa\x20un\x20código</div>",
+    "statusText",
+    "200px",
+    "<span\x20class=\x22badge\x20bg-warning\x20text-dark\x20me-2\x20mb-1\x22\x20style=\x22font-size:0.85rem;\x22>🔥\x20",
+    "⚙️\x20Configuración\x20de\x20detección\x20avanzada",
+    "result",
+    "pop",
+    "\x22\x20formato:\x20",
+    "❌\x20Instalación\x20rechazada",
+    "isConfirmed",
+    "<span\x20class=\x22badge\x20bg-secondary\x22\x20style=\x22font-size:\x200.7rem;\x22>+",
+    "map",
+    "bg-danger",
+    "abs",
+    "<li\x20class=\x22list-group-item\x20d-flex\x20flex-column\x20flex-md-row\x20justify-content-between\x20align-items-md-center\x20gap-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>",
+    "codigos_barras",
+    "srcObject",
+    "#f8f9fa",
+    "</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-danger\x20text-white\x22\x20style=\x22font-size:\x201.2rem;\x20padding:\x2010px\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "🎯\x20Umbral\x20calculado:\x20",
+    "Error\x20creando\x20modal\x20Bootstrap:",
+    "es-CL",
+    "🌐\x20<strong>Backend:</strong>\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-muted\x20small\x20ms-md-2\x22>Escaneado:\x20",
+    "https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js",
+    "<div\x20class=\x22alert\x20alert-info\x22\x20role=\x22alert\x22>Procesando\x20imagen...</div>",
+    "mostrarProductoPromocion",
+    "#btnPromociones",
+    "PDF_417",
+    "files",
+    "📋\x20Datos\x20de\x20promociones:",
+    "❌\x20Error\x20específico\x20del\x20backend:",
+    "Actualizando...",
+    "Backend\x20error:\x20",
+    "rejected",
+    "🔄\x20No\x20hay\x20promociones\x20locales,\x20consultando\x20servidor...",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20pt-2\x20border-top\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>📅\x20Vigencia:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "forEach",
+    "getTracks",
+    "fillText",
+    "fuente",
+    "Consultando\x203\x20endpoints...",
+    "qty",
+    "CODABAR",
+    "EAN8",
+    "split",
+    "alert-success",
+    "CORS",
+    "2836MhIiUI",
+    "message",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20p-2\x22\x20style=\x22background-color:#f8f9fa;\x20border-radius:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20style=\x22color:#495057;\x22>🏷️\x20PROMOCIONES\x20ACTIVAS</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "controller",
+    "🎯\x20Consultando\x20promociones...",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x20col-md-3\x20mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20border-0\x20bg-light\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22",
+    "#mensajeActualizacion",
+    "applyConstraints",
+    "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22verPromociones()\x22\x20class=\x22btn\x20btn-outline-primary\x20btn-sm\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔄\x20Reintentar\x0a\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "monthlyLimit",
+    "\x20más</span>",
+    "#btnSpinner",
+    "insertBefore",
+    "1000",
+    "CORS_ERROR:\x20Backend\x20no\x20accesible\x20desde\x20este\x20dominio",
+    "❌\x20Error\x20al\x20registrar\x20SW:",
+    "💡\x20Ve\x20a:\x20https://console.developers.google.com/billing/enable?project=1070150612422",
+    "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22ms-md-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-primary\x20btn-sm\x20consultar-historial-btn\x22\x20title=\x22Ver\x20detalles\x20completos\x22\x20data-sku=\x22",
+    "match",
+    "Error\x20al\x20cargar\x20promociones:",
+    "🎯\x20Producto\x20encontrado\x20con\x20códigos\x20múltiples:",
+    "monthlyCount",
+    "✅\x20Endpoint\x20básico\x20consultado:",
+    "enabledCheck",
+    "CODE_128",
+    "📊\x20Respuesta\x20del\x20backend:",
+    "target",
+    "Consultando\x20los\x203\x20endpoints...",
+    "startsWith",
+    "toISOString",
+    "splice",
+    "#ffffff",
+    "promociones-generales-modal-body",
+    "✅\x20Detección\x20avanzada\x20activada",
+    "<div\x20class=\x22alert\x20alert-success\x22>✅\x20Endpoint\x20/api/stats\x20funciona\x20correctamente</div>",
+    "<div\x20class=\x22alert\x20alert-info\x22\x20role=\x22alert\x22>Buscando\x20producto...</div>",
+    "includes",
+    "Productos:\x20",
+    "getRegistrations",
+    "body",
+    "getInstance",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x20text-center\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "NOMBRE",
+    "pro_precioPromo",
+    "style",
+    "🔧\x20Error\x20500\x20detectado\x20-\x20Analizando\x20causa\x20específica:",
+    "parentNode",
+    "\x20segundos",
+    "\x22\x20style=\x22width:218px;\x20height:124px;\x20object-fit:contain;\x20background:#fff;\x20border-radius:12px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20",
+    "Generando\x20código\x20de\x20barras\x20",
+    "createObjectURL",
+    "getUsageStatus",
+    "details",
+    "#ultimaActualizacion",
+    "No\x20se\x20pudieron\x20cargar\x20productos\x20de\x20ningún\x20endpoint",
+    "Error\x20procesando\x20imagen:",
+    "códigos\x20de\x20barras\x20✅",
+    "📝\x20Texto\x20completo\x20detectado:",
+    "list-group\x20position-absolute\x20w-100",
+    "✅\x20Configuración\x20guardada",
+    "reduce",
+    "nombre",
+    "fire",
+    "totalCodigos",
+    "text",
+    "productosBasicos",
+    "\x20diario<br>🌐\x20<strong>Backend:</strong>\x20Verificando...",
+    "BILLING_DISABLED",
+    "outcome",
+    "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x20p-2\x20text-center\x22\x20style=\x22background-color:#f8f9fa;\x20border-radius:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>ℹ️\x20Sin\x20promociones\x20activas</small>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+    "canvas",
+    "textContent",
+    "principal",
+    "promociones",
+    "image/jpeg",
+    "Error\x20verificando\x20promociones:",
+    "🔄\x20Consultando\x20endpoint\x20de\x20promociones...",
+    "\x20\x20\x20•\x20Variable\x20GOOGLE_VISION_API_KEY\x20no\x20configurada\x20en\x20Vercel",
+    "smooth",
+    "Descargando\x20desde\x20múltiples\x20endpoints...",
+    ".consultar-historial-btn",
+    "<span\x20class=\x22badge\x20bg-success\x20text-white\x20ms-2\x22\x20style=\x22font-size:0.7rem;\x22>🏷️\x20PROMO</span>",
+    "❌\x20Error\x20guardando\x20promociones\x20en\x20IndexedDB:",
+    "#btnActualizar",
+    "register",
+    "onupgradeneeded",
+    "</span>",
+    "📊\x20Datos\x20finales\x20para\x20construcción:",
+    "button",
+    "disconnect",
+    "div",
+    "🏦\x20PROBLEMA:\x20Facturación\x20no\x20habilitada\x20en\x20el\x20proyecto\x20correcto",
+    "es_oficial",
+    "rawValue",
+    "</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>",
+    "usarCodigosBarras",
+    "code_93",
+    ")<br>",
+    "Error\x20en\x20actualización:",
+    "total_price",
+    "<div\x20class=\x22alert\x20alert-danger\x22>🔧\x20Problema\x20de\x20CORS\x20-\x20verifica\x20configuración\x20de\x20headers</div>",
+    "precio",
+    "🚫\x20PROBLEMA:\x20Permisos\x20denegados\x20-\x20Vision\x20API\x20no\x20habilitada",
+    "script",
+    "unshift",
+    "códigos\x20de\x20barras\x20⚠️\x20(sin\x20datos)",
+    "cors",
+    "setAttribute",
+    "installed",
+    "✅\x20Código\x20válido\x20seleccionado:\x20",
+    "<small\x20class=\x22text-success\x22><strong>Precio\x20unitario:</strong>\x20$",
+    "resultado",
+    "básico\x20❌\x20(error\x20HTTP)",
+    "parse",
+    "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-primary\x20ms-2\x22>1\x20unidad</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x20d-block\x22><strong>SKU:</strong>\x20",
+    "promocionesGeneralesModal",
+    "center",
+    "boundingBox",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-decoration-line-through\x20text-muted\x20d-block\x22\x20style=\x22font-size:\x201.1rem;\x22>$",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-md-6\x20mb-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20h-100\x20border-warning\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20text-warning\x20d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔥\x20",
+    "Verifique\x20su\x20conexión\x20a\x20internet",
+    "🔍\x20Validando:\x20\x22",
+    "\x20productos\x20(",
+    "Error\x20consultando\x20producto\x20desde\x20historial:",
+    "i2of5_reader",
+    "20BEMANy",
+    "large",
+    "textAnnotations",
+    "\x20(redondeado)",
+    "false",
+    "UPC_A",
+    "key",
+    "CODIGO",
+    "ITF",
+    "<div\x20class=\x22alert\x20alert-danger\x22>❌\x20Endpoint\x20/api/stats\x20falló:\x20",
+    "formulario",
+    "onsuccess",
+    "\x22\x20style=\x22font-size:1.2rem;\x20color:#616161;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22bi\x20bi-clipboard\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22small\x20text-secondary\x20ms-md-2\x20d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20SKU:\x20<strong\x20class=\x22ms-1\x22>",
+    "✅\x20Backend\x20activo.\x20Estadísticas:",
+    "reason",
+    "stop",
+    "⚠️\x20Error\x20al\x20procesar\x20producto\x20",
+    "canUseAPI",
+    "toLocaleString",
+    "\x0a\x20\x20\x20\x20</div>\x0a\x20\x20",
+    "all",
+    "btn-outline-primary",
+    "classList",
+    "Iniciando...",
+    "transaction",
+    "onerror",
+    "reload",
+    "off",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>",
+    "?stats=true",
+    "Finalizada\x20en\x20",
+    "productos_ts",
+    "verificadorB9DB",
+    "querySelectorAll",
+    "input",
+    "❌\x20Todas\x20las\x20configuraciones\x20fallaron",
+    "❌\x20Cancelar",
+    "https://media.megaservicio.net",
+    "ean_13",
+    "lastUsedDate",
+    "✅\x20Tercera\x20tentativa\x20exitosa:",
+    "border-bottom\x20pb-3",
+    "✅\x20Datos\x20locales\x20encontrados:\x20productos:",
+    "placeholder",
+    "https://contador-apicloudvision.vercel.app/api/vision-detect",
+    "</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-success\x20fw-bold\x22>$",
+    "<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20•\x20<strong>Códigos\x20totales:</strong>\x20",
+    "innerWidth",
+    "submit",
+    "🚀\x20Intentando\x20con\x20Google\x20Vision\x20API...",
+    "detalle",
+    "mensaje",
+    "2\x20endpoints\x20completados,\x20finalizando...",
+    "💡\x20El\x20contador\x20del\x20backend\x20se\x20actualiza\x20automáticamente\x20en\x20el\x20servidor",
+  ];
+  _0x2e04 = function () {
+    return _0x220cdc;
+  };
+  return _0x2e04();
+}
+function intentarSegundaPasada(_0xe76a07, _0x824abe = []) {
+  const _0x18c53a = _0x1b5bb5;
+  console["log"](
+    "🔄\x20Tercera\x20tentativa:\x20imagen\x20original\x20sin\x20procesamiento..."
+  );
+  const _0x6a5480 = document[_0x18c53a(0x14e)](_0x18c53a(0x29a)),
+    _0x369f56 = _0x6a5480[_0x18c53a(0x331)]("2d");
+  let { width: _0x42af8a, height: _0x2fc1d1 } = _0xe76a07;
+  const _0x503136 = 0x640;
+  if (_0x42af8a < _0x503136) {
+    const _0x3e70b6 = _0x503136 / _0x42af8a;
+    (_0x42af8a *= _0x3e70b6), (_0x2fc1d1 *= _0x3e70b6);
   }
-  (_0xb3b973[_0x590a72(0x40c)] = _0x54c512),
-    (_0xb3b973[_0x590a72(0x1f3)] = _0xd6f1b2),
-    (_0x3b95eb[_0x590a72(0x25a)] = ![]),
-    _0x3b95eb[_0x590a72(0x45d)](_0x2d640e, 0x0, 0x0, _0x54c512, _0xd6f1b2);
-  const _0x10e084 = _0x3b95eb[_0x590a72(0x35d)](0x0, 0x0, _0x54c512, _0xd6f1b2),
-    _0x1471cd = _0x10e084[_0x590a72(0x3b3)];
+  (_0x6a5480["width"] = _0x42af8a),
+    (_0x6a5480["height"] = _0x2fc1d1),
+    (_0x369f56[_0x18c53a(0x217)] = ![]),
+    _0x369f56["drawImage"](_0xe76a07, 0x0, 0x0, _0x42af8a, _0x2fc1d1);
+  const _0xed602a = _0x369f56[_0x18c53a(0x11b)](0x0, 0x0, _0x42af8a, _0x2fc1d1),
+    _0x23b20f = _0xed602a[_0x18c53a(0x36f)];
   for (
-    let _0x4c970c = 0x0;
-    _0x4c970c < _0x1471cd[_0x590a72(0x37d)];
-    _0x4c970c += 0x4
+    let _0x4eea56 = 0x0;
+    _0x4eea56 < _0x23b20f[_0x18c53a(0x359)];
+    _0x4eea56 += 0x4
   ) {
-    const _0x561dca = _0x1471cd[_0x4c970c],
-      _0x1cce5d = _0x1471cd[_0x4c970c + 0x1],
-      _0x23d83a = _0x1471cd[_0x4c970c + 0x2],
-      _0xd12d5a = 1.5,
-      _0x5a763c = Math["round"](
-        0.299 * _0x561dca + 0.587 * _0x1cce5d + 0.114 * _0x23d83a
+    const _0x1cf3b1 = _0x23b20f[_0x4eea56],
+      _0x2671c7 = _0x23b20f[_0x4eea56 + 0x1],
+      _0x231e95 = _0x23b20f[_0x4eea56 + 0x2],
+      _0x8323f8 = 1.5,
+      _0x1eeec5 = Math[_0x18c53a(0x222)](
+        0.299 * _0x1cf3b1 + 0.587 * _0x2671c7 + 0.114 * _0x231e95
       ),
-      _0x3a50d3 = Math[_0x590a72(0x356)](
+      _0x13924c = Math["min"](
         0xff,
-        Math["max"](0x0, (_0x5a763c - 0x80) * _0xd12d5a + 0x80)
+        Math[_0x18c53a(0x220)](0x0, (_0x1eeec5 - 0x80) * _0x8323f8 + 0x80)
       );
-    (_0x1471cd[_0x4c970c] = _0x3a50d3),
-      (_0x1471cd[_0x4c970c + 0x1] = _0x3a50d3),
-      (_0x1471cd[_0x4c970c + 0x2] = _0x3a50d3);
+    (_0x23b20f[_0x4eea56] = _0x13924c),
+      (_0x23b20f[_0x4eea56 + 0x1] = _0x13924c),
+      (_0x23b20f[_0x4eea56 + 0x2] = _0x13924c);
   }
-  _0x3b95eb[_0x590a72(0x246)](_0x10e084, 0x0, 0x0);
-  const _0xd8227c = {
-    src: _0xb3b973[_0x590a72(0x277)](_0x590a72(0x229)),
+  _0x369f56["putImageData"](_0xed602a, 0x0, 0x0);
+  const _0x1d977f = {
+    src: _0x6a5480[_0x18c53a(0x333)](_0x18c53a(0xdb)),
     numOfWorkers: 0x0,
     locate: !![],
     inputStream: {
-      size: Math[_0x590a72(0x267)](_0x54c512, _0xd6f1b2),
+      size: Math[_0x18c53a(0x220)](_0x42af8a, _0x2fc1d1),
       area: { top: "0%", right: "0%", left: "0%", bottom: "0%" },
     },
     locator: {
-      patchSize: _0x590a72(0x1f2),
+      patchSize: _0x18c53a(0x1c3),
       halfSample: ![],
       debug: { showCanvas: ![], showPatches: ![], showFoundPatches: ![] },
     },
     decoder: {
       readers: [
-        "ean_reader",
-        "upc_reader",
-        _0x590a72(0x458),
-        "code_39_reader",
-        _0x590a72(0x20f),
-        _0x590a72(0x299),
-        _0x590a72(0x46e),
-        _0x590a72(0x432),
+        _0x18c53a(0xea),
+        _0x18c53a(0x1c9),
+        _0x18c53a(0x366),
+        _0x18c53a(0xb1),
+        _0x18c53a(0xae),
+        _0x18c53a(0x16c),
+        "i2of5_reader",
+        _0x18c53a(0x35b),
       ],
       multiple: !![],
       debug: { drawBoundingBox: ![], showFrequency: ![], showPattern: ![] },
     },
   };
-  console["log"](_0x590a72(0x29a)),
-    Quagga[_0x590a72(0x357)](_0xd8227c, function (_0x221bcd) {
-      const _0x23cb6a = _0x590a72;
-      if (_0x221bcd && _0x221bcd[_0x23cb6a(0x455)]) {
-        const _0x3afbb6 = _0x221bcd[_0x23cb6a(0x455)][_0x23cb6a(0x2a9)]
-          ["trim"]()
-          [_0x23cb6a(0x4a1)](/\s+$/, "");
-        _0x5a083f[_0x23cb6a(0x424)](
-          _0x3afbb6 +
+  console["log"](_0x18c53a(0x10a)),
+    Quagga[_0x18c53a(0x115)](_0x1d977f, function (_0x1a132a) {
+      const _0x4d8695 = _0x18c53a;
+      if (_0x1a132a && _0x1a132a[_0x4d8695(0xc7)]) {
+        const _0x445e2a = _0x1a132a[_0x4d8695(0xc7)][_0x4d8695(0x10d)]
+          [_0x4d8695(0x219)]()
+          [_0x4d8695(0x18e)](/\s+$/, "");
+        _0x824abe[_0x4d8695(0x311)](
+          _0x445e2a +
             "\x20(" +
-            _0x221bcd[_0x23cb6a(0x455)][_0x23cb6a(0x448)] +
+            _0x1a132a[_0x4d8695(0xc7)][_0x4d8695(0x111)] +
             ")"
         ),
-          console[_0x23cb6a(0x413)](
-            "✅\x20Tercera\x20tentativa\x20exitosa:",
-            _0x3afbb6,
-            _0x23cb6a(0x342),
-            _0x221bcd["codeResult"][_0x23cb6a(0x448)]
+          console[_0x4d8695(0x1f3)](
+            _0x4d8695(0x2f9),
+            _0x445e2a,
+            "Formato:",
+            _0x1a132a[_0x4d8695(0xc7)][_0x4d8695(0x111)]
           );
         if (
-          validarCodigo(
-            _0x3afbb6,
-            _0x221bcd[_0x23cb6a(0x455)][_0x23cb6a(0x448)]
-          )
+          validarCodigo(_0x445e2a, _0x1a132a["codeResult"][_0x4d8695(0x111)])
         ) {
-          (inputCodigo[_0x23cb6a(0x2c5)] = _0x3afbb6), form[_0x23cb6a(0x24b)]();
+          (inputCodigo[_0x4d8695(0xd6)] = _0x445e2a), form["requestSubmit"]();
           return;
         }
       }
-      console[_0x23cb6a(0x413)](
-        "❌\x20Todas\x20las\x20configuraciones\x20fallaron"
-      );
-      let _0xd28ce3 = "";
-      _0x5a083f[_0x23cb6a(0x37d)] > 0x0 &&
-        (_0xd28ce3 = _0x23cb6a(0x20a) + _0x5a083f[_0x23cb6a(0x36e)](",\x20"));
-      let _0x1b6036 = "";
-      if (GOOGLE_VISION_CONFIG[_0x23cb6a(0x344)]) {
-        const _0x5ba8cc = visionUsageTracker[_0x23cb6a(0x3ad)]();
-        (_0x1b6036 =
-          _0x23cb6a(0x476) +
-          _0x5ba8cc["monthlyUsed"] +
+      console["log"](_0x4d8695(0x2f4));
+      let _0x54ca2e = "";
+      _0x824abe[_0x4d8695(0x359)] > 0x0 &&
+        (_0x54ca2e = _0x4d8695(0xe1) + _0x824abe[_0x4d8695(0x1b5)](",\x20"));
+      let _0x247861 = "";
+      if (GOOGLE_VISION_CONFIG["enabled"]) {
+        const _0x39d423 = visionUsageTracker[_0x4d8695(0x287)]();
+        (_0x247861 =
+          "<br><br>📊\x20<strong>Uso\x20local:</strong>\x20" +
+          _0x39d423[_0x4d8695(0xcb)] +
           "/" +
-          _0x5ba8cc["monthlyLimit"] +
-          _0x23cb6a(0x496) +
-          _0x5ba8cc[_0x23cb6a(0x326)] +
+          _0x39d423[_0x4d8695(0x25d)] +
+          "\x20mensual,\x20" +
+          _0x39d423[_0x4d8695(0xbf)] +
           "/" +
-          _0x5ba8cc[_0x23cb6a(0x3b0)] +
-          _0x23cb6a(0x30a)),
+          _0x39d423[_0x4d8695(0x102)] +
+          _0x4d8695(0x296)),
           verificarBackend()
-            [_0x23cb6a(0x461)]((_0x347f3e) => {
-              const _0x52b061 = _0x23cb6a;
-              if (document[_0x52b061(0x39b)](_0x52b061(0x272))) {
-                const _0x1a5eae = document["querySelector"](_0x52b061(0x272));
-                _0x1a5eae &&
-                  (_0x1a5eae["innerHTML"] = _0x1a5eae[_0x52b061(0x2ea)][
-                    _0x52b061(0x4a1)
-                  ](_0x52b061(0x2c0), _0x52b061(0x2de) + _0x347f3e["mensaje"]));
+            [_0x4d8695(0x153)]((_0x442a77) => {
+              const _0x2a51ee = _0x4d8695;
+              if (document["querySelector"](_0x2a51ee(0x15f))) {
+                const _0x19c036 = document[_0x2a51ee(0x18c)](_0x2a51ee(0x15f));
+                _0x19c036 &&
+                  (_0x19c036[_0x2a51ee(0x12a)] = _0x19c036[_0x2a51ee(0x12a)][
+                    "replace"
+                  ](
+                    _0x2a51ee(0x1ef),
+                    _0x2a51ee(0x239) + _0x442a77[_0x2a51ee(0x304)]
+                  ));
               }
             })
             ["catch"](() => {});
       }
-      (resultadoDiv[_0x23cb6a(0x2ea)] =
-        _0x23cb6a(0x37c) + _0xd28ce3 + _0x1b6036 + _0x23cb6a(0x3aa)),
+      (resultadoDiv["innerHTML"] =
+        _0x4d8695(0x310) + _0x54ca2e + _0x247861 + _0x4d8695(0x34b)),
         renderHistorial();
     });
 }
 async function mostrarConfiguracion() {
-  const _0x4bd91e = _0x765170,
-    _0x1a0dcd = await verificarBackend();
-  let _0xef3a2a = null;
-  if (CONFIG_ENDPOINTS[_0x4bd91e(0x46f)])
+  const _0x526f31 = _0x1b5bb5,
+    _0x526e97 = await verificarBackend();
+  let _0x46e278 = null;
+  if (CONFIG_ENDPOINTS[_0x526f31(0x2b3)])
     try {
-      const _0x3f2358 = await fetch(
-        CONFIG_ENDPOINTS["productosConCodigos"] + _0x4bd91e(0x23e)
+      const _0x174bda = await fetch(
+        CONFIG_ENDPOINTS["productosConCodigos"] + _0x526f31(0x2ee)
       );
-      if (_0x3f2358["ok"]) {
-        const _0x4e8f48 = await _0x3f2358[_0x4bd91e(0x497)]();
-        _0xef3a2a = _0x4e8f48[_0x4bd91e(0x3fd)];
+      if (_0x174bda["ok"]) {
+        const _0x1d7ed7 = await _0x174bda[_0x526f31(0x193)]();
+        _0x46e278 = _0x1d7ed7["estadisticas"];
       }
-    } catch (_0x48d7b5) {
-      console[_0x4bd91e(0x413)](_0x4bd91e(0x360));
+    } catch (_0x5455f6) {
+      console["log"](_0x526f31(0x372));
     }
-  let _0x434d81 = "";
-  _0xef3a2a &&
-    (_0x434d81 =
-      "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<strong>🏷️\x20Sistema\x20de\x20Códigos\x20de\x20Barras:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20•\x20<strong>Productos:</strong>\x20" +
-      _0xef3a2a["totalProductos"] +
-      _0x4bd91e(0x469) +
-      _0xef3a2a[_0x4bd91e(0x495)] +
-      _0x4bd91e(0x3ab) +
-      _0xef3a2a["productosConCodigosAdicionales"] +
-      "<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20•\x20<strong>Actualizado:</strong>\x20" +
-      new Date(_0xef3a2a[_0x4bd91e(0x3f0)])[_0x4bd91e(0x408)]() +
-      _0x4bd91e(0x362)),
-    Swal["fire"]({
-      title: _0x4bd91e(0x239),
+  let _0x31924b = "";
+  _0x46e278 &&
+    (_0x31924b =
+      _0x526f31(0x322) +
+      _0x46e278["totalProductos"] +
+      _0x526f31(0x2ff) +
+      _0x46e278[_0x526f31(0x293)] +
+      _0x526f31(0x145) +
+      _0x46e278[_0x526f31(0x326)] +
+      _0x526f31(0x204) +
+      new Date(_0x46e278[_0x526f31(0xc2)])[_0x526f31(0x2e3)]() +
+      _0x526f31(0xc5)),
+    Swal[_0x526f31(0x292)]({
+      title: _0x526f31(0x227),
       html:
-        _0x4bd91e(0x383) +
-        (GOOGLE_VISION_CONFIG[_0x4bd91e(0x344)] ? _0x4bd91e(0x423) : "") +
-        _0x4bd91e(0x402) +
-        (_0x1a0dcd[_0x4bd91e(0x44a)] ? "alert-success" : _0x4bd91e(0x355)) +
-        _0x4bd91e(0x282) +
-        _0x1a0dcd[_0x4bd91e(0x2d1)] +
-        _0x4bd91e(0x242) +
-        _0x434d81 +
-        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Área\x20para\x20mostrar\x20resultados\x20del\x20diagnóstico\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22diagnostico-resultado\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>💡\x20Detección\x20de\x20Códigos\x20de\x20Barras:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20📷\x20<strong>Local:</strong>\x20Html5QrCode\x20+\x20BarcodeDetector\x20+\x20Quagga.js<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20🌐\x20<strong>Premium:</strong>\x20Google\x20Vision\x20API\x20(para\x20códigos\x20difíciles)<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20🔄\x20<strong>Automático:</strong>\x20Fallback\x20inteligente\x20entre\x20métodos\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-success\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>✅\x20Ventajas\x20del\x20backend:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Sin\x20límites\x20por\x20dispositivo<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Detección\x20superior\x20en\x20superficies\x20reflectivas<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Mejor\x20precisión\x20con\x20códigos\x20largos<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Funciona\x20con\x20imágenes\x20de\x20baja\x20calidad<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20•\x20Gestión\x20centralizada\x20de\x20recursos\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-warning\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>🔄\x20Fallback\x20automático:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Si\x20el\x20backend\x20no\x20está\x20disponible,\x20la\x20app\x20usará\x20detección\x20local\x20automáticamente.\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-muted\x20small\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>💡\x20Recomendación:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Mantén\x20activada\x20la\x20detección\x20avanzada\x20para\x20mejores\x20resultados.\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20",
+        "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-start\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-check\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20class=\x22form-check-input\x22\x20type=\x22checkbox\x22\x20id=\x22enabledCheck\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
+        (GOOGLE_VISION_CONFIG[_0x526f31(0x142)] ? _0x526f31(0x1b6) : "") +
+        ">\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22form-check-label\x22\x20for=\x22enabledCheck\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Activar\x20detección\x20avanzada\x20(Backend)</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Usa\x20servidor\x20dedicado\x20para\x20mejor\x20detección\x20de\x20códigos\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20" +
+        (_0x526e97["activo"] ? _0x526f31(0x251) : _0x526f31(0x364)) +
+        "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>🌐\x20Google\x20Vision\x20API:</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
+        _0x526e97[_0x526f31(0x304)] +
+        "<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Backend:\x20https://contador-apicloudvision.vercel.app/</small><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22btn\x20btn-info\x20btn-sm\x22\x20onclick=\x22diagnosticarBackend()\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔍\x20Probar\x20Conexión\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20" +
+        _0x31924b +
+        _0x526f31(0x18f),
       width: 0x258,
       showCancelButton: !![],
-      confirmButtonText: _0x4bd91e(0x26d),
-      cancelButtonText: _0x4bd91e(0x29d),
-      confirmButtonColor: _0x4bd91e(0x4a6),
-      cancelButtonColor: _0x4bd91e(0x456),
+      confirmButtonText: _0x526f31(0x157),
+      cancelButtonText: _0x526f31(0x2f5),
+      confirmButtonColor: _0x526f31(0x114),
+      cancelButtonColor: _0x526f31(0x309),
       preConfirm: () => {
-        const _0x13cc5f = _0x4bd91e,
-          _0x4e9144 =
-            document[_0x13cc5f(0x2ce)]("enabledCheck")[_0x13cc5f(0x423)];
-        return { enabled: _0x4e9144 };
+        const _0x1f7a7e = _0x526f31,
+          _0x19bc33 = document["getElementById"](_0x1f7a7e(0x26b))[
+            _0x1f7a7e(0x1b6)
+          ];
+        return { enabled: _0x19bc33 };
       },
-    })["then"]((_0x40191e) => {
-      const _0x25bd9e = _0x4bd91e;
-      if (_0x40191e["isConfirmed"]) {
-        const { enabled: _0x58e66f } = _0x40191e[_0x25bd9e(0x2c5)];
-        (GOOGLE_VISION_CONFIG[_0x25bd9e(0x344)] = _0x58e66f),
-          localStorage[_0x25bd9e(0x266)](
-            "googleVisionConfig",
-            JSON[_0x25bd9e(0x2b3)]({ enabled: _0x58e66f })
+    })[_0x526f31(0x153)]((_0x2da468) => {
+      const _0x2432fc = _0x526f31;
+      if (_0x2da468[_0x2432fc(0x22c)]) {
+        const { enabled: _0x3c8fdd } = _0x2da468[_0x2432fc(0xd6)];
+        (GOOGLE_VISION_CONFIG["enabled"] = _0x3c8fdd),
+          localStorage[_0x2432fc(0x358)](
+            _0x2432fc(0x1e2),
+            JSON[_0x2432fc(0x328)]({ enabled: _0x3c8fdd })
           );
-        const _0x2e28cc = _0x58e66f ? _0x25bd9e(0x1ec) : _0x25bd9e(0x2af);
-        Swal[_0x25bd9e(0x2e8)]({
-          title: _0x25bd9e(0x240),
-          text: _0x2e28cc,
-          icon: _0x25bd9e(0x292),
+        const _0x57bbb9 = _0x3c8fdd ? _0x2432fc(0x275) : _0x2432fc(0x1c6);
+        Swal[_0x2432fc(0x292)]({
+          title: _0x2432fc(0x28f),
+          text: _0x57bbb9,
+          icon: _0x2432fc(0x206),
           timer: 0x7d0,
           showConfirmButton: ![],
         });
@@ -3730,406 +3800,398 @@ async function mostrarConfiguracion() {
     });
 }
 function cargarConfiguracionGuardada() {
-  const _0x4ca8bc = _0x765170,
-    _0x3b9724 = localStorage[_0x4ca8bc(0x341)](_0x4ca8bc(0x21e));
-  if (_0x3b9724)
+  const _0x42f780 = _0x1b5bb5,
+    _0x4fe976 = localStorage[_0x42f780(0x1bc)]("googleVisionConfig");
+  if (_0x4fe976)
     try {
-      const _0x9a6abf = JSON[_0x4ca8bc(0x336)](_0x3b9724);
-      (GOOGLE_VISION_CONFIG["enabled"] = _0x9a6abf[_0x4ca8bc(0x344)] || ![]),
-        GOOGLE_VISION_CONFIG[_0x4ca8bc(0x344)] &&
-          console[_0x4ca8bc(0x413)](
-            "✅\x20Detección\x20avanzada\x20(backend)\x20configurada\x20y\x20activa"
-          );
-    } catch (_0x157d67) {
-      console[_0x4ca8bc(0x413)](
-        "❌\x20Error\x20cargando\x20configuración:",
-        _0x157d67
-      );
+      const _0x5020ab = JSON[_0x42f780(0x2c5)](_0x4fe976);
+      (GOOGLE_VISION_CONFIG[_0x42f780(0x142)] =
+        _0x5020ab[_0x42f780(0x142)] || ![]),
+        GOOGLE_VISION_CONFIG[_0x42f780(0x142)] &&
+          console["log"](_0x42f780(0xad));
+    } catch (_0x2ad6f2) {
+      console[_0x42f780(0x1f3)](_0x42f780(0xff), _0x2ad6f2);
     }
 }
 "serviceWorker" in navigator &&
-  window[_0x765170(0x41e)]("load", () => {
-    const _0x5b9b1f = _0x765170;
-    navigator[_0x5b9b1f(0x253)]
-      [_0x5b9b1f(0x300)](_0x5b9b1f(0x38d))
-      [_0x5b9b1f(0x461)]((_0x51905a) => {
-        const _0x1f1295 = _0x5b9b1f;
-        console[_0x1f1295(0x413)](
-          "✅\x20Service\x20Worker\x20registrado:",
-          _0x51905a[_0x1f1295(0x2bd)]
-        ),
-          _0x51905a["addEventListener"](_0x1f1295(0x34f), () => {
-            const _0x32e11f = _0x1f1295;
-            console[_0x32e11f(0x413)](_0x32e11f(0x387));
-            const _0x1adf97 = _0x51905a[_0x32e11f(0x482)];
-            _0x1adf97[_0x32e11f(0x41e)]("statechange", () => {
-              const _0x10c5b1 = _0x32e11f;
-              _0x1adf97[_0x10c5b1(0x200)] === _0x10c5b1(0x49a) &&
-                navigator["serviceWorker"][_0x10c5b1(0x340)] &&
+  window[_0x1b5bb5(0x342)]("load", () => {
+    const _0x11e459 = _0x1b5bb5;
+    navigator[_0x11e459(0x1cf)]
+      [_0x11e459(0x2a8)](_0x11e459(0x1a9))
+      [_0x11e459(0x153)]((_0x3079af) => {
+        const _0x3d2beb = _0x11e459;
+        console["log"](_0x3d2beb(0x9f), _0x3079af["scope"]),
+          _0x3079af[_0x3d2beb(0x342)](_0x3d2beb(0x97), () => {
+            const _0x1e8563 = _0x3d2beb;
+            console[_0x1e8563(0x1f3)](_0x1e8563(0x191));
+            const _0x1899db = _0x3079af["installing"];
+            _0x1899db[_0x1e8563(0x342)](_0x1e8563(0x172), () => {
+              const _0x4a7e39 = _0x1e8563;
+              _0x1899db[_0x4a7e39(0x1bf)] === _0x4a7e39(0x2c0) &&
+                navigator["serviceWorker"][_0x4a7e39(0x256)] &&
                 (console["log"](
                   "🆕\x20Nueva\x20versión\x20lista\x20para\x20usar"
                 ),
-                confirm(
-                  "Nueva\x20versión\x20disponible.\x20¿Recargar\x20la\x20página?"
-                ) &&
-                  (_0x1adf97[_0x10c5b1(0x4ac)]({ type: _0x10c5b1(0x3cc) }),
-                  window["location"][_0x10c5b1(0x3f2)]()));
+                confirm(_0x4a7e39(0xf2)) &&
+                  (_0x1899db[_0x4a7e39(0x36b)]({ type: "SKIP_WAITING" }),
+                  window[_0x4a7e39(0x332)][_0x4a7e39(0x2eb)]()));
             });
           });
       })
-      ["catch"]((_0x3884b5) =>
-        console[_0x5b9b1f(0x258)](_0x5b9b1f(0x27d), _0x3884b5)
-      ),
-      navigator[_0x5b9b1f(0x253)][_0x5b9b1f(0x41e)](_0x5b9b1f(0x366), () => {
-        const _0x431657 = _0x5b9b1f;
-        console[_0x431657(0x413)]("🔄\x20Service\x20Worker\x20actualizado"),
-          window[_0x431657(0x315)]["reload"]();
+      ["catch"]((_0x3d2a56) => console["error"](_0x11e459(0x263), _0x3d2a56)),
+      navigator[_0x11e459(0x1cf)][_0x11e459(0x342)]("controllerchange", () => {
+        const _0x4d32fd = _0x11e459;
+        console["log"]("🔄\x20Service\x20Worker\x20actualizado"),
+          window["location"][_0x4d32fd(0x2eb)]();
       });
   });
-window[_0x765170(0x41e)](_0x765170(0x30d), (_0x4704e1) => {
-  const _0x25c74b = _0x765170;
-  _0x4704e1[_0x25c74b(0x481)](),
-    (deferredPrompt = _0x4704e1),
+window[_0x1b5bb5(0x342)]("beforeinstallprompt", (_0x31b19f) => {
+  const _0x151341 = _0x1b5bb5;
+  _0x31b19f[_0x151341(0x187)](),
+    (deferredPrompt = _0x31b19f),
     installBtn &&
-      installBtn[_0x25c74b(0x2f0)][_0x25c74b(0x256)](_0x25c74b(0x49f));
+      installBtn[_0x151341(0x2e7)][_0x151341(0x365)](_0x151341(0x1aa));
 }),
-  installBtn[_0x765170(0x41e)](_0x765170(0x228), (_0x25fd74) => {
+  installBtn[_0x1b5bb5(0x342)](_0x1b5bb5(0x373), (_0x39901f) => {
+    const _0x51a77e = _0x1b5bb5;
     deferredPrompt &&
       (deferredPrompt["prompt"](),
-      deferredPrompt["userChoice"]["then"]((_0x2d7e89) => {
-        const _0xa5accd = _0x3929;
-        _0x2d7e89[_0xa5accd(0x3c3)] === "accepted"
-          ? console[_0xa5accd(0x413)](_0xa5accd(0x4af))
-          : console["log"](_0xa5accd(0x269)),
+      deferredPrompt[_0x51a77e(0x1dd)]["then"]((_0x17d184) => {
+        const _0x4f83b3 = _0x51a77e;
+        _0x17d184[_0x4f83b3(0x298)] === _0x4f83b3(0x312)
+          ? console["log"]("✅\x20Instalación\x20aceptada")
+          : console[_0x4f83b3(0x1f3)](_0x4f83b3(0x22b)),
           (deferredPrompt = null),
-          installBtn[_0xa5accd(0x2f0)][_0xa5accd(0x235)](_0xa5accd(0x49f));
+          installBtn["classList"][_0x4f83b3(0xe0)]("d-none");
       }));
   });
-_0x765170(0x253) in navigator &&
-  (navigator[_0x765170(0x253)]
-    [_0x765170(0x3bf)]()
-    [_0x765170(0x461)](function (_0x128e21) {
-      const _0xd77829 = _0x765170;
-      for (let _0x288a0a of _0x128e21) {
-        _0x288a0a[_0xd77829(0x391)]();
+"serviceWorker" in navigator &&
+  (navigator[_0x1b5bb5(0x1cf)]
+    [_0x1b5bb5(0x27a)]()
+    [_0x1b5bb5(0x153)](function (_0x1f12cd) {
+      const _0x1a2ae4 = _0x1b5bb5;
+      for (let _0x375c1f of _0x1f12cd) {
+        _0x375c1f[_0x1a2ae4(0x354)]();
       }
     }),
-  navigator[_0x765170(0x253)][_0x765170(0x41e)](_0x765170(0x366), function () {
-    const _0x10198e = _0x765170;
-    window[_0x10198e(0x315)][_0x10198e(0x3f2)]();
+  navigator["serviceWorker"][_0x1b5bb5(0x342)](_0x1b5bb5(0x14c), function () {
+    window["location"]["reload"]();
   }));
-const style = document[_0x765170(0x47a)](_0x765170(0x265));
-(style["innerHTML"] = _0x765170(0x412)),
-  document[_0x765170(0x32c)]["appendChild"](style);
+const style = document[_0x1b5bb5(0x14e)](_0x1b5bb5(0x280));
+(style["innerHTML"] = _0x1b5bb5(0x336)),
+  document[_0x1b5bb5(0x346)][_0x1b5bb5(0xc1)](style);
 async function verPromociones() {
-  const _0x1df141 = _0x765170;
+  const _0xe6d31a = _0x1b5bb5;
   try {
-    console[_0x1df141(0x413)]("🎯\x20Consultando\x20promociones..."),
-      (document[_0x1df141(0x2ce)](_0x1df141(0x33e))["innerHTML"] =
-        _0x1df141(0x29c));
-    const [_0x38bd6c, _0x2a9c46] = await Promise[_0x1df141(0x45b)]([
-      fetch(_0x1df141(0x41d)),
+    console["log"](_0xe6d31a(0x257)),
+      (document[_0xe6d31a(0x185)](_0xe6d31a(0x2c3))[_0xe6d31a(0x12a)] =
+        _0xe6d31a(0x120));
+    const [_0x1bd1a3, _0x3187d8] = await Promise[_0xe6d31a(0x2e5)]([
+      fetch(_0xe6d31a(0x155)),
       getAllProductos(),
     ]);
-    if (!_0x38bd6c["ok"])
+    if (!_0x1bd1a3["ok"])
       throw new Error(
-        _0x1df141(0x2c9) +
-          _0x38bd6c[_0x1df141(0x241)] +
+        _0xe6d31a(0x123) +
+          _0x1bd1a3[_0xe6d31a(0x1af)] +
           ":\x20" +
-          _0x38bd6c[_0x1df141(0x2bc)]
+          _0x1bd1a3[_0xe6d31a(0x224)]
       );
-    const _0x366c47 = await _0x38bd6c["json"]();
-    console[_0x1df141(0x413)]("📋\x20Datos\x20de\x20promociones:", _0x366c47);
-    let _0x238253 = [];
+    const _0xcaec9c = await _0x1bd1a3[_0xe6d31a(0x193)]();
+    console["log"](_0xe6d31a(0x241), _0xcaec9c);
+    let _0x358bdf = [];
     if (
-      _0x366c47[_0x1df141(0x241)] === _0x1df141(0x417) &&
-      _0x366c47[_0x1df141(0x2a5)]
+      _0xcaec9c[_0xe6d31a(0x1af)] === _0xe6d31a(0x13d) &&
+      _0xcaec9c["promoResult"]
     )
-      _0x238253 = _0x366c47["promoResult"];
+      _0x358bdf = _0xcaec9c["promoResult"];
     else {
-      if (Array[_0x1df141(0x263)](_0x366c47)) _0x238253 = _0x366c47;
-      else throw new Error(_0x1df141(0x319));
+      if (Array[_0xe6d31a(0x116)](_0xcaec9c)) _0x358bdf = _0xcaec9c;
+      else throw new Error(_0xe6d31a(0x166));
     }
-    if (_0x238253[_0x1df141(0x37d)] === 0x0) {
-      document[_0x1df141(0x2ce)](_0x1df141(0x33e))[_0x1df141(0x2ea)] =
-        _0x1df141(0x4b6);
+    if (_0x358bdf[_0xe6d31a(0x359)] === 0x0) {
+      document[_0xe6d31a(0x185)](_0xe6d31a(0x2c3))[_0xe6d31a(0x12a)] =
+        _0xe6d31a(0x9a);
       return;
     }
-    let _0x32c9f5 = "<div\x20class=\x22row\x22>";
-    _0x238253["forEach"]((_0x386167, _0x3a03db) => {
-      const _0x3cc4ab = _0x1df141;
-      let _0x4ccc54 = [];
+    let _0xcdf5c6 = _0xe6d31a(0x10e);
+    _0x358bdf[_0xe6d31a(0x248)]((_0x24310f, _0x2c56e0) => {
+      const _0x29c3c7 = _0xe6d31a;
+      let _0x3d5537 = [];
       if (
-        _0x386167[_0x3cc4ab(0x3c7)] &&
-        Array["isArray"](_0x386167[_0x3cc4ab(0x3c7)])
+        _0x24310f[_0x29c3c7(0x1be)] &&
+        Array[_0x29c3c7(0x116)](_0x24310f[_0x29c3c7(0x1be)])
       )
-        _0x4ccc54 = _0x386167[_0x3cc4ab(0x3c7)];
+        _0x3d5537 = _0x24310f[_0x29c3c7(0x1be)];
       else
-        _0x386167["pro_grupoProductos_primaria"] &&
-          _0x386167[_0x3cc4ab(0x47e)][_0x3cc4ab(0x3e7)] &&
-          (Array[_0x3cc4ab(0x263)](
-            _0x386167[_0x3cc4ab(0x47e)][_0x3cc4ab(0x3e7)]
+        _0x24310f["pro_grupoProductos_primaria"] &&
+          _0x24310f[_0x29c3c7(0x33d)]["pr_sku"] &&
+          (Array[_0x29c3c7(0x116)](
+            _0x24310f["pro_grupoProductos_primaria"][_0x29c3c7(0xe8)]
           )
-            ? (_0x4ccc54 = _0x386167[_0x3cc4ab(0x47e)][_0x3cc4ab(0x3e7)])
-            : (_0x4ccc54 = _0x386167[_0x3cc4ab(0x47e)][_0x3cc4ab(0x3e7)]
-                ["split"]("\x20")
-                [_0x3cc4ab(0x447)]((_0x2cb357) => _0x2cb357["trim"]())));
-      const _0x33774f = _0x4ccc54[_0x3cc4ab(0x231)]((_0x15318a) => {
-          return _0x2a9c46["find"](
-            (_0x942f6c) => _0x942f6c["pr_sku"] === _0x15318a
+            ? (_0x3d5537 = _0x24310f[_0x29c3c7(0x33d)][_0x29c3c7(0xe8)])
+            : (_0x3d5537 = _0x24310f[_0x29c3c7(0x33d)]["pr_sku"]
+                [_0x29c3c7(0x250)]("\x20")
+                [_0x29c3c7(0x17f)]((_0x1f0c68) => _0x1f0c68["trim"]())));
+      const _0x5d9f50 = _0x3d5537[_0x29c3c7(0x22e)]((_0x32d494) => {
+          const _0x2aaaa1 = _0x29c3c7;
+          return _0x3187d8[_0x2aaaa1(0x337)](
+            (_0x5712d1) => _0x5712d1[_0x2aaaa1(0xe8)] === _0x32d494
           );
-        })["filter"]((_0x2be478) => _0x2be478 !== undefined),
-        _0x977b88 =
-          _0x386167[_0x3cc4ab(0x3cd)] ||
-          _0x386167[_0x3cc4ab(0x3ec)] ||
-          _0x3cc4ab(0x441) + (_0x3a03db + 0x1),
-        _0x49a1dc =
-          _0x386167[_0x3cc4ab(0x257)] ||
-          _0x386167[_0x3cc4ab(0x28a)] ||
+        })[_0x29c3c7(0x17f)]((_0x39e866) => _0x39e866 !== undefined),
+        _0x52f783 =
+          _0x24310f["pro_nombrePromo"] ||
+          _0x24310f[_0x29c3c7(0x323)] ||
+          _0x29c3c7(0x344) + (_0x2c56e0 + 0x1),
+        _0x4c9671 =
+          _0x24310f["pro_tipoPromo"] ||
+          _0x24310f[_0x29c3c7(0x15c)] ||
           "No\x20especificado",
-        _0x1e6a2c =
-          _0x386167[_0x3cc4ab(0x396)] || _0x386167[_0x3cc4ab(0x2d1)] || "",
-        _0x32b3aa = _0x386167["pro_cantidad_base"] || "",
-        _0xcec849 = Number(_0x32b3aa) || 0x1;
-      let _0x44c909 = 0x0;
-      const _0x4fe692 = (_0x1e6a2c + "\x20" + _0x977b88)[_0x3cc4ab(0x1e9)](),
-        _0x2cd2c6 = _0x4fe692[_0x3cc4ab(0x3d1)](/(\d+)\s*x\s*(\d+)/);
-      if (_0x2cd2c6) _0x44c909 = Number(_0x2cd2c6[0x2]);
+        _0x52cea =
+          _0x24310f[_0x29c3c7(0xcf)] || _0x24310f[_0x29c3c7(0x304)] || "",
+        _0x8c3c86 = _0x24310f[_0x29c3c7(0x356)] || "",
+        _0xfc9358 = Number(_0x8c3c86) || 0x1;
+      let _0x5be859 = 0x0;
+      const _0x47196c = (_0x52cea + "\x20" + _0x52f783)[_0x29c3c7(0x374)](),
+        _0x18fe3d = _0x47196c["match"](/(\d+)\s*x\s*(\d+)/);
+      if (_0x18fe3d) _0x5be859 = Number(_0x18fe3d[0x2]);
       else {
-        const _0x54c6e9 = Number(_0x386167[_0x3cc4ab(0x3c5)]) || 0x0;
-        _0x44c909 = _0x54c6e9 * _0xcec849;
+        const _0x4048d6 = Number(_0x24310f[_0x29c3c7(0x27f)]) || 0x0;
+        _0x5be859 = _0x4048d6 * _0xfc9358;
       }
-      let _0x56153d = 0x0,
-        _0x5b6a0f = 0x0;
-      if (_0x33774f[_0x3cc4ab(0x37d)] > 0x0 && _0x32b3aa && _0x44c909 > 0x0) {
-        const _0x1981fd = _0x33774f[_0x3cc4ab(0x231)]((_0x17c452) => {
-            const _0x57a314 = _0x3cc4ab;
-            let _0x5d1db5 =
-              Number(_0x17c452[_0x57a314(0x279)]) ||
-              Number(_0x17c452["L1"]) ||
+      let _0x2faaed = 0x0,
+        _0x4c7ce3 = 0x0;
+      if (_0x5d9f50[_0x29c3c7(0x359)] > 0x0 && _0x8c3c86 && _0x5be859 > 0x0) {
+        const _0x3e54cf = _0x5d9f50[_0x29c3c7(0x22e)]((_0x208123) => {
+            const _0x4e2a58 = _0x29c3c7;
+            let _0x3b0f23 =
+              Number(_0x208123[_0x4e2a58(0x1ad)]) ||
+              Number(_0x208123["L1"]) ||
               0x0;
-            return Math["round"](_0x5d1db5 * 1.16 * 0x64) / 0x64;
+            return Math[_0x4e2a58(0x222)](_0x3b0f23 * 1.16 * 0x64) / 0x64;
           }),
-          _0x4b405c =
-            _0x1981fd[_0x3cc4ab(0x379)](
-              (_0x403ead, _0x488ad9) => _0x403ead + _0x488ad9,
+          _0x4dfb66 =
+            _0x3e54cf[_0x29c3c7(0x290)](
+              (_0x1401fe, _0xd44092) => _0x1401fe + _0xd44092,
               0x0
-            ) / _0x1981fd["length"];
-        (_0x56153d =
-          Math[_0x3cc4ab(0x2d7)](_0x4b405c * _0xcec849 * 0x64) / 0x64),
-          (_0x5b6a0f =
-            Math[_0x3cc4ab(0x2d7)]((_0x56153d - _0x44c909) * 0x64) / 0x64);
+            ) / _0x3e54cf[_0x29c3c7(0x359)];
+        (_0x2faaed =
+          Math[_0x29c3c7(0x222)](_0x4dfb66 * _0xfc9358 * 0x64) / 0x64),
+          (_0x4c7ce3 =
+            Math[_0x29c3c7(0x222)]((_0x2faaed - _0x5be859) * 0x64) / 0x64);
       }
-      let _0x3c0f0a = "";
-      if (_0x33774f["length"] > 0x0) {
-        const _0x41d00a = _0x33774f["slice"](0x0, 0x4)
-          [_0x3cc4ab(0x231)]((_0x39fcde) => {
-            const _0x5cf546 = _0x3cc4ab;
-            let _0x255596 = "";
+      let _0x68f328 = "";
+      if (_0x5d9f50[_0x29c3c7(0x359)] > 0x0) {
+        const _0x240790 = _0x5d9f50[_0x29c3c7(0x19f)](0x0, 0x4)
+          ["map"]((_0x136d8a) => {
+            const _0x3ba6b4 = _0x29c3c7;
+            let _0x5eaed0 = "";
             if (
-              _0x39fcde[_0x5cf546(0x296)] &&
-              _0x39fcde[_0x5cf546(0x296)][_0x5cf546(0x255)]() !== ""
+              _0x136d8a[_0x3ba6b4(0xb4)] &&
+              _0x136d8a[_0x3ba6b4(0xb4)][_0x3ba6b4(0x219)]() !== ""
             ) {
-              if (_0x39fcde[_0x5cf546(0x296)]["startsWith"]("http"))
-                _0x255596 = _0x39fcde[_0x5cf546(0x296)];
+              if (_0x136d8a[_0x3ba6b4(0xb4)]["startsWith"](_0x3ba6b4(0x21e)))
+                _0x5eaed0 = _0x136d8a[_0x3ba6b4(0xb4)];
               else {
-                let _0x44f453 = _0x39fcde[_0x5cf546(0x296)][_0x5cf546(0x416)](
-                  "/"
-                )
-                  ? _0x39fcde[_0x5cf546(0x296)]
-                  : "/" + _0x39fcde[_0x5cf546(0x296)];
-                _0x255596 = "https://media.megaservicio.net" + _0x44f453;
+                let _0x23d441 = _0x136d8a[_0x3ba6b4(0xb4)]["startsWith"]("/")
+                  ? _0x136d8a[_0x3ba6b4(0xb4)]
+                  : "/" + _0x136d8a[_0x3ba6b4(0xb4)];
+                _0x5eaed0 = _0x3ba6b4(0x2f6) + _0x23d441;
               }
             }
-            return _0x255596
-              ? _0x5cf546(0x358) +
-                  _0x255596 +
-                  _0x5cf546(0x3c1) +
-                  _0x39fcde[_0x5cf546(0x220)] +
-                  _0x5cf546(0x35a) +
-                  _0x39fcde[_0x5cf546(0x220)] +
-                  _0x5cf546(0x334) +
-                  _0x39fcde[_0x5cf546(0x3e7)] +
+            return _0x5eaed0
+              ? _0x3ba6b4(0x258) +
+                  _0x5eaed0 +
+                  _0x3ba6b4(0xb5) +
+                  _0x136d8a[_0x3ba6b4(0xdf)] +
+                  _0x3ba6b4(0x339) +
+                  _0x136d8a[_0x3ba6b4(0xdf)] +
+                  _0x3ba6b4(0x31a) +
+                  _0x136d8a[_0x3ba6b4(0xe8)] +
                   "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-outline-primary\x20btn-sm\x20copiar-sku-btn\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20data-sku=\x22" +
-                  _0x39fcde["pr_sku"] +
-                  "\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22font-size:\x200.6rem;\x20padding:\x201px\x204px;\x20border-radius:\x203px;\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20title=\x22Copiar\x20SKU\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📋\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
-              : "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-6\x20col-md-3\x20mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20border-0\x20bg-light\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-img-top\x20d-flex\x20align-items-center\x20justify-content-center\x20bg-secondary\x22\x20style=\x22height:\x2080px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-white\x22>📦</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x20p-1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x20d-block\x20text-truncate\x22\x20style=\x22font-size:\x200.7rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
-                  _0x39fcde["pr_name"] +
-                  _0x5cf546(0x334) +
-                  _0x39fcde["pr_sku"] +
-                  _0x5cf546(0x2eb) +
-                  _0x39fcde["pr_sku"] +
-                  _0x5cf546(0x45c);
+                  _0x136d8a[_0x3ba6b4(0xe8)] +
+                  _0x3ba6b4(0x34d)
+              : _0x3ba6b4(0x1b2) +
+                  _0x136d8a[_0x3ba6b4(0xdf)] +
+                  _0x3ba6b4(0x31a) +
+                  _0x136d8a[_0x3ba6b4(0xe8)] +
+                  "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22btn\x20btn-outline-primary\x20btn-sm\x20copiar-sku-btn\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20data-sku=\x22" +
+                  _0x136d8a[_0x3ba6b4(0xe8)] +
+                  _0x3ba6b4(0x34d);
           })
-          [_0x3cc4ab(0x36e)]("");
-        _0x3c0f0a =
-          "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22text-muted\x20mb-2\x22>📦\x20Productos\x20en\x20promoción:</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
-          _0x41d00a +
-          _0x3cc4ab(0x463) +
-          (_0x33774f[_0x3cc4ab(0x37d)] > 0x4
-            ? _0x3cc4ab(0x488) +
-              (_0x33774f["length"] - 0x4) +
+          ["join"]("");
+        _0x68f328 =
+          _0x29c3c7(0xc9) +
+          _0x240790 +
+          "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
+          (_0x5d9f50[_0x29c3c7(0x359)] > 0x4
+            ? _0x29c3c7(0x1c0) +
+              (_0x5d9f50[_0x29c3c7(0x359)] - 0x4) +
               "\x20producto" +
-              (_0x33774f[_0x3cc4ab(0x37d)] - 0x4 > 0x1 ? "s" : "") +
-              _0x3cc4ab(0x363)
+              (_0x5d9f50[_0x29c3c7(0x359)] - 0x4 > 0x1 ? "s" : "") +
+              "\x20más</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
             : "") +
           "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20";
       }
-      _0x32c9f5 +=
-        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-md-6\x20mb-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20h-100\x20border-warning\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20text-warning\x20d-flex\x20align-items-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔥\x20" +
-        _0x977b88 +
-        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-warning\x20text-dark\x22>" +
-        _0x49a1dc[_0x3cc4ab(0x4a1)](_0x3cc4ab(0x2db), _0x3cc4ab(0x271)) +
-        _0x3cc4ab(0x3a7) +
-        (_0x1e6a2c && _0x1e6a2c !== _0x977b88
-          ? "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22card-text\x20text-muted\x20small\x22>" +
-            _0x1e6a2c +
-            _0x3cc4ab(0x39f)
+      _0xcdf5c6 +=
+        _0x29c3c7(0x2cb) +
+        _0x52f783 +
+        _0x29c3c7(0x11a) +
+        _0x4c9671[_0x29c3c7(0x18e)](_0x29c3c7(0xbd), "Combo\x20Especial") +
+        _0x29c3c7(0x20e) +
+        (_0x52cea && _0x52cea !== _0x52f783
+          ? _0x29c3c7(0x1fc) +
+            _0x52cea +
+            "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
           : "") +
-        _0x3cc4ab(0x346) +
-        (_0x44c909 > 0x0
-          ? _0x3cc4ab(0x1f1) +
-            _0xcec849 +
-            _0x3cc4ab(0x365) +
-            _0x44c909["toLocaleString"](_0x3cc4ab(0x480)) +
-            _0x3cc4ab(0x2dc) +
-            (_0x56153d > 0x0
-              ? _0x3cc4ab(0x1f5) +
-                _0x56153d[_0x3cc4ab(0x408)](_0x3cc4ab(0x480)) +
-                _0x3cc4ab(0x427)
-              : _0x3cc4ab(0x487)) +
+        _0x29c3c7(0x12d) +
+        (_0x5be859 > 0x0
+          ? "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22text-center\x20mb-3\x20p-3\x20bg-light\x20rounded\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22col-4\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-primary\x20d-block\x22\x20style=\x22font-size:\x201.1rem;\x22>" +
+            _0xfc9358 +
+            _0x29c3c7(0xd3) +
+            _0x5be859["toLocaleString"](_0x29c3c7(0x238)) +
+            _0x29c3c7(0x11e) +
+            (_0x2faaed > 0x0
+              ? _0x29c3c7(0x2ca) +
+                _0x2faaed[_0x29c3c7(0x2e3)](_0x29c3c7(0x238)) +
+                _0x29c3c7(0xac)
+              : "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-muted\x22>-</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22text-muted\x22>Sin\x20datos</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20") +
             "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
-            (_0x5b6a0f > 0x0
-              ? "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-success\x22\x20style=\x22font-size:\x200.9rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20💰\x20Ahorras\x20$" +
-                _0x5b6a0f["toLocaleString"]("es-CL") +
-                _0x3cc4ab(0x2e4) +
-                _0xcec849 +
-                _0x3cc4ab(0x35f)
+            (_0x4c7ce3 > 0x0
+              ? _0x29c3c7(0xa8) +
+                _0x4c7ce3["toLocaleString"](_0x29c3c7(0x238)) +
+                _0x29c3c7(0x1fd) +
+                _0xfc9358 +
+                _0x29c3c7(0x1d6)
               : "") +
             "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
-          : "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22row\x20text-center\x20mb-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
-            (_0x32b3aa ? _0x3cc4ab(0x3ca) + _0x32b3aa + _0x3cc4ab(0x21c) : "") +
-            _0x3cc4ab(0x437) +
+          : _0x29c3c7(0x27d) +
+            (_0x8c3c86 ? _0x29c3c7(0x31d) + _0x8c3c86 + _0x29c3c7(0x371) : "") +
+            _0x29c3c7(0x1dc) +
             (precioPromo
-              ? _0x3cc4ab(0x443) + precioPromo + _0x3cc4ab(0x2c7)
+              ? _0x29c3c7(0x1c7) +
+                precioPromo +
+                "</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small\x20class=\x22d-block\x20text-muted\x22>Precio\x20promocional</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
               : "") +
-            "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20") +
-        _0x3cc4ab(0x346) +
-        _0x3c0f0a +
-        _0x3cc4ab(0x346) +
-        (_0x33774f[_0x3cc4ab(0x37d)] > 0x0
-          ? _0x3cc4ab(0x4a0) +
-            _0x33774f["map"](
-              (_0x4c1594, _0x34304c) =>
-                _0x3cc4ab(0x2b2) +
-                (_0x34304c < _0x33774f["length"] - 0x1
-                  ? "border-bottom\x20pb-3"
+            _0x29c3c7(0x11f)) +
+        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
+        _0x68f328 +
+        _0x29c3c7(0x12d) +
+        (_0x5d9f50[_0x29c3c7(0x359)] > 0x0
+          ? _0x29c3c7(0x361) +
+            _0x5d9f50[_0x29c3c7(0x22e)](
+              (_0x4e8994, _0x3cb781) =>
+                _0x29c3c7(0x176) +
+                (_0x3cb781 < _0x5d9f50[_0x29c3c7(0x359)] - 0x1
+                  ? _0x29c3c7(0x2fa)
                   : "") +
-                _0x3cc4ab(0x3ed) +
-                _0x4c1594[_0x3cc4ab(0x220)] +
-                _0x3cc4ab(0x473) +
-                _0x4c1594["pr_sku"] +
-                _0x3cc4ab(0x1f6) +
-                (_0x4c1594[_0x3cc4ab(0x367)]
-                  ? _0x3cc4ab(0x247) +
-                    _0x4c1594[_0x3cc4ab(0x367)] +
-                    _0x3cc4ab(0x2b4)
+                "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22d-flex\x20justify-content-between\x20align-items-start\x20mb-2\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20class=\x22text-dark\x22\x20style=\x22font-size:\x201rem;\x22>" +
+                _0x4e8994[_0x29c3c7(0xdf)] +
+                _0x29c3c7(0x2c6) +
+                _0x4e8994[_0x29c3c7(0xe8)] +
+                _0x29c3c7(0x215) +
+                (_0x4e8994[_0x29c3c7(0x308)]
+                  ? _0x29c3c7(0xab) +
+                    _0x4e8994[_0x29c3c7(0x308)] +
+                    _0x29c3c7(0xee)
                   : "") +
-                _0x3cc4ab(0x327) +
+                _0x29c3c7(0xc3) +
                 (() => {
-                  const _0x59d6ec = _0x3cc4ab;
-                  let _0x25548c =
-                      Number(_0x4c1594[_0x59d6ec(0x279)]) ||
-                      Number(_0x4c1594["L1"]) ||
+                  const _0x5876d2 = _0x29c3c7;
+                  let _0x474759 =
+                      Number(_0x4e8994[_0x5876d2(0x1ad)]) ||
+                      Number(_0x4e8994["L1"]) ||
                       0x0,
-                    _0x3bae3d = Math["round"](_0x25548c * 1.16 * 0x64) / 0x64;
-                  return _0x3bae3d > 0x0
-                    ? _0x59d6ec(0x304) +
-                        _0x3bae3d[_0x59d6ec(0x3ae)](0x2) +
-                        _0x59d6ec(0x2b4)
+                    _0x9fc337 =
+                      Math[_0x5876d2(0x222)](_0x474759 * 1.16 * 0x64) / 0x64;
+                  return _0x9fc337 > 0x0
+                    ? _0x5876d2(0x2c2) +
+                        _0x9fc337[_0x5876d2(0x161)](0x2) +
+                        "</small>"
                     : "";
                 })() +
-                "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
-            )["join"]("") +
-            _0x3cc4ab(0x285)
+                _0x29c3c7(0x316)
+            )[_0x29c3c7(0x1b5)]("") +
+            _0x29c3c7(0x14f)
           : "") +
-        _0x3cc4ab(0x346) +
-        (_0x4ccc54[_0x3cc4ab(0x37d)] > _0x33774f[_0x3cc4ab(0x37d)]
-          ? _0x3cc4ab(0x23d) +
-            _0x4ccc54["length"] +
-            "\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20(" +
-            _0x33774f[_0x3cc4ab(0x37d)] +
-            _0x3cc4ab(0x2bf) +
-            _0x4ccc54[_0x3cc4ab(0x2c4)](0x0, 0x6)
-              [_0x3cc4ab(0x231)](
-                (_0x214439) => _0x3cc4ab(0x333) + _0x214439 + _0x3cc4ab(0x2dd)
+        "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
+        (_0x3d5537[_0x29c3c7(0x359)] > _0x5d9f50[_0x29c3c7(0x359)]
+          ? _0x29c3c7(0x32b) +
+            _0x3d5537[_0x29c3c7(0x359)] +
+            _0x29c3c7(0x1cd) +
+            _0x5d9f50[_0x29c3c7(0x359)] +
+            _0x29c3c7(0xde) +
+            _0x3d5537[_0x29c3c7(0x19f)](0x0, 0x6)
+              ["map"](
+                (_0xb005f8) =>
+                  _0x29c3c7(0x96) +
+                  _0xb005f8 +
+                  "</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
               )
-              [_0x3cc4ab(0x36e)]("") +
-            "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20" +
-            (_0x4ccc54["length"] > 0x6
-              ? "<span\x20class=\x22badge\x20bg-secondary\x22\x20style=\x22font-size:\x200.7rem;\x22>+" +
-                (_0x4ccc54[_0x3cc4ab(0x37d)] - 0x6) +
-                _0x3cc4ab(0x2f3)
+              [_0x29c3c7(0x1b5)]("") +
+            _0x29c3c7(0x1f1) +
+            (_0x3d5537[_0x29c3c7(0x359)] > 0x6
+              ? _0x29c3c7(0x22d) +
+                (_0x3d5537[_0x29c3c7(0x359)] - 0x6) +
+                _0x29c3c7(0x25e)
               : "") +
-            _0x3cc4ab(0x285)
+            _0x29c3c7(0x14f)
           : "") +
-        _0x3cc4ab(0x346) +
-        (_0x386167[_0x3cc4ab(0x2b5)] && _0x386167[_0x3cc4ab(0x216)]
-          ? _0x3cc4ab(0x3b4) +
-            _0x386167[_0x3cc4ab(0x2b5)] +
-            "\x20al\x20" +
-            _0x386167[_0x3cc4ab(0x216)] +
-            _0x3cc4ab(0x2f8)
+        _0x29c3c7(0x12d) +
+        (_0x24310f[_0x29c3c7(0x1a6)] && _0x24310f[_0x29c3c7(0x343)]
+          ? _0x29c3c7(0x247) +
+            _0x24310f[_0x29c3c7(0x1a6)] +
+            _0x29c3c7(0x93) +
+            _0x24310f[_0x29c3c7(0x343)] +
+            "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20"
           : "") +
-        _0x3cc4ab(0x307);
+        _0x29c3c7(0x190);
     }),
-      (_0x32c9f5 += _0x1df141(0x289)),
-      (_0x32c9f5 += _0x1df141(0x29e)),
-      (document[_0x1df141(0x2ce)](_0x1df141(0x33e))[_0x1df141(0x2ea)] =
-        _0x32c9f5);
-    const _0x356e1c = document[_0x1df141(0x31b)](".copiar-sku-btn");
-    _0x356e1c[_0x1df141(0x392)]((_0x58bacc) => {
-      const _0x44a8c0 = _0x1df141;
-      _0x58bacc[_0x44a8c0(0x41e)](_0x44a8c0(0x228), function (_0x4465bc) {
-        const _0x476db2 = _0x44a8c0;
-        _0x4465bc["preventDefault"]();
-        const _0x3cc28f = _0x58bacc[_0x476db2(0x280)](_0x476db2(0x42b));
-        navigator[_0x476db2(0x4b8)] &&
-          navigator[_0x476db2(0x4b8)]
-            [_0x476db2(0x4ab)](_0x3cc28f)
-            ["then"](() => {
-              const _0x579f6f = _0x476db2,
-                _0x436869 = _0x58bacc["innerHTML"];
-              (_0x58bacc[_0x579f6f(0x2ea)] = "✅"),
-                _0x58bacc[_0x579f6f(0x2f0)][_0x579f6f(0x256)](_0x579f6f(0x2cf)),
-                _0x58bacc["classList"][_0x579f6f(0x235)]("btn-success"),
+      (_0xcdf5c6 += "</div>"),
+      (_0xcdf5c6 += _0xe6d31a(0x137)),
+      (document[_0xe6d31a(0x185)](_0xe6d31a(0x2c3))[_0xe6d31a(0x12a)] =
+        _0xcdf5c6);
+    const _0x42af7f = document[_0xe6d31a(0x2f2)](".copiar-sku-btn");
+    _0x42af7f[_0xe6d31a(0x248)]((_0x223f8d) => {
+      const _0x227b90 = _0xe6d31a;
+      _0x223f8d[_0x227b90(0x342)]("click", function (_0x2cdda3) {
+        const _0xf059ad = _0x227b90;
+        _0x2cdda3["preventDefault"]();
+        const _0x4e11ca = _0x223f8d[_0xf059ad(0x329)](_0xf059ad(0x334));
+        navigator[_0xf059ad(0x1a1)] &&
+          navigator["clipboard"]
+            [_0xf059ad(0x31b)](_0x4e11ca)
+            [_0xf059ad(0x153)](() => {
+              const _0x253372 = _0xf059ad,
+                _0x194503 = _0x223f8d[_0x253372(0x12a)];
+              (_0x223f8d[_0x253372(0x12a)] = "✅"),
+                _0x223f8d[_0x253372(0x2e7)][_0x253372(0x365)](_0x253372(0x2e6)),
+                _0x223f8d["classList"][_0x253372(0xe0)](_0x253372(0x1ed)),
                 setTimeout(() => {
-                  const _0x475d8e = _0x579f6f;
-                  (_0x58bacc[_0x475d8e(0x2ea)] = _0x436869),
-                    _0x58bacc["classList"][_0x475d8e(0x256)]("btn-success"),
-                    _0x58bacc[_0x475d8e(0x2f0)][_0x475d8e(0x235)](
-                      _0x475d8e(0x2cf)
-                    );
+                  const _0x25c083 = _0x253372;
+                  (_0x223f8d[_0x25c083(0x12a)] = _0x194503),
+                    _0x223f8d[_0x25c083(0x2e7)][_0x25c083(0x365)](
+                      _0x25c083(0x1ed)
+                    ),
+                    _0x223f8d["classList"]["add"](_0x25c083(0x2e6));
                 }, 0x4b0);
             })
-            [_0x476db2(0x21b)]((_0x321679) => {
-              const _0x21d929 = _0x476db2;
-              console[_0x21d929(0x258)](_0x21d929(0x3fb), _0x321679);
-              const _0x5b5499 = _0x58bacc[_0x21d929(0x2ea)];
-              (_0x58bacc[_0x21d929(0x2ea)] = "❌"),
+            [_0xf059ad(0xd7)]((_0x3c3975) => {
+              const _0x1dd28f = _0xf059ad;
+              console["error"](_0x1dd28f(0x1b9), _0x3c3975);
+              const _0x208fc = _0x223f8d[_0x1dd28f(0x12a)];
+              (_0x223f8d["innerHTML"] = "❌"),
                 setTimeout(() => {
-                  const _0xa69142 = _0x21d929;
-                  _0x58bacc[_0xa69142(0x2ea)] = _0x5b5499;
+                  const _0x248bb9 = _0x1dd28f;
+                  _0x223f8d[_0x248bb9(0x12a)] = _0x208fc;
                 }, 0x4b0);
             });
       });
     });
-  } catch (_0x218976) {
-    console[_0x1df141(0x258)](_0x1df141(0x3e0), _0x218976),
-      (document[_0x1df141(0x2ce)]("resultado")[_0x1df141(0x2ea)] =
-        "\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22alert\x20alert-danger\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h6>❌\x20Error</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<p>No\x20se\x20pudieron\x20cargar\x20las\x20promociones:\x20" +
-        _0x218976["message"] +
-        "</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22verPromociones()\x22\x20class=\x22btn\x20btn-outline-primary\x20btn-sm\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔄\x20Reintentar\x0a\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20");
+  } catch (_0x483b9d) {
+    console["error"](_0xe6d31a(0xd2), _0x483b9d),
+      (document["getElementById"]("resultado")[_0xe6d31a(0x12a)] =
+        _0xe6d31a(0x143) + _0x483b9d[_0xe6d31a(0x254)] + _0xe6d31a(0x25b));
   }
 }
 cargarConfiguracionGuardada(), renderHistorial();
