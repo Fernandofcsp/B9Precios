@@ -1,4 +1,4 @@
-const CACHE_NAME = "back9-cache-v8"; // Cambia la versión cada vez que actualices
+const CACHE_NAME = "back9-cache-v9"; // Cambia la versión cada vez que actualices
 const urlsToCache = [
   "/",
   "/index.html",
