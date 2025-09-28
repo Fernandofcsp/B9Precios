@@ -16,12 +16,13 @@ const CACHE_IMAGES = `back9-images-${VERSION}`;
 
 const ORIGIN = self.location.origin;
 
-// Ajusta para coincidir con index.html (usa main.js?v=12 actualmente)
+// Ajusta para coincidir con index.html (usa main.js?v=15 actualmente)
 const PRECACHE_URLS = [
   "/",
   "/index.html",
   "/manifest.json",
-  "/main.js?v=12",
+  "/main.js?v=15",
+  "/main.js", // por si hay entornos que omiten la query
   "/images/logob9.png",
   "/images/bastonico.png",
   "/images/bastonb9.png",
