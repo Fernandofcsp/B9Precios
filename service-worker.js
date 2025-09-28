@@ -8,7 +8,7 @@
 // - Imágenes: cache-first con fallback a placeholder
 // - Otros assets: cache-first
 
-const VERSION = "v13"; // Incrementa para invalidar caches
+const VERSION = "v15"; // Incrementa para invalidar caches
 const CACHE_STATIC = `back9-static-${VERSION}`;
 const CACHE_DYNAMIC = `back9-dynamic-${VERSION}`;
 const CACHE_API = `back9-api-${VERSION}`;
@@ -28,6 +28,11 @@ const PRECACHE_URLS = [
   "/images/back9ico.ico",
   "/images/icons/icon-192.png",
   "/images/icons/icon-512.png",
+  // CDN críticos para que funcione como app offline
+  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css",
+  "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js",
+  "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css",
+  "https://cdn.jsdelivr.net/npm/sweetalert2@11",
 ];
 
 // Instala y precachea con manejo de errores mejorado
