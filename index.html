@@ -59,6 +59,80 @@
         margin-right: 0;
       }
 
+      /* Estilos para gráficos responsive mejorados */
+      .chart-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+      
+      .chart-fullscreen {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        z-index: 9999 !important;
+        background: white !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+      }
+      
+      .chart-fullscreen .chart-container {
+        height: calc(100vh - 120px) !important;
+        min-height: calc(100vh - 120px) !important;
+      }
+      
+      .chart-fullscreen .card-body {
+        padding: 10px !important;
+      }
+      
+      /* Mejoras específicas para móviles */
+      @media (max-width: 768px) {
+        .chart-container {
+          height: 280px !important;
+          min-height: 280px !important;
+        }
+        
+        /* Ocultar elementos innecesarios en móvil */
+        .d-lg-none {
+          display: block !important;
+        }
+        
+        /* Mejorar controles de filtro */
+        .form-select-sm {
+          font-size: 0.85rem;
+          padding: 0.25rem 0.5rem;
+        }
+        
+        /* Botones más táctiles */
+        .btn-sm {
+          padding: 0.375rem 0.75rem;
+          font-size: 0.875rem;
+        }
+        
+        /* Mejorar tooltips en dispositivos táctiles */
+        .chart-container canvas {
+          touch-action: pan-x pan-y;
+        }
+      }
+      
+      /* Mejoras para tablets */
+      @media (min-width: 769px) and (max-width: 1024px) {
+        .chart-container {
+          height: 350px !important;
+          min-height: 350px !important;
+        }
+      }
+      
+      /* Desktop */
+      @media (min-width: 1025px) {
+        .chart-container {
+          height: 400px !important;
+          min-height: 400px !important;
+        }
+      }
+
       .col-md-6 {
         padding-left: 8px;
         padding-right: 8px;
@@ -190,7 +264,7 @@
     <!-- QuaggaJS  -->
     <script src="https://unpkg.com/@ericblade/quagga2@1.2.6/dist/quagga.min.js"></script>
 
-    <script src="main.js?v=17"></script>
+    <script src="main.js?v=18"></script>
     <script>
       // Mostrar una banda si no hay conexión
       function updateOfflineBanner() {
