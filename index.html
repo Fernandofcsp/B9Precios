@@ -225,18 +225,22 @@
         </form>
       
         <div class="text-center mb-3">
-          <button onclick="iniciarScanner()" class="btn btn-outline-secondary">
+          <button onclick="iniciarScanner()" class="btn btn-outline-secondary mb-2">
             📷 Escanear Código
           </button>
-          <label for="fileInput" class="btn btn-outline-primary ms-2">
+          <label for="fileInput" class="btn btn-outline-primary ms-2 mb-2">
             📁 Importar
           </label>
           <input
             type="file"
             id="fileInput"
             accept="image/*"
-            style="display: none"
+            style="position: absolute; opacity: 0; width: 1px; height: 1px; overflow: hidden; pointer-events: auto;"
           />
+          <br>
+          <button onclick="mostrarModalConsultarTicket()" class="btn btn-outline-success mt-2">
+            🎫 Consultar Ticket
+          </button>
         </div>
         
 
@@ -264,7 +268,7 @@
     <!-- QuaggaJS  -->
     <script src="https://unpkg.com/@ericblade/quagga2@1.2.6/dist/quagga.min.js"></script>
 
-    <script src="main.js?v=18"></script>
+    <script src="main.js?v=19"></script>
     <script>
       // Mostrar una banda si no hay conexión
       function updateOfflineBanner() {
@@ -333,6 +337,41 @@
           }, true);
         })();
       </script>
+      
+      <!-- Modal para consultar tickets -->
+      <div class="modal fade" id="consultarTicketModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+              <h5 class="modal-title">🎫 Consultar Ticket</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="numeroTicket" class="form-label">Número de Ticket</label>
+                <input 
+                  type="text" 
+                  class="form-control" 
+                  id="numeroTicket" 
+                  placeholder="Ejemplo: CANV445, LEBV456, etc."
+                  autocomplete="off"
+                  spellcheck="false"
+                >
+                <div class="form-text">Ingresa el número exacto del ticket.</div>
+              </div>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-success" onclick="buscarTicket()">
+                  <i class="bi bi-search"></i> Buscar Ticket
+                </button>
+              </div>
+              <div id="resultadoBusquedaTicket" class="mt-3"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
       
       <!-- Chart.js para gráficos -->
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
