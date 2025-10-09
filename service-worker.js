@@ -8,7 +8,7 @@
 // - Imágenes: cache-first con fallback a placeholder
 // - Otros assets: cache-first
 
-const VERSION = "v19"; // Incrementa para invalidar caches
+const VERSION = "v20"; // Incrementa para invalidar caches
 const CACHE_STATIC = `back9-static-${VERSION}`;
 const CACHE_DYNAMIC = `back9-dynamic-${VERSION}`;
 const CACHE_API = `back9-api-${VERSION}`;
